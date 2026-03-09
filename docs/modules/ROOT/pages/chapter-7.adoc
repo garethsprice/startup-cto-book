@@ -1,5 +1,10 @@
 = Chapter 7: When the Business Wants It Yesterday
 
+[quote, Fred Brooks, "The Mythical Man-Month, 1975"]
+____
+The bearing of a child takes nine months, no matter how many women are assigned.
+____
+
 Will Larson has been CTO or head of engineering at Digg, Uber, Calm, Stripe, and Carta. Every time he meets fellow engineering leaders, he finds himself in the same conversation — what he calls the engineering leader’s version of Groundhog Day. "The biggest challenge these leaders are facing is pressure from their CEOs to drive engineering velocity. The message is usually: ship more value, more quickly." The problem, Larson observes, is that "no one has a whole lot of conviction that there is a simple way to do this. There’s no lever like there is in sales."footnote:[Larson, W. (~2024). Unexpected anti-patterns for engineering leaders — lessons from Stripe, Uber & Carta \[Interview\]. _First Round Review_. https://review.firstround.com/unexpected-anti-patterns-for-engineering-leaders-lessons-from-stripe-uber-carta/]
 
 The conversation recurs because the pressure is structural. It is not a symptom of a bad CEO-CTO relationship, a poorly managed sprint, or a temporary resource shortage. It is a permanent feature of the CTO role. The CEO is accountable to the board for growth. Growth depends on features, fixes, and product improvements that engineering must deliver. The CEO’s instinct — more output, faster — is rational from where they sit. The CTO’s knowledge — that rushing and speed are different things, that shortcuts compound, that the outage caused by cutting corners will cost more than the feature delay it was supposed to prevent — is equally rational but harder to communicate.

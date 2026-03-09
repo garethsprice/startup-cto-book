@@ -1,5 +1,10 @@
 = Chapter 14: Knowing When to Step Aside — and Making It a Strength
 
+[quote, Stewart Brand, "How Buildings Learn, 1994"]
+____
+A building is not something you finish. A building is something you start.
+____
+
 William Hockey, co-founder and CTO of Plaid, published a blog post in June 2019 titled "Transitions" that began with an admission most founding CTOs would never make publicly: he was leaving the company he had built. Plaid had just raised at a $2.65 billion valuation. The team was 300 people. The product was becoming critical infrastructure for the fintech industry. And Hockey was stepping into a board-only role — not because he had been pushed out, but because he had spent two years planning for this moment.
 
 "This conclusion was neither a rash nor a recent decision," Hockey wrote. "Over the past couple of years I have known that there would come a point at which I would choose to move to a purely strategic and advisorial role. And during the past year, I have started to work towards this goal."footnote:[Hockey, W. (2019, June 18). Transitions. _Medium_. https://medium.com/@williamhockey/transitions-8e0ed5257ac2 — Hockey was co-founder, CTO, and President of Plaid.] His method was deliberate: he removed himself from day-to-day projects, tested whether teams could function without him, and stepped in only when necessary to guide and level up. When the transition was complete, his assessment was simple: "It is a testament to what we’ve all built together that I’m able to transition out of direct management without doubting for a moment the certainty of Plaid’s future."footnote:[Hockey, W. (2019, June 18). Transitions. _Medium_. https://medium.com/@williamhockey/transitions-8e0ed5257ac2 — Hockey was co-founder, CTO, and President of Plaid.]

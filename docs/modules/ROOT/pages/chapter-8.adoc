@@ -1,5 +1,10 @@
 = Chapter 8: Measuring What Matters (and Ignoring What Doesn’t)
 
+[quote, Donald Rumsfeld, "Department of Defense press briefing, February 12, 2002"]
+____
+There are known knowns; there are things we know we know. We also know there are known unknowns. But there are also unknown unknowns -- the ones we don’t know we don’t know.
+____
+
 Abi Noda, founder of DX, a developer experience research firm, describes the moment that most CTOs recognise. "I personally experienced this challenge in my first job as a CTO. Our executive team had started meeting monthly to review each department’s progress. Our CEO wanted more than just the anecdotal release updates I had been providing, and asked me to come up with a hard metric to report. The problem: I couldn’t think of a good metric to use."footnote:[Noda, A. (2024, December 10). Introducing the DX Core 4. _Engineering Enablement Newsletter_. https://newsletter.getdx.com/p/introducing-the-dx-core-4 — See also Noda, A. Three-bucket framework for engineering metrics. _DX Blog_. https://getdx.com/blog/three-bucket-engineering-metrics-framework/]
 
 The CTO who measures nothing is flying blind. The CTO who measures everything is drowning in data. Both end up in the same place: unable to answer the question the CEO is actually asking, which is not "how fast is engineering moving?" but "is the investment in engineering producing results?"

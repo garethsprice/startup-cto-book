@@ -1,5 +1,10 @@
 = Chapter 1: The Coder, the Manager, the Director, the Strategist
 
+[quote, "Søren Kierkegaard", "Journals, 1843"]
+____
+It is quite true what philosophy says, that life must be understood backwards. But then one forgets the other principle, that it must be lived forwards.
+____
+
 Greg Brockman had a Tuesday problem.
 
 By 2013, Stripe had grown fast enough that Brockman — already functioning as CTO, though the title only became official midway through the year — needed to keep pace with an expanding engineering team. His solution was to stack all his one-on-one meetings on Tuesdays. By Tuesday evening, he was spent. By the time he recovered enough to do productive work, it was Tuesday again.footnote:[Brockman, G. (2014, October 27). ++#++define CTO. blog.gregbrockman.com. https://blog.gregbrockman.com/figuring-out-the-cto-role-at-stripe]

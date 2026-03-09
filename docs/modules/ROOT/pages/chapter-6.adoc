@@ -1,5 +1,10 @@
 = Chapter 6: Shipping Is the Strategy
 
+[quote, Samuel Beckett, "Worstward Ho, 1983"]
+____
+Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.
+____
+
 Monzo is a bank. Not a fintech startup that calls itself a bank — a regulated UK bank, authorised by the Prudential Regulation Authority, holding customer deposits, issuing debit cards, processing millions of transactions. Banks deploy software cautiously. They run change advisory boards, schedule release windows, require multiple sign-offs. Their regulators expect them to.
 
 Monzo deploys to production over 100 times a day.footnote:[Sewell, W. (2022, May 15). How we deploy to production over 100 times a day. _Monzo Engineering Blog_. https://monzo.com/blog/2022/05/16/how-we-deploy-to-production-over-100-times-a-day — Metrics cover 2021–2022; the practices described originated during the 2018–2020 scaling period.]

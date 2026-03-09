@@ -1,5 +1,10 @@
 = Chapter 15: Building Something That Outlasts You
 
+[quote, 'Jorge Luis Borges', '"On Exactitude in Science," 1946']
+____
+...the Cartographers Guilds struck a Map of the Empire whose size was that of the Empire, and which coincided point for point with it. The following Generations, who were not so fond of the Study of Cartography as their Forebears had been, saw that that vast Map was Useless...
+____
+
 Kellan Elliott-McCrea spent five years as CTO of Etsy. He hired the engineering team, built the technical culture, and shaped the organisation that supported a marketplace used by tens of millions of people. When he left in 2015, he published a farewell post that contains the single most precise articulation of what this book has been arguing: "Successfully building a culture ensures when you leave you can hand your work off to people you trust and they will run the thing without you and make it better than you could have imagined. And building a thing that can be handed off means … you eventually hand it off."footnote:[Elliott-McCrea, K. (2015, August 31). Five years, building a culture, and handing it off. _Laughing Meme_. https://laughingmeme.org/2015/08/31/five-years-building-a-culture-and-handing-it-off/]
 
 The sentence contains a paradox that every CTO will eventually confront. The measure of success is building something that does not need you. The reward for doing it well is leaving. The CTO who builds a team that cannot function without them has failed — not because the team is weak, but because the CTO confused their own presence with the system’s health. The CTO who builds a team that thrives without them has succeeded — and must accept that the success includes their own obsolescence.

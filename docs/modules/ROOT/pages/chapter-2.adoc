@@ -1,5 +1,13 @@
 = Chapter 2: CTO by Accident
 
+[verse, "e.e. cummings", "may my mind stroll about hungry"]
+____
+may my mind stroll about hungry
+and fearless and thirsty and supple
+and even if it's sunday may i be wrong
+for whenever men are right they are not young
+____
+
 Vadim Kravcenko was a senior software engineer at a small Swiss startup when the Head of Development had a disagreement with management and left. Kravcenko pushed hard for the role — five long meetings to convince the leadership team he could handle it. He got the title. And then: "I felt out of place and didn’t really know what to do, as I was always a dev, so it took me quite a bit of time to really understand what I needed to be doing."footnote:[Kravcenko, V. (2024, April 27). How to become a CTO: Clear career path and tips \[Q&A\]. _vadimkravcenko.com_. https://vadimkravcenko.com/qa/how-to-become-a-cto-career-path/]
 
 David Mack, co-founder and CTO of SketchDeck, a Y Combinator-backed startup, describes the same disorientation from the other direction — not a battlefield promotion but a founding role that nobody defined. "Founding a startup is an upside-down version of traditional employment," Mack writes. "Initially you’ve no idea if the company will take off nor if it’ll ever turn into a full-time job, then as it grows you keep on being thrust into new and different jobs. You can accumulate responsibility faster than you can learn how to harness it."footnote:[Mack, D. (2018, February 13). What I wish I knew when I became CTO. _SketchDeck Developer Blog_ (Medium). https://medium.com/sketchdeck-developer-blog/what-i-wish-i-knew-when-i-became-cto-fdc934b790e3 — Mack was co-founder and CTO of SketchDeck (YC W14).]

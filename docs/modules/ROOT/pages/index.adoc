@@ -1,5 +1,18 @@
 = Startup CTO Book
 
+[quote, Philip Larkin, uncollected verse]
+____
+To put one brick upon another, +
+Add a third and then a forth, +
+Leaves no time to wonder whether +
+What you do has any worth.
+
+But to sit with bricks around you +
+While the winds of heaven bawl +
+Weighing what you should or can do +
+Leaves no doubt of it at all.
+____
+
 A Field Guide to Building Technology Companies from Nothing.
 
 == Table of Contents

@@ -1,5 +1,10 @@
 = Chapter 3: The Relationship That Defines Everything
 
+[quote, Leo Tolstoy, "Anna Karenina, 1878"]
+____
+All happy families are alike; each unhappy family is unhappy in its own way.
+____
+
 Garry Tan, now president of Y Combinator, published an essay in 2017 that began with a description most founding CTOs will recognise but few will admit to: "Here’s how it felt in the weeks before I resigned from my last startup: I couldn’t sleep. I couldn’t eat. Resting pulse at 120. I had reached a point where I couldn’t agree with my co-founder over the future of the company. I had to step away from the startup that I shed blood sweat and tears over for years."footnote:[Tan, G. (2017, February 18). Co-founder conflict. _TechCrunch_ / _Medium_ (Initialized Capital). https://techcrunch.com/2017/02/18/co-founder-conflict/ — Tan is co-founder of Posterous and current President of Y Combinator.]
 
 Tan’s essay was the first time he had spoken publicly about the co-founder breakup at Posterous, the company he co-founded and where he served as technical lead. The conflict was not about code, or architecture, or technical decisions. It was about the relationship between two people who started a company together and discovered, under pressure, that they could not resolve their disagreements. "I learned the hard way," Tan wrote, "that if you haven’t prepared for conflict in your co-founder relationship, you’ll be at each other’s throats right at the moment when you most need to be working well together."footnote:[Tan, G. (2017, February 18). Co-founder conflict. _TechCrunch_ / _Medium_ (Initialized Capital). https://techcrunch.com/2017/02/18/co-founder-conflict/ — Tan is co-founder of Posterous and current President of Y Combinator.]
