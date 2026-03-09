@@ -1,8 +1,8 @@
 = Chapter 6: Shipping Is the Strategy
 
-[quote, Samuel Beckett, "Worstward Ho, 1983"]
+[quote, Grace Hopper]
 ____
-Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.
+A ship in port is safe, but that's not what ships are built for.
 ____
 
 Monzo is a bank. Not a fintech startup that calls itself a bank — a regulated UK bank, authorised by the Prudential Regulation Authority, holding customer deposits, issuing debit cards, processing millions of transactions. Banks deploy software cautiously. They run change advisory boards, schedule release windows, require multiple sign-offs. Their regulators expect them to.

@@ -1,8 +1,8 @@
 = Chapter 10: Building the Team
 
-[quote, Ursula K. Le Guin, "The Farthest Shore, 1972"]
+[quote, "Antoine de Saint-Exupéry", "Citadelle, 1948 (paraphrased)"]
 ____
-Having intelligence, we must not act in ignorance. Having choice, we must not act without responsibility.
+If you want to build a ship, don't drum up people to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.
 ____
 
 David Mack, co-founder and CTO of SketchDeck, a Y Combinator-backed startup, wrote a retrospective after several years in the role that captures something most CTO guides skip entirely. "No matter how many times I’ve read about how a company’s most important asset are the people, it never prepared me for how exhausting and excruciating hiring is. To anyone new to hiring: you probably need to spend more time hiring and reject more people. You probably need to filter more stringently. I never could have guessed how rare the perfect startup team member is, nor how much time and effort would be needed to find them."footnote:[Mack, D. (~2018). What I wish I knew when I became CTO. _SketchDeck Developer Blog_ (Medium). https://medium.com/sketchdeck-developer-blog/what-i-wish-i-knew-when-i-became-cto-fdc934b790e3]

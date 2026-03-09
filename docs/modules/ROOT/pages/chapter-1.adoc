@@ -1,8 +1,8 @@
 = Chapter 1: The Coder, the Manager, the Director, the Strategist
 
-[quote, "Søren Kierkegaard", "Journals, 1843"]
+[quote, Heraclitus, "fragment (c. 500 BCE)"]
 ____
-It is quite true what philosophy says, that life must be understood backwards. But then one forgets the other principle, that it must be lived forwards.
+No man ever steps in the same river twice, for it is not the same river and he is not the same man.
 ____
 
 Greg Brockman had a Tuesday problem.

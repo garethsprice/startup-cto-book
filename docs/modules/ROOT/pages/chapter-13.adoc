@@ -1,8 +1,11 @@
 = Chapter 13: The Loneliest Job in the Startup
 
-[quote, Elbert Hubbard, "A Thousand & One Epigrams, 1911"]
+[verse, "Rainer Maria Rilke", "The Book of Hours (trans. Joanna Macy & Anita Barrows)"]
 ____
-Every man is a damn fool for at least five minutes every day; wisdom consists in not exceeding the limit.
+Let everything happen to you
+Beauty and terror
+Just keep going
+No feeling is final
 ____
 
 A CTO identified only as Lawrence, in a case study published by CTO Craft, describes the experience that most CTO burnout accounts circle around but few articulate this precisely: "I just remember feeling like I never wanted to code or work with code again. In fact, I didn’t want to even work with people who worked with code. The very idea of getting involved in that kind of thing made my blood run cold."footnote:[Skipper, A. (reporting Lawrence’s account). (2017, November 17). A CTO case study: What happens when you don’t realise you’ve burned out? _CTO Craft Blog_. https://ctocraft.com/blog/a-cto-case-study-what-happens-when-you-dont-realise-youve-burned-out/]
