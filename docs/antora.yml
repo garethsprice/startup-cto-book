@@ -1,0 +1,5 @@
+name: startup-cto-book
+version: ~
+title: Startup CTO Book
+nav:
+  - modules/ROOT/nav.adoc
