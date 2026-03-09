@@ -11,6 +11,8 @@ I brought a detailed architecture plan: the book's structure, chapter sequence, 
 Claude brought the ability to conduct deep research on demand, synthesise dozens of primary sources into structured dossiers, and draft at speed while maintaining stylistic consistency.
 The workflow for each chapter was: research dossier -> brief -> full draft -> compliance check -> targeted expansion -> final output.
 
+== The Parts That No Model Can Infer
+
 What Claude did not bring was the argument.
 The thesis -- that business acumen, not technical skill, determines whether a startup CTO survives -- came from my experience.
 The architecture plan came from months of thinking about what this book needed to be.
@@ -30,6 +32,8 @@ The irony is intentional.
 If the book's thesis is correct -- that AI makes starting easier and scaling harder, that the CTO's value lies in judgment rather than implementation -- then this process is itself a case study.
 The AI handled implementation.
 The human provided judgment, architecture, taste, and the willingness to say "this is what I actually experienced" where the sourced evidence runs out.
+
+== A Small Model with the Right Training Data
 
 The title of this note is a reference to Gunasekar et al.'s 2023 Microsoft Research paper "Textbooks Are All You Need," which demonstrated that a 1.3-billion-parameter model trained on synthetic textbook-quality data could match models orders of magnitude larger.footnote:[Gunasekar, S., Zhang, Y., Anber, J., et al. (2023, June 20). Textbooks are all you need. _arXiv:2306.11644_. Microsoft Research. https://arxiv.org/abs/2306.11644]
 The paper's title was a riff on Vaswani et al.'s foundational "Attention Is All You Need."footnote:[Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). Attention is all you need. _Advances in Neural Information Processing Systems_, 30. https://arxiv.org/abs/1706.03762]
@@ -52,6 +56,8 @@ The output is a synthetic textbook built around the problems I actually face.
 It does not exist for a general audience.
 It exists for me -- and, I hope, for the reader whose situation resembles mine closely enough that the training data generalises.
 
+== Human Learning from Reinforcement Feedback
+
 The AI alignment community has a term for the standard method of improving language models: Reinforcement Learning from Human Feedback.
 A model generates output; a human evaluates it; the model updates.
 What I have been doing is the inverse: Human Learning from Reinforcement Feedback.
@@ -68,6 +74,8 @@ The behemoths -- the companies with thousands of engineers and billions in capit
 But the research keeps showing that scale is not destiny.
 A small model with the right training data, the right architecture, and the right fine-tuning can compete with systems that have a hundred times its resources.
 A small company with the right CTO can do the same.
+
+== The Last Mile Is Yours
 
 Are textbooks all I need?
 Same answer as Phi-1.
