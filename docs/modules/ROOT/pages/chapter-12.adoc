@@ -1,5 +1,18 @@
 = Chapter 12: The Day You Stop Writing Code
 
+[quote, Philip Larkin, "To Put One Brick Upon Another"]
+____
+To put one brick upon another, +
+Add a third and then a forth, +
+Leaves no time to wonder whether +
+What you do has any worth.
+
+But to sit with bricks around you +
+While the winds of heaven bawl +
+Weighing what you should or can do +
+Leaves no doubt of it at all.
+____
+
 Will Larson was CTO of Carta when he wrote about a transition that had taken him a decade to complete. He had wanted to write software throughout his career — at Digg, at Uber, at Calm, at Stripe — but at each company, the same calculus applied. "I wanted to write software, but it simply felt like a lower return on time than doing something else. For example, if I focused my time hiring another engineer onto the team, they would undoubtedly do more than I would." The conclusion was blunt: "Each hour I spent writing software was bad for the business overall, and a sign of questionable judgment."footnote:[Larson, W. (2025, November 19). Coding at work (after a decade away). _Irrational Exuberance_ (lethain.com). https://lethain.com/coding-at-work/]
 
 That sentence describes the most painful realisation in the CTO’s career. Not that you are bad at code. Not that you have been replaced. But that the thing you are best at — the thing that brought you to this role, that defined your identity, that gave you the satisfaction of building something with your own hands — is no longer the most valuable use of your time. The economics are clear. The business case is unanswerable. And it feels, to many CTOs, like a small death.

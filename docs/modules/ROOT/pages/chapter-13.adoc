@@ -1,18 +1,5 @@
 = Chapter 13: The Loneliest Job in the Startup
 
-[quote, Philip Larkin, "To Put One Brick Upon Another"]
-____
-To put one brick upon another, +
-Add a third and then a forth, +
-Leaves no time to wonder whether +
-What you do has any worth.
-
-But to sit with bricks around you +
-While the winds of heaven bawl +
-Weighing what you should or can do +
-Leaves no doubt of it at all.
-____
-
 A CTO identified only as Lawrence, in a case study published by CTO Craft, describes the experience that most CTO burnout accounts circle around but few articulate this precisely: "I just remember feeling like I never wanted to code or work with code again. In fact, I didn’t want to even work with people who worked with code. The very idea of getting involved in that kind of thing made my blood run cold."footnote:[Skipper, A. (reporting Lawrence’s account). (2017, November 17). A CTO case study: What happens when you don’t realise you’ve burned out? _CTO Craft Blog_. https://ctocraft.com/blog/a-cto-case-study-what-happens-when-you-dont-realise-youve-burned-out/]
 
 Lawrence had been a self-employed CTO for several years. The burnout came gradually — not as a dramatic collapse but as an oscillation between withdrawal and combativeness. "I’d gone from giving my all, to becoming so withdrawn on some days that everything was a challenge — I had no energy or mental capacity to do anything. On other days, the simplest things would annoy me and even basic requests from colleagues had me feeling combative."footnote:[Skipper, A. (reporting Lawrence’s account). (2017, November 17). A CTO case study: What happens when you don’t realise you’ve burned out? _CTO Craft Blog_. https://ctocraft.com/blog/a-cto-case-study-what-happens-when-you-dont-realise-youve-burned-out/] When the burnout was finally undeniable, Lawrence did not seek help. "Being self-employed, I lacked the support and assistance I needed. But if I’m honest, I never actively asked for help either. I didn’t know where to start and it felt like yet another insurmountable task when at that point, I couldn’t even manage to write a line of code without exhausting myself."footnote:[Skipper, A. (reporting Lawrence’s account). (2017, November 17). A CTO case study: What happens when you don’t realise you’ve burned out? _CTO Craft Blog_. https://ctocraft.com/blog/a-cto-case-study-what-happens-when-you-dont-realise-youve-burned-out/]
