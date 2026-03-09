@@ -1,0 +1,146 @@
+/* Startup CTO Book — Navy colour palette */
+
+/* Body & text */
+body { background: #fff; color: #1a1a1a; }
+.doc { color: #1a1a1a; }
+.doc h1, .doc h2, .doc h3, .doc h4, .doc h5, .doc h6 { color: #1a1a1a; }
+
+/* Links */
+.doc a { color: #1B3A5C; }
+.doc a:hover { color: #132A43; }
+.doc a.unresolved { color: #B92D2D; }
+
+/* Navbar */
+.navbar { background: #1B3A5C; }
+.navbar-brand .navbar-item { color: #F6F7F9; }
+.navbar-burger span { background-color: #F6F7F9; }
+@media screen and (min-width: 1024px) {
+  .navbar-end .navbar-link,
+  .navbar-end > .navbar-item { color: #F6F7F9; }
+  .navbar-end .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar-end .navbar-link:hover,
+  .navbar-end > a.navbar-item:hover { background: #132A43; color: #F6F7F9; }
+  .navbar-end .navbar-link::after { border-color: currentColor; }
+  .navbar-dropdown { background: #fff; border-color: #D8DAE0; }
+  .navbar-dropdown a.navbar-item:hover { background: #F6F7F9; }
+}
+@media screen and (max-width: 1023.5px) {
+  .navbar-menu { background: #fff; }
+  .navbar-menu .navbar-link:hover,
+  .navbar-menu a.navbar-item:hover { background: #F6F7F9; }
+}
+.navbar .button { background: #F6F7F9; border-color: #D8DAE0; color: #1a1a1a; }
+.navbar-item, .navbar-link { color: #1a1a1a; }
+.navbar-divider { background-color: #D8DAE0; }
+
+/* Sidebar / nav */
+.nav { background: #F6F7F9; }
+@media screen and (min-width: 769px) {
+  .nav { box-shadow: .5px 0 3px #B5B9C4; }
+}
+.nav-menu h3.title { color: #3A3F4B; }
+.nav-panel-menu:not(.is-active)::after { background: rgba(0, 0, 0, .5); }
+.nav-panel-explore { background: #F6F7F9; }
+.nav-panel-explore .context { color: #52596B; box-shadow: 0 -1px 0 #D8DAE0; }
+.nav-panel-explore .components { background: #ECEDF0; box-shadow: inset 0 1px 5px #D8DAE0; }
+.nav-panel-explore .component .version a { background: #B5B9C4; }
+.nav-panel-explore .component .is-current a { background: #3A3F4B; color: #ECEDF0; }
+
+/* Toolbar */
+.toolbar { background-color: #F6F7F9; color: #52596B; box-shadow: 0 1px 0 #D8DAE0; }
+.toolbar .edit-this-page a { color: #848A99; }
+
+/* TOC */
+.toc-menu { color: #52596B; }
+.toc .toc-menu h3 { color: #1a1a1a; }
+.toc .toc-menu a { border-left-color: #D8DAE0; }
+.toc .toc-menu a:hover { color: #1B3A5C; }
+.toc .toc-menu a.is-active { border-left-color: #1B3A5C; color: #1a1a1a; }
+.sidebar.toc .toc-menu a:focus { background: #F6F7F9; }
+
+/* Document content */
+.doc h2:not(.discrete) { border-bottom-color: #D8DAE0; }
+.doc h1.sect0 { background: #ECEDF0; }
+.doc hr { border-color: #D8DAE0; }
+.doc p code, .doc thead code, .doc .colist > table code { color: #1a1a1a; background: #F6F7F9; }
+
+/* Code blocks */
+.doc .listingblock pre:not(.highlight),
+.doc .literalblock pre,
+.doc pre.highlight > code { background: #F6F7F9; box-shadow: inset 0 0 1.75px #D8DAE0; }
+
+/* Admonitions */
+.doc .admonitionblock td.content { background: #F6F7F9; }
+.doc .admonitionblock td.icon i.icon-note { background-color: #1B3A5C; color: #fff; }
+.doc .admonitionblock td.icon i.icon-tip { background-color: #2E7D42; color: #fff; }
+.doc .admonitionblock td.icon i.icon-warning { background-color: #C27315; color: #fff; }
+.doc .admonitionblock td.icon i.icon-important { background-color: #B92D2D; color: #fff; }
+.doc .admonitionblock td.icon i.icon-caution { background-color: #7B3578; color: #fff; }
+
+/* Blockquotes */
+.doc .quoteblock,
+.doc .verseblock { background: #F6F7F9; border-left-color: #52596B; color: #52596B; }
+.doc .quoteblock .attribution { color: #848A99; }
+#preamble .abstract blockquote { background: #ECEDF0; border-left-color: #D8DAE0; color: #3A3F4B; }
+
+/* Sidebar block */
+.doc .sidebarblock { background: #D8DAE0; }
+
+/* Example / result blocks */
+.doc .exampleblock > .content,
+.doc details.result > .content { border-color: #52596B; }
+
+/* Tables */
+.doc table.tableblock,
+.doc table.tableblock > * > tr > * { border-color: #D8DAE0; }
+.doc table.stripes-all > tbody > tr,
+.doc table.stripes-even > tbody > tr:nth-of-type(2n),
+.doc table.stripes-hover > tbody > tr:hover,
+.doc table.stripes-odd > tbody > tr:nth-of-type(odd) { background: #F6F7F9; }
+.doc table.tableblock > tfoot { background: linear-gradient(180deg, #ECEDF0 0, #fff); }
+
+/* Captions */
+.doc .admonitionblock .title,
+.doc .exampleblock .title,
+.doc .imageblock .title,
+.doc .listingblock .title,
+.doc .literalblock .title,
+.doc .openblock .title,
+.doc .videoblock .title,
+.doc table.tableblock caption { color: #52596B; }
+
+/* Pagination */
+nav.pagination { border-top-color: #D8DAE0; }
+nav.pagination span::before { color: #848A99; }
+nav.pagination a::after,
+nav.pagination a::before { color: #848A99; }
+
+/* Footer */
+footer.footer { background-color: #D8DAE0; color: #52596B; }
+footer.footer a { color: #1a1a1a; }
+
+/* KBD */
+.doc kbd { background: #F6F7F9; border-color: #B5B9C4; box-shadow: 0 1px 0 #B5B9C4, inset 0 0 0 .1em #fff; }
+
+/* Scrollbar */
+@media (pointer: fine) {
+  @supports (scrollbar-width: thin) {
+    html { scrollbar-color: #B5B9C4 #F6F7F9; }
+  }
+  html::-webkit-scrollbar { background-color: #F6F7F9; }
+  ::-webkit-scrollbar-thumb { background-color: #B5B9C4; }
+  ::-webkit-scrollbar-thumb:hover { background-color: #848A99; }
+}
+
+/* Copy toast */
+.doc .source-toolbox .copy-toast { background-color: #1a1a1a; color: #fff; }
+.doc .source-toolbox .copy-toast::after { border-left-color: #1a1a1a; }
+
+/* Page version menu */
+.page-versions .version-menu { background: linear-gradient(180deg, #ECEDF0 0, #ECEDF0) no-repeat; }
+.page-versions .version.is-missing { color: #848A99; }
+
+/* Print overrides */
+@media print {
+  footer.footer { border-top-color: #D8DAE0; color: #848A99; }
+}
