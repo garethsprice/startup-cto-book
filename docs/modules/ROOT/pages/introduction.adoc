@@ -1,0 +1,95 @@
+= Introduction: The Role Nobody Prepared You For
+
+____
+"Most of what we built, nobody will ever see. And the only reason why we do this well is our own professional pride in operational excellence. That is what defines the best builders. They do the things properly, even when nobody’s watching."
+
+— Werner Vogels, CTO of Amazon, AWS re:Invent closing keynote, December 2025
+____
+
+'''''
+
+Monday. A production incident takes down your largest client’s dashboard during a board meeting. Your co-founder sends a Slack message from the conference room: "Board is asking what happened. Can you join?" You are already in the war room with two engineers, staring at a cascade of errors in a service you haven’t personally touched in eight months. You fix the immediate problem in forty minutes. You join the board call ninety minutes late, apologise, and spend the remaining time trying to explain what went wrong in language that does not include the words "race condition," "connection pool," or "retry backoff." The board nods politely. You can feel the temperature change.
+
+Tuesday. The CEO asks for a one-on-one. It is not on the calendar. The conversation is short: the feature promised for Q1 has slipped again, the sales team is losing deals because of it, and the CEO has been fielding questions from investors about whether the engineering team "has the right leadership." The CEO does not say "we need to bring in someone more senior." They do not need to. The sentence is in the room.
+
+Wednesday. Two engineers give notice within three hours of each other. One is your best backend developer. The other is the only person who understands the billing system. Neither resignation is about money. Both mention the same thing: they do not feel like the company has a clear technical direction.
+
+Thursday. You sit in the weekly leadership meeting. The CFO presents a fifteen-minute revenue analysis. The CMO walks through a twenty-minute campaign review. You get five minutes for the "tech update." You spend those five minutes trying to explain why the team needs to pause feature development for six weeks to address technical debt that is slowing every project. The CEO’s eyes glaze over at "dependency graph." The CFO asks what the ROI of the debt reduction would be. You do not have a number. The conversation moves on.
+
+Friday. The office is quiet. You sit at your desk and open the codebase — the one you built from the first commit, the one you know better than anyone alive. You haven’t merged a pull request in four months. You scroll through recent changes you didn’t review, in a language you chose, in an architecture you designed, maintained by people you hired. The system works. It works without you. And you are not sure whether that is the greatest achievement of your career or the clearest sign that the role you loved has become a role you dread.
+
+[WARNING]
+====
+AUTHOR: Your version of this week. Not all five days — even one or two moments that the reader will recognise. The composite scene establishes the emotional range of the role; your specific version grounds it in a real company and a real person.
+====
+
+'''''
+
+This book is for that person. Not because the week gets easier — it does not — but because every crisis in that week has a framework, and almost nobody gives you the framework before you need it.
+
+== What This Book Is About
+
+The startup CTO role is the most consequential and least understood position in the technology industry. Nearly 80% of successful technology companies have either a founding CTO or a technical CEO.footnote:[Index Ventures, _Scaling Through Chaos_, 2024. Analysis of 200,000{plus} career profiles across 200 successful tech companies. Reported in _Fortune_, March 18, 2024. https://fortune.com/2024/03/18/analyzed-15-years-of-data-founders-employees-most-successful-tech-startups-ever-builtand-boom-innovation/] The CTO builds the product that the company sells, hires the team that builds the product, designs the architecture that constrains the product’s future, and translates between the engineering organisation and the business leadership that funds it. Every other function in the company — sales, marketing, finance, operations — depends on what the CTO’s team produces.
+
+And yet. No standard training exists for the role. No professional certification. No established curriculum. When Andy Skipper founded CTO Craft in 2017 and asked CTOs how much formal preparation they had received, "the resounding answer was none."footnote:[Skipper, A. (2017, June 22). Introducing CTO Craft: A nudge in the right direction for tech leaders. _CTO Craft_ (Medium). https://medium.com/cto-craft/introducing-cto-craft-a-nudge-in-the-right-direction-for-tech-leaders-21412f890cbf] Seventy percent of CTOs come from software development backgrounds, and only 14% held a VP of Engineering role before taking the title — most arrive without prior experience leading an engineering organisation at the executive level.footnote:[STX Next, _The Global CTO Survey 2021 Report_. https://www.stxnext.com/cto-survey-2021-report — Survey of hundreds of CTOs globally. 70% previously worked as software developers/engineers; only 14% held VP of Engineering titles.] The CFO has accounting credentials. The General Counsel passed the bar. The CTO has whatever they happened to learn as an engineer, and discovers on the job that engineering is the smallest part of what the role demands.
+
+The role transforms completely every 18 to 24 months. The CTO who was effective at five engineers discovers that the job at twenty engineers is a different job — one that requires hiring skills, process design, and cross-functional communication rather than code. The CTO who mastered the twenty-person team discovers that the job at fifty people is different again — organisational architecture, board communication, and strategic planning. Each transformation requires the CTO to let go of the skills that made them successful at the previous stage and learn a new set of skills they were never trained for, often without a mentor, a peer group, or even a clear description of what the new stage requires.
+
+The result is predictable. Noam Wasserman’s research on more than 10,000 founders shows that 52% of founder-CEOs are replaced by their third financing round, with nearly three-quarters of those replacements being involuntary.footnote:[Wasserman, N. (2003). Founder-CEO succession and the paradox of entrepreneurial success. _Organization Science_, 14(2), 149–172. Expanded in Wasserman, N. (2012). _The Founder’s Dilemmas_. Princeton University Press. Based on ~10,000 founders across ~6,000 US tech and life sciences startups. Note: data tracks founder-CEO replacement; no equivalent CTO-specific study exists.] No equivalent large-scale study tracks founding CTOs specifically, but the structural dynamics — a role that transforms faster than the person holding it, a board that evaluates business outcomes rather than technical quality, a co-founder relationship that compounds unresolved tension — apply to every founding executive.
+
+Adelina Chalmers, a CTO advisor who has coached dozens of startup CTOs over more than a decade, provides the most specific data on why CTOs are replaced. Her finding, drawn from working with CTOs and interviewing their investors: "100% did NOT get fired because of their technical skills." Instead, 70% were fired because they could not communicate with the board and other non-technical leaders, and 30% because they were not strategic enough.footnote:[Chalmers, A. (~2023). LinkedIn post on CTO firing statistics. https://www.linkedin.com/posts/adelinachalmers++_++reengineeringleadership-cto-ceo-activity-7105818749395460096-Fumf — Based on Chalmers’s consulting experience with dozens of startup CTOs over 13{plus} years. See also Chalmers, A. (2024, July 3). Most founding CTOs are fired or moved sideways within 3–5 years. _Medium_. https://adelinachalmers.medium.com/most-founding-ctos-are-fired-or-moved-sideways-within-3-5-years-heres-why-d2db06989656] The core insight of this book follows directly from that finding: *the thing that determines whether a startup CTO survives is not their architecture, their code quality, or their technical judgment. It is their ability to translate technical reality into business language — and their willingness to operate as a business leader, not just a technical one.*
+
+The burnout data suggests the role is taking a toll beyond career risk. The LeadDev Engineering Leadership Report 2025, surveying 617 engineering leaders, found that 22% were experiencing critical burnout and an additional 24% were at moderate burnout levels — nearly half of all respondents in the danger zone. Only 21% were categorised as healthy.footnote:[LeadDev, _The Engineering Leadership Report 2025_. Survey conducted March 14–27, 2025, n=617 engineering leaders. https://leaddev.com/wp-content/uploads/2025/07/LeadDev-Engineering-Leadership-Report-2025.pdf — Note: only 6% of respondents were CTOs; the majority were engineering managers and senior engineers.] The CTO Craft community survey found that 97% of CTOs reported experiencing loneliness in the role.footnote:[CTO Craft loneliness survey, n=100 CTOs. Cited in Lawrence case study and CTO Craft community materials.]
+
+This book covers the full scope of the job: the technical decisions, the organisational design, the business communication, the co-founder relationship, the personal survival. It is not a DevOps manual. It is not a management theory book. It is a field guide — written by a working CTO, for working CTOs, about the actual experience of building technology companies from nothing.
+
+== Who This Book Is For
+
+This book is for three people.
+
+The first is the *founding CTO* — the technical co-founder who chose the stack, wrote the first commit, and now manages a growing team while trying to maintain the architecture they built and the relationship with the CEO who depends on them. This person is in Stage 1 or 2 of the four-stage model. They are experiencing the first transition — from building to leading — and are not sure whether the disorientation they feel is a personal failing or a structural feature of the role. It is structural. Chapter 2 will make that clear.
+
+The second is the *scaling CTO* — the person who has survived the early stages and is now managing managers, communicating with the board, and discovering that the job has less to do with technology and more to do with people, politics, and business strategy than they expected. This person is in Stage 2 or 3. They are effective but exhausted, and they suspect that the thing they are optimising for — engineering quality, team velocity, technical excellence — may not be the thing that determines their survival. They are correct. Chapter 9 will explain why.
+
+The third is the *CTO who is wondering whether it is time to leave* — either because the role has outgrown them, because they have outgrown the role, or because the cost of staying has become higher than the cost of going. This person is in Stage 3 or 4. They need Chapter 14’s framework for departure, Chapter 13’s burnout diagnostic, and Chapter 15’s long view of what comes after.
+
+== The Map
+
+The book is organised around a four-stage model of the CTO’s evolution, introduced fully in Chapter 1:
+
+*Stage 1: Coder.* The CTO writes most of the code. The team is small — often just the CTO. The job is building the product. This is the stage that most CTOs were trained for and the stage they will spend the rest of their career grieving.
+
+*Stage 2: Manager.* The CTO manages the people who write the code. The team is growing. The job shifts from building to hiring, from coding to reviewing, from solving problems to ensuring that other people can solve problems. The CTO’s calendar fills with one-on-ones. Their IDE gathers dust.
+
+*Stage 3: Director.* The CTO manages managers. The team has layers. The job becomes process design, cross-functional communication, and organisational architecture. The CTO spends more time in meetings with the CEO, the board, and the sales team than with engineers.
+
+*Stage 4: Strategist.* The CTO owns the technical vision and its communication to the business. The job is translation: converting engineering reality into board-level language, converting business strategy into engineering priorities, and making architectural decisions that will constrain the company for years. The CTO at this stage may not write any code at all.
+
+Each stage requires the CTO to let go of the activities that defined the previous one. Each transition involves a kind of grief — the loss of the identity that made the CTO effective at the stage they are leaving. And each transition is a point at which the CTO must honestly assess whether they want to make the next jump, or whether the role has outgrown them — or they have outgrown the role.
+
+The book follows this arc but is organised by problems rather than stages, so the reader at any stage can open to the chapter most relevant to their current situation.
+
+== How to Read This Book
+
+*Part I — The Map* (Chapters 1–3) orients you. Chapter 1 establishes the four-stage framework. Chapter 2 normalises the "accidental CTO" experience — the fact that almost nobody who holds this title was ready for it. Chapter 3 addresses the CEO-CTO relationship, the single most consequential dynamic in the startup. Read Part I first regardless of your stage. It takes less than an hour and reframes everything that follows.
+
+*Part II — Building and Shipping* (Chapters 4–8) is the operational playbook. Technical decisions as business decisions (Chapter 4). Technical debt as a strategic instrument (Chapter 5). Shipping velocity as competitive advantage (Chapter 6). Managing the pressure to move faster (Chapter 7). Measuring what matters (Chapter 8). This is the section you will dog-ear and return to. If you are in Stage 1 or early Stage 2, start here after Part I.
+
+*Part III — The Gap Nobody Talks About* (Chapters 9–11) delivers the book’s core insight. Chapter 9 argues that the business acumen gap — not technical skill — is what gets CTOs fired. Chapter 10 covers building and leading the team. Chapter 11 addresses the AI transformation and what it means for the CTO’s role. If you are in Stage 2 or 3 and feel the ground shifting beneath you, this is where the book becomes different from every other engineering leadership book you have read.
+
+*Part IV — Surviving and Evolving* (Chapters 12–15) addresses the personal and existential dimensions. The identity crisis of leaving code behind (Chapter 12). The loneliness and burnout that the role produces (Chapter 13). Knowing when to step aside (Chapter 14). Building something that outlasts you (Chapter 15). If you are in Stage 3 or 4 — or if you are at any stage and feeling the weight of the role — read Part IV. It contains the content you did not know you needed.
+
+[WARNING]
+====
+AUTHOR: A sentence or two about what the reader should expect from the [AUTHOR] tags throughout the book — that these are places where your specific experience at CorralData grounds the argument in a real, current company rather than retrospective case studies.
+====
+
+== A Promise
+
+By the end of this book, you will have the frameworks, language, and self-awareness to navigate every stage of this role — or to recognise when it is time to hand it to someone else, and do so from a position of strength.
+
+The role does not get easier. But the disorientation — the feeling that you are the only person who has experienced this particular combination of pressures, that there is no playbook, that nobody warned you — that part ends here. There is a playbook. There are people who have been through it. And the fact that you are reading this book means you are already doing the thing that most CTOs fail to do: treating the role as a discipline that can be studied, practiced, and improved, rather than an identity that must be performed.
+
+The week described at the beginning of this introduction is not a failure. It is a Monday through Friday in the life of someone doing one of the hardest jobs in the technology industry. The question is not whether weeks like that will happen. The question is whether you have the frameworks to navigate them, the relationships to sustain them, and the self-knowledge to recognise when the role needs you to change — or when you need to change the role.
+
+Let’s begin.

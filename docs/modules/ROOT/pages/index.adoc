@@ -1,3 +1,33 @@
 = Startup CTO Book
 
 A Field Guide to Building Technology Companies from Nothing.
+
+== Table of Contents
+
+=== Part I: The Map
+
+* xref:introduction.adoc[Introduction: The Role Nobody Prepared You For]
+* xref:chapter-1.adoc[Chapter 1: The Four Stages]
+* xref:chapter-2.adoc[Chapter 2: How People Become CTOs]
+* xref:chapter-3.adoc[Chapter 3: The CEO-CTO Relationship]
+
+=== Part II: Building and Shipping
+
+* xref:chapter-4.adoc[Chapter 4: Technical Decisions as Business Decisions]
+* xref:chapter-5.adoc[Chapter 5: Technical Debt]
+* xref:chapter-6.adoc[Chapter 6: Shipping]
+* xref:chapter-7.adoc[Chapter 7: Rushing vs Speed]
+* xref:chapter-8.adoc[Chapter 8: Measuring What Matters]
+
+=== Part III: The Gap Nobody Talks About
+
+* xref:chapter-9.adoc[Chapter 9: The Business Acumen Gap]
+* xref:chapter-10.adoc[Chapter 10: Building the Team]
+* xref:chapter-11.adoc[Chapter 11: AI Transformation]
+
+=== Part IV: Surviving and Evolving
+
+* xref:chapter-12.adoc[Chapter 12: From Maker to Multiplier]
+* xref:chapter-13.adoc[Chapter 13: Burnout and Isolation]
+* xref:chapter-14.adoc[Chapter 14: Knowing When to Step Aside]
+* xref:chapter-15.adoc[Chapter 15: Building Something That Outlasts You]

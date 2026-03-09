@@ -1,4 +1,4 @@
-.PHONY: install build clean serve open
+.PHONY: install build clean serve open convert
 
 install: ## Install dependencies
 	npm install
@@ -15,6 +15,9 @@ serve: build ## Build and serve locally on port 8000
 
 open: build ## Build and open in browser
 	open build/site/index.html
+
+convert: ## Convert Markdown drafts to AsciiDoc
+	./scripts/convert-chapters.sh
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2}'
