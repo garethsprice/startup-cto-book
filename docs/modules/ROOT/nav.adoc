@@ -1,4 +1,6 @@
 * xref:index.adoc[Home]
+* xref:author.adoc[About the Author]
+* xref:process.adoc[How This Book Was Built]
 
 .Part I: The Map
 * xref:introduction.adoc[Introduction]

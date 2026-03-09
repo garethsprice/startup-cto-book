@@ -1,0 +1,11 @@
+= About the Author
+
+Gareth Price is CTO at CorralData, an AI-powered business intelligence platform serving the healthcare industry.
+He builds the natural language-to-SQL copilot and dashboard generation system that the company sells, manages the engineering team that builds it, communicates the technical strategy to the board that funds it, and -- on most days -- does all three before lunch while trying to remember when he last merged a pull request.
+He is, in other words, the person this book is about.
+
+Before CorralData, Gareth was a technologist at The New York Times, where he worked on the Storylines team, and at Codecademy, where he built tools for the people who teach other people to code.
+He studied artificial intelligence at the University of Manchester at a time when the field was considered a respectable but mildly eccentric career choice rather than the subject of every board meeting in the Western world.
+
+He writes about technology, leadership, the startup experience, and the intersection of cultural theory with AI at Res·cog, a blog whose name -- short for _Res Cogitans_, Descartes' "thinking thing" -- is either a statement of intellectual ambition or a warning about the kind of person who would name a blog after Cartesian dualism.
+The reader may decide.
