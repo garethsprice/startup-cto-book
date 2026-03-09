@@ -1,7 +1,7 @@
 = Introduction: The Role Nobody Prepared You For
 
 ____
-"Most of what we built, nobody will ever see. And the only reason why we do this well is our own professional pride in operational excellence. That is what defines the best builders. They do the things properly, even when nobody’s watching."
+"Most of what we built, nobody will ever see. And the only reason why we do this well is our own professional pride in operational excellence. That is what defines the best builders. They do the things properly, even when nobody's watching."
 
 — Werner Vogels, CTO of Amazon, AWS re:Invent closing keynote, December 2025
 ____
