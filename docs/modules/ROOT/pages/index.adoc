@@ -1,6 +1,9 @@
-= Startup CTO Book
+= Applied Alchemy
 
-A Field Guide to Building Technology Companies from Nothing.
+== The Startup CTO's Field Guide to Building Technology Companies from Nothing
+
+.&#8220;These are all yours now. No, you can&#8217;t give any back.&#8221;
+image::too-many-hats.jpg[Too many hats]
 
 Congratulations — you've worked your way to the top of the engineering ladder. Your journey has ended. But your journey has just begun. The job that got you the title and the job you now have to do are completely different — and they'll be different again in 18 months.
 
