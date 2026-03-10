@@ -1,3 +1,4 @@
+:page-haiku: Count what you value. / The dashboard will slowly shape / the thing that you build.
 = Chapter 8: Measuring What Matters (and Ignoring What Doesn’t)
 
 [quote, Donald Rumsfeld, "Department of Defense press briefing, February 12, 2002"]

@@ -53,6 +53,8 @@ body { background: #fff; color: #1a1a1a; }
 .toolbar .edit-this-page a { color: #848A99; }
 
 /* TOC */
+.toc-haiku { font-style: italic; color: #52596B; font-size: .85rem; line-height: 1.6; padding: 0.75rem 1rem; border-left: 2px solid #D8DAE0; margin-bottom: 1rem; }
+.toc-haiku p { margin: 0; white-space: nowrap; }
 .toc-menu { color: #52596B; }
 .toc .toc-menu h3 { color: #1a1a1a; }
 .toc .toc-menu a { border-left-color: #D8DAE0; }

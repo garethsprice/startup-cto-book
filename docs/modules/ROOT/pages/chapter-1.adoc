@@ -1,3 +1,4 @@
+:page-haiku: Four jobs, one title. / Each asks you to surrender / what made you succeed.
 = Chapter 1: The Coder, the Manager, the Director, the Strategist
 
 [quote, Heraclitus, "fragment (c. 500 BCE)"]

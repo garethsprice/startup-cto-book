@@ -1,3 +1,4 @@
+:page-haiku: Pressure says go fast. / Wisdom draws a line and holds / what must not be rushed.
 = Chapter 7: When the Business Wants It Yesterday
 
 [quote, Fred Brooks, "The Mythical Man-Month, 1975"]

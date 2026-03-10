@@ -1,3 +1,4 @@
+:page-haiku: The code will be gone. / What lasts is the team you built / and who they become.
 = Chapter 15: Building Something That Outlasts You
 
 [quote, 'Jorge Luis Borges', '"On Exactitude in Science," 1946']

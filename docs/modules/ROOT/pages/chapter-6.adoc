@@ -1,3 +1,4 @@
+:page-haiku: Ship to learn. Ship fast. / Speed and quality are not / the trade-off you feared.
 = Chapter 6: Shipping Is the Strategy
 
 [quote, Grace Hopper]

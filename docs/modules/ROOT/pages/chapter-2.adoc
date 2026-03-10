@@ -1,3 +1,4 @@
+:page-haiku: The best coder stays. / No one plans to lead, and yet / the title appears.
 = Chapter 2: CTO by Accident
 
 [verse, "e e cummings", "may my heart always be open to little"]

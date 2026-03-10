@@ -1,3 +1,4 @@
+:page-haiku: Machines write the code. / They amplify what's there — strong / teams, or else the cracks.
 = Chapter 11: The AI Transformation
 
 [quote, 'Douglas Adams', '"How to Stop Worrying and Learn to Love the Internet," The Sunday Times, 1999']

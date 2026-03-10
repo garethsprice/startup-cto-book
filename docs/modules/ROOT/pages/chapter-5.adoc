@@ -1,3 +1,4 @@
+:page-haiku: Small changes, often. / The cautious process creates / what it fears the most.
 = Chapter 5: Technical Debt as a Strategic Instrument
 
 [quote, "P.G. Wodehouse", "Love Among the Chickens, 1906"]

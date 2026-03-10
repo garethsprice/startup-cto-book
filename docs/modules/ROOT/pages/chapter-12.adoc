@@ -1,3 +1,4 @@
+:page-haiku: Hands leave the keyboard. / The hardest code to release / is who you once were.
 = Chapter 12: The Day You Stop Writing Code
 
 [quote, Philip Larkin, "To Put One Brick Upon Another"]
