@@ -1,6 +1,6 @@
 = Chapter 2: CTO by Accident
 
-[verse, "e.e. cummings", "may my mind stroll about hungry"]
+[verse, "e e cummings", "may my heart always be open to little"]
 ____
 may my mind stroll about hungry
 and fearless and thirsty and supple
