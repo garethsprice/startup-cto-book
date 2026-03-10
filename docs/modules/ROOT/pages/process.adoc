@@ -41,7 +41,7 @@ My question is more literal than either: are textbooks all _I_ need?
 
 The CTO role is held by some of the most formidable engineers in the world -- people who built Instagram with thirteen employees, scaled Discord's infrastructure from a prototype to 200 million users, architected the systems that run Amazon.
 By comparison, I am a small model.
-I run a healthcare BI startup in upstate New York with a team you could fit in a living room.
+I run a healthcare BI startup from my home in upstate New York with a team you could fit in a living room.
 I do not have the parameter count of a Werner Vogels or a Mike Krieger.
 But Phi-1 did not have the parameter count of GPT-4 either, and that was the point.
 
