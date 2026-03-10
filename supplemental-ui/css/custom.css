@@ -1,4 +1,4 @@
-/* Startup CTO Book — Navy colour palette */
+/* Applied Alchemy — Navy colour palette */
 
 /* Body & text */
 body { background: #fff; color: #1a1a1a; }
@@ -12,7 +12,9 @@ body { background: #fff; color: #1a1a1a; }
 
 /* Navbar */
 .navbar { background: #1B3A5C; }
-.navbar-brand .navbar-item { color: #F6F7F9; }
+.navbar-brand .navbar-item { color: #F6F7F9; align-items: flex-start; }
+.navbar-title { display: flex; flex-direction: column; line-height: 1.2; align-items: flex-start; text-align: left; }
+.navbar-subtitle { font-size: 0.55em; font-weight: normal; opacity: 0.75; }
 .navbar-burger span { background-color: #F6F7F9; }
 @media screen and (min-width: 1024px) {
   .navbar-end .navbar-link,
