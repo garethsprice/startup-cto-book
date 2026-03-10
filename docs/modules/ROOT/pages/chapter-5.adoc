@@ -1,8 +1,8 @@
 = Chapter 5: Technical Debt as a Strategic Instrument
 
-[quote, Kent Beck, "Extreme Programming Explained, 2000"]
+[quote, "P.G. Wodehouse", "Love Among the Chickens, 1906"]
 ____
-Optimism is an occupational hazard of programming; feedback is the treatment.
+The ideas of debtor and creditor as to what constitutes a good time never coincide.
 ____
 
 In 1992, Ward Cunningham was building a portfolio management system called WyCash in Smalltalk. He needed to explain something to his business partners — why the engineering team needed to go back and rework code that was already working. The code was not broken. It did what it was supposed to do. But the team’s understanding of the financial domain had evolved since they wrote it, and the code no longer reflected what they now knew. The gap between their current understanding and the code’s representation of that understanding was slowing them down.
