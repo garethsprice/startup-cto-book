@@ -1,19 +1,16 @@
 = Startup CTO Book
 
-[quote, Philip Larkin, uncollected verse]
-____
-To put one brick upon another, +
-Add a third and then a forth, +
-Leaves no time to wonder whether +
-What you do has any worth.
-
-But to sit with bricks around you +
-While the winds of heaven bawl +
-Weighing what you should or can do +
-Leaves no doubt of it at all.
-____
-
 A Field Guide to Building Technology Companies from Nothing.
+
+Congratulations — you've worked your way to the top of the engineering ladder. Your journey has ended. But your journey has just begun. The job that got you the title and the job you now have to do are completely different — and they'll be different again in 18 months.
+
+The startup CTO role transforms completely as the company grows — from coder to manager to director to strategist — and most founding CTOs are replaced by Series B not because of technical shortcomings but because they never develop the business fluency, communication skills, and self-awareness to navigate those transitions. Half of all founding CTOs are replaced not for technical failures but because they never closed the gap between what they could build and what they could communicate.
+
+This book maps that transformation stage by stage. It begins with the decisions that feel permanent but shouldn't be — your stack, your MVP, your first architecture — moves through the competitive engine of shipping velocity, and confronts the business acumen gap head-on: the communication failures, the board meeting disasters, the co-founder conflicts that end more CTO tenures than any technical mistake.
+
+It addresses the AI disruption reshaping the role in real time: team compression, vibe coding's promise and peril, and the new competencies every CTO now needs. It includes the parts no one talks about publicly — burnout rates that would alarm any HR department, the loneliness of a role where you can't show doubt to anyone, and the growing movement to normalise CTO transitions as a sign of strength rather than failure.
+
+Grounded in named case studies, quantitative benchmarks, and interviews with CTOs across stages and outcomes, this is the field guide for every stage of that transformation — from your first commit to the day you have to decide whether to step aside.
 
 == Table of Contents
 
