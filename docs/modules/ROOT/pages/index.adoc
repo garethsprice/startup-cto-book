@@ -1,3 +1,4 @@
+:page-haiku: From first commit to / the day you step aside — one / title, many jobs.
 = Applied Alchemy
 
 == The Startup CTO's Field Guide to Building Technology Companies from Nothing
