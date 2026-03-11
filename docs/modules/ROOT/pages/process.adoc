@@ -1,6 +1,20 @@
 :page-description: How this book was constructed in a single extended session with Claude — and why AI-assisted writing changes the economics without changing the authority structure.
 :page-haiku: We're all small models. / Synthetic books, real knowledge — / outrun the giants.
 :page-toclevels: 0
+:description: How this book was constructed in a single extended session with Claude — and why AI-assisted writing changes the economics without changing the authority structure.
+:keywords: AI-assisted writing, Claude, LLM authorship, synthetic books, book methodology
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: Was this book written by AI?
+:page-faq-1-a: The book was constructed with AI assistance — researched, drafted, and revised in collaboration with Claude, Anthropic's AI assistant. But the argument, architecture, case selection, and personal experience are entirely human. The AI handled implementation at speed; the author provided judgment, taste, and the willingness to say what he actually experienced where the sourced evidence runs out.
+:page-faq-2-q: What is AI-assisted writing?
+:page-faq-2-a: AI-assisted writing uses large language models to accelerate research, drafting, and revision while a human author maintains editorial control over argument, structure, and voice. It changes the economics of writing — research that takes weeks can happen in hours — without changing the authority structure. The human decides what is true, what matters, and what to include.
+:page-faq-3-q: How was Applied Alchemy written?
+:page-faq-3-a: The author brought a detailed architecture plan — chapter structure, core arguments, case studies, voice guidelines, and a fourteen-point style scoring system. Claude conducted deep research, synthesised primary sources into structured dossiers, and drafted chapters at speed. Each chapter followed a workflow of research dossier, brief, full draft, compliance check, targeted expansion, and final output, all in a continuous conversation.
+:page-faq-4-q: Can AI write a good technical book?
+:page-faq-4-a: AI can produce well-researched, well-structured technical content at remarkable speed. What it cannot provide is the argument — the thesis born from experience, the personal anecdotes that only lived practice can supply, and the editorial judgment about what matters most. The best results come from combining AI's research and drafting speed with a human author's domain expertise, taste, and willingness to be honest about the parts that hurt.
+:page-faq-5-q: What is Human Learning from Reinforcement Feedback?
+:page-faq-5-a: Human Learning from Reinforcement Feedback is the inverse of the AI alignment technique Reinforcement Learning from Human Feedback. Instead of a human evaluating AI output to improve the model, the human generates a thesis and architecture plan, the AI produces researched and structured content, and the human evaluates it against their own experience — learning from the model's ability to synthesise hundreds of practitioners' accumulated knowledge at speed and scale.
 = Are Textbooks All I Need?
 
 == A Note on How This Book Was Built
@@ -90,3 +104,18 @@ The textbook gets you further than anyone expected.
 The last mile is yours.
 
 _-- Gareth Price, March 2026_
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

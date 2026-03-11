@@ -2,6 +2,20 @@
 :page-schema: book
 :page-haiku: From first commit to / the day you step aside — one / title, many jobs.
 :page-toclevels: 0
+:description: The startup CTO's field guide to building technology companies from nothing — from first commit to the day you step aside.
+:keywords: startup CTO, CTO field guide, technology leadership, engineering management, applied alchemy
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: What is Applied Alchemy about?
+:page-faq-1-a: Applied Alchemy is a field guide for startup CTOs that maps the transformation from coder to manager to director to strategist. It covers the technical decisions, team building, communication failures, AI disruption, burnout, and leadership transitions that define the role — grounded in named case studies and quantitative benchmarks rather than generic advice.
+:page-faq-2-q: Who is Applied Alchemy written for?
+:page-faq-2-a: The primary audience is startup CTOs at every stage — from first-time technical co-founders writing all the code to experienced engineering leaders managing hundreds of people. It is also valuable for aspiring CTOs, VPs of Engineering, engineering managers considering the CTO path, and CEOs who want to understand what their CTO is navigating.
+:page-faq-3-q: What topics does Applied Alchemy cover?
+:page-faq-3-a: The book covers the four stages of CTO evolution, the CEO-CTO relationship, technology stack decisions, technical debt strategy, shipping velocity, deadline management, product collaboration, engineering metrics, board communication, team building, AI transformation, the transition away from coding, operating rhythms, burnout prevention, knowing when to step aside, and building a lasting legacy.
+:page-faq-4-q: Is this book useful for first-time CTOs?
+:page-faq-4-a: Yes — first-time CTOs are the core audience. The book starts from the assumption that most CTOs arrive in the role without formal preparation, covers the earliest decisions (choosing a stack, building an MVP, making your first hire), and maps the transitions that catch first-time CTOs off guard. It provides the playbook that does not exist in most organisations.
+:page-faq-5-q: How is Applied Alchemy different from other CTO books?
+:page-faq-5-a: Most CTO books are written by consultants observing the role or by former CTOs writing from memory. Applied Alchemy is written by a working CTO currently navigating the challenges it describes. It prioritises named case studies over anonymised anecdotes, quantitative benchmarks over generic advice, and honest discussion of failure modes — including burnout, isolation, and the reality that most founding CTOs are eventually replaced.
 = Applied Alchemy
 
 == The Startup CTO's Field Guide to Building Technology Companies from Nothing
@@ -59,3 +73,18 @@ Grounded in named case studies, quantitative benchmarks, and interviews with CTO
 * xref:appendix-d.adoc[Appendix D: Technical Due Diligence Preparation Guide]
 * xref:appendix-e.adoc[Appendix E: The Operating Rhythm — Quick Reference]
 * xref:appendix-f.adoc[Appendix F: Recommended Reading]
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

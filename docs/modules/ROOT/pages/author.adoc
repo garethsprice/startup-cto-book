@@ -1,6 +1,20 @@
 :page-description: About Gareth Price — CTO at CorralData, former technologist at The New York Times and Codecademy, and the person this book is about.
 :page-schema: person
 :page-toclevels: 0
+:description: About Gareth Price — CTO at CorralData, former technologist at The New York Times and Codecademy, and the person this book is about.
+:keywords: Gareth Price, CTO, CorralData, technology leadership, startup CTO
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: Who wrote Applied Alchemy?
+:page-faq-1-a: Applied Alchemy was written by Gareth Price, CTO at CorralData, an AI-powered business intelligence platform serving the healthcare industry. He is a working CTO currently navigating the challenges the book describes — building the product, managing the engineering team, and communicating technical strategy to the board.
+:page-faq-2-q: What is Gareth Price's background?
+:page-faq-2-a: Gareth Price studied artificial intelligence at the University of Manchester and has held engineering and leadership roles at The New York Times, Codecademy, and CorralData. His experience spans multiple stages of the CTO journey — from individual contributor to engineering manager to CTO — giving him firsthand insight into the transitions the book describes.
+:page-faq-3-q: What is CorralData?
+:page-faq-3-a: CorralData is an AI-powered business intelligence platform serving the healthcare industry. The product features a natural language-to-SQL copilot and dashboard generation system that allows healthcare organisations to query their data using plain language rather than writing SQL or relying on dedicated analysts.
+:page-faq-4-q: Where has Gareth Price worked?
+:page-faq-4-a: Gareth Price has worked at The New York Times on the Storylines team, at Codecademy building tools for coding educators, and is currently CTO at CorralData. His career spans large media organisations, education technology, and healthcare SaaS startups — providing the cross-stage perspective that informs the book.
+:page-faq-5-q: What else does Gareth Price write about?
+:page-faq-5-a: Gareth Price writes about technology, leadership, the startup experience, and the intersection of cultural theory with AI at Res·cog — a blog named after Descartes' Res Cogitans, meaning the thinking thing. His writing explores the human dimensions of technical leadership and the philosophical questions raised by AI in the workplace.
 = About the Author
 
 Gareth Price is CTO at CorralData, an AI-powered business intelligence platform serving the healthcare industry.
@@ -12,3 +26,18 @@ He studied artificial intelligence at the University of Manchester at a time whe
 
 He writes about technology, leadership, the startup experience, and the intersection of cultural theory with AI at Res·cog, a blog whose name -- short for _Res Cogitans_, Descartes' "thinking thing" -- is either a statement of intellectual ambition or a warning about the kind of person who would name a blog after Cartesian dualism.
 The reader may decide.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}
