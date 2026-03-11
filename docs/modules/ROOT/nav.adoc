@@ -35,3 +35,4 @@
 * xref:appendix-d-technical-due-diligence.adoc[Technical Due Diligence Preparation Guide]
 * xref:appendix-e-operating-rhythm-reference.adoc[Operating Rhythm — Quick Reference]
 * xref:appendix-f-recommended-reading.adoc[Recommended Reading]
+* xref:appendix-g-ai-cto-advisor.adoc[Your AI CTO Advisor]

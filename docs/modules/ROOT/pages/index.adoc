@@ -74,6 +74,7 @@ Grounded in named case studies, quantitative benchmarks, and interviews with CTO
 * xref:appendix-d-technical-due-diligence.adoc[Appendix D: Technical Due Diligence Preparation Guide]
 * xref:appendix-e-operating-rhythm-reference.adoc[Appendix E: The Operating Rhythm — Quick Reference]
 * xref:appendix-f-recommended-reading.adoc[Appendix F: Recommended Reading]
+* xref:appendix-g-ai-cto-advisor.adoc[Appendix G: Your AI CTO Advisor]
 
 [discrete]
 == Frequently Asked Questions
