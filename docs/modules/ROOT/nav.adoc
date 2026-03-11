@@ -31,3 +31,4 @@
 * xref:appendix-a.adoc[The First Ninety Days]
 * xref:appendix-b.adoc[Stage-by-Stage Metrics Guide]
 * xref:appendix-c.adoc[Compensation and Equity Benchmarks]
+* xref:appendix-d.adoc[Technical Due Diligence Preparation Guide]

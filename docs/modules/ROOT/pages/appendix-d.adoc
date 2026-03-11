@@ -1,0 +1,120 @@
+:page-haiku: They will read your code. / They will ask about your debt. / Know it before them.
+= Appendix D: Technical Due Diligence Preparation Guide
+
+This appendix is a practical companion to Chapter 15's narrative on acquisition. It covers two scenarios: the lighter-weight technical evaluation that accompanies a fundraising round (Series A onward), and the intensive due diligence that precedes an acquisition. The CTO who prepares for the first will find the second less overwhelming when it arrives.
+
+Daniel Doubrovkine, who has conducted due diligence for both VC firms and acquirers, reduces the evaluator's objective to a single sentence: "Technology must be evaluated at par with financial discipline before giving a company money."footnote:doubrovkine[Doubrovkine, D. (2017, October 29). How to do startup technical due diligence. _code.dblock.org_. https://code.dblock.org/2017/10/29/how-to-do-startup-technical-due-diligence.html — Doubrovkine was CTO at Artsy; now Director of Engineering at Shopify.] The CTO who internalises this — that the evaluator is not auditing code but assessing whether the technology is a sound investment — will approach due diligence with the right frame.
+
+
+== What Evaluators Are Actually Asking
+
+The evaluator is not looking for perfection. Joe Pettersson, who has been the subject of due diligence twelve times and has conducted it more than 150 times, states this directly: "The biggest misunderstanding new CTOs have during this process is they think investors want to see perfection. Don't do this. Investors aren't looking for this, and they always know when you're doing it."footnote:pettersson[Pettersson, J. CTO primer: Technical due diligence. _joe8bit.com_. https://joe8bit.com/blog/technical-due-diligence — Pettersson reports 12 times as DD subject and 150{plus} times as evaluator.] What evaluators want is self-awareness — evidence that the CTO understands where the risks are and has a credible plan for addressing them.
+
+Doubrovkine structures his evaluation around three sets of questions, each addressed to a different audience.footnote:doubrovkine[]
+
+For the CTO: Would I trust this person with my own company? Do I respect their technical and organisational judgment? Would I want to hire any of their engineers?
+
+For cross-functional leaders: Where do ideas originate and how do they become features? What is the relationship between product, design, and engineering? How technical are the non-technical teams?
+
+For the codebase: Are processes and code at par with what I would expect at this stage? How much time does the team spend maintaining existing software versus building new capabilities? Is the executive team over- or under-selling the company's technical position?
+
+Karl Treier, a serial entrepreneur who has been on both sides of due diligence, reinforces the point: "The assessor is not there to catch you out. They will understand the challenges and the realities of startup, rampup and speedup life and are not expecting perfection."footnote:treier[Treier, K. (2012, February 28). Selling or funding a startup? Tips on surviving technical due diligence. _OnStartups_ (guest post on Dharmesh Shah's blog). https://www.onstartups.com/tabid/3339/bid/78757/Selling-or-Funding-A-Startup-Tips-On-Surviving-Technical-Due-Diligence.aspx — Treier structures DD around four pillars: Vitality, Scalability, Maintainability, Continuity.]
+
+
+== Fundraising Due Diligence: What to Expect at Each Stage
+
+The depth of technical evaluation scales with the size of the investment.
+
+At **seed**, due diligence is typically a conversation — a meeting or a call with the technical co-founder. Doubrovkine's characterisation: "a meeting."footnote:doubrovkine[] The investor is assessing the team's ability to execute, not the architecture's scalability. Johann Romefort, former CTO and co-founder of Seesmic (acquired by Hootsuite) and now a Techstars managing director, notes that at this stage, evaluators watch for over-engineering: "which is what you see quite often."footnote:romefort[Romefort, J. A guide to surviving tech due diligence. CircleCI eBook. https://circleci.com/landing-pages/assets/A-Guide-to-Surviving-Tech-Due-Diligence-ebook.pdf — See also: Pulse Episode 6, _Made with Love_: https://madewithlove.com/blog/pulse-episode-6-johann-romefort-on-technical-due-diligence/ — Romefort was CTO/co-founder of Seesmic (acquired by Hootsuite) and Techstars Managing Director.]
+
+At **Series A**, the evaluation becomes formal. Rodrigo Martinez, who conducts technical due diligence for Point Nine Capital, describes a structured one-hour call with the technical founder covering three goals: grasp the risks, decide faster, and help the founder identify blind spots. His principle: "At the stage we invest, we don't expect companies to be perfect, but we need to figure out what level of technical execution risk we face."footnote:martinez[Martinez, R. A technical due diligence framework for early stage startups. _Point Nine Land (Medium)_. https://medium.com/point-nine-news/a-technical-due-diligence-framework-for-early-stage-startups-c24d5408256e] The CTO should expect questions about architecture decisions, team composition, deployment practices, and the technical roadmap.
+
+At **Series B and beyond**, due diligence may involve a third-party evaluator and an on-site visit — approaching the intensity of acquisition due diligence. Doubrovkine estimates "a few days, including an on-site visit" at this stage.footnote:doubrovkine[] The CTO should have the full data room described below ready before entering a Series B process.
+
+
+== Acquisition Due Diligence: The Two-Stage Process
+
+Onoufrios Malikkides, CTO of Labstep during its acquisition, describes a two-stage process that is representative of how most acquisitions proceed.footnote:malikkides[Malikkides, O. (2024, July 26). Inside tech due diligence: Lessons from a startup acquisition. _Medium_. https://onoufriosm.medium.com/navigating-the-tech-due-diligence-process-insights-from-labsteps-acquisition-journey-e929a22b8db2 — Also cited in Chapter 15.]
+
+**Stage 1** is documentation. Malikkides received a comprehensive spreadsheet containing hundreds of questions across architecture, infrastructure, security, team, and process. His team spent two weeks compiling answers under deadline pressure — an experience he describes as "overwhelming" despite preparation. The documentation covered software architecture, data architecture, technology stack, IP ownership, scalability, APIs, technical debt, deployment practices, disaster recovery, monitoring, security posture, organisational structure, and the full software development lifecycle.
+
+**Stage 2** is an in-depth review — in Malikkides's case, a four-hour session with an external evaluator hired by the acquirer, diving deeper into the Stage 1 responses. The evaluator tested claims, probed weaknesses, and assessed the CTO's understanding of the system's limitations.
+
+The CTO who has maintained the documentation described below throughout the company's life will find Stage 1 manageable. The CTO who must create it under deadline pressure will find it, as Malikkides warns, overwhelming. Crosslake Technology, which has advised on more than $30 billion in private equity transactions, recommends that management teams begin preparation "one to two years out."footnote:crosslake[Crosslake Technology. Preparing for tech due diligence. https://crosslaketech.com/preparing-for-tech-due-diligence/ — Crosslake has advised on $30B{plus} in PE transactions using proprietary TechIndicators® benchmarks from 6,000{plus} prior tech M&A deals.]
+
+
+== The Technical Data Room
+
+The documents below should exist before due diligence begins — not because they were created for the evaluator, but because they are artefacts of a well-run engineering organisation. Doubrovkine's test: he looks for "links to internal documents that weren't created yesterday for this specific due diligence process."footnote:doubrovkine[]
+
+=== Architecture and Code
+
+Current architecture diagram showing major components, data flows, and integration points. Technology stack inventory with versions. Data schema documentation with PII and PHI fields marked (Chapter 4). API documentation — OpenAPI or Swagger for external APIs. Technical roadmap covering the next six to eighteen months. Technical debt inventory with estimated remediation effort — framed as Chapter 5's three categories: debt you chose, debt you inherited, and debt you did not know you had.
+
+=== Metrics and Performance
+
+Code coverage reports for critical paths. Malikkides provided approximately 95% coverage as a headline metric.footnote:malikkides[] Bug trend graphs by severity for the past six months. P95 and P99 API latency from production monitoring (Malikkides used Datadog). Deployment frequency and lead time — the DORA metrics from Chapter 9. Uptime history for the past three years. Incident log with root cause analysis and mitigations for every significant outage.
+
+=== Infrastructure
+
+Infrastructure block diagram showing cloud providers, regions, and key services. Disaster recovery plan with defined RTO (recovery time objective) and RPO (recovery point objective) — Malikkides documented 24 hours for both.footnote:malikkides[] Most recent DR test results. Monitoring and alerting configuration. Infrastructure cost breakdown with twelve-month growth projections.
+
+=== Security and Compliance
+
+Security policies and procedures. Most recent penetration test results (within twelve months). Security incident and breach log — including incidents that were contained without customer impact. Access control documentation showing who has access to what, and how access is reviewed. Encryption documentation: at rest, in transit, and key management. Secrets management approach — hardcoded credentials are a red flag that can stall a deal.footnote:hypernest[HyperNest Labs. (2026). The 50-point technical due diligence checklist for startups. https://hypernestlabs.com/guides/technical-due-diligence-checklist — Srinivas, A. (Founder, HyperNest): guided $35M{plus} ARR through DD for OddsJam and Rupa Health exits.] SOC 2 Type 2 report if available (see healthcare section below). Any compliance certifications: ISO 27001, HIPAA, GDPR.
+
+=== IP and Licensing
+
+Complete inventory of open-source libraries with licence types. Pettersson is emphatic about priority: "If you prepare anything before a technical due diligence, start here."footnote:pettersson[] IP ownership documentation — every line of code written by a contractor or external contributor must have a signed IP assignment agreement. Employee invention assignment clauses in employment agreements. Any patents, patent applications, or trade secrets.
+
+=== Team and Process
+
+Organisation chart showing reporting lines three levels deep. Software development lifecycle documentation: how work moves from idea to production. Tool inventory with annual costs. Onboarding documentation for new engineers. Key person identification: which individuals hold critical knowledge, and what is the plan if they leave?
+
+
+== Healthcare and Regulated Industry Additions
+
+For a healthcare SaaS company, the data room requires additional documentation that general-purpose checklists omit.
+
+**HIPAA compliance documentation.** McGuireWoods LLP publishes the most thorough framework, structured around four questions: Does the company have core HIPAA documentation? Is the company complying with its own policies? How does the company address security and breach risk? What is the risk profile of identified gaps?footnote:mcguirewoods[McGuireWoods LLP. (2018, March). HIPAA in due diligence (Part I): Four key diligence questions. _Password Protected_ (blog). https://www.passwordprotectedlaw.com/2018/03/hipaa-in-due-diligence-part-i/] The data room should include: Privacy and Security Rule policies, breach notification policies, all security risk analyses from the past two to three years with corresponding management plans, all executed Business Associate Agreements, the Notice of Privacy Practices, employee HIPAA training records, PHI data flow diagrams showing where protected health information enters, moves through, and leaves the system, and encryption and access control documentation specific to PHI.
+
+The enforcement precedent is real. The Office for Civil Rights entered a $25,000 settlement with Peachstate Health Management for HIPAA violations discovered during a compliance review triggered by a post-acquisition breach — failures that included no security risk analysis and no documented security policies.footnote:peachstate[Bass, Berry & Sims PLC. OCR settlement underscores the importance of HIPAA privacy and security review in transactional due diligence. https://www.bassberry.com/news/hipaa-privacy-security-transactional-due-diligence/ — Peachstate Health Management settlement: $25,000 for post-acquisition HIPAA violations.] The CTO who enters due diligence without current HIPAA documentation is not just risking a deal. They are risking an enforcement action.
+
+**SOC 2 as a due diligence artefact.** A current SOC 2 Type 2 report — covering six to twelve months of control effectiveness — accelerates due diligence and strengthens valuation. Without it, the acquirer must manually collect and review governance, security, and compliance documentation, a process that is slower, more intrusive, and produces less confidence.footnote:socvantage[SOC Vantage. SOC compliance for acquisitions. https://socvantage.com/soc-compliance-for-acquisitions/ — See also Cherry Bekaert: "For growing companies going through acquisition, a SOC report can demonstrate compliance, reduce due diligence costs, improve valuation, and build trust."] SOC 2 Type 1 (point-in-time assessment) is better than nothing but significantly weaker than Type 2 (operational effectiveness over time). For a healthcare startup, combining SOC 2 with HIPAA compliance documentation covers the majority of security and privacy questions an acquirer will ask.
+
+**FDA Software as a Medical Device (SaMD).** A healthcare BI or analytics platform generally does not trigger SaMD classification if it displays or analyses data without making specific diagnostic or treatment recommendations. The CDS Exemption under the 21st Century Cures Act applies when the software meets four criteria: it displays or analyses medical information, supports rather than replaces clinician recommendations, enables independent review of the basis for the recommendation, and the clinician is not intended to rely primarily on the software.footnote:hardian[Hardian Health. How to conduct due diligence on SaMD and AIaMD acquisitions. https://www.hardianhealth.com/insights/how-to-conduct-due-diligence-on-samd-and-aiamd-acquisitions — Dr. Ankeet Tanna on SaMD classification, CDS Exemption, and FDA January 2025 update.] If the product does cross the SaMD threshold, the documentation requirements are substantial: a Quality Management System compliant with 21 CFR 820, IEC 62304 software lifecycle compliance, a Design History File, a Software Bill of Materials, and an ISO 14971 risk management file.
+
+**State-level health data laws.** California's Confidentiality of Medical Information Act is often stricter than HIPAA, with broader definitions and a private right of action. Washington's My Health My Data Act, effective March 2024, is the first US law targeting health data outside HIPAA's scope. The CTO of a healthcare company serving customers in multiple states should maintain a regulatory map showing which laws apply to which data flows — and that map should be in the data room.
+
+
+== Red Flags That Kill Deals
+
+Daniel Lucas, founder of THRDparty Advisors, uses a three-tier classification for due diligence findings: deal killers, red flags, and value creation opportunities.footnote:lucas[Lucas, D. (THRDparty Advisors). Deal-killing diligence findings. https://thrdparty.com/insights/deal-killing-diligence-findings — Three-tier model: deal killer, red flag, value creation opportunity.] Deal killers are reserved for "blatant deception or dishonesty by the target's representatives, backed by evidence" — Lucas notes that in his practice, the count of actual deal killers is zero. Red flags point to deeper systemic issues and typically result in valuation adjustments. Value creation opportunities — the most common finding — identify areas where post-acquisition investment can drive growth.
+
+The following red flags, synthesised across eight practitioner frameworks, are the findings most likely to reduce a valuation or stall a process. The CTO should treat this list as a pre-flight checklist: address each item before due diligence begins.
+
+Unresolved critical security vulnerabilities — "the deal stalls. Period."footnote:hypernest[] No automated tests on critical code paths. No documentation of architecture, processes, or decisions. Single points of failure in systems or people — a bus factor of one on any critical component. Unclear IP ownership — contractor-written code without signed IP assignment agreements. GPL-licensed code in proprietary commercial products without proper isolation. Key person dependencies with no knowledge transfer or succession plan. No disaster recovery plan, or a plan that has never been tested. Technical debt consuming more than 25% of engineering capacity without a remediation plan. Hardcoded credentials or no secrets management. High engineering turnover without documented knowledge transfer. Deferred maintenance to inflate short-term financial performance.
+
+PwC documented two case studies that illustrate the consequences: an e-commerce platform where technical debt was so severe that the acquisition was deemed "unsuitable," and a legal services platform built on an end-of-life technology stack where the development team was approaching retirement and replacements could not be found.footnote:pwc[PwC UK. Demystifying technical debt for deals. https://www.pwc.co.uk/industries/insights/demystifying-technical-debt-for-deals.html — Turner, A., Douglas, R., Nguyen, K., & Matthews, S. Case studies: e-commerce platform (unsuitable due to debt), legal services platform (end-of-life tech stack).]
+
+
+== Preparing Yourself and Your Team
+
+The CTO's mindset matters as much as the documentation. Pettersson's advice: "'I don't know, but let me come back to you with the answer' is always a better answer than trying to bullshit your way through an answer."footnote:pettersson[] Romefort reinforces this: "Auditors are generally former CTOs themselves. They understand the struggles of building a company and communicating your challenges is a sign of humility and transparency which is often appreciated."footnote:romefort[]
+
+On presenting technical debt, frame it as Chapter 5 teaches: a known, quantified obligation with a remediation plan and a cost estimate. The evaluator expects debt. What concerns them is debt the CTO does not know about or cannot quantify.
+
+On preparing the engineering team, Pettersson is direct: "Don't 'protect' technical people from a due diligence. It's usually very transparent when tech people are being 'hidden' from a potential investor and can be a red flag."footnote:pettersson[] Brief the team on what to expect. Identify the domain experts for each area of the system. Align on the key decisions and why they were made — not to script answers, but to ensure the team can articulate the reasoning behind the architecture.
+
+Designate a single technical point of contact for the evaluator. Respond to questions within 24 hours. Document every question asked and every answer given — this record protects the CTO if disputes arise later about what was disclosed.
+
+
+== When to Start Preparing
+
+The honest answer: now. Crosslake recommends beginning preparation one to two years before a transaction.footnote:crosslake[] MEV, a technology consulting firm, recommends a pre-deal technical audit six to twelve months before going to market.footnote:mev[MEV. Technology due diligence: Step-by-step guide + checklist. https://mev.com/blog/technology-due-diligence-how-to-do-it — Recommends pre-deal technical audit 6–12 months before going to market.] Malikkides's retrospective advice: "Start early by implementing best practices and comprehensive documentation well before acquisition talks begin."footnote:malikkides[]
+
+The practical minimum for a CTO who is not actively pursuing a transaction: maintain the architecture diagram, the technical debt inventory, the IP register, and the incident log as living documents — updated as part of normal engineering operations, not created under deadline pressure. When the call comes — and at a venture-backed startup, the call eventually comes — the difference between two weeks of preparation and two months will be measured in valuation.
+
+'''''
+
+_This appendix provides the preparation checklist. Chapter 15 provides the narrative of what due diligence feels like from the inside — the stress, the identity questions, and the decisions that follow. Chapter 4 provides the security and compliance foundations that make due diligence survivable. Chapter 5 provides the technical debt framework that gives the evaluator confidence you understand your own system._
