@@ -23,7 +23,7 @@
 
 .Part IV: Surviving and Evolving
 * xref:chapter-13.adoc[From Maker to Multiplier]
-* xref:chapter-14.adoc[The Operating Rhythm]
+* xref:chapter-14.adoc[Operating Rhythm]
 * xref:chapter-15.adoc[Burnout and Isolation]
 * xref:chapter-16.adoc[Knowing When to Step Aside]
 * xref:chapter-17.adoc[Building Something That Outlasts You]
@@ -33,5 +33,5 @@
 * xref:appendix-b.adoc[Stage-by-Stage Metrics Guide]
 * xref:appendix-c.adoc[Compensation and Equity Benchmarks]
 * xref:appendix-d.adoc[Technical Due Diligence Preparation Guide]
-* xref:appendix-e.adoc[The Operating Rhythm — Quick Reference]
+* xref:appendix-e.adoc[Operating Rhythm — Quick Reference]
 * xref:appendix-f.adoc[Recommended Reading]

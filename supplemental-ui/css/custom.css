@@ -146,6 +146,9 @@ footer.footer a { color: #1a1a1a; }
 .page-versions .version-menu { background: linear-gradient(180deg, #ECEDF0 0, #ECEDF0) no-repeat; }
 .page-versions .version.is-missing { color: #848A99; }
 
+/* Footnotes */
+#footnotes { margin-top: 2rem; }
+
 /* FAQ section */
 .doc .dlist.qanda dt { font-weight: 600; color: #1a1a1a; margin-top: 1.25rem; }
 .doc .dlist.qanda dt:first-child { margin-top: 0; }
