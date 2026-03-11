@@ -40,13 +40,14 @@ body { background: #fff; color: #1a1a1a; }
 @media screen and (min-width: 769px) {
   .nav { box-shadow: .5px 0 3px #B5B9C4; }
 }
-.nav-menu h3.title { color: #3A3F4B; }
+.nav-menu h3.title { display: none; }
 .nav-panel-menu:not(.is-active)::after { background: rgba(0, 0, 0, .5); }
 .nav-panel-explore { display: none; }
 
 /* Toolbar */
 .toolbar { background-color: #F6F7F9; color: #52596B; box-shadow: 0 1px 0 #D8DAE0; }
 .toolbar .edit-this-page { display: none; }
+.breadcrumbs li:first-child { display: none; }
 
 /* TOC */
 .toc-haiku { font-style: italic; color: #52596B; font-size: .85rem; line-height: 1.6; padding: 0.75rem 1rem; border-left: 2px solid #D8DAE0; margin-bottom: 1rem; }
