@@ -1,10 +1,22 @@
-.PHONY: install build clean serve open convert
+.PHONY: install build build-full build-pdf build-epub docker-build clean serve open convert
 
 install: ## Install dependencies
 	npm install
 
 build: ## Build the site
 	npm run build
+
+docker-build: ## Build the Docker image
+	docker compose build
+
+build-full: docker-build ## Build site + PDF + EPUB (Docker)
+	docker compose run --rm antora npm run build:full
+
+build-pdf: docker-build ## Build site + PDF (Docker)
+	docker compose run --rm antora npm run build:pdf
+
+build-epub: docker-build ## Build site + EPUB (Docker)
+	docker compose run --rm antora npm run build:epub
 
 clean: ## Remove build output
 	rm -rf build

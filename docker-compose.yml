@@ -1,0 +1,11 @@
+services:
+  antora:
+    build: .
+    volumes:
+      - ./.git:/site/.git:ro
+      - ./docs:/site/docs:ro
+      - ./lib:/site/lib:ro
+      - ./supplemental-ui:/site/supplemental-ui:ro
+      - ./antora-playbook.yml:/site/antora-playbook.yml:ro
+      - ./antora-assembler.yml:/site/antora-assembler.yml:ro
+      - ./build:/site/build

@@ -1,0 +1,7 @@
+build/
+node_modules/
+.cache/
+.git/
+.claude/
+_tmp/
+Gemfile.lock

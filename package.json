@@ -4,12 +4,19 @@
   "private": true,
   "description": "A Field Guide to Building Technology Companies from Nothing",
   "scripts": {
-    "build": "antora antora-playbook.yml"
+    "build": "antora antora-playbook.yml",
+    "build:full": "antora --fetch --extension @antora/pdf-extension --extension @antora/epub-extension antora-playbook.yml",
+    "build:pdf": "antora --fetch --extension @antora/pdf-extension antora-playbook.yml",
+    "build:epub": "antora --fetch --extension @antora/epub-extension antora-playbook.yml"
   },
   "devDependencies": {
     "@antora/cli": "~3.1",
     "@antora/site-generator": "~3.1",
     "minimatch": "^10.2.4",
     "node-html-markdown": "^2.0.0"
+  },
+  "dependencies": {
+    "@antora/epub-extension": "^1.0.0-beta.19",
+    "@antora/pdf-extension": "^1.0.0-beta.19"
   }
 }
