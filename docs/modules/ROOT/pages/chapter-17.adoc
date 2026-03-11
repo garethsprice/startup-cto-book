@@ -83,3 +83,8 @@ This book began with a premise: that the startup CTO role is the most consequent
 The work matters beyond any single company or product. The teams you build will go on to build other teams. The culture you create will shape the culture of companies that do not yet exist. The engineers you mentor will become CTOs who mentor engineers you will never meet. The decisions you make today — about quality, about people, about what kind of organisation you are building — will compound across decades and generations of builders.
 
 That is the legacy. Not the code. Not the architecture. Not the title. The people, and what they go on to build.
+
+[quote, William Shakespeare, 'Timon of Athens']
+____
+You are an alchemist; make gold of that.
+____
