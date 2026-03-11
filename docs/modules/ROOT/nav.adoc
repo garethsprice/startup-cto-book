@@ -32,3 +32,4 @@
 * xref:appendix-b.adoc[Stage-by-Stage Metrics Guide]
 * xref:appendix-c.adoc[Compensation and Equity Benchmarks]
 * xref:appendix-d.adoc[Technical Due Diligence Preparation Guide]
+* xref:appendix-e.adoc[Recommended Reading]

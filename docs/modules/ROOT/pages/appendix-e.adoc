@@ -1,0 +1,126 @@
+:page-haiku: Thirty books, four stages. / Start with the one that matches / where you are right now.
+= Appendix E: Recommended Reading
+
+This is not a bibliography. The endnotes serve that purpose. This is an opinionated list of what to read and when to read it, organised by the four stages from Chapter 1. Every entry passes a single test: would I hand this book to a CTO at this stage and say _read this now_?
+
+Entries marked ★ are essential. Entries marked ◆ are recommended for the stage. Entries marked ○ are situational — reach for them when you face the specific problem they address.
+
+
+== Foundational
+
+Read these regardless of stage. They shape how you think about startups, leadership, and yourself.
+
+★ Eric Ries — _The Lean Startup_ (Crown Business, 2011). The build-measure-learn loop is not just a product concept. It is the mental model for every technical decision you will make under uncertainty. Read it before you write your first line of startup code.
+
+★ Ben Horowitz — _The Hard Thing About Hard Things_ (Harper Business, 2014). The only honest book about wartime leadership. Horowitz calls it "The Struggle," and every startup CTO will recognise it. Read it early so you know you are not alone when things get ugly.
+
+★ Noam Wasserman — _The Founder's Dilemmas_ (Princeton University Press, 2012). Based on data from nearly 10,000 founders. Maps the critical early decisions — co-founder selection, equity splits, role assignments, and the "rich versus king" tradeoff. If you are a technical co-founder, this book will save you from the most common relationship-destroying mistakes.
+
+◆ Rand Fishkin — _Lost and Founder_ (Portfolio/Penguin, 2018). The antidote to survivorship bias. Fishkin's account of Moz is the most candid correction to startup mythology in print — covering VC misalignment, growth-at-all-costs pressure, and the personal toll.
+
+◆ Jerry Colonna — _Reboot: Leadership and the Art of Growing Up_ (Harper Business, 2019). Colonna uses radical self-inquiry to help founders confront the psychological patterns that fuel both their success and their burnout. The book for the 2 a.m. identity crisis.
+
+◆ Frederick P. Brooks Jr. — _The Mythical Man-Month_ (Addison-Wesley, Anniversary Edition, 1995). Brooks's Law — "adding manpower to a late project makes it later" — is still the first thing you need to explain to every CEO who suggests hiring your way out of a deadline. Fifty years old and still the most cited sentence in software engineering.
+
+
+== Stage 1: Coder — Pre-Seed to Seed
+
+You are writing most of the code yourself. Your technical decisions now become the architecture you will live with for years.
+
+★ David Farley — _Modern Software Engineering_ (Addison-Wesley, 2021). Farley strips engineering back to first principles: work in small steps, get fast feedback, be empirical. The clearest articulation of what it means to practise software engineering as engineering rather than craft.
+
+★ Gene Kim, Kevin Behr & George Spafford — _The Phoenix Project_ (IT Revolution, 5th Anniversary Edition, 2018). A novel about an IT leader inheriting a disaster and discovering the Three Ways of DevOps. Hand this to your CEO when they ask "why does everything take so long?"
+
+★ Martin Kleppmann — _Designing Data-Intensive Applications_ (O'Reilly, 2nd Edition with Chris Riccomini, 2026). The single best book on data systems architecture. You will make better infrastructure decisions at every stage if you have internalised Kleppmann's mental models.
+
+◆ Jez Humble & David Farley — _Continuous Delivery_ (Addison-Wesley, 2010). The foundational text on CI/CD pipelines, deployment automation, and shipping safely. Build these habits as a solo founder and they will scale with you.
+
+◆ Sam Newman — _Building Microservices_ (O'Reilly, 2nd Edition, 2021). Newman is pragmatic, not dogmatic — this book is as much about when _not_ to decompose a monolith as when to do it. Essential reading before your first architecture decision you will regret.
+
+○ Steve McConnell — _Code Complete_ (Microsoft Press, 2nd Edition, 2004). The encyclopedic reference on writing good code. Keep it on the shelf for when you need to articulate _why_ code quality matters to a junior team.
+
+○ Joshua Levy & Joe Wallin — _The Holloway Guide to Equity Compensation_ (Holloway, updated 2022; holloway.com). The most comprehensive guide to stock options, vesting, exercise, and tax implications. Understand your own equity before you structure grants for your first hires.
+
+
+== Stage 2: Manager — Seed to Series A
+
+You have made your first hires. You are no longer the best use of your own time as an individual contributor.
+
+★ Camille Fournier — _The Manager's Path_ (O'Reilly, 2017). The definitive map of the engineering leadership career — from tech lead through CTO. Fournier covers each transition with practical advice and anti-patterns. The single most recommended book in engineering management for a reason.
+
+★ Lara Hogan — _Resilient Management_ (A Book Apart, 2019). At roughly 100 pages, this is the most concentrated guide to people management fundamentals — core needs, feedback, coaching, and building team resilience. Read it the week before your first one-to-one.
+
+★ Marty Cagan — _Inspired_ (Wiley, 2nd Edition, 2018). The product management bible. As CTO, your partnership with product is your most important relationship after the CEO. Cagan teaches you how great product teams work — and how to recognise when yours does not.
+
+◆ Michael D. Watkins — _The First 90 Days_ (Harvard Business Review Press, Updated & Expanded Edition, 2013). The STARS framework for diagnosing your situation and acting accordingly. Reread it every time you level up.
+
+◆ Zach Goldberg — _The Startup CTO's Handbook_ (WorldChangers Media, 2023). The most comprehensive recent CTO-specific handbook — people management, tech stack decisions, technical debt, hiring, and developer experience. Creative Commons licensed with full text on GitHub.
+
+◆ Stephan Schmidt — _Amazing CTO_ (Leanpub, 2024). 140+ rules for CTO leadership from a veteran CTO and prolific newsletter writer. Practical checklists for hiring, onboarding, and security. Described by Golem.de as "pleasantly bullshit-free."
+
+○ Joel Spolsky — _Joel on Software_ (Apress, 2004). Dated in places, but Spolsky's "Things You Should Never Do" essay on rewrites remains essential CTO wisdom. Read the key essays, not cover to cover.
+
+
+== Stage 3: Director — Series A to B
+
+You are managing managers. Your job shifts from building software to building the organisation that builds software.
+
+★ Will Larson — _An Elegant Puzzle: Systems of Engineering Management_ (Stripe Press, 2019). Larson applies systems thinking to every management challenge — team sizing, technical debt, migrations, succession planning. Drawn from scaling engineering at Uber and Stripe. The most operationally useful engineering management book of the last decade.
+
+★ Matthew Skelton & Manuel Pais — _Team Topologies_ (IT Revolution, 2nd Edition, 2025). Four team types, three interaction modes — a shared vocabulary for organisational design that works. When your org chart becomes your architecture, this book tells you how to make that work for you.
+
+★ Nicole Forsgren, Jez Humble & Gene Kim — _Accelerate_ (IT Revolution, 2018). The research behind DORA metrics. When your board asks "how do we know engineering is performing well?", this book gives you the evidence-based answer. Read the caveats in Chapter 9 before applying the benchmarks.
+
+◆ Gene Kim et al. — _The DevOps Handbook_ (IT Revolution, 2nd Edition, 2021). The practical companion to _The Phoenix Project_ and _Accelerate_ — how to implement technical practices across flow, feedback, and continuous learning.
+
+◆ Marty Cagan & Chris Jones — _Empowered_ (Wiley, 2020). The difference between empowered product teams and feature factories. Critical for CTOs creating an environment where engineering and product collaborate rather than operate as order-takers.
+
+◆ Ethan Mollick — _Co-Intelligence: Living and Working with AI_ (Portfolio/Penguin, 2024). The most accessible, non-hype framework for how generative AI changes work and decision-making. Essential strategic framing for any CTO integrating AI into their product or organisation.
+
+◆ Gene Kim & Steven J. Spear — _Wiring the Winning Organization_ (IT Revolution, 2023). Kim's unified theory of organisational performance — slowification, simplification, amplification. The intellectual successor to _The Phoenix Project_ for leaders who want the deeper "why."
+
+○ Chip Huyen — _AI Engineering: Building Applications with Foundation Models_ (O'Reilly, 2025). The definitive production-focused guide to building AI applications — prompt engineering, RAG, fine-tuning, agents, evaluation, and inference optimisation. Essential if you are building AI products; optional if you are not.
+
+
+== Stage 4: Strategist — Series B to C and Beyond
+
+You are in the C-suite. Your peers are the CEO, CFO, and board. Your job is technology strategy, organisational design at scale, and communicating engineering's value to people who do not write code.
+
+★ Will Larson — _The Engineering Executive's Primer_ (O'Reilly, 2024). The single most relevant book for a startup CTO stepping into the executive role. Covers technology strategy, headcount planning, CEO communication, and measuring engineering for both engineers and the board.
+
+★ Elad Gil — _High Growth Handbook_ (Stripe Press, 2018). The playbook for the post-product-market-fit phase — executive hiring, M&A, board management, late-stage financing, and IPO preparation. Includes interviews with Reid Hoffman, Marc Andreessen, and Claire Hughes Johnson.
+
+◆ Brad Feld, Matt Blumberg & Mahendra Ramsinghani — _Startup Boards_ (Wiley, 2nd Edition, 2022). Practical guide to board dynamics, running effective meetings, and managing investor relationships. Read this before your first board meeting where you present.
+
+◆ Brad Feld & Jason Mendelson — _Venture Deals_ (Wiley, 4th Edition, 2019). The definitive guide to term sheets, negotiation, dilution, and VC deal mechanics. As a technical co-founder, understanding these mechanics determines how much of the company you actually own.
+
+◆ Marty Cagan et al. — _Transformed_ (Wiley, 2024). How to move from a feature factory to the product operating model. Includes first-person transformation case studies.
+
+○ Etienne de Bruin — _CTO Excellence in 100 Days_ (Houndstooth Press, 2023). A structured 100-day roadmap for establishing executive presence. Best for CTOs stepping into a new role or company.
+
+○ Andy Dunn — _Burn Rate: Launching a Startup and Losing My Mind_ (Ballantine Books, 2022). The most powerful recent memoir connecting the founder experience to serious mental illness. For when The Struggle from Horowitz's book becomes clinical.
+
+
+== Online Resources
+
+The best ongoing CTO education happens between books.
+
+★ **The Pragmatic Engineer** by Gergely Orosz (newsletter.pragmaticengineer.com). Over one million subscribers. Deep dives on engineering practices, compensation, hiring, and organisational design. The most important ongoing resource in engineering leadership.
+
+★ **lethain.com** — Will Larson's blog, "Irrational Exuberance." Six hundred posts since 2007 covering engineering strategy, organisational design, and executive communication. The deepest single-author resource on engineering leadership.
+
+★ **LeadDev** (leaddev.com). Original articles, annual conferences, research reports, and a newsletter. Their annual Engineering Leadership Report provides benchmarked data on how other leaders handle the same challenges you face.
+
+◆ **Tidy First?** by Kent Beck (tidyfirst.substack.com). The creator of Extreme Programming writes about software design decisions, incentive systems, and the relationship between code structure and human organisation.
+
+◆ **charity.wtf** — Charity Majors. Known for "The Engineer/Manager Pendulum." Writes with rare candour about being a technical founder and the tension between depth and management.
+
+◆ **larahogan.me** — Lara Hogan. Practical management frameworks, especially for new managers building their first leadership layer.
+
+◆ **kellanem.com** — Kellan Elliott-McCrea, former CTO of Etsy through IPO. Infrequent but invaluable posts on engineering culture and scaling through critical growth phases.
+
+◆ **amazingcto.com** — Stephan Schmidt. Weekly newsletter focused on CTO-specific challenges. Pragmatic and directly relevant.
+
+'''''
+
+_Thirty-five books, eight online resources. You do not need to read them all. Start with the essentials for your current stage, keep the rest on the shelf, and reach for them when the situation demands. The books will not change. Your questions will._
