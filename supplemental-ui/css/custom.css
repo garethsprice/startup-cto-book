@@ -43,6 +43,7 @@ body { background: #fff; color: #1a1a1a; }
 .nav-menu h3.title { display: none; }
 .nav-panel-menu:not(.is-active)::after { background: rgba(0, 0, 0, .5); }
 .nav-panel-explore { display: none; }
+.nav-panel-menu { height: 100%; }
 
 /* Toolbar */
 .toolbar { background-color: #F6F7F9; color: #52596B; box-shadow: 0 1px 0 #D8DAE0; }
