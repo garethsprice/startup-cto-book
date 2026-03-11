@@ -1,3 +1,4 @@
+:page-description: Most startup CTOs are the product function until they hire one. How to work with product management — or be it — at each stage of company growth.
 :page-haiku: You are the product. / Until you find who is next / then become their bridge.
 = Chapter 8: Working with Product (or Being Product)
 

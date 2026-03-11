@@ -1,3 +1,4 @@
+:page-description: Burnout, isolation, and mental health in the CTO role. The parts no one talks about publicly — and practical strategies for surviving them.
 :page-haiku: The bridge stands alone. / Build your shelter before the / storm you cannot share.
 = Chapter 15: The Loneliest Job in the Startup
 

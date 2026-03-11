@@ -1,3 +1,4 @@
+:page-description: How this book was constructed in a single extended session with Claude — and why AI-assisted writing changes the economics without changing the authority structure.
 :page-haiku: We're all small models. / Synthetic books, real knowledge — / outrun the giants.
 :page-toclevels: 0
 = Are Textbooks All I Need?

@@ -1,5 +1,6 @@
 site:
   title: Applied Alchemy
+  url: https://www.startupctobook.com
   start_page: ROOT::index.adoc
 
 content:

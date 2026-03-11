@@ -1,3 +1,4 @@
+:page-description: Technical debt is not a symptom of failure — it is a financing instrument. Learn when to borrow, how much the interest costs, and when repayment becomes urgent.
 :page-haiku: Small changes, often. / The cautious process creates / what it fears the most.
 = Chapter 5: Technical Debt as a Strategic Instrument
 

@@ -1,3 +1,5 @@
+:page-description: About Gareth Price — CTO at CorralData, former technologist at The New York Times and Codecademy, and the person this book is about.
+:page-schema: person
 :page-toclevels: 0
 = About the Author
 

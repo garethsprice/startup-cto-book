@@ -1,0 +1,133 @@
+{{! Meta description }}
+{{#if page.attributes.description}}
+<meta name="description" content="{{page.attributes.description}}">
+{{else}}
+<meta name="description" content="Applied Alchemy — The Startup CTO's Field Guide to Building Technology Companies from Nothing">
+{{/if}}
+
+{{! Open Graph }}
+<meta property="og:title" content="{{page.title}}">
+{{#if page.attributes.description}}
+<meta property="og:description" content="{{page.attributes.description}}">
+{{else}}
+<meta property="og:description" content="Applied Alchemy — The Startup CTO's Field Guide to Building Technology Companies from Nothing">
+{{/if}}
+{{#if site.url}}
+<meta property="og:url" content="{{site.url}}{{page.url}}">
+{{/if}}
+<meta property="og:site_name" content="Applied Alchemy">
+{{#if (eq page.attributes.schema 'book')}}
+<meta property="og:type" content="book">
+{{else if (eq page.attributes.schema 'person')}}
+<meta property="og:type" content="profile">
+{{else}}
+<meta property="og:type" content="article">
+{{/if}}
+
+{{! JSON-LD structured data }}
+{{#if (eq page.attributes.schema 'book')}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Book",
+      "name": "Applied Alchemy",
+      "alternateName": "The Startup CTO's Field Guide to Building Technology Companies from Nothing",
+      "author": {
+        "@type": "Person",
+        "name": "Gareth Price"
+      },
+      {{#if site.url}}
+      "url": "{{site.url}}/",
+      {{/if}}
+      "inLanguage": "en",
+      "genre": "Technology Leadership"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Applied Alchemy"{{#if site.url}},
+          "item": "{{site.url}}/"{{/if}}
+        }
+      ]
+    }
+  ]
+}
+</script>
+{{else if (eq page.attributes.schema 'person')}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Gareth Price",
+      "jobTitle": "CTO",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "CorralData"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Applied Alchemy"{{#if site.url}},
+          "item": "{{site.url}}/"{{/if}}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{page.title}}"{{#if site.url}},
+          "item": "{{site.url}}{{page.url}}"{{/if}}
+        }
+      ]
+    }
+  ]
+}
+</script>
+{{else}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "headline": "{{page.title}}",
+      "author": {
+        "@type": "Person",
+        "name": "Gareth Price"
+      },
+      "isPartOf": {
+        "@type": "Book",
+        "name": "Applied Alchemy"
+      }{{#if site.url}},
+      "url": "{{site.url}}{{page.url}}"{{/if}}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Applied Alchemy"{{#if site.url}},
+          "item": "{{site.url}}/"{{/if}}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{page.title}}"{{#if site.url}},
+          "item": "{{site.url}}{{page.url}}"{{/if}}
+        }
+      ]
+    }
+  ]
+}
+</script>
+{{/if}}

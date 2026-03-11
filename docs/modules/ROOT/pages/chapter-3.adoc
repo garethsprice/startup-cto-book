@@ -1,3 +1,4 @@
+:page-description: The CEO-CTO relationship is the most consequential dynamic in the startup. Its failure modes are more predictable than most CTOs realise.
 :page-haiku: Two founders, one bridge. / The hardest bugs to fix live / in the space between.
 = Chapter 3: The Relationship That Defines Everything
 

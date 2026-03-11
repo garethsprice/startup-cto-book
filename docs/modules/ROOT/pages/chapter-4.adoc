@@ -1,3 +1,4 @@
+:page-description: Stack selection, MVP architecture, and build-versus-buy are business decisions first. Choose boring technology and spend your innovation budget on the product.
 :page-haiku: Choose the boring stack. / Every technical choice is / a bet the firm makes.
 = Chapter 4: Your First Technical Decisions Are Business Decisions
 

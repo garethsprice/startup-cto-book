@@ -1,3 +1,4 @@
+:page-description: Salary, equity, dilution, and option benchmarks for startup CTOs from seed to Series C — the numbers you need when negotiating compensation.
 :page-haiku: Your share gets smaller. / The pie gets bigger each round. / That's how wealth is made.
 = Appendix C: CTO Compensation and Equity Benchmarks
 

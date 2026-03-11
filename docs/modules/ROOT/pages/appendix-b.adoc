@@ -1,3 +1,4 @@
+:page-description: What to measure, what to ignore, and what tools to use at each stage of the CTO role — from coder to strategist.
 :page-haiku: Count what you can change. / Ignore what you cannot act on. / The rest is theatre.
 = Appendix B: Stage-by-Stage Metrics Guide
 

@@ -1,3 +1,4 @@
+:page-description: How to distinguish rushing from speed, push back on unreasonable deadlines, and protect engineering quality when the business demands everything yesterday.
 :page-haiku: Pressure says go fast. / Wisdom draws a line and holds / what must not be rushed.
 = Chapter 7: When the Business Wants It Yesterday
 

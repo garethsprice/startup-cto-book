@@ -1,3 +1,4 @@
+:page-description: Daily, weekly, and quarterly rhythms that keep engineering organisations productive. How the best CTOs structure their time across every stage.
 :page-haiku: Steady rhythms built / scaffold the unstructured day — / loops that hold you up.
 = Chapter 14: The Operating Rhythm
 

@@ -1,3 +1,4 @@
+:page-description: 70% of CTOs are fired for communication failures, not technical ones. Close the business acumen gap before it closes your tenure.
 :page-haiku: They speak revenue. / You speak architecture. Learn / their tongue or lose yours.
 = Chapter 10: You’re Not Being Fired for Your Code
 

@@ -1,3 +1,4 @@
+:page-description: No standard training exists for the startup CTO role. This introduction maps the gap between what engineers prepare for and what the job demands.
 :page-haiku: Five days, five crises. / No one told you this was the / job you signed up for.
 = Introduction: The Role Nobody Prepared You For
 

@@ -1,3 +1,4 @@
+:page-description: Shipping velocity is competitive advantage. How Monzo deploys 100 times a day as a regulated bank — and why speed is learning, not recklessness.
 :page-haiku: Ship to learn. Ship fast. / Speed and quality are not / the trade-off you feared.
 = Chapter 6: Shipping Is the Strategy
 

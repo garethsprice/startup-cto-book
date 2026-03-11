@@ -1,3 +1,4 @@
+:page-description: Legacy is not code — it is the team you built and the culture you left behind. How to build something that outlasts your tenure as CTO.
 :page-haiku: The code will be gone. / What lasts is the team you built / and who they become.
 = Chapter 17: Building Something That Outlasts You
 

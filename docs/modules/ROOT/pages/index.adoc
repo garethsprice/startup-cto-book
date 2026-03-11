@@ -1,3 +1,5 @@
+:page-description: The startup CTO's field guide to building technology companies from nothing — from first commit to the day you step aside.
+:page-schema: book
 :page-haiku: From first commit to / the day you step aside — one / title, many jobs.
 :page-toclevels: 0
 = Applied Alchemy

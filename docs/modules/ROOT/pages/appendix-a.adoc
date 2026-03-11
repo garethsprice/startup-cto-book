@@ -1,3 +1,4 @@
+:page-description: A practical ninety-day checklist for founding and hired CTOs — the window in which trust is built or lost.
 :page-haiku: Ninety days to prove / you can listen before you / lead what you don't know.
 = Appendix A: The First Ninety Days — A CTO Checklist
 

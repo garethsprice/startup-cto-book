@@ -1,3 +1,4 @@
+:page-description: The transition from hands-on engineer to executive leader. When to stop writing code, how to let go, and what replaces the dopamine of shipping.
 :page-haiku: Hands leave the keyboard. / The hardest code to release / is who you once were.
 = Chapter 13: The Day You Stop Writing Code
 

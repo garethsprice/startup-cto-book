@@ -1,3 +1,4 @@
+:page-description: Prepare for technical due diligence — from Series A fundraising evaluations to acquisition deep-dives. Know your codebase before investors do.
 :page-haiku: They will read your code. / They will ask about your debt. / Know it before them.
 = Appendix D: Technical Due Diligence Preparation Guide
 

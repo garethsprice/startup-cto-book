@@ -1,3 +1,4 @@
+:page-description: Almost nobody who holds the startup CTO title was ready for it. Three paths — co-founder default, battlefield promotion, growth overtaking — and none involves preparation.
 :page-haiku: The best coder stays. / No one plans to lead, and yet / the title appears.
 = Chapter 2: CTO by Accident
 

@@ -1,3 +1,4 @@
+:page-description: AI is reshaping the CTO role in real time — team compression, vibe coding's promise and peril, and the new competencies every technical leader now needs.
 :page-haiku: Machines write the code. / They amplify what's there — strong / teams, or else the cracks.
 = Chapter 12: The AI Transformation
 

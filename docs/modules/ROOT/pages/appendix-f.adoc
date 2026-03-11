@@ -1,3 +1,4 @@
+:page-description: An opinionated reading list for startup CTOs organised by stage — the books to read now, not someday.
 :page-haiku: Thirty books, four stages. / Start with the one that matches / where you are right now.
 = Appendix F: Recommended Reading
 

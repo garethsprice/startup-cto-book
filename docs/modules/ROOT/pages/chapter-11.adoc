@@ -1,3 +1,4 @@
+:page-description: Hiring, culture, and team structure for startup CTOs. How to build an engineering organisation that scales — from your first hire to your first VP of Engineering.
 :page-haiku: Hire slow and trust deep. / Culture is not what you say — / it's who you become.
 = Chapter 11: Building the Team
 

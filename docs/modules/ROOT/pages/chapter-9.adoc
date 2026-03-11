@@ -1,3 +1,4 @@
+:page-description: Engineering metrics that drive decisions versus metrics that create theatre. What to measure at each stage — DORA, cycle time, and the metrics that actually matter.
 :page-haiku: Count what you value. / The dashboard will slowly shape / the thing that you build.
 = Chapter 9: Measuring What Matters (and Ignoring What Doesn’t)
 
