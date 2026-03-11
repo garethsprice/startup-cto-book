@@ -179,3 +179,11 @@
 }
 </script>
 {{/if}}
+{{! LLM-readable alternate formats }}
+{{#if site.url}}
+<link rel="alternate" type="text/plain" href="{{site.url}}/llms.txt" title="LLM-readable index">
+<link rel="alternate" type="text/plain" href="{{site.url}}/llms-full.txt" title="LLM-readable full content">
+{{#if page.attributes.md-url}}
+<link rel="alternate" type="text/markdown" href="{{page.attributes.md-url}}" title="Markdown version of this page">
+{{/if}}
+{{/if}}
