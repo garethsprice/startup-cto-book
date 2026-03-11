@@ -1,0 +1,251 @@
+:page-haiku: Steady rhythms hold / what scattered urgency drops. / Structure sets you free.
+= Appendix F: The Operating Rhythm -- Quick Reference
+
+This appendix is the tool. Chapter 14 provides the argument.
+
+Print this. Laminate it. Tape the daily page to your monitor and the quarterly page to your wall. If any cadence has not happened in its window, that is the thing to do next.
+
+Stage markers: **C** = Coder, **M** = Manager, **D** = Director, **S** = Strategist. The column "Hand off when" tells you when the activity shifts from _you do it_ to _you ensure it happens_. Activities marked **Never** stay with the CTO at every stage.
+
+
+== Daily
+
+Do these five things every working day. If they do not fit on an index card, the list is too long.
+
+[cols="1,4,1,3,4",options="header"]
+|===
+| # | Activity | Stages | Hand off when | You are neglecting this if...
+
+| 1
+| **Morning launch** (15 min). Before email or Slack: review calendar, circle the one meeting that matters, write down the one decision you are avoiding, write three outcomes for the day, set a timer for your first deep work block.
+| C M D S
+| Never. EA prepares briefing packet at ~15 engineers.
+| Your inbox sets your priorities. You cannot name today's most important decision.
+
+| 2
+| **One deep work block** (90 min). No Slack, no email. Architecture, strategy writing, or technical review. Use a physical transition cue: headphones on = block starts.
+| C M D S
+| Never -- but _what_ you work on shifts from code (C) to architecture (M) to strategy (D/S).
+| You have not done uninterrupted thinking in a week. All your "strategy" happens in the shower.
+
+| 3
+| **CEO check-in** (10--15 min). Alignment on top priority, blockers, customer/investor signals. Not a status update -- an alignment check.
+| C M
+| Goes weekly once VPE owns execution (~Series B).
+| You learn about a strategic shift from an investor, not from your co-founder.
+
+| 4
+| **Triage and capture**. Every input into a system -- task list, calendar, or delegation. Nothing stays in working memory.
+| C M D S
+| EA handles first-pass triage at ~15 engineers.
+| You forget commitments weekly. The team stops trusting your follow-through.
+
+| 5
+| **Shutdown ritual** (15 min, same time daily). Scan all task lists. Check next 3 days on calendar. Write tomorrow's 3 outcomes. Note one thing that went well. Say termination phrase aloud. Close laptop.
+| C M D S
+| Never.
+| Work anxiety follows you home. You check logs at 2 a.m. You cannot sleep because something feels unfinished.
+
+|===
+
+
+== Weekly
+
+These are the activities that make the CTO's job visible. Block them as recurring calendar events. Cancelling one is understandable. A pattern of cancellation is a warning sign.
+
+[cols="1,4,1,3,4",options="header"]
+|===
+| # | Activity | Stages | Hand off when | You are neglecting this if...
+
+| 1
+| **1:1s with every direct report** (30--60 min each).
+| M D S
+| VPE takes most at ~15--20 engineers. Keep VPE + 1--2 senior tech leaders.
+| Trust erodes. You only hear about fires, never smouldering issues.
+
+| 2
+| **Technical spec or architecture review**. Anchored on written documents, not presentations.
+| C M D S
+| Staff/principal engineer leads at Series B. CTO attends selectively for one-way-door decisions.
+| You have not looked at code or architecture in three weeks.
+
+| 3
+| **Incident review**. Cancellable on quiet weeks. Blameless postmortem format.
+| C M D
+| VPE or SRE lead owns at Series B.
+| Same incidents recur. Postmortems become blame sessions or stop entirely.
+
+| 4
+| **Engineering leadership team meeting**. Your direct reports as a team, not a collection of individuals.
+| M D S
+| VPE runs the meeting at Series B. CTO attends as participant.
+| Teams work in silos. Your directs do not think of each other as peers.
+
+| 5
+| **Recruiting pipeline review**. Active roles, candidate quality, pipeline health.
+| C M D S
+| Recruiting lead or VPE at Series A. CTO joins for senior/staff+ roles only.
+| Open roles age past 60 days. You are surprised by candidate quality in final rounds.
+
+| 6
+| **Write the 5-15 update**. 15 min to write, 5 min to read. Up to CEO/board, out to peers.
+| M D S
+| VPE writes operational section. CTO writes strategy section.
+| You become invisible between board meetings. Peers do not know what engineering is doing.
+
+| 7
+| **Friday weekly review** (20 min). Score the week against intentions. Set next week's top 3 priorities. Process loose notes and paper.
+| C M D S
+| EA prepares review packet. You do the scoring and priority-setting.
+| Weeks blur together. Same priorities roll over for months without progress.
+
+|===
+
+
+== Monthly
+
+These are the activities that prevent drift. Set recurring calendar blocks on the first week of each month. If a monthly task has not happened by the 10th, treat it as today's top priority.
+
+[cols="1,4,1,3,4",options="header"]
+|===
+| # | Activity | Stages | Hand off when | You are neglecting this if...
+
+| 1
+| **Technical debt review**. Name the top 3 debt items. Quantify in business language. Allocate sprint capacity.
+| M D S
+| Engineering managers propose items. CTO/VPE prioritises. Staff engineer leads at Series B.
+| Debt grows into every corner. Features that should take two days take a week.
+
+| 2
+| **Team health check**. Attrition risk, engagement signals, workload distribution.
+| M D S
+| VPE owns at Series B. CTO reviews summary and acts on escalations.
+| Three resignations before you notice the pattern.
+
+| 3
+| **Skip-level conversations**. Budget 1--2 hours/week (Larson) or biweekly sessions (Hogan).
+| D S
+| Directors own at Series C. CTO does quarterly skip-levels with high-potentials.
+| You are hearing a curated version of reality.
+
+| 4
+| **Budget and resource review**. Actual versus plan on headcount, cloud spend, tooling costs.
+| M D S
+| Finance partner prepares. VPE co-owns at Series B.
+| Budget surprises at board meeting.
+
+| 5
+| **Advisory conversation**. Monthly meeting with an experienced mentor, peer CTO, or coach.
+| C M D S
+| Never. This is peer accountability -- the CTO's body double.
+| You lose the ability to tell when you are in crisis versus just feeling overwhelmed.
+
+| 6
+| **Engineering all-hands or demo day**. CTO delivers the strategic message and takes live questions.
+| M D S
+| VPE runs logistics. CTO owns the message.
+| The team loses connection to why the work matters.
+
+|===
+
+
+== Quarterly
+
+Quarterly tasks require a pattern interrupt. Schedule a half-day offsite in a different physical environment. The novelty creates the transition signal that shifts you from operational to strategic mode.
+
+[cols="1,4,1,3,4",options="header"]
+|===
+| # | Activity | Stages | Hand off when | You are neglecting this if...
+
+| 1
+| **OKR or goal review and reset**. Score, retire, carry over, set new. Aligned to company goals.
+| M D S
+| VPE co-authors engineering OKRs. CTO owns cross-functional tech OKRs.
+| Same OKRs roll over for two quarters without progress.
+
+| 2
+| **Architecture review**. Does the architecture support next quarter's roadmap? Where are the scaling bottlenecks?
+| M D S
+| Staff/principal engineers prepare assessment. CTO makes trade-off calls.
+| Architecture decisions pile up in a queue nobody is processing.
+
+| 3
+| **Technology strategy refresh**. Update rolling roadmap: next 6 months locked, next 6 tentative, final 6 vision.
+| D S
+| CTO always owns. VPE and staff engineers contribute.
+| Teams are stuck in reactive cycles, lurching from crisis to crisis.
+
+| 4
+| **Board preparation**. Begin 2 weeks before the meeting. Build deck, rehearse narrative, prepare for questions.
+| D S
+| VPE provides operational metrics. Finance provides numbers. CTO owns the narrative.
+| The CEO starts presenting the engineering story without you.
+
+| 5
+| **Cross-functional alignment check**. Are product, design, and engineering in sync on priorities?
+| M D S
+| Product and design leads co-own. CTO escalates misalignment.
+| Roadmap is unrealistic. Tension between departments compounds.
+
+| 6
+| **Personal energy audit**. Track energy levels hourly for one week. Adjust next quarter's schedule to match your biology.
+| C M D S
+| Never.
+| Your deep work blocks are at 2 p.m. but your cognitive peak is at 10 a.m.
+
+|===
+
+
+== Annually
+
+Block a two-day offsite for annual planning. Different physical space. Body double present (co-founder, advisor, or coach). Day one: assessment and data. Day two: decisions and planning. End with specific Q1 actions, not abstract annual goals.
+
+[cols="1,4,1,3,4",options="header"]
+|===
+| # | Activity | Stages | Hand off when | You are neglecting this if...
+
+| 1
+| **Organisational assessment**. Delivery metrics, technical health, org structure, team dynamics, people development (Reinhard's five dimensions).
+| D S
+| VPE prepares data. CTO interprets and makes structural decisions.
+| The company has outgrown you and you have not noticed.
+
+| 2
+| **Technology roadmap refresh**. Major platform decisions, build/buy/partner, technology bets for 12--18 months.
+| D S
+| Staff+ engineers prepare recommendations. CTO decides. Never fully delegate.
+| Competitors are shipping what you are still debating.
+
+| 3
+| **Budget negotiation**. Headcount plan, infrastructure costs, tooling, tech debt allocation for next fiscal year.
+| D S
+| Finance prepares models. VPE co-authors headcount plan. CTO negotiates with CEO/board.
+| Engineering is chronically under-resourced and you have not made the case.
+
+| 4
+| **Career development and succession**. Two conversations: one about your team (who is growing, stalled, or a flight risk) and one about yourself (your development plan, coach, sabbatical).
+| M D S
+| VPE runs most career conversations at Series B+. CTO keeps directs and high-potentials.
+| Top talent leaves and you are surprised. You are the single point of failure.
+
+|===
+
+
+== What Never Leaves the CTO
+
+Regardless of stage, regardless of team size, these activities justify the role's existence. Delegate them and you are a title without a function.
+
+The CEO relationship and alignment. The technology vision and long-term strategy. The board-level technical narrative. The advisory conversations and peer accountability. Senior executive hiring decisions. Engineering culture and values. The daily shutdown ritual. The personal energy audit.
+
+
+== The Two Rituals
+
+**Morning launch** (15 minutes, before email):
+Open notebook -> review calendar -> circle one meeting that matters -> write down the decision you are avoiding -> write 3 outcomes -> set timer -> headphones on -> begin.
+
+**Evening shutdown** (15 minutes, same time daily):
+Scan all task lists -> check next 3 days -> write tomorrow's 3 outcomes -> note one thing that went well -> say "shutdown complete" aloud -> close laptop.
+
+'''''
+
+_The chapter provides the argument. This page provides the tool. The rhythm accumulates as you scale -- activities are added at each stage, rarely removed. Start with the daily and weekly rhythms. Add monthly when you have direct reports. Add quarterly and annual when the company reaches Series A. If any cadence has not happened in its window, that is the thing to do next._

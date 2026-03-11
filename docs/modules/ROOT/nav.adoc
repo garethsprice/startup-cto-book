@@ -23,9 +23,10 @@
 
 .Part IV: Surviving and Evolving
 * xref:chapter-13.adoc[From Maker to Multiplier]
-* xref:chapter-14.adoc[Burnout and Isolation]
-* xref:chapter-15.adoc[Knowing When to Step Aside]
-* xref:chapter-16.adoc[Building Something That Outlasts You]
+* xref:chapter-14.adoc[The Operating Rhythm]
+* xref:chapter-15.adoc[Burnout and Isolation]
+* xref:chapter-16.adoc[Knowing When to Step Aside]
+* xref:chapter-17.adoc[Building Something That Outlasts You]
 
 .Appendices
 * xref:appendix-a.adoc[The First Ninety Days]
@@ -33,3 +34,4 @@
 * xref:appendix-c.adoc[Compensation and Equity Benchmarks]
 * xref:appendix-d.adoc[Technical Due Diligence Preparation Guide]
 * xref:appendix-e.adoc[Recommended Reading]
+* xref:appendix-f.adoc[The Operating Rhythm — Quick Reference]
