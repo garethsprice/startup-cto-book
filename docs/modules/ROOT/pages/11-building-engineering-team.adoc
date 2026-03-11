@@ -1,3 +1,4 @@
+:page-aliases: chapter-11.adoc
 :page-description: Hiring, culture, and team structure for startup CTOs. How to build an engineering organisation that scales — from your first hire to your first VP of Engineering.
 :page-llms-description: Building the engineering team — hiring, culture, Conway's Law, generative culture, team structure, and the journey from first hire to VP of Engineering.
 :page-haiku: Hire slow and trust deep. / Culture is not what you say — / it's who you become.
@@ -150,7 +151,7 @@ AUTHOR: CorralData’s culture — what are the explicit norms? How do you handl
 
 == Building for the AI Era
 
-xref:chapter-12.adoc[Chapter 12] examines the AI transformation in full. Here, the concern is specific: AI is changing what the CTO should hire for.
+xref:12-ai-transformation.adoc[Chapter 12] examines the AI transformation in full. Here, the concern is specific: AI is changing what the CTO should hire for.
 
 Garry Tan, CEO of Y Combinator, reported in early 2025 that for roughly a quarter of the current YC batch, 95% of code was written by AI. Companies are reaching $10 million in revenue with teams of fewer than 10 people.footnote:[Novet, J. (2025, March 15). Y Combinator startups are fastest growing, most profitable in fund history because of AI. _CNBC_. https://www.cnbc.com/2025/03/15/y-combinator-startups-are-fastest-growing-in-fund-history-because-of-ai.html] Revelio Labs data, reported by CNBC, shows that median headcounts at similar-stage startups have dropped 17.5% — from 57 to 47 employees — while median funding per employee has roughly doubled.footnote:[CNBC / Revelio Labs. (2025, October 16). The AI effect? These tech startups employ 17.5% fewer workers than 5 years ago — despite raising 50% more money. https://www.cnbc.com/2025/10/16/tech-startups-hiring-fewer-workers-raising-more-money-as-ai-grows-revelio-labs-data.html] The Leonis AI 100, benchmarking the most important AI startups of 2025, found that 86% of founders across the top 100 AI companies are technical — compared to 59% in the previous generation of unicorns.footnote:[Xiao, J., Zhao, J., & Wu, L. (2025, November 5). The Leonis AI 100: Benchmarking the most important AI startups of 2025. _Leonis Capital_. https://www.leoniscap.com/research/the-leonis-ai-100]
 
@@ -303,7 +304,7 @@ AUTHOR: How you handle the pay-performance link at CorralData. Are they combined
 
 The team the CTO builds is the most consequential decision they make. More than the stack, the architecture, or the deployment pipeline — all of which can be changed — the first ten hires define the culture, the communication patterns, and the system architecture for the next hundred. Conway’s Law ensures that the team structure is the system structure. The VPE hire determines whether the CTO can sustain the role as the company scales. The culture — designed or defaulted — determines whether the team ships with trust or with fear. The hiring discipline — slow in, fast out, honest always — determines whether the team stays strong as it grows. The onboarding — structured enough to orient, lightweight enough to not suffocate — determines whether great hires become great contributors. And the review system — even a lightweight one — determines whether the people the CTO hired know where they stand, where they are going, and whether anyone is paying attention to the difference.
 
-Elliott-McCrea’s formulation is the test: can the CTO hand the work off to people they trust, and will those people run the thing without them and make it better than the CTO could have imagined? If the answer is yes, the CTO has built a team. If the answer is no, the CTO has built a dependency — and xref:chapter-15.adoc[Chapter 15]’s burnout chapter is the inevitable consequence.
+Elliott-McCrea’s formulation is the test: can the CTO hand the work off to people they trust, and will those people run the thing without them and make it better than the CTO could have imagined? If the answer is yes, the CTO has built a team. If the answer is no, the CTO has built a dependency — and xref:15-cto-burnout-isolation.adoc[Chapter 15]’s burnout chapter is the inevitable consequence.
 
 [discrete]
 == Frequently Asked Questions

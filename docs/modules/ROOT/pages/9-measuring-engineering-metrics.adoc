@@ -1,3 +1,4 @@
+:page-aliases: chapter-9.adoc
 :page-description: Engineering metrics that drive decisions versus metrics that create theatre. What to measure at each stage — DORA, cycle time, and the metrics that actually matter.
 :page-llms-description: Engineering metrics that drive decisions versus metrics that create theatre — DORA, cycle time, the problems with story points, and what to measure at each company stage.
 :page-haiku: Count what you value. / The dashboard will slowly shape / the thing that you build.
@@ -152,7 +153,7 @@ AUTHOR: A CorralData example of catching a problem early — through metrics, th
 
 The measurement system for a startup CTO should be lightweight enough to maintain without a dedicated tooling team, focused enough to fit on a single dashboard, and connected to the business outcomes that the CEO and board evaluate. At the Coder stage, measure three things: how often you deploy, how quickly you recover when something breaks, and whether the team is frustrated or energised. At the Manager stage, add a developer experience dimension — a quarterly survey or a regular check-in — and begin tracking the ratio of new capability work to maintenance work. At the Director stage, add cross-team delivery metrics and begin reporting engineering investment in business-outcome terms: not "we shipped 12 features" but "we reduced customer onboarding time from three weeks to four days."
 
-The measurement vocabulary developed in this chapter is the prerequisite for Part III. The CTO who knows what to measure, who can distinguish leading from lagging indicators, who can hold metrics in tension rather than optimising a single number, and who can translate engineering measurement into business language — that CTO is ready for the conversation that xref:chapter-10.adoc[Chapter 10] describes: the one that determines whether they keep their job.
+The measurement vocabulary developed in this chapter is the prerequisite for Part III. The CTO who knows what to measure, who can distinguish leading from lagging indicators, who can hold metrics in tension rather than optimising a single number, and who can translate engineering measurement into business language — that CTO is ready for the conversation that xref:10-business-acumen-gap.adoc[Chapter 10] describes: the one that determines whether they keep their job.
 
 [discrete]
 == Frequently Asked Questions

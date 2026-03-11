@@ -1,3 +1,4 @@
+:page-aliases: appendix-e.adoc
 :page-description: Quick-reference tables for daily, weekly, monthly, and quarterly operating rhythms — the practical companion to Chapter 14.
 :page-llms-description: Quick-reference tables for daily, weekly, monthly, and quarterly CTO operating rhythms with stage markers and delegation triggers.
 :page-haiku: Steady rhythms hold / what scattered urgency drops. / Structure sets you free.
@@ -7,7 +8,7 @@
 :page-date-modified: 2026-03-11
 = Appendix E: The Operating Rhythm -- Quick Reference
 
-This appendix is the tool. xref:chapter-14.adoc[Chapter 14] provides the argument.
+This appendix is the tool. xref:14-operating-rhythm.adoc[Chapter 14] provides the argument.
 
 Print this. Laminate it. Tape the daily page to your monitor and the quarterly page to your wall. If any cadence has not happened in its window, that is the thing to do next.
 

@@ -1,3 +1,4 @@
+:page-aliases: chapter-1.adoc
 :page-description: The startup CTO role is four different jobs in four years — coder, manager, director, strategist. Each stage demands skills the previous one never taught.
 :page-llms-description: The four stages of the startup CTO role — Coder, Manager, Director, Strategist — each demanding skills the previous stage never taught, with failure modes and transition guidance.
 :page-haiku: Four jobs, one title. / Each asks you to surrender / what made you succeed.
@@ -149,7 +150,7 @@ The mechanism is worth naming precisely, because it explains why smart, capable 
 
 Each transition, in other words, requires the CTO to stop doing the thing they are best at and start doing something they have never done. The identity cost is real. The competence cost is real. And the only way to learn the new skills is to practise them before they feel natural — which means performing visibly worse at the new job than you were at the old one, for a period measured in months, while the company continues to grow and the board continues to evaluate.
 
-xref:chapter-10.adoc[Chapter 10] of this book examines the business acumen gap — the communication failures that Chalmers documented — in full. For now, the point is narrower. The stages are predictable. The transitions are predictable. The failure modes at each transition are predictable. What is not predictable is whether any given CTO will see the transition in time.
+xref:10-business-acumen-gap.adoc[Chapter 10] of this book examines the business acumen gap — the communication failures that Chalmers documented — in full. For now, the point is narrower. The stages are predictable. The transitions are predictable. The failure modes at each transition are predictable. What is not predictable is whether any given CTO will see the transition in time.
 
 == Finding Yourself on the Map
 

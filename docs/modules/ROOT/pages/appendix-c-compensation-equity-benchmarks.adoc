@@ -1,3 +1,4 @@
+:page-aliases: appendix-c.adoc
 :page-description: Salary, equity, dilution, and option benchmarks for startup CTOs from seed to Series C — the numbers you need when negotiating compensation.
 :page-llms-description: CTO compensation and equity benchmarks from seed to Series C — salary ranges, equity percentages, dilution patterns, and option grant data from Kruze, Carta, and Index Ventures.
 :page-haiku: Your share gets smaller. / The pie gets bigger each round. / That's how wealth is made.
@@ -7,7 +8,7 @@
 :page-date-modified: 2026-03-11
 = Appendix C: CTO Compensation and Equity Benchmarks
 
-This appendix is reference material for xref:chapter-13.adoc[Chapter 13]. It presents the salary, equity, dilution, and option data that xref:chapter-13.adoc[Chapter 13] discusses narratively, organised as tables the CTO can consult when negotiating compensation at any stage from seed to Series C.
+This appendix is reference material for xref:13-maker-to-multiplier.adoc[Chapter 13]. It presents the salary, equity, dilution, and option data that xref:13-maker-to-multiplier.adoc[Chapter 13] discusses narratively, organised as tables the CTO can consult when negotiating compensation at any stage from seed to Series C.
 
 All equity percentages are expressed as fully diluted equity (FDE) unless otherwise noted. Compensation data is US-focused from 2024–2025 unless stated. The primary data sources are Kruze Consulting (anonymised payroll data from 250–450+ venture-backed startups), Carta (cap table records from 53,000+ startups), and Index Ventures (20,000+ option grants across 1,650+ startups). These represent real transaction and payroll data, not self-reported surveys. For self-reported comparison data, Glassdoor and ZipRecruiter are included but should be treated as directional rather than precise.
 
@@ -148,7 +149,7 @@ _Sources: Carta refresh grant data 2022–2024; Pave October 2024 analysis._foot
 
 The 2.5× gap between CEO and CTO refresh grants (Pave data) is worth noting.footnote:pave[] Over a four-year vesting period, the CEO's larger refreshes partially offset the CTO's higher initial cash compensation. The CTO who does not negotiate refresh grants at each funding round is allowing their equity to dilute without replenishment.
 
-**Double-trigger acceleration** means the CTO's unvested equity accelerates only if two conditions are met: a change of control (acquisition) _and_ termination or material role change within a defined period (typically 12 months). This is the standard for founders. **Single-trigger** — acceleration on change of control alone, regardless of whether the CTO stays — is rare in the US but more common in Europe. The CTO entering acquisition discussions without acceleration protection faces the retention trap described in xref:chapter-16.adoc[Chapter 16]: the acquirer's power increases the moment the deal closes, and the CTO's unvested equity becomes a retention tool for the acquirer rather than compensation for the CTO.
+**Double-trigger acceleration** means the CTO's unvested equity accelerates only if two conditions are met: a change of control (acquisition) _and_ termination or material role change within a defined period (typically 12 months). This is the standard for founders. **Single-trigger** — acceleration on change of control alone, regardless of whether the CTO stays — is rare in the US but more common in Europe. The CTO entering acquisition discussions without acceleration protection faces the retention trap described in xref:16-knowing-when-to-step-aside.adoc[Chapter 16]: the acquirer's power increases the moment the deal closes, and the CTO's unvested equity becomes a retention tool for the acquirer rather than compensation for the CTO.
 
 
 == The Dilution Waterfall
@@ -216,7 +217,7 @@ This table models a co-founder CTO who receives 10% at founding, assuming no ref
 | $13.9M (at $300M)
 |===
 
-The founding CTO drops below double-digit ownership at the seed round. By Series B, they hold roughly half their original percentage. The core paradox of startup equity: the percentage shrinks while the dollar value grows — _if_ the company succeeds. As xref:chapter-13.adoc[Chapter 13] notes, 60% of venture-backed companies return less than the original investment (Cambridge Associates, 1990–2010).
+The founding CTO drops below double-digit ownership at the seed round. By Series B, they hold roughly half their original percentage. The core paradox of startup equity: the percentage shrinks while the dollar value grows — _if_ the company succeeds. As xref:13-maker-to-multiplier.adoc[Chapter 13] notes, 60% of venture-backed companies return less than the original investment (Cambridge Associates, 1990–2010).
 
 Anti-dilution provisions are not standard for common stockholders. Investors receive weighted-average anti-dilution protection in their preferred stock terms, but founders and employees hold common stock without such protections. The CTO's practical defences against dilution are refresh grants tied to funding events and, for co-founders, pro-rata investment rights in future rounds.
 
@@ -260,7 +261,7 @@ _Source: Cooley GO._footnote:cooley[Cooley GO. ISOs v. NSOs: What's the differen
 
 The 83(b) election applies to restricted stock and early-exercised options. It allows the recipient to pay tax on the current fair market value at the time of grant rather than the (presumably higher) value at vesting. For a founding CTO receiving stock when the company is worth nearly nothing, filing the 83(b) means paying tax on pennies rather than dollars — and starting the clock on long-term capital gains treatment and the Section 1202 QSBS exclusion.
 
-The deadline is absolute: **30 calendar days from the grant or purchase date**. There are no extensions. File via certified mail to the IRS, send a copy to the employer, and retain a copy. If the company fails or the shares are forfeited, taxes paid are not refunded. Stripe Atlas's warning, cited in xref:chapter-13.adoc[Chapter 13]: failing to file the 83(b) "has bankrupted very smart, honest taxpayers."footnote:stripe[Stripe Atlas. Equity for startups. https://stripe.com/guides/atlas/equity — "Filing an 83(b) election has bankrupted very smart, honest taxpayers whose only mistakes were working for a company that got valuable and neglecting to send in a one-page piece of paper by a deadline." See also the Holloway Guide to Equity Compensation.]
+The deadline is absolute: **30 calendar days from the grant or purchase date**. There are no extensions. File via certified mail to the IRS, send a copy to the employer, and retain a copy. If the company fails or the shares are forfeited, taxes paid are not refunded. Stripe Atlas's warning, cited in xref:13-maker-to-multiplier.adoc[Chapter 13]: failing to file the 83(b) "has bankrupted very smart, honest taxpayers."footnote:stripe[Stripe Atlas. Equity for startups. https://stripe.com/guides/atlas/equity — "Filing an 83(b) election has bankrupted very smart, honest taxpayers whose only mistakes were working for a company that got valuable and neglecting to send in a one-page piece of paper by a deadline." See also the Holloway Guide to Equity Compensation.]
 
 === 409A Valuation and Exercise Timing
 
@@ -308,13 +309,13 @@ _Source: Carta; Holloway Guide to Equity Compensation._footnote:carta-ptep[Carta
 
 == The Implied Equity Investment
 
-xref:chapter-13.adoc[Chapter 13] describes the founding CTO's below-market salary as an implicit cash investment in the company. The calculation is straightforward:
+xref:13-maker-to-multiplier.adoc[Chapter 13] describes the founding CTO's below-market salary as an implicit cash investment in the company. The calculation is straightforward:
 
 _(Market-rate salary − Actual salary) × Years = Implied equity investment_
 
 A CTO taking $140,000 when their market rate is $250,000 is making an implied investment of $110,000 per year, or $440,000 over four years of vesting. That investment is bet on equity that has a better-than-even chance of returning nothing. Varun Srinivasan, a former Coinbase engineer, published an expected-value model for equity that quantifies this: the probability-weighted value of a startup equity grant depends almost entirely on the probability of an outsized outcome. A slight increase in the strong-exit scenario adds far more value than the same increase in the moderate-exit scenario.footnote:srinivasan[Srinivasan, V. (2022, May 23). A better model for valuing startup equity. _varunsrinivasan.com_. https://www.varunsrinivasan.com/2022/05/23/a-better-model-for-valuing-startup-equity — Expected-value model with public Google Sheets calculator.]
 
-The CTO should perform this calculation annually and present it to the board when renegotiating compensation — not as a grievance but as a business case, using the language from xref:chapter-10.adoc[Chapter 10]: "I am making an annual investment of $X in this company through below-market compensation. Here is what I need the equity to be worth for that investment to be rational."
+The CTO should perform this calculation annually and present it to the board when renegotiating compensation — not as a grievance but as a business case, using the language from xref:10-business-acumen-gap.adoc[Chapter 10]: "I am making an annual investment of $X in this company through below-market compensation. Here is what I need the equity to be worth for that investment to be rational."
 
 
 == Where to Find Current Data
@@ -325,4 +326,4 @@ Kruze Consulting publishes annual CTO and CEO salary reports based on payroll da
 
 '''''
 
-_This appendix provides the numbers. xref:chapter-13.adoc[Chapter 13] provides the argument for why the CTO must understand them — and the emotional reality of what happens when they do not._
+_This appendix provides the numbers. xref:13-maker-to-multiplier.adoc[Chapter 13] provides the argument for why the CTO must understand them — and the emotional reality of what happens when they do not._

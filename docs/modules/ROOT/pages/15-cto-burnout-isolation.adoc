@@ -1,3 +1,4 @@
+:page-aliases: chapter-15.adoc
 :page-description: Burnout, isolation, and mental health in the CTO role. The parts no one talks about publicly — and practical strategies for surviving them.
 :page-llms-description: Burnout, isolation, and mental health in the CTO role — prevalence, warning signs, structural causes, and practical strategies for long-term sustainability.
 :page-haiku: The bridge stands alone. / Build your shelter before the / storm you cannot share.
@@ -158,7 +159,7 @@ The loneliest job in the startup is not lonely because the CTO lacks people arou
 
 The CTO who survives this role builds the infrastructure that the role does not provide: a peer group who understands the weight, a coach who helps them carry it, and the financial literacy to ensure that the sacrifice has a price they have consciously chosen to pay. The alternative — the CTO who carries the weight alone, who does not understand their compensation, who does not seek help until the burnout is undeniable — is the CTO who ends up like Lawrence: unable to write a line of code, unable to ask for help, and wondering how it came to this.
 
-xref:chapter-16.adoc[Chapter 16] addresses the question that follows: when the CTO has done everything this chapter recommends and still decides it is time to leave — how to make that transition a strength rather than a failure.
+xref:16-knowing-when-to-step-aside.adoc[Chapter 16] addresses the question that follows: when the CTO has done everything this chapter recommends and still decides it is time to leave — how to make that transition a strength rather than a failure.
 
 [discrete]
 == Frequently Asked Questions

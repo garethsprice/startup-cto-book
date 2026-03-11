@@ -1,3 +1,4 @@
+:page-aliases: appendix-f.adoc
 :page-description: An opinionated reading list for startup CTOs organised by stage — the books to read now, not someday.
 :page-llms-description: Opinionated reading list for startup CTOs organised by the four stages — essential, recommended, and situational books for each phase of the CTO journey.
 :page-haiku: Thirty books, four stages. / Start with the one that matches / where you are right now.
@@ -7,7 +8,7 @@
 :page-date-modified: 2026-03-11
 = Appendix F: Recommended Reading
 
-This is not a bibliography. The endnotes serve that purpose. This is an opinionated list of what to read and when to read it, organised by the four stages from xref:chapter-1.adoc[Chapter 1]. Every entry passes a single test: would I hand this book to a CTO at this stage and say _read this now_?
+This is not a bibliography. The endnotes serve that purpose. This is an opinionated list of what to read and when to read it, organised by the four stages from xref:1-four-stages-cto-evolution.adoc[Chapter 1]. Every entry passes a single test: would I hand this book to a CTO at this stage and say _read this now_?
 
 Entries marked ★ are essential. Entries marked ◆ are recommended for the stage. Entries marked ○ are situational — reach for them when you face the specific problem they address.
 
@@ -75,7 +76,7 @@ You are managing managers. Your job shifts from building software to building th
 
 ★ Matthew Skelton & Manuel Pais — _Team Topologies_ (IT Revolution, 2nd Edition, 2025). Four team types, three interaction modes — a shared vocabulary for organisational design that works. When your org chart becomes your architecture, this book tells you how to make that work for you.
 
-★ Nicole Forsgren, Jez Humble & Gene Kim — _Accelerate_ (IT Revolution, 2018). The research behind DORA metrics. When your board asks "how do we know engineering is performing well?", this book gives you the evidence-based answer. Read the caveats in xref:chapter-9.adoc[Chapter 9] before applying the benchmarks.
+★ Nicole Forsgren, Jez Humble & Gene Kim — _Accelerate_ (IT Revolution, 2018). The research behind DORA metrics. When your board asks "how do we know engineering is performing well?", this book gives you the evidence-based answer. Read the caveats in xref:9-measuring-engineering-metrics.adoc[Chapter 9] before applying the benchmarks.
 
 ◆ Gene Kim et al. — _The DevOps Handbook_ (IT Revolution, 2nd Edition, 2021). The practical companion to _The Phoenix Project_ and _Accelerate_ — how to implement technical practices across flow, feedback, and continuous learning.
 

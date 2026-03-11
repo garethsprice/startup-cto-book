@@ -1,0 +1,137 @@
+:page-aliases: appendix-a.adoc
+:page-description: A practical ninety-day checklist for founding and hired CTOs — the window in which trust is built or lost.
+:page-llms-description: A ninety-day checklist for founding and hired CTOs — phased actions for days 1-30 (listen), 31-60 (diagnose), and 61-90 (act), synthesising the book's frameworks.
+:page-haiku: Ninety days to prove / you can listen before you / lead what you don't know.
+:description: A practical ninety-day checklist for founding and hired CTOs — the window in which trust is built or lost.
+:keywords: CTO checklist, first ninety days, onboarding, founding CTO, hired CTO
+:page-date-published: 2026-03-10
+:page-date-modified: 2026-03-11
+= Appendix A: The First Ninety Days — A CTO Checklist
+
+This appendix synthesises the book's frameworks into a single reference. It is designed for two readers: the founding CTO who has just started a company or received the title at a very early startup, and the CTO who has been hired into an existing organisation. Both face the same ninety-day window in which trust is built or lost, but the starting conditions differ.
+
+Will Larson, who has been CTO or head of engineering at five companies, frames the objective: "Your goal as a senior leader is to make _durable_ improvements, which results not from making changes but making the _right_ changes."footnote:larson90[Larson, W. (2020, January 13). Your first 90 days as CTO or VP Engineering. _Irrational Exuberance_ (lethain.com). https://lethain.com/first-ninety-days-cto-vpe/ — Also published as a chapter in Larson, W. (2023). _The Engineering Executive's Primer_. O'Reilly Media.] Lara Hogan, former VP of Engineering at Kickstarter, provides the constraint: "No matter how well-intentioned you are, enacting change within your first 30 days could jeopardise your trust and standing."footnote:hogan30[Hogan, L. (2023, January 9). How to spend your first 30 days in a new senior-level role. _larahogan.me_. https://larahogan.me/blog/first-30-days-new-role/] The checklist that follows respects both principles.
+
+Before you begin, identify your situation. Michael Watkins's STARS framework distinguishes five contexts — Startup (building from zero), Turnaround (stabilising a crisis), Accelerated Growth (scaling fast), Realignment (correcting drift), and Sustaining Success (defending quality).footnote:watkins[Watkins, M. D. (2013). _The First 90 Days: Proven Strategies for Getting Up to Speed Faster and Smarter_ (Updated and Expanded). Harvard Business Review Press. See also: Watkins, M. D. (2009, January). Picking the right transition strategy. _Harvard Business Review_. https://hbr.org/2009/01/picking-the-right-transition-strategy] Each demands a different first move. The founding CTO is almost always in Startup. The hired-in CTO may be entering any of the five.
+
+
+== Before Day 1
+
+**Both scenarios.** Ask the CEO to write their explicit expectations for you — Larson's experience is that the answers may be "very broad, along the lines of 'go figure out how to be useful,'" but the act of asking surfaces assumptions that would otherwise remain hidden until they cause conflict.footnote:larson90[] Identify which stage you are entering — Coder, Manager, Director, or Strategist (xref:1-four-stages-cto-evolution.adoc[Chapter 1]). Begin Watkins's five conversations with the CEO: situational diagnosis, expectations, working style, resources, and personal development (xref:3-ceo-cto-relationship.adoc[Chapter 3]).footnote:watkins[]
+
+**Founding CTO only.** Determine which CTO archetype you will grow into. Calvin French-Owen identifies four: the people leader who owns the engineering organisation, the architect who designs the next generation of systems, the R&D visionary who pushes toward the next product opportunity, and the customer-facing technologist who synthesises market feedback into technical direction.footnote:frenchowen[French-Owen, C. (2022, January 12). From founder to CTO. _calv.info_. https://calv.info/founder-cto] You will not be all four. Knowing which one you are building toward shapes every decision in the first ninety days. Accept French-Owen's foundational advice: "Think of yourself as a founder first, and CTO second."footnote:frenchowen[] Your technical decisions are business decisions (xref:4-technical-decisions-business-decisions.adoc[Chapter 4]).
+
+**Hired-in CTO only.** Watkins's metaphor applies: "Joining a new company is akin to an organ transplant — and you're the new organ."footnote:watkins[] The organisation's immune system will test you. Ask the CEO to connect you with ten people outside engineering whose perspectives you need — sales, customer success, finance, the longest-tenured employee — before your first day.
+
+
+== Phase 1: Days 1–30 — Listen
+
+The guiding principle for the first thirty days is Hogan's "sponge mode": absorb information, build trust, change nothing.footnote:hogan30[] The only exception Hogan permits: "Someone's health or safety is threatened."
+
+=== Relationships
+
+Conduct a listening tour. Meet every engineer individually if the organisation has fewer than thirty people. Use structured questions — not to extract answers but to surface patterns. Hogan's two questions are the minimum: "When you think about the team as a whole, what change do you want to see?" and "What's working so well that we shouldn't change?"footnote:hogan30[] Close every conversation with: "Is there anything I should know that I haven't asked about?" Ruchit Suthar, who has published the most detailed CTO onboarding playbook, notes that this closing question "surfaces the hidden issues — the toxic person everyone's afraid to name, the technical time bomb."footnote:suthar[Suthar, R. (2025, November 14). Your first 90 days as CTO: A practical playbook for startup and scaleup leaders. _ruchitsuthar.com_. https://ruchitsuthar.com/blog/technical-leadership/first-90-days-new-cto-playbook/]
+
+Meet every cross-functional peer: the head of sales, the head of product (if there is one), the head of customer success, the head of finance. Ask them the same two Hogan questions, adapted to their domain. Ask what they need from engineering that they are not getting. Ask what engineering does well that they want to preserve.
+
+Set up recurring one-to-ones with your direct reports. If you are a founding CTO with no direct reports yet, set up a weekly one-to-one with the CEO — the communication rhythm described in xref:3-ceo-cto-relationship.adoc[Chapter 3].
+
+Shadow a customer meeting or a user testing session. Shadow a support ticket queue. Larson's principle: "Customers are always a reality reservoir."footnote:larson90[]
+
+=== Technical Assessment
+
+Build a trivial change and deploy it to production.footnote:larson90[] This is Larson's single most CTO-specific recommendation. The act of building, reviewing, testing, and deploying teaches you more about the team's workflow, tooling, and friction points than any architecture diagram. It also signals to the team that you are willing to get your hands dirty.
+
+Add yourself as a secondary on-call target. Attend an incident review. Read the last six months of postmortems (xref:5-technical-debt.adoc[Chapter 5], xref:6-shipping-software.adoc[Chapter 6]).
+
+Apply the three-question debt audit from xref:5-technical-debt.adoc[Chapter 5]: Where is the team spending unplanned time? What would break if the company grew tenfold? What parts of the system can nobody on the current team explain?
+
+Baseline the metrics that matter at your stage. At a seed-stage company with fewer than ten engineers, xref:9-measuring-engineering-metrics.adoc[Chapter 9] recommends three things: how often you deploy, how quickly you recover when something breaks, and whether the team is frustrated or energised. You do not need a formal DORA dashboard — Lena Reinhard's guidance for teams of this size is that "anything more would probably add too much overhead and slow teams down."footnote:reinhard[Reinhard, L. (2019, July 2). Engineering metrics. _lena.fyi_. https://lena.fyi/engineering-metrics/ — Reinhard was VP of Engineering at CircleCI and Travis CI. The full passage: "At this stage, anything more would probably add too much overhead and slow teams down." Cited in Chapter 9 for stage-appropriate measurement.] At a larger company, baseline the four DORA metrics: deployment frequency, lead time for changes, change failure rate, and time to recover from a failed deployment (xref:6-shipping-software.adoc[Chapter 6], xref:9-measuring-engineering-metrics.adoc[Chapter 9]). You do not need a dashboard yet. You need a number you can compare against in ninety days.
+
+If you are joining a healthcare or regulated company, audit the compliance posture: SOC 2 status, HIPAA controls, encryption at rest and in transit, access logging, tenant data isolation (xref:4-technical-decisions-business-decisions.adoc[Chapter 4]).
+
+Record the technology history. Larson's warning: "Most bad decisions today were great decisions within a context that no longer exists."footnote:larson90[] Understand why things are the way they are before forming opinions about how they should change.
+
+=== Business Understanding
+
+Answer three questions from xref:10-business-acumen-gap.adoc[Chapter 10]: Where does the money come from? Where does it go? How much is in the bank? If you do not know the company's runway, burn rate, and revenue trajectory, you cannot make informed technical decisions.
+
+Understand the product roadmap and how engineering capacity maps to it (xref:8-working-with-product.adoc[Chapter 8]). Identify the gap between what the business expects engineering to deliver this quarter and what the team believes is possible.
+
+=== Self and Support
+
+Begin building the external support infrastructure described in xref:13-maker-to-multiplier.adoc[Chapter 13] — before you need it. Identify two or three CTOs at a similar stage and set up a regular conversation. Consider engaging an executive coach. Define your non-negotiables list (xref:7-rushing-vs-speed.adoc[Chapter 7]): the engineering practices you will not compromise regardless of business pressure.
+
+=== End of Day 30
+
+Share back what you heard. Present one or two overarching themes to the team — not solutions, not changes, just a demonstration that you listened. Make people feel heard. Recognise the work the team has already done. Do not announce changes yet.
+
+
+== Phase 2: Days 31–60 — Assess and Experiment
+
+The guiding principle for the second month is Hogan's experiment framework: "Narrow all of your ideas down to two possible changes and develop a time-boxed, measurable experiment for each."footnote:hogan60[Hogan, L. (2023, January 23). 30–60 days in a new leadership role: run experiments for change. _larahogan.me_. https://larahogan.me/blog/first-60-days-new-role/]
+
+=== Strategy
+
+Draft a one-page engineering strategy. Larson's three-tier framework from xref:4-technical-decisions-business-decisions.adoc[Chapter 4] applies: what are the design principles that guide decisions (strategy), and where should the technology and organisation be in two years (vision)? The document does not need to be polished. It needs to be specific enough that when an engineer proposes a new technology, both of you can point to it and ask: does this move us closer or further away?
+
+Document the existing technology strategy — Larson notes that "surprisingly few companies have a written technology strategy."footnote:larson90[] If there is no written strategy, the strategy is whatever the team has been doing by default. Make the implicit explicit.
+
+Apply the technology evaluation framework from xref:4-technical-decisions-business-decisions.adoc[Chapter 4]: how many innovation tokens has the company already spent? Which technology choices are one-way doors and which are two-way doors?
+
+=== Organisation
+
+Assess the hiring pipeline: shadow interviews, review the onboarding process, sit in on a closing call (xref:11-building-engineering-team.adoc[Chapter 11]). Identify the three most critical missing roles — Larson's constraint: "If every hire is a priority, nothing is a priority."footnote:larson90[]
+
+Evaluate the team structure against Conway's Law (xref:11-building-engineering-team.adoc[Chapter 11]): does the organisational structure match the system architecture, or is it fighting it?
+
+If you are joining as a hired-in CTO, assess whether the team's processes work and scale (xref:6-shipping-software.adoc[Chapter 6]). If you are a founding CTO, decide which lightweight processes to introduce — the minimum viable process that enables shipping without creating bureaucracy.
+
+=== Experiments
+
+Design exactly two experiments based on the themes from your listening tour. Each experiment should have a two-to-three-week timeline, clear success metrics, and a defined reporting plan.
+
+Deliver one visible quick win. Good quick wins for a CTO: fix the noisiest on-call alerts, speed up the slowest part of the test suite, improve the staging environment, eliminate a meeting that everyone dreads, get approval for a hire the team has been requesting.footnote:suthar[] Bad quick wins: announcing a reorganisation, mandating a new technology, or promising aggressive roadmap acceleration. The quick win serves two purposes: it shows you listened, and it shows you can execute.
+
+Build a kitchen cabinet — three to five senior engineers whose judgment you trust and whose influence shapes how the team thinks. These are the people who will tell you the truth when the rest of the team is being polite.footnote:suthar[]
+
+=== Relationships
+
+Complete Watkins's five conversations with the CEO if you have not already (xref:3-ceo-cto-relationship.adoc[Chapter 3]). Prepare your first board-ready communication — translating technical reality into business language (xref:10-business-acumen-gap.adoc[Chapter 10]). Meet key customers directly (xref:8-working-with-product.adoc[Chapter 8]). Build alliances with the leaders of sales, marketing, and finance — the people whose support you will need when engineering priorities conflict with their priorities.
+
+
+== Phase 3: Days 61–90 — Decide and Build
+
+The guiding principle for the third month is Pat Kua's transition: "At scale, you make less, and need to focus on multiplying more."footnote:kua[Kua, P. (2020, June 3). Maker vs multiplier. _patkua.com_. https://www.patkua.com/blog/maker-vs-multiplier/ — See also Kua, P. (2018, September 20). 6 lessons learned in my year as CTO at N26. _Medium (InsideN26)_. https://medium.com/insiden26/6-lessons-learned-in-my-year-as-cto-at-n26-83525cedfea0]
+
+=== Commit to Direction
+
+Gather the results of your experiments. Decide on one or two organisational or process changes — no more — and implement them with a full communication plan. Hogan's template for announcing change: state the what, who, when, and why; acknowledge concerns openly; state what you will continue to measure.footnote:hogan90[Hogan, L. (2023, February 13). How to announce organisational change in your first 90 days. _larahogan.me_. https://larahogan.me/blog/org-change-90-days-new-role/]
+
+Present the engineering strategy to the leadership team. The strategy should include: the current state of the technology (honest assessment), the target state in twelve to twenty-four months, the three to five key investments that will get you there, and the risks you are choosing to accept.
+
+For the founding CTO, this is also the moment to decide whether the company needs a VP of Engineering — not to hire one immediately, but to begin planning for the point at which the CTO's time should shift from managing the team to owning the technical direction (xref:11-building-engineering-team.adoc[Chapter 11]).
+
+=== Build Systems
+
+Establish measurement systems appropriate to your stage. At seed, this means tracking deployment frequency as what Charity Majors calls "the heartbeat of your company"footnote:majors[Majors, C. (~2023). Interview with Charles Humble. _Hacking the Org Podcast_, Container Solutions. https://blog.container-solutions.com/charity-majors-on-code-rewrites-observability-and-team-performance — Majors is CTO and co-founder of Honeycomb. Cited in Chapter 6 and Chapter 9.] — a single signal that correlates with all four DORA metrics without the overhead of a formal dashboard (xref:6-shipping-software.adoc[Chapter 6], xref:9-measuring-engineering-metrics.adoc[Chapter 9]). At Series A and beyond, build a lightweight dashboard that adds lead time, change failure rate, and recovery time, reviewed monthly at minimum. At every stage, pair the system metrics with a developer experience signal — even if that signal is nothing more than a monthly conversation asking whether engineers feel productive, frustrated, or blocked. Set up the communication infrastructure: a monthly engineering all-hands or Q&A, a weekly status update to the CEO, and an operational review meeting for the leadership team.footnote:larson90[]
+
+Plan organisational growth for the next twelve months. If the company is scaling, begin building the hiring pipeline now — the lead time from "we need someone" to "they are productive" is three to six months (xref:11-building-engineering-team.adoc[Chapter 11]).
+
+If you have not already, establish the performance review cadence described in xref:11-building-engineering-team.adoc[Chapter 11]: twice a year, supplemented by continuous feedback in one-to-ones.
+
+=== Shift from Maker to Multiplier
+
+Audit your calendar. If you are still writing production code daily at a company with more than five engineers, you are adding your own output rather than multiplying the team's. Kua's framework: "When you were an engineer, it's Maker mode that made you successful. No one told you that you need to shift to Multiplier mode."footnote:kua[] The transition does not mean you stop coding entirely — it means you stop coding in the critical path (xref:12-ai-transformation.adoc[Chapter 12]).
+
+Identify where your impact is greatest. Stop solving every hard problem yourself. Start building the team's ability to solve hard problems without you — the test from xref:11-building-engineering-team.adoc[Chapter 11]: can you hand the work off to people you trust, and will they run the thing without you and make it better than you could have imagined?
+
+=== End of Day 90
+
+You should have: a clear picture of the technical and organisational reality, earned trust from the team through listening and selective action, set a defensible direction with a written strategy, built the relationships with the CEO and leadership team to execute on that direction, and established the measurement systems that will tell you whether it is working.
+
+Larson's closing principle: "You have 3 to 5 good runs of this in your career. Get started, pace yourself, don't rush it."footnote:larson90[]
+
+'''''
+
+_This checklist synthesises material from every chapter of the book. For the full treatment of any item, follow the chapter references. For the emotional reality of the first ninety days — the imposter syndrome, the isolation, the weight of decisions you are not yet qualified to make — see xref:2-how-people-become-ctos.adoc[Chapter 2] (CTO by Accident) and xref:13-maker-to-multiplier.adoc[Chapter 13] (The Loneliest Job in the Startup). The checklist gives you the actions. The chapters give you the context to perform them without burning out._

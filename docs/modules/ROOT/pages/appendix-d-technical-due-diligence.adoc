@@ -1,3 +1,4 @@
+:page-aliases: appendix-d.adoc
 :page-description: Prepare for technical due diligence — from Series A fundraising evaluations to acquisition deep-dives. Know your codebase before investors do.
 :page-llms-description: Technical due diligence preparation — what evaluators look for during fundraising and acquisition, with checklists for architecture, security, team, and process readiness.
 :page-haiku: They will read your code. / They will ask about your debt. / Know it before them.
@@ -7,7 +8,7 @@
 :page-date-modified: 2026-03-11
 = Appendix D: Technical Due Diligence Preparation Guide
 
-This appendix is a practical companion to xref:chapter-16.adoc[Chapter 16]'s narrative on acquisition. It covers two scenarios: the lighter-weight technical evaluation that accompanies a fundraising round (Series A onward), and the intensive due diligence that precedes an acquisition. The CTO who prepares for the first will find the second less overwhelming when it arrives.
+This appendix is a practical companion to xref:16-knowing-when-to-step-aside.adoc[Chapter 16]'s narrative on acquisition. It covers two scenarios: the lighter-weight technical evaluation that accompanies a fundraising round (Series A onward), and the intensive due diligence that precedes an acquisition. The CTO who prepares for the first will find the second less overwhelming when it arrives.
 
 Daniel Doubrovkine, who has conducted due diligence for both VC firms and acquirers, reduces the evaluator's objective to a single sentence: "Technology must be evaluated at par with financial discipline before giving a company money."footnote:doubrovkine[Doubrovkine, D. (2017, October 29). How to do startup technical due diligence. _code.dblock.org_. https://code.dblock.org/2017/10/29/how-to-do-startup-technical-due-diligence.html — Doubrovkine was CTO at Artsy; now Director of Engineering at Shopify.] The CTO who internalises this — that the evaluator is not auditing code but assessing whether the technology is a sound investment — will approach due diligence with the right frame.
 
@@ -55,11 +56,11 @@ The documents below should exist before due diligence begins — not because the
 
 === Architecture and Code
 
-Current architecture diagram showing major components, data flows, and integration points. Technology stack inventory with versions. Data schema documentation with PII and PHI fields marked (xref:chapter-4.adoc[Chapter 4]). API documentation — OpenAPI or Swagger for external APIs. Technical roadmap covering the next six to eighteen months. Technical debt inventory with estimated remediation effort — framed as xref:chapter-5.adoc[Chapter 5]'s three categories: debt you chose, debt you inherited, and debt you did not know you had.
+Current architecture diagram showing major components, data flows, and integration points. Technology stack inventory with versions. Data schema documentation with PII and PHI fields marked (xref:4-technical-decisions-business-decisions.adoc[Chapter 4]). API documentation — OpenAPI or Swagger for external APIs. Technical roadmap covering the next six to eighteen months. Technical debt inventory with estimated remediation effort — framed as xref:5-technical-debt.adoc[Chapter 5]'s three categories: debt you chose, debt you inherited, and debt you did not know you had.
 
 === Metrics and Performance
 
-Code coverage reports for critical paths. Malikkides provided approximately 95% coverage as a headline metric.footnote:malikkides[] Bug trend graphs by severity for the past six months. P95 and P99 API latency from production monitoring (Malikkides used Datadog). Deployment frequency and lead time — the DORA metrics from xref:chapter-9.adoc[Chapter 9]. Uptime history for the past three years. Incident log with root cause analysis and mitigations for every significant outage.
+Code coverage reports for critical paths. Malikkides provided approximately 95% coverage as a headline metric.footnote:malikkides[] Bug trend graphs by severity for the past six months. P95 and P99 API latency from production monitoring (Malikkides used Datadog). Deployment frequency and lead time — the DORA metrics from xref:9-measuring-engineering-metrics.adoc[Chapter 9]. Uptime history for the past three years. Incident log with root cause analysis and mitigations for every significant outage.
 
 === Infrastructure
 
@@ -108,7 +109,7 @@ PwC documented two case studies that illustrate the consequences: an e-commerce 
 
 The CTO's mindset matters as much as the documentation. Pettersson's advice: "'I don't know, but let me come back to you with the answer' is always a better answer than trying to bullshit your way through an answer."footnote:pettersson[] Romefort reinforces this: "Auditors are generally former CTOs themselves. They understand the struggles of building a company and communicating your challenges is a sign of humility and transparency which is often appreciated."footnote:romefort[]
 
-On presenting technical debt, frame it as xref:chapter-5.adoc[Chapter 5] teaches: a known, quantified obligation with a remediation plan and a cost estimate. The evaluator expects debt. What concerns them is debt the CTO does not know about or cannot quantify.
+On presenting technical debt, frame it as xref:5-technical-debt.adoc[Chapter 5] teaches: a known, quantified obligation with a remediation plan and a cost estimate. The evaluator expects debt. What concerns them is debt the CTO does not know about or cannot quantify.
 
 On preparing the engineering team, Pettersson is direct: "Don't 'protect' technical people from a due diligence. It's usually very transparent when tech people are being 'hidden' from a potential investor and can be a red flag."footnote:pettersson[] Brief the team on what to expect. Identify the domain experts for each area of the system. Align on the key decisions and why they were made — not to script answers, but to ensure the team can articulate the reasoning behind the architecture.
 
@@ -123,4 +124,4 @@ The practical minimum for a CTO who is not actively pursuing a transaction: main
 
 '''''
 
-_This appendix provides the preparation checklist. xref:chapter-16.adoc[Chapter 16] provides the narrative of what due diligence feels like from the inside — the stress, the identity questions, and the decisions that follow. xref:chapter-4.adoc[Chapter 4] provides the security and compliance foundations that make due diligence survivable. xref:chapter-5.adoc[Chapter 5] provides the technical debt framework that gives the evaluator confidence you understand your own system._
+_This appendix provides the preparation checklist. xref:16-knowing-when-to-step-aside.adoc[Chapter 16] provides the narrative of what due diligence feels like from the inside — the stress, the identity questions, and the decisions that follow. xref:4-technical-decisions-business-decisions.adoc[Chapter 4] provides the security and compliance foundations that make due diligence survivable. xref:5-technical-debt.adoc[Chapter 5] provides the technical debt framework that gives the evaluator confidence you understand your own system._

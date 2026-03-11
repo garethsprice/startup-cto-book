@@ -4,34 +4,34 @@
 
 .Part I: The Map
 * xref:introduction.adoc[Introduction]
-* xref:chapter-1.adoc[The Four Stages]
-* xref:chapter-2.adoc[How People Become CTOs]
-* xref:chapter-3.adoc[The CEO-CTO Relationship]
+* xref:1-four-stages-cto-evolution.adoc[The Four Stages]
+* xref:2-how-people-become-ctos.adoc[How People Become CTOs]
+* xref:3-ceo-cto-relationship.adoc[The CEO-CTO Relationship]
 
 .Part II: Building and Shipping
-* xref:chapter-4.adoc[Technical Decisions as Business Decisions]
-* xref:chapter-5.adoc[Technical Debt]
-* xref:chapter-6.adoc[Shipping]
-* xref:chapter-7.adoc[Rushing vs Speed]
-* xref:chapter-8.adoc[Working with Product]
-* xref:chapter-9.adoc[Measuring What Matters]
+* xref:4-technical-decisions-business-decisions.adoc[Technical Decisions as Business Decisions]
+* xref:5-technical-debt.adoc[Technical Debt]
+* xref:6-shipping-software.adoc[Shipping]
+* xref:7-rushing-vs-speed.adoc[Rushing vs Speed]
+* xref:8-working-with-product.adoc[Working with Product]
+* xref:9-measuring-engineering-metrics.adoc[Measuring What Matters]
 
 .Part III: The Gap Nobody Talks About
-* xref:chapter-10.adoc[The Business Acumen Gap]
-* xref:chapter-11.adoc[Building the Team]
-* xref:chapter-12.adoc[AI Transformation]
+* xref:10-business-acumen-gap.adoc[The Business Acumen Gap]
+* xref:11-building-engineering-team.adoc[Building the Team]
+* xref:12-ai-transformation.adoc[AI Transformation]
 
 .Part IV: Surviving and Evolving
-* xref:chapter-13.adoc[From Maker to Multiplier]
-* xref:chapter-14.adoc[Operating Rhythm]
-* xref:chapter-15.adoc[Burnout and Isolation]
-* xref:chapter-16.adoc[Knowing When to Step Aside]
-* xref:chapter-17.adoc[Building Something That Outlasts You]
+* xref:13-maker-to-multiplier.adoc[From Maker to Multiplier]
+* xref:14-operating-rhythm.adoc[Operating Rhythm]
+* xref:15-cto-burnout-isolation.adoc[Burnout and Isolation]
+* xref:16-knowing-when-to-step-aside.adoc[Knowing When to Step Aside]
+* xref:17-building-lasting-legacy.adoc[Building Something That Outlasts You]
 
 .Appendices
-* xref:appendix-a.adoc[The First Ninety Days]
-* xref:appendix-b.adoc[Stage-by-Stage Metrics Guide]
-* xref:appendix-c.adoc[Compensation and Equity Benchmarks]
-* xref:appendix-d.adoc[Technical Due Diligence Preparation Guide]
-* xref:appendix-e.adoc[Operating Rhythm — Quick Reference]
-* xref:appendix-f.adoc[Recommended Reading]
+* xref:appendix-a-first-ninety-days.adoc[The First Ninety Days]
+* xref:appendix-b-stage-metrics-guide.adoc[Stage-by-Stage Metrics Guide]
+* xref:appendix-c-compensation-equity-benchmarks.adoc[Compensation and Equity Benchmarks]
+* xref:appendix-d-technical-due-diligence.adoc[Technical Due Diligence Preparation Guide]
+* xref:appendix-e-operating-rhythm-reference.adoc[Operating Rhythm — Quick Reference]
+* xref:appendix-f-recommended-reading.adoc[Recommended Reading]
