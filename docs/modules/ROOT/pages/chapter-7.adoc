@@ -1,4 +1,5 @@
 :page-description: How to distinguish rushing from speed, push back on unreasonable deadlines, and protect engineering quality when the business demands everything yesterday.
+:page-llms-description: Managing deadline pressure — how to distinguish rushing from speed, push back on unreasonable timelines, use error budgets, and maintain a non-negotiable quality list.
 :page-haiku: Pressure says go fast. / Wisdom draws a line and holds / what must not be rushed.
 :description: How to distinguish rushing from speed, push back on unreasonable deadlines, and protect engineering quality when the business demands everything yesterday.
 :keywords: engineering velocity, deadline pressure, error budgets, non-negotiable list, speed versus quality

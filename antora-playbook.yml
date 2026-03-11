@@ -32,6 +32,12 @@ site:
 
     Sitemap: https://www.startupctobook.com/sitemap.xml
 
+antora:
+  extensions:
+    - require: ./lib/llms-txt-generator
+      subtitle: "The Startup CTO's Field Guide to Building Technology Companies from Nothing"
+      description: "Applied Alchemy is a field guide for startup CTOs, mapping the transformation from coder to manager to director to strategist across 17 chapters covering technical decisions, team building, business communication, AI, burnout, and leadership transitions."
+
 content:
   sources:
     - url: .

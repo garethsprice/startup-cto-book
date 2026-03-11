@@ -1,4 +1,5 @@
 :page-description: CTO transitions are not failures — they are the natural arc of a role that transforms faster than any individual. How to step aside on your own terms.
+:page-llms-description: CTO transitions — when to step aside, the tour-of-duty framework, succession planning, and why planned departures are a leadership strength, not a failure.
 :page-haiku: Planned departures are / not endings. They are the last / gift the builder gives.
 :description: CTO transitions are not failures — they are the natural arc of a role that transforms faster than any individual. How to step aside on your own terms.
 :keywords: CTO transition, stepping aside, tour of duty, founder departure, leadership succession

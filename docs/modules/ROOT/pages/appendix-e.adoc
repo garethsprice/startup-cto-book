@@ -1,5 +1,10 @@
 :page-description: Quick-reference tables for daily, weekly, monthly, and quarterly operating rhythms — the practical companion to Chapter 14.
+:page-llms-description: Quick-reference tables for daily, weekly, monthly, and quarterly CTO operating rhythms with stage markers and delegation triggers.
 :page-haiku: Steady rhythms hold / what scattered urgency drops. / Structure sets you free.
+:description: Quick-reference tables for daily, weekly, monthly, and quarterly operating rhythms — the practical companion to Chapter 14.
+:keywords: operating rhythm, daily standup, weekly sync, quarterly planning, CTO schedule
+:page-date-published: 2026-03-11
+:page-date-modified: 2026-03-11
 = Appendix E: The Operating Rhythm -- Quick Reference
 
 This appendix is the tool. xref:chapter-14.adoc[Chapter 14] provides the argument.

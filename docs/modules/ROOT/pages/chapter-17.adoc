@@ -1,4 +1,5 @@
 :page-description: Legacy is not code — it is the team you built and the culture you left behind. How to build something that outlasts your tenure as CTO.
+:page-llms-description: Building a lasting legacy — why the most durable CTO contribution is people and culture, not code or architecture, and how to build an organisation that thrives without you.
 :page-haiku: The code will be gone. / What lasts is the team you built / and who they become.
 :description: Legacy is not code — it is the team you built and the culture you left behind. How to build something that outlasts your tenure as CTO.
 :keywords: CTO legacy, engineering culture, team building, knowledge transfer, building to last

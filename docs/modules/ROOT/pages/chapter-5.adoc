@@ -1,4 +1,5 @@
 :page-description: Technical debt is not a symptom of failure — it is a financing instrument. Learn when to borrow, how much the interest costs, and when repayment becomes urgent.
+:page-llms-description: Technical debt as a strategic financing instrument — when to borrow, how to measure interest, when to repay, and the new category of cognitive debt from AI-generated code.
 :page-haiku: Small changes, often. / The cautious process creates / what it fears the most.
 :description: Technical debt is not a symptom of failure — it is a financing instrument. Learn when to borrow, how much the interest costs, and when repayment becomes urgent.
 :keywords: technical debt, code quality, refactoring strategy, engineering time, cognitive debt

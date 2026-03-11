@@ -1,4 +1,5 @@
 :page-description: The startup CTO's field guide to building technology companies from nothing — from first commit to the day you step aside.
+:page-llms-description: Overview of Applied Alchemy, a field guide for startup CTOs covering the transformation from coder to manager to director to strategist, with 17 chapters on technical decisions, team building, communication, AI, burnout, and leadership transitions.
 :page-schema: book
 :page-haiku: From first commit to / the day you step aside — one / title, many jobs.
 :page-toclevels: 0

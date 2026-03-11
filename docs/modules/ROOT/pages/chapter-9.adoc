@@ -1,4 +1,5 @@
 :page-description: Engineering metrics that drive decisions versus metrics that create theatre. What to measure at each stage — DORA, cycle time, and the metrics that actually matter.
+:page-llms-description: Engineering metrics that drive decisions versus metrics that create theatre — DORA, cycle time, the problems with story points, and what to measure at each company stage.
 :page-haiku: Count what you value. / The dashboard will slowly shape / the thing that you build.
 :description: Engineering metrics that drive decisions versus metrics that create theatre. What to measure at each stage — DORA, cycle time, and the metrics that actually matter.
 :keywords: engineering metrics, DORA, story points, measurement culture, developer productivity

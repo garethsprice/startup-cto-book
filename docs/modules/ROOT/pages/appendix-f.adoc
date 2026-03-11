@@ -1,5 +1,10 @@
 :page-description: An opinionated reading list for startup CTOs organised by stage — the books to read now, not someday.
+:page-llms-description: Opinionated reading list for startup CTOs organised by the four stages — essential, recommended, and situational books for each phase of the CTO journey.
 :page-haiku: Thirty books, four stages. / Start with the one that matches / where you are right now.
+:description: An opinionated reading list for startup CTOs organised by stage — the books to read now, not someday.
+:keywords: CTO reading list, technology leadership books, engineering management books, recommended reading
+:page-date-published: 2026-03-11
+:page-date-modified: 2026-03-11
 = Appendix F: Recommended Reading
 
 This is not a bibliography. The endnotes serve that purpose. This is an opinionated list of what to read and when to read it, organised by the four stages from xref:chapter-1.adoc[Chapter 1]. Every entry passes a single test: would I hand this book to a CTO at this stage and say _read this now_?

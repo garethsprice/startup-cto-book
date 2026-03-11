@@ -1,5 +1,10 @@
 :page-description: Prepare for technical due diligence — from Series A fundraising evaluations to acquisition deep-dives. Know your codebase before investors do.
+:page-llms-description: Technical due diligence preparation — what evaluators look for during fundraising and acquisition, with checklists for architecture, security, team, and process readiness.
 :page-haiku: They will read your code. / They will ask about your debt. / Know it before them.
+:description: Prepare for technical due diligence — from Series A fundraising evaluations to acquisition deep-dives. Know your codebase before investors do.
+:keywords: technical due diligence, acquisition preparation, Series A, codebase audit, investor evaluation
+:page-date-published: 2026-03-10
+:page-date-modified: 2026-03-11
 = Appendix D: Technical Due Diligence Preparation Guide
 
 This appendix is a practical companion to xref:chapter-16.adoc[Chapter 16]'s narrative on acquisition. It covers two scenarios: the lighter-weight technical evaluation that accompanies a fundraising round (Series A onward), and the intensive due diligence that precedes an acquisition. The CTO who prepares for the first will find the second less overwhelming when it arrives.

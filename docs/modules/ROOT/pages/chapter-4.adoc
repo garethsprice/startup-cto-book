@@ -1,4 +1,5 @@
 :page-description: Stack selection, MVP architecture, and build-versus-buy are business decisions first. Choose boring technology and spend your innovation budget on the product.
+:page-llms-description: Early-stage technology decisions — stack selection, MVP architecture, build-versus-buy, and why choosing boring technology is a business strategy, not a technical compromise.
 :page-haiku: Choose the boring stack. / Every technical choice is / a bet the firm makes.
 :description: Stack selection, MVP architecture, and build-versus-buy are business decisions first. Choose boring technology and spend your innovation budget on the product.
 :keywords: technology stack selection, boring technology, build versus buy, MVP architecture, technical decisions

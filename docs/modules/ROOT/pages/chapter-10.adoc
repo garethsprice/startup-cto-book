@@ -1,4 +1,5 @@
 :page-description: 70% of CTOs are fired for communication failures, not technical ones. Close the business acumen gap before it closes your tenure.
+:page-llms-description: Why 70% of CTOs are fired for communication failures, not technical ones — closing the business acumen gap, board presentations, and translating technology into business language.
 :page-haiku: They speak revenue. / You speak architecture. Learn / their tongue or lose yours.
 :description: 70% of CTOs are fired for communication failures, not technical ones. Close the business acumen gap before it closes your tenure.
 :keywords: CTO communication, business acumen, board presentations, CTO failure modes, executive presence

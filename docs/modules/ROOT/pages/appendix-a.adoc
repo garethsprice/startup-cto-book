@@ -1,5 +1,10 @@
 :page-description: A practical ninety-day checklist for founding and hired CTOs — the window in which trust is built or lost.
+:page-llms-description: A ninety-day checklist for founding and hired CTOs — phased actions for days 1-30 (listen), 31-60 (diagnose), and 61-90 (act), synthesising the book's frameworks.
 :page-haiku: Ninety days to prove / you can listen before you / lead what you don't know.
+:description: A practical ninety-day checklist for founding and hired CTOs — the window in which trust is built or lost.
+:keywords: CTO checklist, first ninety days, onboarding, founding CTO, hired CTO
+:page-date-published: 2026-03-10
+:page-date-modified: 2026-03-11
 = Appendix A: The First Ninety Days — A CTO Checklist
 
 This appendix synthesises the book's frameworks into a single reference. It is designed for two readers: the founding CTO who has just started a company or received the title at a very early startup, and the CTO who has been hired into an existing organisation. Both face the same ninety-day window in which trust is built or lost, but the starting conditions differ.

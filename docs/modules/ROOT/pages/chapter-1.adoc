@@ -1,4 +1,5 @@
 :page-description: The startup CTO role is four different jobs in four years — coder, manager, director, strategist. Each stage demands skills the previous one never taught.
+:page-llms-description: The four stages of the startup CTO role — Coder, Manager, Director, Strategist — each demanding skills the previous stage never taught, with failure modes and transition guidance.
 :page-haiku: Four jobs, one title. / Each asks you to surrender / what made you succeed.
 :description: The startup CTO role is four different jobs in four years — coder, manager, director, strategist. Each stage demands skills the previous one never taught.
 :keywords: CTO stages, coder manager director strategist, CTO career path, engineering leadership, startup growth

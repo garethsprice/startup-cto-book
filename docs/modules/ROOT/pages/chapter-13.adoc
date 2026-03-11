@@ -1,4 +1,5 @@
 :page-description: The transition from hands-on engineer to executive leader. When to stop writing code, how to let go, and what replaces the dopamine of shipping.
+:page-llms-description: The transition from hands-on engineer to executive — when to stop writing production code, how to let go, and what replaces the dopamine of shipping.
 :page-haiku: Hands leave the keyboard. / The hardest code to release / is who you once were.
 :description: The transition from hands-on engineer to executive leader. When to stop writing code, how to let go, and what replaces the dopamine of shipping.
 :keywords: stop writing code, maker to multiplier, CTO technical skills, architect role, AI and CTO coding

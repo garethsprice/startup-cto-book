@@ -1,4 +1,5 @@
 :page-description: Most startup CTOs are the product function until they hire one. How to work with product management — or be it — at each stage of company growth.
+:page-llms-description: Working with product management or being the product function — the CTO-PM relationship at each stage, when to hire a PM, and the now-next-later roadmap framework.
 :page-haiku: You are the product. / Until you find who is next / then become their bridge.
 :description: Most startup CTOs are the product function until they hire one. How to work with product management — or be it — at each stage of company growth.
 :keywords: product management, CTO as product, product-engineering relationship, roadmaps, now next later

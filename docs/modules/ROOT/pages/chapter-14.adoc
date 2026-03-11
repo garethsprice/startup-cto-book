@@ -1,4 +1,5 @@
 :page-description: Daily, weekly, and quarterly rhythms that keep engineering organisations productive. How the best CTOs structure their time across every stage.
+:page-llms-description: Daily, weekly, and quarterly operating rhythms — how to structure CTO time, protect deep work, delegate effectively, and manage ADHD in the entrepreneurial context.
 :page-haiku: Steady rhythms built / scaffold the unstructured day — / loops that hold you up.
 :description: Daily, weekly, and quarterly rhythms that keep engineering organisations productive. How the best CTOs structure their time across every stage.
 :keywords: operating rhythm, CTO time management, ADHD entrepreneurship, shutdown ritual, delegation

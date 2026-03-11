@@ -1,5 +1,10 @@
 :page-description: What to measure, what to ignore, and what tools to use at each stage of the CTO role — from coder to strategist.
+:page-llms-description: Stage-by-stage metrics reference — what to measure, what to ignore, and what tools to use at Coder, Manager, Director, and Strategist stages, with benchmarks.
 :page-haiku: Count what you can change. / Ignore what you cannot act on. / The rest is theatre.
+:description: What to measure, what to ignore, and what tools to use at each stage of the CTO role — from coder to strategist.
+:keywords: engineering metrics, stage-by-stage metrics, measurement tools, CTO dashboard, KPIs
+:page-date-published: 2026-03-10
+:page-date-modified: 2026-03-11
 = Appendix B: Stage-by-Stage Metrics Guide
 
 This appendix is reference material for xref:chapter-9.adoc[Chapter 9]. It maps what to measure, what to ignore, and what tools to use at each stage of the CTO role described in xref:chapter-1.adoc[Chapter 1].

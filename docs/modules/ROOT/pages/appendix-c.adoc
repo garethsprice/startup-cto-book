@@ -1,5 +1,10 @@
 :page-description: Salary, equity, dilution, and option benchmarks for startup CTOs from seed to Series C — the numbers you need when negotiating compensation.
+:page-llms-description: CTO compensation and equity benchmarks from seed to Series C — salary ranges, equity percentages, dilution patterns, and option grant data from Kruze, Carta, and Index Ventures.
 :page-haiku: Your share gets smaller. / The pie gets bigger each round. / That's how wealth is made.
+:description: Salary, equity, dilution, and option benchmarks for startup CTOs from seed to Series C — the numbers you need when negotiating compensation.
+:keywords: CTO compensation, equity benchmarks, startup salary, option grants, dilution
+:page-date-published: 2026-03-10
+:page-date-modified: 2026-03-11
 = Appendix C: CTO Compensation and Equity Benchmarks
 
 This appendix is reference material for xref:chapter-13.adoc[Chapter 13]. It presents the salary, equity, dilution, and option data that xref:chapter-13.adoc[Chapter 13] discusses narratively, organised as tables the CTO can consult when negotiating compensation at any stage from seed to Series C.

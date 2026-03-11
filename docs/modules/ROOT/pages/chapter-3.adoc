@@ -1,4 +1,5 @@
 :page-description: The CEO-CTO relationship is the most consequential dynamic in the startup. Its failure modes are more predictable than most CTOs realise.
+:page-llms-description: The CEO-CTO relationship — structural tensions, decision rights, disagree-and-commit protocols, and communication frameworks that prevent the most common co-founder conflicts.
 :page-haiku: Two founders, one bridge. / The hardest bugs to fix live / in the space between.
 :description: The CEO-CTO relationship is the most consequential dynamic in the startup. Its failure modes are more predictable than most CTOs realise.
 :keywords: CEO-CTO relationship, co-founder conflict, disagree and commit, founder dynamics, startup leadership

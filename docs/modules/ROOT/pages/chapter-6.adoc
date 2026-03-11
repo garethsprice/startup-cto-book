@@ -1,4 +1,5 @@
 :page-description: Shipping velocity is competitive advantage. How Monzo deploys 100 times a day as a regulated bank — and why speed is learning, not recklessness.
+:page-llms-description: Shipping velocity as competitive advantage — DORA metrics, continuous deployment, why speed and quality reinforce each other, and how Monzo deploys 100+ times daily as a regulated bank.
 :page-haiku: Ship to learn. Ship fast. / Speed and quality are not / the trade-off you feared.
 :description: Shipping velocity is competitive advantage. How Monzo deploys 100 times a day as a regulated bank — and why speed is learning, not recklessness.
 :keywords: shipping velocity, continuous deployment, DORA metrics, deployment frequency, Monzo engineering
