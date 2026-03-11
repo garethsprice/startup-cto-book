@@ -1,0 +1,322 @@
+:page-haiku: Your share gets smaller. / The pie gets bigger each round. / That's how wealth is made.
+= Appendix C: CTO Compensation and Equity Benchmarks
+
+This appendix is reference material for Chapter 13. It presents the salary, equity, dilution, and option data that Chapter 13 discusses narratively, organised as tables the CTO can consult when negotiating compensation at any stage from seed to Series C.
+
+All equity percentages are expressed as fully diluted equity (FDE) unless otherwise noted. Compensation data is US-focused from 2024–2025 unless stated. The primary data sources are Kruze Consulting (anonymised payroll data from 250–450+ venture-backed startups), Carta (cap table records from 53,000+ startups), and Index Ventures (20,000+ option grants across 1,650+ startups). These represent real transaction and payroll data, not self-reported surveys. For self-reported comparison data, Glassdoor and ZipRecruiter are included but should be treated as directional rather than precise.
+
+
+== Cash Compensation by Stage
+
+The founding CTO earns less in cash than a hired CTO at every stage. The gap is not small: Kruze Consulting's 2024 data shows founding CTOs earning 53% less on average than their hired counterparts.footnote:kruze[Kruze Consulting. (2024). Startup CTO salary guide. https://kruzeconsulting.com/blog/startup-cto-salary/ — Based on anonymised payroll data from 250{plus} VC-backed startups.] The founding CTO accepts this discount on the understanding that equity will compensate the difference — an understanding that Chapter 13 argues should be examined with more scepticism than most CTOs bring to it.
+
+[cols="1,1,1,1", options="header"]
+|===
+| Stage | Founding CTO | Hired CTO | Gap
+
+| Seed
+| $133,000
+| $190,000
+| $57,000 (43%)
+
+| Series A
+| $177,000
+| $293,000
+| $116,000 (66%)
+
+| Series B
+| $200,000–$218,000
+| $245,000+
+| $35,000–$45,000
+
+| All stages (average)
+| $139,000
+| $213,000
+| $74,000 (53%)
+|===
+
+_Source: Kruze Consulting 2024 CTO Salary Report._
+
+A counterintuitive finding: at seed, the CTO earns slightly more in cash than the CEO. Kruze reports founding CEO salaries averaging $132,000 at seed — roughly $1,000–$2,000 less than the founding CTO.footnote:kruze-ceo[Kruze Consulting. (2025). What is the average startup CEO salary in 2025? https://kruzeconsulting.com/blog/startup-ceo-salary-report/ — 2025 CEO average jumped 14% to $161,000, driven by AI funding boom. See also: Blum, S. (2024, December). Chief technology and chief product officers earn more than CEOs at early-stage startups. _Inc._ https://www.inc.com/sam-blum/chief-technology-and-chief-product-officers-earn-more-than-ceos-at-early-stage-startups-heres-why.html] At Series A, the CTO premium widens to approximately $44,000. Healy Jones, VP of Financial Strategy at Kruze, attributes this to the opportunity cost of technical talent: senior engineers at major technology companies command $300,000–$500,000+ in total compensation, and the startup must close enough of that gap to retain technical co-founders.footnote:kruze[]
+
+For context, ZipRecruiter reports the national median CTO salary across all company sizes at $203,000 as of March 2026, with the 25th percentile at $146,000 and the 75th at $242,500.footnote:ziprecruiter[ZipRecruiter. (2026, March). Chief technology officer salary. https://www.ziprecruiter.com/Salaries/Chief-Technology-Officer-Salary — National data across all company sizes; not startup-specific.] These figures include established companies and will overstate startup norms. Use the Kruze data as the startup-specific benchmark.
+
+=== CTO versus Other Founding Executives at Seed
+
+[cols="1,1", options="header"]
+|===
+| Role | Average Salary (Seed)
+
+| CPO (Chief Product Officer)
+| $149,000
+
+| COO
+| $135,000
+
+| CTO
+| $134,000
+
+| CEO
+| $132,000
+|===
+
+_Source: Kruze Consulting Startup Compensation Guide, December 2024._footnote:kruze-comp[Kruze Consulting. (2024, December). A guide to startup compensation. https://kruzeconsulting.com/blog/startup-compensation-guide/ — Reported by TechCrunch: https://techcrunch.com/2024/12/25/132k-149k-heres-what-seed-stage-founders-pay-early-employees-based-on-data/] At seed, founding executive salaries cluster tightly. The CPO commands the highest cash compensation — a reflection of the same talent-market pressure that keeps CTO pay above CEO pay.
+
+
+== Equity by Entry Point and Stage
+
+The equity a CTO receives depends on whether they are a co-founder or a later hire, and on the stage at which they join. The ranges below represent the market; the CTO's negotiating position depends on their bargaining power, the company's alternatives, and the specifics of the offer.
+
+[cols="1,1,1,2", options="header"]
+|===
+| Entry Point | Typical Range | Median | Notes
+
+| Co-founder (2 founders)
+| 25%–50%
+| ~50%
+| YC recommends equal splits. Subject to vesting.
+
+| Co-founder (3 founders)
+| 15%–33%
+| ~20%–33%
+| Carta data: median 3-founder split is roughly 45/33/20.
+
+| First CTO hire (pre-seed)
+| 2%–5%
+| ~3%
+| Highest grant for hired CTOs.
+
+| CTO hire at Series A
+| 0.8%–2.0%
+| 1.0%
+| Index Ventures US benchmark. European benchmark: 0.7%.
+
+| CTO hire at Series B
+| 0.5%–1.5%
+| ~1.0%
+| Lower percentage but higher dollar value.
+
+| CTO hire at Series C+
+| 0.2%–0.8%
+| ~0.4%
+| Significant only at high valuations.
+|===
+
+_Sources: Index Ventures OptionPlan; Carta first-10-employees data (November 2024)._footnote:indexventures[Index Ventures. OptionPlan: Allocation considerations and benchmarks. https://www.indexventures.com/optionplan/ — Based on 20,000{plus} option grants across 1,650{plus} startups. See also Carta H2 2024 compensation data: https://carta.com/data/startup-compensation-h2-2024/] Veteran CTOs with prior exits command a 30%–50% premium over these benchmarks — grants of 2.3%–3.0% are reported at Series A for experienced hires.
+
+Index Ventures recommends option pools of 12.5%–15% at seed (larger than the traditional 10%), growing to approximately 16% by Series C and 20% at late stage.footnote:indexventures[] The CTO negotiating equity should know the size of the pool — a 1% grant from a 10% pool is a different signal from a 1% grant from a 20% pool.
+
+
+== Vesting, Acceleration, and Refresh Grants
+
+[cols="1,1,2", options="header"]
+|===
+| Feature | Standard | Variations
+
+| Vesting period
+| 4 years
+| Rarely varies for executives.
+
+| Cliff
+| 1 year (25% vests at month 12)
+| Some CTOs negotiate a 6-month cliff.
+
+| Post-cliff vesting
+| Monthly (2.083%/month)
+| Some companies vest quarterly.
+
+| Double-trigger acceleration
+| Standard for founders per YC/Clerky
+| CTO may or may not be included — negotiate this.
+
+| Single-trigger acceleration
+| Rare in US
+| ~33% of European startups offer all-employee single-trigger.
+
+| Refresh grants
+| 20% of employees receive at year 1; 50% by year 2
+| Founder CTO median refresh: 0.8%. Founder CEO: 2.0%.
+|===
+
+_Sources: Carta refresh grant data 2022–2024; Pave October 2024 analysis._footnote:pave[Pave. (2024, October). Founder CEO vs. founder CTO refresh grants — who gets more of the pie? https://www.pave.com/blog-posts/founder-ceo-vs-founder-cto-refresh-grants-who-gets-more-of-the-pie — Carta refresh grant data: https://carta.com/learn/equity/compensation/equity-refresh/]
+
+The 2.5× gap between CEO and CTO refresh grants (Pave data) is worth noting.footnote:pave[] Over a four-year vesting period, the CEO's larger refreshes partially offset the CTO's higher initial cash compensation. The CTO who does not negotiate refresh grants at each funding round is allowing their equity to dilute without replenishment.
+
+**Double-trigger acceleration** means the CTO's unvested equity accelerates only if two conditions are met: a change of control (acquisition) _and_ termination or material role change within a defined period (typically 12 months). This is the standard for founders. **Single-trigger** — acceleration on change of control alone, regardless of whether the CTO stays — is rare in the US but more common in Europe. The CTO entering acquisition discussions without acceleration protection faces the retention trap described in Chapter 15: the acquirer's power increases the moment the deal closes, and the CTO's unvested equity becomes a retention tool for the acquirer rather than compensation for the CTO.
+
+
+== The Dilution Waterfall
+
+Each funding round dilutes existing shareholders. Carta's Q1 2024 data from 1,200+ priced rounds provides the most authoritative per-round figures.footnote:carta-dilution[SaaStr (citing Carta). Carta: The actual, real dilution from Series A, B, C and D rounds. https://www.saastr.com/carta-the-actual-real-dilution-from-series-a-b-c-and-d-rounds/ — Based on 1,200{plus} priced rounds, Q1 2024.] A positive trend: dilution has been declining over the past five years.
+
+[cols="1,1,1", options="header"]
+|===
+| Round | Median Dilution (2024) | Median Dilution (2019)
+
+| Seed
+| 20.1%
+| 23.0%
+
+| Series A
+| 20.5%
+| 24.1%
+
+| Series B
+| 16.7%
+| 20.8%
+
+| Series C
+| ~10%–15% (estimated)
+| —
+
+| Series D
+| ~10% (estimated)
+| —
+|===
+
+_Source: Carta "Dilution is on the decline," Q1 2024._
+
+=== Worked Example: Founding CTO Starting at 10%
+
+This table models a co-founder CTO who receives 10% at founding, assuming no refresh grants and using Carta 2024 median dilution.
+
+[cols="1,1,1,1", options="header"]
+|===
+| Stage | Round Dilution | CTO Ownership | Dollar Value (Typical Valuation)
+
+| Founding
+| —
+| 10.00%
+| $100,000 (at $1M post-money)
+
+| Post-Seed
+| 20.1%
+| 7.99%
+| $640,000 (at $8M)
+
+| Post-Series A
+| 20.5%
+| 6.35%
+| $1.9M (at $30M)
+
+| Post-Series B
+| 16.7%
+| 5.29%
+| $5.3M (at $100M)
+
+| Post-Series C
+| ~12.5%
+| 4.63%
+| $13.9M (at $300M)
+|===
+
+The founding CTO drops below double-digit ownership at the seed round. By Series B, they hold roughly half their original percentage. The core paradox of startup equity: the percentage shrinks while the dollar value grows — _if_ the company succeeds. As Chapter 13 notes, 60% of venture-backed companies return less than the original investment (Cambridge Associates, 1990–2010).
+
+Anti-dilution provisions are not standard for common stockholders. Investors receive weighted-average anti-dilution protection in their preferred stock terms, but founders and employees hold common stock without such protections. The CTO's practical defences against dilution are refresh grants tied to funding events and, for co-founders, pro-rata investment rights in future rounds.
+
+
+== Option Mechanics Quick Reference
+
+=== ISOs versus NSOs
+
+[cols="1,1,1", options="header"]
+|===
+| Feature | ISOs (Incentive Stock Options) | NSOs (Non-Qualified Stock Options)
+
+| Eligible recipients
+| Employees only
+| Anyone (employees, contractors, advisors)
+
+| Tax at exercise
+| No ordinary income tax; spread included in AMT calculation
+| Spread taxed as ordinary income
+
+| Tax at sale (qualifying)
+| Entire gain taxed as long-term capital gains
+| Gain above FMV at exercise taxed as capital gains
+
+| Holding period for LTCG
+| ≥1 year from exercise AND ≥2 years from grant
+| ≥1 year from exercise
+
+| Annual limit
+| $100,000 FMV vesting per year; excess converts to NSOs
+| No limit
+
+| Post-termination window
+| Must exercise within 90 days to keep ISO treatment
+| Flexible; company sets window
+|===
+
+_Source: Cooley GO._footnote:cooley[Cooley GO. ISOs v. NSOs: What's the difference? https://www.cooleygo.com/isos-v-nsos-whats-the-difference/ — Cooley LLP is a leading startup and venture capital law firm.]
+
+=== The 83(b) Election
+
+The 83(b) election applies to restricted stock and early-exercised options. It allows the recipient to pay tax on the current fair market value at the time of grant rather than the (presumably higher) value at vesting. For a founding CTO receiving stock when the company is worth nearly nothing, filing the 83(b) means paying tax on pennies rather than dollars — and starting the clock on long-term capital gains treatment and the Section 1202 QSBS exclusion.
+
+The deadline is absolute: **30 calendar days from the grant or purchase date**. There are no extensions. File via certified mail to the IRS, send a copy to the employer, and retain a copy. If the company fails or the shares are forfeited, taxes paid are not refunded. Stripe Atlas's warning, cited in Chapter 13: failing to file the 83(b) "has bankrupted very smart, honest taxpayers."footnote:stripe[Stripe Atlas. Equity for startups. https://stripe.com/guides/atlas/equity — "Filing an 83(b) election has bankrupted very smart, honest taxpayers whose only mistakes were working for a company that got valuable and neglecting to send in a one-page piece of paper by a deadline." See also the Holloway Guide to Equity Compensation.]
+
+=== 409A Valuation and Exercise Timing
+
+The 409A valuation determines the fair market value of common stock for option pricing purposes. At early stages, the 409A is typically 20%–40% of the preferred stock price; the gap narrows as the company matures.footnote:scalar[Scalar. 409A common value as a percentage of preferred. https://scalar.io/insights/409a-common-value-as-a-percentage-of-preferred/ — Analysis of 400{plus} 409A engagements. Mean: 41%. Median: 39%. Range: 17%–89%.]
+
+[cols="1,1", options="header"]
+|===
+| Company Stage | Common Stock as % of Preferred Price
+
+| Pre-revenue / Seed
+| 20%–30%
+
+| Series A
+| 25%–40%
+
+| Series B+
+| 50%–70%
+|===
+
+_Source: Scalar analysis of 400+ 409A engagements._footnote:scalar[] Valuations are valid for 12 months or until a material event (new funding round, acquisition, major revenue change).
+
+When a CTO exercises ISOs, the spread between the exercise price (strike) and the current 409A value is included in the Alternative Minimum Tax calculation. The 2026 AMT exemption is $90,100 for single filers and $140,200 for joint filers.footnote:darrow[Darrow Wealth Management. (2026, January). ISO taxes: How AMT and AMT credits work. https://darrowwealthmanagement.com/blog/tax-isos-amt-credits/ — 2026 AMT exemption: $90,100 (single), $140,200 (joint). AMT rate: 26% (28% above $244,500 AMTI).] A single filer with $100,000 of regular income can exercise approximately $40,800 of ISO spread without triggering AMT. AMT paid on ISO exercises generates tax credits that carry forward indefinitely and can offset regular tax in future years — the CTO should work with a tax adviser to model exercise timing across multiple years rather than exercising all options at once.
+
+=== Post-Termination Exercise Windows
+
+[cols="1,2,1", options="header"]
+|===
+| Window Type | Description | Prevalence
+
+| 90 days (standard)
+| Must exercise within 90 days of departure; ISOs convert to NSOs after 90 days
+| Still the majority default
+
+| Tenure-matched
+| Exercise window equals years at company
+| Carta uses this model
+
+| Extended (7–10 years)
+| Full option term maintained post-departure, often requiring 2+ years tenure
+| Pinterest, Coinbase, Asana, Palantir, Block
+|===
+
+_Source: Carta; Holloway Guide to Equity Compensation._footnote:carta-ptep[Carta. Post-termination exercise period (PTEP) explained. https://carta.com/learn/equity/leaving-company/post-termination-exercise-period/ — Holloway Guide: https://www.holloway.com/g/equity-compensation/sections/how-options-expire] The 90-day default is a trap for CTOs who leave a company with appreciated but illiquid stock: they must come up with cash to exercise (and pay taxes on) options they cannot sell. The CTO negotiating an offer should ask about the post-termination window and, if it is 90 days, negotiate for an extended window as part of the package.
+
+
+== The Implied Equity Investment
+
+Chapter 13 describes the founding CTO's below-market salary as an implicit cash investment in the company. The calculation is straightforward:
+
+_(Market-rate salary − Actual salary) × Years = Implied equity investment_
+
+A CTO taking $140,000 when their market rate is $250,000 is making an implied investment of $110,000 per year, or $440,000 over four years of vesting. That investment is bet on equity that has a better-than-even chance of returning nothing. Varun Srinivasan, a former Coinbase engineer, published an expected-value model for equity that quantifies this: the probability-weighted value of a startup equity grant depends almost entirely on the probability of an outsized outcome. A slight increase in the strong-exit scenario adds far more value than the same increase in the moderate-exit scenario.footnote:srinivasan[Srinivasan, V. (2022, May 23). A better model for valuing startup equity. _varunsrinivasan.com_. https://www.varunsrinivasan.com/2022/05/23/a-better-model-for-valuing-startup-equity — Expected-value model with public Google Sheets calculator.]
+
+The CTO should perform this calculation annually and present it to the board when renegotiating compensation — not as a grievance but as a business case, using the language from Chapter 10: "I am making an annual investment of $X in this company through below-market compensation. Here is what I need the equity to be worth for that investment to be rational."
+
+
+== Where to Find Current Data
+
+These sources are updated regularly. The CTO who consults them before a compensation negotiation is negotiating informed. The CTO who does not is negotiating blind.
+
+Kruze Consulting publishes annual CTO and CEO salary reports based on payroll data (kruzeconsulting.com). Carta publishes semi-annual compensation and equity reports based on cap table records (carta.com/data). Index Ventures provides an interactive option plan calculator based on 20,000+ grants (indexventures.com/optionplan). Pave provides real-time compensation benchmarks aggregated from 8,500+ companies (pave.com — subscription required for full data; free tier available). The Holloway Guide to Equity Compensation is the most comprehensive free resource on option types, vesting, exercise, and tax mechanics (holloway.com/g/equity-compensation).footnote:resources[Resource URLs: Kruze (kruzeconsulting.com/blog/startup-cto-salary/), Carta (carta.com/data), Index Ventures (indexventures.com/optionplan), Pave (pave.com/products/market-data-launch), Holloway (holloway.com/g/equity-compensation).]
+
+'''''
+
+_This appendix provides the numbers. Chapter 13 provides the argument for why the CTO must understand them — and the emotional reality of what happens when they do not._
