@@ -32,6 +32,7 @@ Grounded in named case studies, quantitative benchmarks, and interviews with CTO
 * xref:chapter-5.adoc[Chapter 5: Technical Debt]
 * xref:chapter-6.adoc[Chapter 6: Shipping]
 * xref:chapter-7.adoc[Chapter 7: Rushing vs Speed]
+* xref:chapter-8.adoc[Chapter 8: Working with Product]
 * xref:chapter-9.adoc[Chapter 9: Measuring What Matters]
 
 === Part III: The Gap Nobody Talks About
@@ -43,6 +44,16 @@ Grounded in named case studies, quantitative benchmarks, and interviews with CTO
 === Part IV: Surviving and Evolving
 
 * xref:chapter-13.adoc[Chapter 13: From Maker to Multiplier]
-* xref:chapter-14.adoc[Chapter 14: Burnout and Isolation]
-* xref:chapter-15.adoc[Chapter 15: Knowing When to Step Aside]
-* xref:chapter-16.adoc[Chapter 16: Building Something That Outlasts You]
+* xref:chapter-14.adoc[Chapter 14: The Operating Rhythm]
+* xref:chapter-15.adoc[Chapter 15: Burnout and Isolation]
+* xref:chapter-16.adoc[Chapter 16: Knowing When to Step Aside]
+* xref:chapter-17.adoc[Chapter 17: Building Something That Outlasts You]
+
+=== Appendices
+
+* xref:appendix-a.adoc[Appendix A: The First Ninety Days]
+* xref:appendix-b.adoc[Appendix B: Stage-by-Stage Metrics Guide]
+* xref:appendix-c.adoc[Appendix C: Compensation and Equity Benchmarks]
+* xref:appendix-d.adoc[Appendix D: Technical Due Diligence Preparation Guide]
+* xref:appendix-e.adoc[Appendix E: The Operating Rhythm — Quick Reference]
+* xref:appendix-f.adoc[Appendix F: Recommended Reading]
