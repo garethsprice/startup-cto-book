@@ -14,5 +14,9 @@ ui:
     snapshot: true
   supplemental_files: supplemental-ui
 
+asciidoc:
+  attributes:
+    page-toclevels: 2
+
 output:
   dir: build/site

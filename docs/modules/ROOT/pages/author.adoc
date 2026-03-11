@@ -1,3 +1,4 @@
+:page-toclevels: 0
 = About the Author
 
 Gareth Price is CTO at CorralData, an AI-powered business intelligence platform serving the healthcare industry.

@@ -1,4 +1,5 @@
 :page-haiku: We're all small models. / Synthetic books, real knowledge — / outrun the giants.
+:page-toclevels: 0
 = Are Textbooks All I Need?
 
 == A Note on How This Book Was Built
