@@ -7,3 +7,11 @@
 
   gtag('config', 'G-1ZF9112V7L');
 </script>
+<script>
+  if (window.matchMedia('(min-width: 769px)').matches) {
+    document.addEventListener('DOMContentLoaded', function () {
+      var toggle = document.querySelector('.nav-menu-toggle');
+      if (toggle && !toggle.classList.contains('is-active')) toggle.click();
+    });
+  }
+</script>
