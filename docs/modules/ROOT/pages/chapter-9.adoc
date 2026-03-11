@@ -125,7 +125,7 @@ For the CTO at the Coder stage, even Bailey’s lightweight OKRs may be too much
 
 [WARNING]
 ====
-AUTHOR: CorralData’s goal-setting process — do you use OKRs, NCTs, or something informal? How do you set engineering goals when the product roadmap is evolving? The reader at your stage (scaling toward $6MM ARR) needs to see what goal-setting looks like in practice at a company that is past MVP but not yet at the scale where formal OKRs are natural.
+AUTHOR: CorralData’s goal-setting process — do you use OKRs, NCTs, or something informal? How do you set engineering goals when the product roadmap is evolving? The reader at your stage (scaling through the early millions in ARR) needs to see what goal-setting looks like in practice at a company that is past MVP but not yet at the scale where formal OKRs are natural.
 ====
 
 == Leading Indicators and the Gut Check

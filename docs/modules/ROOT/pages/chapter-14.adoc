@@ -124,7 +124,7 @@ The warning sign: you have not looked at code or architecture in three weeks. Th
 
 [WARNING]
 ====
-AUTHOR: Your weekly rhythm — which of these meetings exist at CorralData? Which are missing? The reader at your stage (scaling toward $6MM ARR, small team) needs to see what a real weekly cadence looks like when you cannot possibly do all seven items and must choose.
+AUTHOR: Your weekly rhythm — which of these meetings exist at CorralData? Which are missing? The reader at your stage (scaling through the early millions in ARR, small team) needs to see what a real weekly cadence looks like when you cannot possibly do all seven items and must choose.
 ====
 
 

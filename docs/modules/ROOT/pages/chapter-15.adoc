@@ -129,7 +129,7 @@ The practical actions are specific. First, know your market rate. Kruze Consulti
 
 [WARNING]
 ====
-AUTHOR: CorralData’s compensation structure — what you can share about the founding CTO’s financial reality at a B2B SaaS company scaling toward $6MM ARR. Has the founding-vs-hired gap been visible in your experience? Has equity dilution played out as the research describes? The reader needs to see the financial dimension grounded in a real company, not just in aggregate data.
+AUTHOR: CorralData’s compensation structure — what you can share about the founding CTO’s financial reality at a B2B SaaS company scaling through the early millions in ARR. Has the founding-vs-hired gap been visible in your experience? Has equity dilution played out as the research describes? The reader needs to see the financial dimension grounded in a real company, not just in aggregate data.
 ====
 
 == The Early-Warning System
