@@ -29,3 +29,4 @@
 
 .Appendices
 * xref:appendix-a.adoc[The First Ninety Days]
+* xref:appendix-b.adoc[Stage-by-Stage Metrics Guide]
