@@ -10,6 +10,14 @@ and even if it's sunday may i be wrong
 for whenever men are right they are not young
 ____
 
+.Key Takeaways
+****
+* Almost nobody sets out to become a startup CTO. The three paths — co-founder default, battlefield promotion, and growth overtaking — all share one thing: no preparation and no training for what comes next.
+* Becoming CTO is not a promotion; it is a career change. The skills that made you the best engineer on the team are largely irrelevant to the job you now hold.
+* The startup CTO demographic — 92 percent male, 76 percent white — is not just an equity problem. It is a talent problem, because the narrower the pipeline, the weaker the average.
+* Isolation begins on day one. You are no longer fully an engineer, not yet fully an executive, and there is no peer group waiting for you on either side of that bridge.
+****
+
 Vadim Kravcenko was a senior software engineer at a small Swiss startup when the Head of Development had a disagreement with management and left. Kravcenko pushed hard for the role — five long meetings to convince the leadership team he could handle it. He got the title. And then: "I felt out of place and didn’t really know what to do, as I was always a dev, so it took me quite a bit of time to really understand what I needed to be doing."footnote:[Kravcenko, V. (2024, April 27). How to become a CTO: Clear career path and tips \[Q&A\]. _vadimkravcenko.com_. https://vadimkravcenko.com/qa/how-to-become-a-cto-career-path/]
 
 David Mack, co-founder and CTO of SketchDeck, a Y Combinator-backed startup, describes the same disorientation from the other direction — not a battlefield promotion but a founding role that nobody defined. "Founding a startup is an upside-down version of traditional employment," Mack writes. "Initially you’ve no idea if the company will take off nor if it’ll ever turn into a full-time job, then as it grows you keep on being thrust into new and different jobs. You can accumulate responsibility faster than you can learn how to harness it."footnote:mack2018[Mack, D. (2018, February 13). What I wish I knew when I became CTO. _SketchDeck Developer Blog_ (Medium). https://medium.com/sketchdeck-developer-blog/what-i-wish-i-knew-when-i-became-cto-fdc934b790e3 — Mack was co-founder and CTO of SketchDeck (YC W14).]

@@ -7,6 +7,14 @@ ____
 A ship in port is safe, but that's not what ships are built for.
 ____
 
+.Key Takeaways
+****
+* Speed and quality are not opposites. Elite teams deploy 208 times more frequently than low performers and experience seven times fewer failures — because the practices that enable speed are the same ones that enable safety.
+* The goal is not to be careful; the goal is to be confident. Careful means going slowly and hoping nothing breaks. Confident means investing in the systems that let you go fast and recover instantly when something does.
+* Less friction encourages smaller changes, and smaller changes are less risky. This is the counterintuitive engine of high-performing teams: they ship more often precisely because each shipment is so small it barely matters.
+* Monzo, a regulated bank handling real money, deployed over a hundred times a day. If a bank can ship continuously, your startup's reasons for not doing so are almost certainly organisational, not technical.
+****
+
 Monzo is a bank. Not a fintech startup that calls itself a bank — a regulated UK bank, authorised by the Prudential Regulation Authority, holding customer deposits, issuing debit cards, processing millions of transactions. Banks deploy software cautiously. They run change advisory boards, schedule release windows, require multiple sign-offs. Their regulators expect them to.
 
 Monzo deploys to production over 100 times a day.footnote:sewell2022[Sewell, W. (2022, May 15). How we deploy to production over 100 times a day. _Monzo Engineering Blog_. https://monzo.com/blog/2022/05/16/how-we-deploy-to-production-over-100-times-a-day — Metrics cover 2021–2022; the practices described originated during the 2018–2020 scaling period.]

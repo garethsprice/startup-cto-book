@@ -7,6 +7,15 @@ ____
 There are known knowns; there are things we know we know. We also know there are known unknowns. But there are also unknown unknowns -- the ones we don’t know we don’t know.
 ____
 
+.Key Takeaways
+****
+* DORA metrics are diagnostic instruments, not productivity scores. The moment you use them to compare teams or justify headcount, you have converted a thermometer into a target and guaranteed that people will game it.
+* Story points have been disavowed by the person who invented them. If the creator of a metric says it was a mistake, continuing to use it is not rigour — it is tradition dressed up as measurement.
+* Metrics create incentives, incentives create behaviours, and behaviours create culture. Choose your metrics with the same care you would choose your values, because in practice they are the same thing.
+* The most useful measurement framework holds two or three metrics in tension so that optimising one at the expense of the others is visible. A single metric invites gaming; a balanced set invites judgement.
+* When your leading indicators and your gut instinct disagree, the disagreement itself is the most valuable signal you have.
+****
+
 Abi Noda, founder of DX, a developer experience research firm, describes the moment that most CTOs recognise. "I personally experienced this challenge in my first job as a CTO. Our executive team had started meeting monthly to review each department’s progress. Our CEO wanted more than just the anecdotal release updates I had been providing, and asked me to come up with a hard metric to report. The problem: I couldn’t think of a good metric to use."footnote:noda2024[Noda, A. (2024, December 10). Introducing the DX Core 4. _Engineering Enablement Newsletter_. https://newsletter.getdx.com/p/introducing-the-dx-core-4 — See also Noda, A. Three-bucket framework for engineering metrics. _DX Blog_. https://getdx.com/blog/three-bucket-engineering-metrics-framework/]
 
 The CTO who measures nothing is flying blind. The CTO who measures everything is drowning in data. Both end up in the same place: unable to answer the question the CEO is actually asking, which is not "how fast is engineering moving?" but "is the investment in engineering producing results?"

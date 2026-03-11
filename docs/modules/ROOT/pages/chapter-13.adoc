@@ -15,6 +15,14 @@ Weighing what you should or can do +
 Leaves no doubt of it at all.
 ____
 
+.Key Takeaways
+****
+* The transition from maker to multiplier is the hardest one in the CTO journey, because you are not just changing how you spend your time — you are losing the craft identity that brought you to the role in the first place.
+* An architect's value is inversely proportional to the number of decisions they make. The goal is not to make the right calls but to build a team and a system that make the right calls without you.
+* Technical skills erode in two to three years once you stop practising them daily. The loss is not in syntax or frameworks but in the mental models and instincts that only come from sustained, hands-on work.
+* AI is changing this equation fundamentally. It compresses the activation energy needed to engage with code, which means a CTO who has stepped away from daily coding can re-engage meaningfully in ways that were not possible five years ago.
+****
+
 Will Larson was CTO of Carta when he wrote about a transition that had taken him a decade to complete. He had wanted to write software throughout his career — at Digg, at Uber, at Calm, at Stripe — but at each company, the same calculus applied. "I wanted to write software, but it simply felt like a lower return on time than doing something else. For example, if I focused my time hiring another engineer onto the team, they would undoubtedly do more than I would." The conclusion was blunt: "Each hour I spent writing software was bad for the business overall, and a sign of questionable judgment."footnote:larson2025[Larson, W. (2025, November 19). Coding at work (after a decade away). _Irrational Exuberance_ (lethain.com). https://lethain.com/coding-at-work/]
 
 That sentence describes the most painful realisation in the CTO’s career. Not that you are bad at code. Not that you have been replaced. But that the thing you are best at — the thing that brought you to this role, that defined your identity, that gave you the satisfaction of building something with your own hands — is no longer the most valuable use of your time. The economics are clear. The business case is unanswerable. And it feels, to many CTOs, like a small death.

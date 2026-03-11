@@ -7,6 +7,15 @@ ____
 The ideas of debtor and creditor as to what constitutes a good time never coincide.
 ____
 
+.Key Takeaways
+****
+* Ward Cunningham's original debt metaphor had nothing to do with messy code. It described the gap between what your code assumes about the business and what you have since learned — and like financial debt, it charges interest whether you notice or not.
+* Technical debt costs roughly a third of all engineering time across the industry. The question is never whether you have debt but whether you are carrying it deliberately or discovering it in production.
+* Debt does not accrue interest based on how old it is; it accrues interest based on how often you touch the code that contains it. A five-year-old module nobody changes costs you nothing. A six-month-old service on the critical path costs you every sprint.
+* AI-generated code is creating a new category of liability: cognitive debt, where the codebase works but no human fully understands why.
+* When the business pivots, your entire codebase becomes technical debt overnight. The most dangerous debt is not the kind you accumulate deliberately but the kind that arrives because the world changed and your architecture did not.
+****
+
 In 1992, Ward Cunningham was building a portfolio management system called WyCash in Smalltalk. He needed to explain something to his business partners — why the engineering team needed to go back and rework code that was already working. The code was not broken. It did what it was supposed to do. But the team’s understanding of the financial domain had evolved since they wrote it, and the code no longer reflected what they now knew. The gap between their current understanding and the code’s representation of that understanding was slowing them down.
 
 Cunningham reached for a financial analogy. "Shipping first time code is like going into debt," he wrote in an experience report for the OOPSLA conference. "A little debt speeds development so long as it is paid back promptly with a rewrite. The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a stand-still under the debt load of an unconsolidated implementation."footnote:[Cunningham, W. (1992). The WyCash portfolio management system. _OOPSLA ’92: Addendum to the Proceedings on Object-Oriented Programming Systems, Languages, and Applications_, pp. 29–30. ACM. https://c2.com/doc/oopsla92.html — DOI: 10.1145/157709.157715. 803 citations in ACM Digital Library.]

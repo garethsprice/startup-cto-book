@@ -7,6 +7,14 @@ ____
 Most companies don’t die because they are wrong; most die because they don’t commit themselves. They fritter away their valuable resources while attempting to make a decision. The greatest danger is in standing still.
 ____
 
+.Key Takeaways
+****
+* Seventy percent of CTOs who lose their jobs lose them for communication failures, not technical ones. The gap is not in what they know but in their ability to translate what they know into language the business can act on.
+* The business-acumen gap is structural, not personal. The CEO gets hundreds of reps pitching investors, negotiating deals, and presenting to boards; the CTO gets almost none. Closing that gap requires deliberate practice, not osmosis.
+* The five CTO failure modes — hiding behind jargon, demanding trust without a business case, under-delivering without explanation, losing relevance, and dominating through technical authority — all share a root cause: treating technical excellence as sufficient for executive survival.
+* The CTO's most important contribution at the board level is predictability. Boards can absorb bad news; what they cannot absorb is surprises.
+****
+
 A CTO at a company of roughly 3,000 people had spent nine months trying to get his board to approve several million pounds of investment in a product redesign. Nine board meetings. Nine presentations. Nine versions of "no." He had the technical analysis. He had the risk assessment. He had the engineering plan. He had, by any reasonable measure, the right answer.
 
 Adelina Chalmers, an executive advisor who has coached hundreds of engineering leaders over 13 years, reviewed his presentation and saw the problem within three minutes. The slides described embedded firmware, open-source software licensing, and architectural dependencies. The board was not evaluating a technical decision. They were evaluating a business risk — and the presentation gave them no language for it.footnote:chalmers2024[Chalmers, A. (2024, February 25). E5: Decoding tech leadership with Adelina Chalmers \[Podcast interview\]. _Tech Exec Talks_, hosted by K. Maingi. https://www.techexectalks.com/2139059/episodes/14570827-e5-decoding-tech-leadership-with-adelina-chalmers — Full transcript retrieved. Case study and coaching methodology described firsthand.]

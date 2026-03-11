@@ -10,6 +10,14 @@ Just keep going
 No feeling is final
 ____
 
+.Key Takeaways
+****
+* Ninety-seven percent of technology leaders report feeling lonely in the role. This is not a personal failing; it is a structural feature of a job that sits between the engineering team and the executive team without fully belonging to either.
+* Burnout is not caused by working too hard; it is caused by a sustained mismatch between the demands of the job and the resources available to meet them.
+* Founding CTOs earn on average seventy-four thousand dollars less per year than externally hired CTOs at the same company stage. The financial sacrifice is real, often poorly understood, and compounds over time.
+* Build your support infrastructure — a therapist or coach, a peer group of fellow CTOs, and basic financial literacy about equity — before you need it. The time you most need help is precisely the time you are least able to go looking for it.
+****
+
 A CTO identified only as Lawrence, in a case study published by CTO Craft, describes the experience that most CTO burnout accounts circle around but few articulate this precisely: "I just remember feeling like I never wanted to code or work with code again. In fact, I didn’t want to even work with people who worked with code. The very idea of getting involved in that kind of thing made my blood run cold."footnote:skipper2017[Skipper, A. (reporting Lawrence’s account). (2017, November 17). A CTO case study: What happens when you don’t realise you’ve burned out? _CTO Craft Blog_. https://ctocraft.com/blog/a-cto-case-study-what-happens-when-you-dont-realise-youve-burned-out/]
 
 Lawrence had been a self-employed CTO for several years. The burnout came gradually — not as a dramatic collapse but as an oscillation between withdrawal and combativeness. "I’d gone from giving my all, to becoming so withdrawn on some days that everything was a challenge — I had no energy or mental capacity to do anything. On other days, the simplest things would annoy me and even basic requests from colleagues had me feeling combative."footnote:skipper2017[] When the burnout was finally undeniable, Lawrence did not seek help. "Being self-employed, I lacked the support and assistance I needed. But if I’m honest, I never actively asked for help either. I didn’t know where to start and it felt like yet another insurmountable task when at that point, I couldn’t even manage to write a line of code without exhausting myself."footnote:skipper2017[]

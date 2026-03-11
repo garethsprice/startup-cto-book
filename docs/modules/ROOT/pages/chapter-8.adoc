@@ -7,6 +7,14 @@ ____
 In an early stage startup, the product manager role is most appropriately played by the CEO or one of the founders.
 ____
 
+.Key Takeaways
+****
+* At the earliest stage, the CTO is the product function. The demo is the discovery session, the prototype is the spec, and the distinction between building and deciding what to build does not yet exist.
+* If you are just using your engineers to code, you are only getting about half their value. The best product work happens when a product manager, a designer, and a tech lead operate as co-equal participants, not as a handoff chain.
+* Hiring your first product manager is not about adding capacity; it is about letting go of "what to build" while retaining the right to weigh in on "whether to build it."
+* The Now/Next/Later roadmap replaces false precision with honest granularity: detailed commitments for now, shaped bets for next, strategic themes for later. It communicates progress without manufacturing certainty you do not have.
+****
+
 Dharmesh Shah is CTO of HubSpot. The company has thousands of employees, billions in revenue, and a product organisation staffed with experienced product managers at every level. Shah has zero direct reports. He has no product roadmap. He rejected the management path entirely and instead exerts product influence as an individual contributor — building internal tools, prototyping features, and shipping products that emerge from his own technical intuition rather than from a planning process. At a Business of Software talk, he described how this makes "executives, management, sales teams, and the board and other people uncomfortable."footnote:[Shah, D. What I learned in a decade at HubSpot. _Business of Software Conference_. https://businessofsoftware.org/talks/what-i-learned-in-a-decade-at-hubspot-dharmesh-shah/ — See also Shah, D. (interviewed by First Round Review). The company-building cornerstones every founder needs to focus on. _First Round Review_. https://review.firstround.com/the-company-building-cornerstones-every-founder-needs-to-focus-on-advice-from-hubspots-dharmesh-shah/]
 
 Shah can get away with this because he has the founder authority and financial independence to ignore organisational convention. Most CTOs cannot. But his instinct — that the CTO is inherently a product thinker, not just a technical executor — is correct. The question this chapter addresses is what happens when that instinct meets the reality of a growing company that eventually needs dedicated product leadership: when you are both the person who decides _what_ to build and the person responsible for _how_ it gets built, how do you manage both without doing either badly — and how do you know when it's time to hand one of them to someone else?

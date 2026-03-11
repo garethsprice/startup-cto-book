@@ -7,6 +7,14 @@ ____
 No man ever steps in the same river twice, for it is not the same river and he is not the same man.
 ____
 
+.Key Takeaways
+****
+* The startup CTO role is not one job but four — Coder, Manager, Director, Strategist — compressed into a timeline that gives you months to master what corporate leaders get decades to learn.
+* What kills most CTOs is not the stage they are in but the transition between stages, because each one demands surrendering the very skill that made them successful in the last.
+* The four-stage model is a map, not a mandate. Some of the best CTOs in the world have deliberately moved backward — and the company was better for it.
+* Every stage has a distinct failure mode: the Coder who cannot delegate, the Manager who cannot think strategically, the Director who loses touch with the technology, and the Strategist who loses touch with the team.
+****
+
 Greg Brockman had a Tuesday problem.
 
 By 2013, Stripe had grown fast enough that Brockman — already functioning as CTO, though the title only became official midway through the year — needed to keep pace with an expanding engineering team. His solution was to stack all his one-on-one meetings on Tuesdays. By Tuesday evening, he was spent. By the time he recovered enough to do productive work, it was Tuesday again.footnote:brockman2014[Brockman, G. (2014, October 27). ++#++define CTO. blog.gregbrockman.com. https://blog.gregbrockman.com/figuring-out-the-cto-role-at-stripe]

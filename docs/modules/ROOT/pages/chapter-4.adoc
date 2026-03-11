@@ -7,6 +7,14 @@ ____
 It seems that perfection is attained not when there is nothing more to add, but when there is nothing more to take away.
 ____
 
+.Key Takeaways
+****
+* Instagram launched on Django, PostgreSQL, and Redis — a stack so boring it was practically invisible. What it bought them was speed to market and a team that could hire anyone, which mattered far more than architectural elegance.
+* Every startup has a limited number of innovation tokens to spend, and the right place to spend them is on your product, not your stack. Choose boring technology for everything that is not your competitive advantage.
+* The most important property of an early-stage technical decision is not whether it is optimal but whether it is reversible. Decisions you can undo cheaply buy you the right to be wrong — which at a startup you will be, frequently.
+* Build versus buy is not a technical question; it is a capital allocation question. The answer depends on where your product ends and your infrastructure begins.
+****
+
 In October 2010, Instagram launched with two engineers and a single server in Los Angeles. The stack was Django, PostgreSQL, Redis, and nginx — technology so established that no one at a conference would ask a follow-up question about any of it. Mike Krieger, Instagram’s co-founder and technical leader, had a phrase for the philosophy behind these choices: "Do the simple thing first."footnote:[Kuhn, E. (2017, June 18). Tech talk: Scaling Instagram with Mike Krieger \[Notes on Krieger’s talk\]. _Evan’s Tech Blog_. https://evankuhn.github.io/techtalks/2017/06/18/scaling-instragram-with-mike-krieger.html — Secondhand notes on a firsthand talk; highly detailed.]
 
 Eight years later, Instagram had more than 450 engineers, one billion monthly active users, and had migrated from Amazon’s cloud to Facebook’s data centres. The engineering team had replaced the task queue (Gearman to Celery and RabbitMQ), added Cassandra alongside PostgreSQL, rebuilt the search system four times, and completed a migration from Python 2 to Python 3 that produced a 12% CPU savings and 30% memory improvement.footnote:[Ding, H. (interviewed ~2017). Instagram makes a smooth move to Python 3. _The New Stack_. https://thenewstack.io/instagram-makes-smooth-move-python-3/ — Ding was Instagram’s first engineer hired after the Facebook acquisition.] What they had not replaced was the fundamental architecture. Django and PostgreSQL — the boring choices from day one — were still running the product. Krieger’s description of the journey: "The users are still in the same car they were in at the beginning of the journey, but we’ve swapped out every single part without them noticing."footnote:[Metz, C. (2014, June). How Instagram moved from Amazon’s cloud to Facebook’s data centers. _Wired_. Mirrored at https://blog.superb.net/2014/07/04/how-instagram-moved-from-amazon%E2%80%99s-cloud-to-facebook%E2%80%99s-data-centers/ — Direct Krieger quote.]

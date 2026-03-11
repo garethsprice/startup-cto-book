@@ -7,6 +7,14 @@ ____
 A schedule defends from chaos and whim. It is a net for catching days. It is a scaffolding on which a worker can stand and labor with both hands at sections of time.
 ____
 
+.Key Takeaways
+****
+* The CTO role has no natural structure. Without a deliberate operating rhythm, the urgent will consume the important every single day.
+* ADHD appears in roughly 29 percent of entrepreneurs, compared to 4 to 5 percent of the general population. The operating rhythm is not a productivity hack; for many CTOs it is a prosthetic for the executive function that the role demands and the brain may not naturally provide.
+* The shutdown ritual — a deliberate end-of-day practice where you capture loose threads, review tomorrow's commitments, and close the loops your brain would otherwise chew on at 2 a.m. — is the most important daily rhythm element and the one most likely to be skipped.
+* A delegation ledger with pre-decided triggers removes the decision fatigue from the question of what to hand off. When the trigger fires, you delegate — not because you want to, but because you decided in advance that you would.
+****
+
 I was diagnosed with inattentive ADHD at thirty-four. Before that, I had spent my entire career building compensatory systems without knowing what I was compensating for. I kept obsessive to-do lists because without them I forgot everything. I time-blocked my calendar because without structure the day dissolved into reactive chaos. I wrote things down compulsively because my working memory could not be trusted to hold a conversation's action items across the walk back to my desk. I thought this was discipline. It was, in clinical terms, self-medication — an intuitive attempt to externalise the executive functions my brain does not reliably provide.
 
 This chapter is designed for me. The operating rhythm described here is the system I built, refined, broke, rebuilt, and eventually stabilised across a decade as a startup CTO. It is informed by the clinical literature on ADHD and executive function. It is grounded in the practitioner frameworks of Will Larson, Lara Hogan, Charity Majors, Pat Kua, and Camille Fournier. And it is shaped, at every point, by the specific needs of a brain that does not self-regulate time, attention, or task initiation without external support.
