@@ -1,13 +1,10 @@
-.PHONY: install build build-full build-pdf build-epub docker-build clean serve open convert
-
-install: ## Install dependencies
-	npm install
-
-build: ## Build the site
-	npm run build
+.PHONY: docker-build build build-full build-pdf build-epub clean serve open convert
 
 docker-build: ## Build the Docker image
 	docker compose build
+
+build: docker-build ## Build the site (Docker)
+	docker compose run --rm antora npm run build
 
 build-full: docker-build ## Build site + PDF + EPUB (Docker)
 	docker compose run --rm antora npm run build:full
