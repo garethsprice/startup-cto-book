@@ -2,6 +2,35 @@ site:
   title: Applied Alchemy
   url: https://www.startupctobook.com
   start_page: ROOT::index.adoc
+  robots: |
+    User-agent: *
+    Allow: /
+
+    User-agent: GPTBot
+    Allow: /
+
+    User-agent: OAI-SearchBot
+    Allow: /
+
+    User-agent: ChatGPT-User
+    Allow: /
+
+    User-agent: ClaudeBot
+    Allow: /
+
+    User-agent: Claude-SearchBot
+    Allow: /
+
+    User-agent: PerplexityBot
+    Allow: /
+
+    User-agent: Google-Extended
+    Allow: /
+
+    User-agent: Applebot-Extended
+    Allow: /
+
+    Sitemap: https://www.startupctobook.com/sitemap.xml
 
 content:
   sources:
