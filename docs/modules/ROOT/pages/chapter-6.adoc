@@ -1,5 +1,19 @@
 :page-description: Shipping velocity is competitive advantage. How Monzo deploys 100 times a day as a regulated bank — and why speed is learning, not recklessness.
 :page-haiku: Ship to learn. Ship fast. / Speed and quality are not / the trade-off you feared.
+:description: Shipping velocity is competitive advantage. How Monzo deploys 100 times a day as a regulated bank — and why speed is learning, not recklessness.
+:keywords: shipping velocity, continuous deployment, DORA metrics, deployment frequency, Monzo engineering
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How often should a startup deploy code?
+:page-faq-1-a: As frequently as possible — ideally multiple times per day. Companies like Monzo deploy over 100 times daily. Frequent deployment reduces risk because each change is small, makes bugs easier to identify and fix, and creates a faster feedback loop with customers. The goal is not speed for its own sake but reducing the batch size of changes so that each deployment carries minimal risk.
+:page-faq-2-q: What are DORA metrics?
+:page-faq-2-a: DORA metrics are four measures of software delivery performance identified by the DevOps Research and Assessment team: deployment frequency (how often you deploy to production), lead time for changes (time from code commit to production), change failure rate (percentage of deployments causing incidents), and mean time to recovery (how quickly you restore service after failure). Research shows that elite performers do better on all four simultaneously — speed and stability are not trade-offs.
+:page-faq-3-q: Does shipping fast hurt code quality?
+:page-faq-3-a: No — the evidence shows the opposite. Teams that deploy frequently tend to have lower change failure rates because each deployment is smaller and easier to reason about. Small, frequent changes are easier to review, easier to test, and easier to roll back. The false trade-off between speed and quality comes from confusing shipping fast with shipping carelessly. Continuous deployment with automated testing and feature flags is both faster and safer than large, infrequent releases.
+:page-faq-4-q: What is continuous deployment?
+:page-faq-4-a: Continuous deployment is the practice of automatically deploying every code change that passes automated tests directly to production, without manual approval gates. It requires strong automated testing, feature flags to control rollout, monitoring to detect problems quickly, and the ability to roll back instantly. It is the final stage of the continuous delivery pipeline and represents the highest level of deployment automation.
+:page-faq-5-q: How do you implement continuous delivery in a startup?
+:page-faq-5-a: Start with the foundations — automated tests that you trust, a single-command deployment process, and monitoring that alerts you to problems immediately. Add feature flags so you can deploy code without releasing features. Invest in a staging environment that closely mirrors production. Make deployments boring and routine rather than stressful events. The key enabler is not any single tool but the cultural commitment to keeping the main branch always deployable.
 = Chapter 6: Shipping Is the Strategy
 
 [quote, Grace Hopper]
@@ -181,3 +195,18 @@ The harder challenge is not building this infrastructure. It is explaining what 
 Shipping velocity is the strategy, not a tactical preference. The fastest team to learn wins — not because speed is inherently virtuous, but because speed is the mechanism by which a startup converts capital into knowledge. Etsy went from deploying twice per week, with crashes, to 50 times per day, with 70-second push times and 14,000 daily test runs. Monzo deployed more than 100 times per day — at a regulated bank — while growing from 50 to 250 engineers. Both invested in discipline, not recklessness. Both got faster and more reliable at the same time.
 
 But the CTO does not operate in a vacuum. The business wants features yesterday. The CEO sees a competitor’s launch and demands a response by Friday. The board asks why the roadmap slipped. Building the infrastructure for sustainable velocity is half the problem. The other half is holding the line when the pressure to ship faster — now, at any cost — is constant.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

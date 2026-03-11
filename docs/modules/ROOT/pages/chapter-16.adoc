@@ -1,5 +1,19 @@
 :page-description: CTO transitions are not failures — they are the natural arc of a role that transforms faster than any individual. How to step aside on your own terms.
 :page-haiku: Planned departures are / not endings. They are the last / gift the builder gives.
+:description: CTO transitions are not failures — they are the natural arc of a role that transforms faster than any individual. How to step aside on your own terms.
+:keywords: CTO transition, stepping aside, tour of duty, founder departure, leadership succession
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: When should a startup CTO step down?
+:page-faq-1-a: Consider stepping aside when the company's needs have clearly outgrown your skills and interest — when the role requires capabilities you do not have and do not want to develop. Other signals include sustained stagnation after five or more years, persistent friction with the board or CEO about the direction of technology, or the recognition that a different leader could unlock the next stage of growth. Stepping aside at the right time is a sign of strength and self-awareness, not failure.
+:page-faq-2-q: Is it normal for founding CTOs to be replaced?
+:page-faq-2-a: Yes — the majority of founding CTOs are no longer in the role by Series B or C. The CTO job at a 5-person startup and the CTO job at a 500-person company are fundamentally different positions with different skill requirements. This is not a reflection of the founding CTO's ability but a structural reality of the role's transformation. The founders who navigate this transition well plan for it in advance rather than being forced out by circumstance.
+:page-faq-3-q: What is a tour of duty in startup leadership?
+:page-faq-3-a: The tour of duty concept, from Reid Hoffman, reframes employment as a series of defined missions rather than indefinite tenure. Applied to the CTO role, it means committing to a specific mission — build the MVP, scale the team to 50 engineers, achieve SOC 2 compliance — with a defined timeframe and success criteria. When the mission is complete, both the CTO and the company can honestly assess whether a new tour makes sense or whether it is time for a transition.
+:page-faq-4-q: How do you plan a CTO leadership transition?
+:page-faq-4-a: Start planning 6 to 12 months before the transition. Document institutional knowledge — architecture decisions, vendor relationships, team dynamics, technical debt inventory. Hire or identify your successor and ensure overlap for knowledge transfer. Define your post-transition role clearly — advisory, board seat, individual contributor, or clean departure. Communicate the transition to the team with honesty about the reasons. A well-planned transition preserves the team's stability and the departing CTO's reputation.
+:page-faq-5-q: What happens to founding CTOs after they leave?
+:page-faq-5-a: Founding CTOs move into a range of roles — advisory positions at the company they built, CTO roles at later-stage companies where their experience is a better fit, venture capital where their technical judgment helps evaluate startups, founding new companies with the benefit of hindsight, or returning to individual contributor engineering roles. Many find the advisory path — helping multiple startups with strategic technology decisions — to be the most satisfying next chapter.
 = Chapter 16: Knowing When to Step Aside — and Making It a Strength
 
 [quote, Stewart Brand, "How Buildings Learn, 1994"]
@@ -168,3 +182,18 @@ The question this chapter asks is not "should you leave?" It is "are you making 
 xref:chapter-10.adoc[Chapter 10] addressed what happens when the CTO is pushed out. This chapter addresses what happens when the CTO chooses — and what happens when circumstances choose for them. The difference is not always in the outcome. In every case, the CTO leaves the role. The difference is in how they leave, what they leave behind, and whether the people who trusted them — the team, the investors, the customers — are better off for having been led by someone who knew when to act. David Lee of SV Angel, citing Ron Conway, put it simply: "How a founder conducts herself during either an acqui-hire or soft landing can determine if they get funding from their prior investors for their next venture."footnote:[Lee, D. (2012, August 18). Quick thoughts on acquihires/"soft landings." _daslee.me_. https://daslee.me/quick-thoughts-on-acquihiressoft-landings/ — Lee is a partner at SV Angel; the Ron Conway quote is: "How a founder conducts herself during either an acqui-hire or soft landing can determine if they get funding from their prior investors for their next venture."] The reputation is not built in the good times. It is built in the exit.
 
 Kellan Elliott-McCrea’s test from xref:chapter-11.adoc[Chapter 11] applies one final time: can you hand the work off to people you trust, and will they run the thing without you and make it better than you could have imagined? If the answer is yes, you are ready — whether what follows is a new tour, a new company, or a clean goodbye.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

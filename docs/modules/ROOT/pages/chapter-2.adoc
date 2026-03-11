@@ -1,5 +1,19 @@
 :page-description: Almost nobody who holds the startup CTO title was ready for it. Three paths — co-founder default, battlefield promotion, growth overtaking — and none involves preparation.
 :page-haiku: The best coder stays. / No one plans to lead, and yet / the title appears.
+:description: Almost nobody who holds the startup CTO title was ready for it. Three paths — co-founder default, battlefield promotion, growth overtaking — and none involves preparation.
+:keywords: accidental CTO, first-time CTO, co-founder CTO, battlefield promotion, CTO demographics
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How do people become startup CTOs?
+:page-faq-1-a: Most startup CTOs arrive through one of three paths — co-founder default (you were the technical one), battlefield promotion (the company grew and you were the most senior engineer), or growth overtaking (you joined as a developer and the startup expanded around you). Formal preparation for the role is extremely rare. The accidental CTO is the norm, not the exception.
+:page-faq-2-q: What is an accidental CTO?
+:page-faq-2-a: An accidental CTO is someone who received the title without formal leadership training or deliberate career planning for the role. They were typically the best or only engineer at a startup, and the title followed the responsibility. This is the overwhelmingly common origin story — most CTOs did not set out to become CTOs, and the absence of preparation is the universal condition, not a personal failing.
+:page-faq-3-q: Do you need a computer science degree to be a CTO?
+:page-faq-3-a: No. While many CTOs have technical degrees, what matters far more is adaptability, willingness to learn beyond engineering, and the ability to grow with the company. The CTO role demands skills — people management, business communication, strategic thinking — that no computer science programme teaches. Self-taught developers, bootcamp graduates, and career-changers have all become successful CTOs.
+:page-faq-4-q: What is the typical background of a startup CTO?
+:page-faq-4-a: The typical startup CTO was a senior engineer or technical co-founder who got the title because they were the most technical person in the room when the company was small. They usually have strong hands-on engineering skills but limited formal management or leadership training. The role finds them rather than the reverse, and their first year as CTO is spent learning a job nobody fully defined before handing it to them.
+:page-faq-5-q: Can a software engineer become a CTO?
+:page-faq-5-a: Yes — in fact, most startup CTOs were software engineers first. The challenge is not the starting point but the growth required. Moving from engineer to CTO means developing skills in hiring, team management, business communication, board presentations, and strategic planning. The engineers who make the transition successfully are those who recognise early that the CTO role is a leadership position that happens to require technical knowledge, not a senior engineering position with a better title.
 = Chapter 2: CTO by Accident
 
 [verse, "e e cummings", "may my heart always be open to little"]
@@ -113,3 +127,18 @@ AUTHOR: Your experience of isolation in the role — even briefly. Did it arrive
 The accidental CTO is the norm, not the exception. The person who arrives in the role prepared — with management training, leadership experience, a clear understanding of the job’s scope, and a peer network to draw on — is the rarity. The rest of us learn on the fly, making mistakes that feel personal but are structural, experiencing isolation that feels unique but is universal, and carrying a title that describes a job nobody fully defined before handing it to us.
 
 This book is the playbook that does not exist. xref:chapter-1.adoc[Chapter 1] provided the map — the four stages of the CTO’s evolution. This chapter has named the starting condition: you are here, you were not ready, and almost nobody else was either. xref:chapter-3.adoc[Chapter 3] addresses the first and most consequential challenge of the role: the relationship with the person who gave you the title.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

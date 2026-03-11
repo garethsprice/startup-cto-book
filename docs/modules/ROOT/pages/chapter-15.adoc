@@ -1,5 +1,19 @@
 :page-description: Burnout, isolation, and mental health in the CTO role. The parts no one talks about publicly — and practical strategies for surviving them.
 :page-haiku: The bridge stands alone. / Build your shelter before the / storm you cannot share.
+:description: Burnout, isolation, and mental health in the CTO role. The parts no one talks about publicly — and practical strategies for surviving them.
+:keywords: CTO burnout, loneliness, mental health, CTO compensation, founder wellbeing
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How common is burnout among startup CTOs?
+:page-faq-1-a: Over 50 percent of startup founders report experiencing burnout, and CTOs face compounding factors — the technical pressure to ship, the management burden of a growing team, the isolation of a role with few peers, and the identity crisis of transitioning away from coding. CTO burnout is not a personal weakness but a structural condition created by the role's demands. It should be treated as a predictable risk to be managed, not a failure to be hidden.
+:page-faq-2-q: How do you deal with loneliness as a startup CTO?
+:page-faq-2-a: Build deliberate support structures — join a CTO peer group where you can discuss challenges confidentially with people who understand the role, find a mentor or coach who has navigated similar transitions, and maintain friendships entirely outside the startup world. The CTO role is structurally lonely because you cannot fully confide in your team (you are their boss), your CEO (you are their partner with different pressures), or your board (they are evaluating you). External relationships fill the gap.
+:page-faq-3-q: What are the signs of founder burnout?
+:page-faq-3-a: The warning signs include chronic exhaustion that sleep does not resolve, growing cynicism about the company or team, declining performance on tasks that were previously routine, withdrawal from colleagues and social situations, physical symptoms like persistent headaches or insomnia, and loss of satisfaction from work that once energised you. Burnout develops gradually, which makes it hard to recognise from the inside. Regular self-assessment and trusted external perspectives are essential early warning systems.
+:page-faq-4-q: How do startup executives manage mental health?
+:page-faq-4-a: Treat mental health maintenance like infrastructure maintenance — scheduled, non-negotiable, and preventive rather than reactive. This means regular exercise, consistent sleep, professional support (therapy or coaching) before you think you need it, and hard boundaries between work and personal time. The startup culture of glorifying overwork is directly counterproductive — sustained performance over years requires the same maintenance discipline that you would apply to a production system you expect to run reliably.
+:page-faq-5-q: What is a healthy work-life balance for a CTO?
+:page-faq-5-a: Define non-negotiable personal boundaries and protect them with the same rigour you would apply to production uptime. This does not mean working less — startup demands are real — but it means identifying the minimum personal commitments (sleep, exercise, family time, one non-work activity) that keep you functional and treating them as load-bearing infrastructure. When those boundaries erode, performance follows within weeks. The most effective CTOs are not those who work the most hours but those who sustain their effectiveness over years.
 = Chapter 15: The Loneliest Job in the Startup
 
 [verse, "Rainer Maria Rilke", "The Book of Hours (trans. Joanna Macy & Anita Barrows)"]
@@ -144,3 +158,18 @@ The loneliest job in the startup is not lonely because the CTO lacks people arou
 The CTO who survives this role builds the infrastructure that the role does not provide: a peer group who understands the weight, a coach who helps them carry it, and the financial literacy to ensure that the sacrifice has a price they have consciously chosen to pay. The alternative — the CTO who carries the weight alone, who does not understand their compensation, who does not seek help until the burnout is undeniable — is the CTO who ends up like Lawrence: unable to write a line of code, unable to ask for help, and wondering how it came to this.
 
 xref:chapter-16.adoc[Chapter 16] addresses the question that follows: when the CTO has done everything this chapter recommends and still decides it is time to leave — how to make that transition a strength rather than a failure.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

@@ -1,5 +1,19 @@
 :page-description: The transition from hands-on engineer to executive leader. When to stop writing code, how to let go, and what replaces the dopamine of shipping.
 :page-haiku: Hands leave the keyboard. / The hardest code to release / is who you once were.
+:description: The transition from hands-on engineer to executive leader. When to stop writing code, how to let go, and what replaces the dopamine of shipping.
+:keywords: stop writing code, maker to multiplier, CTO technical skills, architect role, AI and CTO coding
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: When should a CTO stop writing code?
+:page-faq-1-a: Significantly reduce coding when the team reaches 15 to 45 employees — the Manager stage. The transition should be gradual rather than abrupt. Stop being in the critical path for feature delivery first, then reduce code review volume, then shift to architecture and prototyping only. By the time the company has 45-plus employees, the CTO writing production code is actively competing with the team rather than enabling them. The goal is not zero code, but zero code that blocks others.
+:page-faq-2-q: How do you transition from engineer to engineering executive?
+:page-faq-2-a: Replace the dopamine of shipping code with the satisfaction of building a team that ships better code than you could alone. Start by identifying which coding tasks only you can do (architecture decisions, prototyping) versus which you are doing because they feel comfortable (feature work, bug fixes). Delegate the latter first. Build new feedback loops — mentoring, hiring, team performance — that provide the same sense of progress that completed pull requests once gave you. The transition takes months, not weeks.
+:page-faq-3-q: Can a CTO still be hands-on with technology?
+:page-faq-3-a: Yes, but in specific ways that do not block the team. Architecture reviews, technology evaluation, prototyping for new initiatives, and mentoring junior engineers are all valuable hands-on activities. What a later-stage CTO should avoid is being in the critical path for production code — committing to features that block releases, reviewing every pull request, or making themselves the bottleneck on daily technical decisions. Stay close to the technology through influence, not through the commit log.
+:page-faq-4-q: What replaces coding for a CTO?
+:page-faq-4-a: The activities that replace coding — architecture decisions, technology evaluation, hiring strategy, vendor management, board communication, and mentoring — are higher-leverage but less immediately satisfying. Each decision affects more people and more code than any individual commit. The CTO who successfully transitions learns to find satisfaction in the team's output rather than their own, in decisions that shape the system rather than code that implements features.
+:page-faq-5-q: How does AI change when a CTO should stop coding?
+:page-faq-5-a: AI tools may extend the period during which a CTO can productively contribute code by automating boilerplate and accelerating prototyping. However, the fundamental constraint remains — the CTO's strategic time is more valuable than their coding time once the organisation reaches a certain scale. AI makes each hour of coding more productive, but it also makes each hour of strategic work more impactful because AI-augmented teams amplify good architectural and organisational decisions across more output.
 = Chapter 13: The Day You Stop Writing Code
 
 [quote, Philip Larkin, "To Put One Brick Upon Another"]
@@ -133,3 +147,18 @@ AUTHOR: Your specific AI-augmented technical practice — running local LLM infe
 The day you stop writing code is not a day. It is a season — a gradual shift that happens as the team grows, as the business demands more of your attention, and as the people you hired become better at the work than you are. The shift is painful because it means letting go of the identity that brought you here. It is also the prerequisite for the identity that keeps you here. The CTO who tries to remain the best coder on the team will eventually be replaced by one. The CTO who becomes the best judge of technical decisions — the guide, the translator, the person who ensures the architecture serves the business — will find that the role grows more interesting, not less, as the company scales.
 
 xref:chapter-15.adoc[Chapter 15] addresses what happens when the transition is not managed: the burnout, the isolation, and the financial illiteracy that compound when the CTO tries to do everything — stay technical, manage the team, communicate with the board, and ship the product — without the support structures that make the role sustainable.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

@@ -1,5 +1,19 @@
 :page-description: AI is reshaping the CTO role in real time — team compression, vibe coding's promise and peril, and the new competencies every technical leader now needs.
 :page-haiku: Machines write the code. / They amplify what's there — strong / teams, or else the cracks.
+:description: AI is reshaping the CTO role in real time — team compression, vibe coding's promise and peril, and the new competencies every technical leader now needs.
+:keywords: AI transformation, AI-assisted development, vibe coding, team compression, AI code review
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How is AI changing the CTO role?
+:page-faq-1-a: AI is compressing team sizes, elevating the importance of code review and architectural judgment, and shifting the CTO's focus from managing large teams to designing AI-augmented workflows. The CTO of the near future will oversee fewer engineers who each orchestrate multiple AI agents. The skills that matter most — strategic thinking, business translation, cultural leadership — become more important, not less, as AI handles more implementation work.
+:page-faq-2-q: What is vibe coding?
+:page-faq-2-a: Vibe coding is the practice of using AI tools to generate code through natural language prompts without fully understanding the output. It can dramatically accelerate prototyping and exploration, but it creates risks when used without proper review — security vulnerabilities, architectural inconsistencies, and subtle bugs that are hard to detect. The CTO's role is to establish guardrails that capture the speed benefits while ensuring that AI-generated code meets the same standards as human-written code.
+:page-faq-3-q: Should engineering teams use AI coding assistants?
+:page-faq-3-a: Yes, but with clear guardrails. Treat AI-generated code like a pull request from a junior developer — it may be functional but needs review for security, architectural fit, edge cases, and maintainability. Establish team standards for when AI tools are appropriate (boilerplate, test generation, documentation) versus when human judgment is essential (security-sensitive code, core architecture, data handling). The productivity gains are real, but they require active quality management.
+:page-faq-4-q: How does AI affect engineering team size?
+:page-faq-4-a: AI enables team compression — achieving the same output with fewer, more skilled engineers who leverage AI tools effectively. A team of five engineers with strong AI workflows may match the output of a team of fifteen working without AI assistance. This changes hiring strategy (favour fewer senior engineers over many juniors), team structure (smaller, more autonomous teams), and the skills that matter most (architectural judgment and AI tool proficiency over raw coding speed).
+:page-faq-5-q: What AI skills should a CTO develop?
+:page-faq-5-a: CTOs should develop skills in prompt engineering and AI workflow design, evaluating and selecting AI tools for the engineering team, reviewing AI-generated code for quality and security, redesigning engineering processes to incorporate AI effectively, and understanding the capabilities and limitations of current AI models. The most important meta-skill is learning to distinguish where AI accelerates work from where it creates hidden risk.
 = Chapter 12: The AI Transformation
 
 [quote, 'Douglas Adams', '"How to Stop Worrying and Learn to Love the Internet," The Sunday Times, 1999']
@@ -158,3 +172,18 @@ The paradox resolves into a job description. The CTO who thrives in the compress
 The tiny teams are real. The speed is real. The $40 million product built by 12 people is real. But so is the 45% vulnerability rate, the 19% slowdown for experienced developers who do not review what the machine produces, and the 60% of companies that have generated no material value from their AI investments. The CTO’s job is to hold both realities in the same frame — and to build the team, the processes, and the architecture that turn the compression into a durable advantage rather than a fast-moving liability.
 
 xref:chapter-13.adoc[Chapter 13] addresses what happens when the CTO succeeds at everything this book has described — the building, the shipping, the communicating, the AI integration — and discovers that the role has changed so completely that they no longer recognise the job they signed up for. The day the CTO stops writing code is not a failure. It is a graduation. But it is also a loss, and managing that loss is the next skill to learn.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

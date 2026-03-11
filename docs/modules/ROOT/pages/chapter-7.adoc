@@ -1,5 +1,19 @@
 :page-description: How to distinguish rushing from speed, push back on unreasonable deadlines, and protect engineering quality when the business demands everything yesterday.
 :page-haiku: Pressure says go fast. / Wisdom draws a line and holds / what must not be rushed.
+:description: How to distinguish rushing from speed, push back on unreasonable deadlines, and protect engineering quality when the business demands everything yesterday.
+:keywords: engineering velocity, deadline pressure, error budgets, non-negotiable list, speed versus quality
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How do you push back on unreasonable engineering deadlines?
+:page-faq-1-a: Present trade-offs rather than simply saying no. Show what can be delivered by the deadline and what would need to be cut. Maintain a non-negotiable quality list — the things you will never sacrifice for speed, such as security, data integrity, and core automated tests. Use data from past deliveries to support your estimates. Frame the conversation around risk and business outcomes rather than engineering preferences.
+:page-faq-2-q: How do you balance speed and quality in software development?
+:page-faq-2-a: Speed and quality are not opposites — research from DORA and others shows that the fastest teams also produce the highest quality. The real trade-off is between speed and scope. Protect your foundations — automated testing, deployment infrastructure, security — and negotiate on features and scope instead. When stakeholders push for faster delivery, the conversation should be about what to build, not about whether to skip tests or cut corners.
+:page-faq-3-q: What is an engineering error budget?
+:page-faq-3-a: An error budget, borrowed from Google's Site Reliability Engineering practice, is the maximum amount of acceptable failure or unreliability in a given period. If your service has a 99.9% uptime target, your error budget is 0.1% downtime — about 8.7 hours per year. While you have budget remaining, you can move fast and take risks. When the budget is spent, you slow down and focus on reliability. It turns the speed-versus-quality debate into a measurable, data-driven conversation.
+:page-faq-4-q: How do you estimate software development timelines?
+:page-faq-4-a: Use ranges rather than single-point estimates — a feature might take three to five days, not exactly four. Double your estimate for unfamiliar work or systems you have not touched before. Track your historical accuracy and adjust your calibration over time. Communicate uncertainty explicitly to stakeholders. Break large projects into smaller deliverables so you can course-correct as you learn more. Never pad estimates secretly — be transparent about the uncertainty.
+:page-faq-5-q: What should a CTO never rush?
+:page-faq-5-a: Never rush security, data integrity, automated testing infrastructure, or deployment pipelines. These are the foundations that everything else depends on. A shortcut in security can cause irreversible damage — data breaches, regulatory penalties, loss of customer trust. A shortcut in testing infrastructure compounds over time, making every future change slower and riskier. Protect these foundations absolutely, and negotiate on scope and features instead.
 = Chapter 7: When the Business Wants It Yesterday
 
 [quote, Fred Brooks, "The Mythical Man-Month, 1975"]
@@ -151,3 +165,18 @@ The pressure to ship faster will not end. It did not end at Digg, or Uber, or Ca
 The CTO who manages that space well — who can distinguish rushing from speed, who has a non-negotiables list and the language to defend it, who can negotiate scope without becoming adversarial, and who builds the guardrails that make fast deployment safe deployment — is not just protecting the codebase. They are protecting their own tenure.
 
 Chapter 9 provides the measurement language that makes this negotiation concrete. The velocity the business demands cannot be discussed in the abstract. It needs metrics — the right ones, presented in the right language, at the right cadence. The DORA data, the SPACE framework, and the stage-appropriate measurement systems of xref:chapter-9.adoc[Chapter 9] are the tools that transform the velocity conversation from "we need to go faster" into "here is what we are shipping, here is how fast, and here is what it costs."
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

@@ -1,5 +1,19 @@
 :page-description: The startup CTO role is four different jobs in four years — coder, manager, director, strategist. Each stage demands skills the previous one never taught.
 :page-haiku: Four jobs, one title. / Each asks you to surrender / what made you succeed.
+:description: The startup CTO role is four different jobs in four years — coder, manager, director, strategist. Each stage demands skills the previous one never taught.
+:keywords: CTO stages, coder manager director strategist, CTO career path, engineering leadership, startup growth
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: What does a startup CTO actually do?
+:page-faq-1-a: The startup CTO role is really four different jobs compressed into a few years — Coder, Manager, Director, and Strategist. In the earliest stage, you write most of the code. As the company grows, your job shifts to building teams, then leading leaders, and finally setting multi-year technology strategy. What kills most CTOs is not any single stage but the transitions between them.
+:page-faq-2-q: How does the CTO role change as a startup grows?
+:page-faq-2-a: At a startup with fewer than 15 people, the CTO spends 70% or more of their time coding. By the time the company reaches 45 employees, coding drops to under 10%. At 250-plus employees, the CTO writes no production code at all. Each stage demands entirely different skills — the technical excellence that made you successful early on must be gradually replaced by people management, strategic thinking, and business communication.
+:page-faq-3-q: What are the four stages of a startup CTO?
+:page-faq-3-a: The four stages are Coder (1-15 employees, building the product hands-on), Manager (15-45 employees, building and coordinating the team), Director (45-250 employees, leading leaders and setting strategy), and Strategist (250-plus employees, multi-year vision and board-level leadership). Each stage has a distinct failure mode, and the transitions between stages are where most CTOs struggle or get replaced.
+:page-faq-4-q: Why do most startup CTOs get replaced?
+:page-faq-4-a: Most founding CTOs are fired or moved sideways within three to five years — not because they lack technical skill, but because they fail to navigate the transitions between stages. Common reasons include inability to stop coding and start delegating, speaking in technical jargon to the board instead of business outcomes, and managing 50 people the same way they managed 15. The gap is in business fluency and leadership adaptation, not engineering ability.
+:page-faq-5-q: What skills does a startup CTO need?
+:page-faq-5-a: The required skills evolve dramatically with each stage. Early on, you need deep technical ability and speed of execution. As you grow, you need hiring judgment, team-building, process design, and delegation. At the Director and Strategist stages, you need strategic thinking, board communication, vendor management, and the ability to translate technology decisions into business language. The CTO who tries to succeed with only technical skills will hit a ceiling.
 = Chapter 1: The Coder, the Manager, the Director, the Strategist
 
 [quote, Heraclitus, "fragment (c. 500 BCE)"]
@@ -163,3 +177,18 @@ I have not held the CTO title at every stage. But I have been inside the buildin
 The disorientation you feel — if you feel it — is not personal. The role changed. Not your competence. The job you were hired to do, or the job you assumed when you co-founded the company, has been quietly replaced by a different job with different success criteria. You are not bad at your job. Your job is new. And it will be new again in 18 months.
 
 The stages are the map. But a map does not explain how you got to the trailhead. Most startup CTOs did not plan this career. There was no CTO track at university, no certification programme, no gradual apprenticeship. They were the best engineer — or the only engineer — and the title followed. The absence of preparation is not their personal failure. It is the universal condition. And what that accidental entry does to the person holding the title turns out to shape everything that follows.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

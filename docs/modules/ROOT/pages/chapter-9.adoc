@@ -1,5 +1,19 @@
 :page-description: Engineering metrics that drive decisions versus metrics that create theatre. What to measure at each stage — DORA, cycle time, and the metrics that actually matter.
 :page-haiku: Count what you value. / The dashboard will slowly shape / the thing that you build.
+:description: Engineering metrics that drive decisions versus metrics that create theatre. What to measure at each stage — DORA, cycle time, and the metrics that actually matter.
+:keywords: engineering metrics, DORA, story points, measurement culture, developer productivity
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: What engineering metrics should a CTO track?
+:page-faq-1-a: Focus on DORA metrics as your foundation — deployment frequency, lead time for changes, change failure rate, and mean time to recovery. Add cycle time to measure how long work items take from start to finish, and track the ratio of planned to unplanned work to understand how much time goes to firefighting versus building. Developer satisfaction surveys provide the qualitative signal that quantitative metrics miss. Avoid vanity metrics that look impressive but do not drive decisions.
+:page-faq-2-q: Are story points a good measure of developer productivity?
+:page-faq-2-a: No. Story points were designed for team-level sprint planning, not for measuring individual or team productivity. When used as a productivity metric, they incentivise the wrong behaviours — developers inflate estimates to hit targets, teams game the system, and the metric loses its planning utility. Productivity is better measured through outcomes (features shipped, customer impact) and flow metrics (cycle time, deployment frequency) than through input measures like story points.
+:page-faq-3-q: What are DORA metrics and why do they matter?
+:page-faq-3-a: DORA metrics — deployment frequency, lead time, change failure rate, and mean time to recovery — are the best-validated measures of software delivery performance, backed by years of research across thousands of organisations. They matter because they are resistant to gaming (improving one does not degrade another), they correlate with business outcomes, and they measure the capability of the delivery system rather than individual effort. Elite teams score well on all four simultaneously.
+:page-faq-4-q: How do you avoid vanity metrics in engineering?
+:page-faq-4-a: Apply a simple test to every metric: if this number improved by 20 percent, would you change any decision or behaviour? If not, it is a vanity metric. Good metrics are actionable (they point to specific improvements), accessible (the team understands them), and auditable (the data source is transparent). Common vanity metrics include lines of code, number of commits, and total story points completed — they feel productive to track but do not connect to customer or business outcomes.
+:page-faq-5-q: What KPIs should an engineering team use?
+:page-faq-5-a: Start with the four DORA metrics as your foundation for delivery performance. Add cycle time to understand work-item flow. Track planned versus unplanned work ratio to measure operational health. Use developer satisfaction surveys quarterly to catch cultural and tooling problems before they show up in delivery metrics. The best KPI set is small enough that the team can remember all of them, connected to business outcomes, and reviewed regularly with action taken on the results.
 = Chapter 9: Measuring What Matters (and Ignoring What Doesn’t)
 
 [quote, Donald Rumsfeld, "Department of Defense press briefing, February 12, 2002"]
@@ -138,3 +152,18 @@ AUTHOR: A CorralData example of catching a problem early — through metrics, th
 The measurement system for a startup CTO should be lightweight enough to maintain without a dedicated tooling team, focused enough to fit on a single dashboard, and connected to the business outcomes that the CEO and board evaluate. At the Coder stage, measure three things: how often you deploy, how quickly you recover when something breaks, and whether the team is frustrated or energised. At the Manager stage, add a developer experience dimension — a quarterly survey or a regular check-in — and begin tracking the ratio of new capability work to maintenance work. At the Director stage, add cross-team delivery metrics and begin reporting engineering investment in business-outcome terms: not "we shipped 12 features" but "we reduced customer onboarding time from three weeks to four days."
 
 The measurement vocabulary developed in this chapter is the prerequisite for Part III. The CTO who knows what to measure, who can distinguish leading from lagging indicators, who can hold metrics in tension rather than optimising a single number, and who can translate engineering measurement into business language — that CTO is ready for the conversation that xref:chapter-10.adoc[Chapter 10] describes: the one that determines whether they keep their job.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

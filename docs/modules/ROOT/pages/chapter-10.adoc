@@ -1,5 +1,19 @@
 :page-description: 70% of CTOs are fired for communication failures, not technical ones. Close the business acumen gap before it closes your tenure.
 :page-haiku: They speak revenue. / You speak architecture. Learn / their tongue or lose yours.
+:description: 70% of CTOs are fired for communication failures, not technical ones. Close the business acumen gap before it closes your tenure.
+:keywords: CTO communication, business acumen, board presentations, CTO failure modes, executive presence
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: Why do CTOs get fired?
+:page-faq-1-a: Roughly 70 percent of CTO departures are driven by communication failures rather than technical ones. Founding CTOs get replaced because they speak in jargon to the board, fail to translate technology decisions into business outcomes, alienate non-technical colleagues, say no without offering alternatives, and under-deliver without explanation or mitigation plans. Technical competence is necessary but insufficient — the CTOs who survive are those who learn to communicate in the language of the business.
+:page-faq-2-q: What is the business acumen gap for CTOs?
+:page-faq-2-a: The business acumen gap is the distance between a CTO’s deep technical expertise and their ability to speak the language of business — finance, sales, marketing, and board governance. Most CTOs were promoted for engineering excellence, but the role increasingly demands fluency in revenue models, unit economics, competitive positioning, and investor relations. Closing this gap is the single highest-leverage investment a CTO can make in their career longevity.
+:page-faq-3-q: How should a CTO present to the board of directors?
+:page-faq-3-a: Lead with business outcomes, not technical details. Use plain language — no jargon, no acronyms without explanation. Keep it to five slides or fewer. Frame technology investments as business investments with expected returns. Present risks with mitigation plans rather than just problems. Anticipate questions about cost, timeline, and competitive advantage. Practise with your CEO beforehand to align on messaging. The board cares about what technology enables for the business, not how it works.
+:page-faq-4-q: What communication skills does a CTO need?
+:page-faq-4-a: A CTO needs four core communication competencies — translating technical concepts into business language, presenting confidently to boards and investors, negotiating with stakeholders who have competing priorities, and writing clearly for audiences ranging from engineers to executives. The most underrated skill is listening — understanding what the CMO, CFO, or CEO actually needs before proposing a technical solution. Communication is the CTO’s primary tool for organisational influence.
+:page-faq-5-q: How do you translate technical concepts for business stakeholders?
+:page-faq-5-a: Replace jargon with outcomes and use analogies from finance and operations, which business stakeholders already understand. Instead of explaining a database migration, explain that the current system costs a certain amount per month in engineering time and the new one will reduce that by half. Frame technical debt as borrowed speed with interest payments. Frame infrastructure investment as insurance. Always start with the business impact and work backward to the technical detail only if asked.
 = Chapter 10: You’re Not Being Fired for Your Code
 
 [quote, Andy Grove, "Only the Paranoid Survive, 1996"]
@@ -149,3 +163,18 @@ AUTHOR: The author’s own reflection belongs here — not a confession, but an 
 The business acumen gap does not close when the CTO survives a board meeting. It closes when every decision the CTO makes — about architecture, about hiring, about where to invest the team’s time — is informed by both technical judgment and business fluency. The velocity infrastructure from xref:chapter-6.adoc[Chapter 6] is a business acumen investment. The metrics language from xref:chapter-9.adoc[Chapter 9] is a business acumen investment. The scope discipline from xref:chapter-6.adoc[Chapter 6], the non-negotiables from xref:chapter-7.adoc[Chapter 7], the stage-awareness from xref:chapter-1.adoc[Chapter 1] — all of these were foreshadowing a single skill: the ability to translate between what the engineering team builds and what the business needs to hear.
 
 The CTO who masters that translation has solved the survival problem. The next problem is leverage: you cannot build the team the company needs if you cannot articulate what that team should be — in language the business understands — and defend those decisions against the pressure to hire fast, hire cheap, and fill seats.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

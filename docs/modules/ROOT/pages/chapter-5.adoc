@@ -1,5 +1,19 @@
 :page-description: Technical debt is not a symptom of failure — it is a financing instrument. Learn when to borrow, how much the interest costs, and when repayment becomes urgent.
 :page-haiku: Small changes, often. / The cautious process creates / what it fears the most.
+:description: Technical debt is not a symptom of failure — it is a financing instrument. Learn when to borrow, how much the interest costs, and when repayment becomes urgent.
+:keywords: technical debt, code quality, refactoring strategy, engineering time, cognitive debt
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: What is technical debt?
+:page-faq-1-a: Technical debt is Ward Cunningham's metaphor for the accumulated cost of shortcuts and expedient decisions in software development. Like financial debt, it accrues interest — every future change takes longer because of the shortcuts taken earlier. It includes outdated dependencies, missing tests, unclear code, tightly coupled systems, and deferred maintenance. Not all technical debt is bad — some is a deliberate and strategic trade-off for speed.
+:page-faq-2-q: Is technical debt always bad?
+:page-faq-2-a: No. Strategic technical debt is a legitimate instrument, much like financial debt is a legitimate financing tool. Taking on deliberate, well-understood debt to ship faster and validate a business hypothesis can be the right decision. The problem is not debt itself but unmanaged debt — shortcuts taken without awareness, never documented, and never scheduled for repayment. The key distinction is between deliberate debt (a conscious trade-off) and accidental debt (the result of not knowing better).
+:page-faq-3-q: How do you explain technical debt to non-technical stakeholders?
+:page-faq-3-a: Use the financial metaphor directly — it is the closest analogy non-technical people already understand. Explain that you borrowed speed by taking shortcuts, and now you are paying interest on that loan every time you build new features. Quantify the interest: if a feature that should take one week now takes three because of accumulated debt, two weeks of engineering time are the interest payment. Frame repayment as an investment with measurable returns, not as engineering housekeeping.
+:page-faq-4-q: When should you pay down technical debt?
+:page-faq-4-a: Pay down technical debt when the interest cost exceeds the repayment cost — when the time lost to working around the debt on every feature is greater than the time it would take to fix it. A practical approach is to allocate 15 to 20 percent of each sprint to debt repayment, treating it as ongoing maintenance rather than a special project. Prioritise debt that blocks the most common development paths and causes the most frequent incidents.
+:page-faq-5-q: How do you measure technical debt?
+:page-faq-5-a: Look at leading indicators rather than trying to put a single number on it. Useful measures include declining deployment frequency, increasing cycle time for similar-sized features, rising bug rates in specific areas of the codebase, developer satisfaction surveys, and the ratio of planned to unplanned work. If developers consistently estimate tasks at two to three times what the same work would have taken a year ago, debt is accumulating faster than it is being repaid.
 = Chapter 5: Technical Debt as a Strategic Instrument
 
 [quote, "P.G. Wodehouse", "Love Among the Chickens, 1906"]
@@ -152,3 +166,18 @@ xref:chapter-4.adoc[Chapter 4] argued that every technical decision is a busines
 Andrea Goulet, who founded Corgibytes to specialise in legacy code modernisation, proposes an inversion of the metaphor that is worth holding onto. Rather than thinking only about debt reduction, she argues, the CTO should think about building technical wealth: "When you resolve some debt, you’re giving yourself momentum. When you install new windows in your home, yes you’re spending a bunch of money, but then you save a hundred dollars a month on your electric bill. The same thing happens with code. Only instead of efficiency, you gain productivity that compounds over time."footnote:[Goulet, A. Forget technical debt — here’s how to build technical wealth \[Interview\]. _First Round Review_. https://review.firstround.com/forget-technical-debt-heres-how-to-build-technical-wealth/ — Goulet is CEO of Corgibytes. See also Goulet, A. (2020, February 12). Technical debt isn’t just technical. _Corgibytes Blog_. https://corgibytes.com/blog/2020/02/12/technical-debt-isnt-just-technical/] Debt is what you owe. Wealth is what debt management produces — a codebase that accelerates the team rather than taxing it.
 
 The next chapter is about what debt management makes possible. If the CTO has made the right technical bets (xref:chapter-4.adoc[Chapter 4]) and is managing the interest on those bets (this chapter), the company can do the thing that matters most: ship. xref:chapter-6.adoc[Chapter 6] argues that iteration speed is the startup’s primary competitive advantage, and that the infrastructure of speed — CI/CD, feature flags, scope discipline — is the CTO’s highest-return investment. The debt framework from this chapter is the prerequisite: you cannot ship fast on a codebase that charges 50% interest on every change.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

@@ -1,5 +1,19 @@
 :page-description: Stack selection, MVP architecture, and build-versus-buy are business decisions first. Choose boring technology and spend your innovation budget on the product.
 :page-haiku: Choose the boring stack. / Every technical choice is / a bet the firm makes.
+:description: Stack selection, MVP architecture, and build-versus-buy are business decisions first. Choose boring technology and spend your innovation budget on the product.
+:keywords: technology stack selection, boring technology, build versus buy, MVP architecture, technical decisions
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How do you choose a technology stack for a startup?
+:page-faq-1-a: Choose boring, proven technologies that your team already knows. Dan McKinley's principle of innovation tokens applies — you only get a few bold technology bets, so spend them on your core differentiator, not on your database or web framework. Prioritise hiring pool size, community support, and proven production use over technical elegance. The best stack is the one that lets you ship and iterate fastest with the team you have.
+:page-faq-2-q: What does choose boring technology mean?
+:page-faq-2-a: Choose boring technology is Dan McKinley's influential philosophy that startups should default to proven, well-understood tools rather than exciting new ones. Every technology choice carries operational cost — monitoring, debugging, hiring, training. Boring technologies have known failure modes, large talent pools, and extensive documentation. Save your innovation budget for the problems that are unique to your business, and use commodity solutions for everything else.
+:page-faq-3-q: Should a startup build or buy software?
+:page-faq-3-a: Buy or use open-source solutions for anything that is not your core differentiator — authentication, payments, email, monitoring, CI/CD. Build only the components that create unique value for your customers. The build-versus-buy decision should be revisited regularly as the company grows, because what was too expensive to buy at seed stage may be too expensive to maintain at Series B. Every line of custom code is a maintenance commitment.
+:page-faq-4-q: What is the best programming language for a startup?
+:page-faq-4-a: The best programming language is the one your founding team already knows well, provided it has a large enough hiring pool in your target market. Language wars are a distraction — the difference in productivity between a team fluent in Python versus one fluent in TypeScript is negligible compared to the cost of learning a new language under startup time pressure. Choose for team familiarity and hiring availability, not for theoretical performance or elegance.
+:page-faq-5-q: How do you make MVP architecture decisions?
+:page-faq-5-a: Optimise for speed of learning, not for scalability or elegance. Start with a monolith — microservices are almost always premature at the MVP stage. Choose a single database. Deploy to a managed platform. Skip the abstractions you think you will need later and build the simplest thing that lets you test your hypothesis with real users. Architecture decisions at the MVP stage should be evaluated by one metric: how quickly they let you get feedback from customers.
 = Chapter 4: Your First Technical Decisions Are Business Decisions
 
 [quote, "Antoine de Saint-Exupéry", "Terre des hommes, 1939"]
@@ -230,3 +244,18 @@ Krieger’s Instagram reached one billion users on the stack two people chose in
 Every technical decision a CTO makes in the first year of a company is a business decision wearing engineering clothes. The stack is a bet on iteration speed. The MVP is a bet on learning. The build-versus-buy choice is a bet on where engineering capacity creates the most value. The reversibility test is a tool for sizing those bets. The technology evaluation framework — innovation tokens, Elliott-McCrea's eight questions, the timebox — is a tool for deciding which new bets to take. The technical vision is the thesis that connects individual bets into a coherent direction. And the security architecture — the permissioning model, the audit logging, the encryption decisions, the compliance posture — is a bet on the company's ability to sell to enterprise customers without a six-month retrofit.
 
 The company that ships the wrong product on the right infrastructure will learn and adapt. The company that ships no product on perfect infrastructure will not learn anything at all. xref:chapter-5.adoc[Chapter 5] examines what happens to the debt those early decisions create — and why treating that debt as a strategic instrument, rather than an engineering failure, is the CTO’s next essential skill.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

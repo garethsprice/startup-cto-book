@@ -1,5 +1,19 @@
 :page-description: Hiring, culture, and team structure for startup CTOs. How to build an engineering organisation that scales — from your first hire to your first VP of Engineering.
 :page-haiku: Hire slow and trust deep. / Culture is not what you say — / it's who you become.
+:description: Hiring, culture, and team structure for startup CTOs. How to build an engineering organisation that scales — from your first hire to your first VP of Engineering.
+:keywords: engineering hiring, team culture, Conway's Law, generative culture, engineering organisation
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How do you build a startup engineering team?
+:page-faq-1-a: Start by hiring senior generalists who can work across the full stack and are comfortable with ambiguity. Define your engineering culture explicitly rather than letting it emerge by accident — write down your values, your code review standards, your approach to incidents. Structure teams around problems and customer outcomes rather than technology layers. Invest heavily in onboarding so new hires are productive within weeks, not months. Hire for the stage you are in, not the stage you aspire to reach.
+:page-faq-2-q: What is Conway's Law and why does it matter?
+:page-faq-2-a: Conway's Law states that organisations design systems that mirror their own communication structure. If you have separate front-end and back-end teams, you will get a system with a clear front-end/back-end boundary. This matters because it means your team topology is your software topology — reorganising teams will reshape your architecture whether you intend it to or not. Smart CTOs use this deliberately, designing team structures to produce the architecture they want.
+:page-faq-3-q: When should a startup hire a VP of Engineering?
+:page-faq-3-a: Hire a VP of Engineering when the CTO can no longer effectively manage all the engineering managers, typically around 30 to 60 engineers. Other signals include the CTO spending all their time on people management with none left for technical strategy, engineering processes breaking down because nobody has time to maintain them, and hiring quality declining because the CTO cannot invest in recruiting. The VP of Engineering handles day-to-day team operations so the CTO can focus on technology strategy.
+:page-faq-4-q: How do you create a strong engineering culture?
+:page-faq-4-a: Culture is built through consistent, visible actions rather than written values. It is defined by what you actually do in code reviews, how you respond to incidents, who gets promoted and why, how you handle disagreements, and what you tolerate. Establish clear standards for code review, create blameless incident retrospectives, make promotion criteria transparent, and invest in onboarding that transmits culture to every new hire. Culture compounds — small consistent actions matter more than grand gestures.
+:page-faq-5-q: What makes a good first engineering hire?
+:page-faq-5-a: Your first engineering hire should be a senior generalist who is comfortable with ambiguity, can work across the full stack, and complements the CTO's strengths rather than duplicating them. They need to be self-directed because there is minimal process or management structure to guide them. Look for someone who has shipped products in resource-constrained environments, communicates clearly, and can help define the engineering culture that all subsequent hires will inherit.
 = Chapter 11: Building the Team
 
 [quote, "Antoine de Saint-Exupéry", "Citadelle, 1948 (paraphrased)"]
@@ -289,3 +303,18 @@ AUTHOR: How you handle the pay-performance link at CorralData. Are they combined
 The team the CTO builds is the most consequential decision they make. More than the stack, the architecture, or the deployment pipeline — all of which can be changed — the first ten hires define the culture, the communication patterns, and the system architecture for the next hundred. Conway’s Law ensures that the team structure is the system structure. The VPE hire determines whether the CTO can sustain the role as the company scales. The culture — designed or defaulted — determines whether the team ships with trust or with fear. The hiring discipline — slow in, fast out, honest always — determines whether the team stays strong as it grows. The onboarding — structured enough to orient, lightweight enough to not suffocate — determines whether great hires become great contributors. And the review system — even a lightweight one — determines whether the people the CTO hired know where they stand, where they are going, and whether anyone is paying attention to the difference.
 
 Elliott-McCrea’s formulation is the test: can the CTO hand the work off to people they trust, and will those people run the thing without them and make it better than the CTO could have imagined? If the answer is yes, the CTO has built a team. If the answer is no, the CTO has built a dependency — and xref:chapter-15.adoc[Chapter 15]’s burnout chapter is the inevitable consequence.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

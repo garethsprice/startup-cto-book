@@ -1,5 +1,19 @@
 :page-description: Most startup CTOs are the product function until they hire one. How to work with product management — or be it — at each stage of company growth.
 :page-haiku: You are the product. / Until you find who is next / then become their bridge.
+:description: Most startup CTOs are the product function until they hire one. How to work with product management — or be it — at each stage of company growth.
+:keywords: product management, CTO as product, product-engineering relationship, roadmaps, now next later
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: Should a CTO also be the product manager?
+:page-faq-1-a: In the earliest stages, yes — someone has to own both the technical and product decisions, and at a company of five people that person is usually the CTO. But as the product grows in complexity and the customer base expands, the dual role becomes unsustainable. Hire a dedicated product manager once the CTO can no longer do justice to both customer research and technical leadership, typically around 15 to 25 employees.
+:page-faq-2-q: How do CTOs work with product managers?
+:page-faq-2-a: The CTO-PM relationship is a partnership with clear boundaries. The product manager owns the problem space — understanding customers, defining what to build, and prioritising the roadmap. The CTO owns feasibility — what is technically possible, what the architecture can support, and what the cost and timeline implications are. The best CTO-PM pairs make decisions together at the intersection, with each respecting the other's domain expertise.
+:page-faq-3-q: What is the now-next-later roadmap?
+:page-faq-3-a: The now-next-later roadmap replaces fixed timelines with confidence bands. Now items are committed work in the current cycle with high certainty. Next items are likely priorities for the following cycle with moderate certainty. Later items are directional bets with low certainty that may change as you learn more. This format honestly communicates uncertainty to stakeholders instead of creating false precision with Gantt charts and specific dates.
+:page-faq-4-q: When should a startup hire its first product manager?
+:page-faq-4-a: Hire a product manager when the CTO or CEO can no longer do adequate customer research because technical and operational demands consume their time, typically around 15 to 25 employees. Other signals include feature decisions being made without customer input, the roadmap being driven entirely by the loudest stakeholder, and the CTO spending more time in customer calls than in engineering. The first PM hire should be senior enough to operate independently.
+:page-faq-5-q: What is the CTO's role in product decisions?
+:page-faq-5-a: The CTO brings technical feasibility, architecture implications, and cost clarity to product decisions. They answer questions like: can we build this, how long will it take, what are the technical risks, and what does this decision mean for our architecture long-term. The CTO should not unilaterally decide what to build (that is the product manager's domain) but should have a strong voice in how to build it and a veto on decisions that create unsustainable technical debt.
 = Chapter 8: Working with Product (or Being Product)
 
 [quote, Marty Cagan, "The CEO as Head of Product, SVPG, 2010"]
@@ -120,3 +134,18 @@ AUTHOR: How you stay connected to discovery at CorralData. Do you join customer 
 The CTO's relationship to product evolves through three phases that map roughly to the book's four-stage model. In Stage 1, you are product — the demo is the discovery, the prototype is the plan, and the roadmap is whatever you and the CEO agreed on over coffee. In Stage 2, you are building toward product — hiring the first PM, drawing boundaries, learning to let go of the _what_ while retaining the _whether_. In Stage 3 and beyond, you are a partner to product — participating in discovery, protecting engineering's strategic investment, and ensuring that the team builds missionaries, not mercenaries.
 
 The transition between these phases is one more version of the grief that xref:chapter-13.adoc[Chapter 13] will describe: the loss of a role that felt natural, replaced by a role that feels bureaucratic. The CTO who was product — who knew every user by name, who could sketch the entire system on a whiteboard, who made prioritisation decisions based on a mixture of data and instinct that no PM could replicate — must accept that the company's success requires giving that away. The demo that started as a conversation between the CTO and the CEO becomes a conversation between a product team and their users. The CTO's job is to build the team that can have that conversation without them.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

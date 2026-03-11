@@ -1,5 +1,19 @@
 :page-description: Legacy is not code — it is the team you built and the culture you left behind. How to build something that outlasts your tenure as CTO.
 :page-haiku: The code will be gone. / What lasts is the team you built / and who they become.
+:description: Legacy is not code — it is the team you built and the culture you left behind. How to build something that outlasts your tenure as CTO.
+:keywords: CTO legacy, engineering culture, team building, knowledge transfer, building to last
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: What legacy should a CTO aim to leave behind?
+:page-faq-1-a: The most lasting CTO legacy is not code or architecture — it is the team you built, the culture you established, and the engineers you mentored. Code gets rewritten, architectures get replaced, but the people you developed go on to build other teams and companies. The CTO who invests in growing leaders creates a compounding legacy that extends far beyond any single product or technology decision.
+:page-faq-2-q: How do you build an engineering culture that outlasts you?
+:page-faq-2-a: Encode your values into systems rather than relying on your personal presence. This means establishing code review standards, incident response processes, hiring practices, and promotion criteria that reflect the culture you want — and that operate the same way whether you are in the room or not. Culture that depends on a single leader is personality, not culture. Culture that is embedded in processes, rituals, and shared expectations persists after the leader is gone.
+:page-faq-3-q: What makes a CTO's impact last beyond their tenure?
+:page-faq-3-a: The engineers you mentor become CTOs who mentor other engineers. The culture you create shapes the cultures of companies that do not yet exist. The decision-making frameworks you establish — how to evaluate trade-offs, how to communicate technical decisions, how to handle incidents — become the default approach for everyone you have trained. Impact that lasts is always about people and judgment, never about specific technologies or codebases.
+:page-faq-4-q: How do you transfer knowledge when leaving a CTO role?
+:page-faq-4-a: Go beyond documentation of systems and processes — transfer your judgment frameworks. Write decision logs and architecture decision records that explain not just what was decided but why, what alternatives were considered, and what trade-offs were accepted. Create runbooks for recurring decisions. Pair with your successor on real decisions during an overlap period. The goal is to transfer the thinking behind the decisions, not just the decisions themselves.
+:page-faq-5-q: What is the most important thing a CTO can build?
+:page-faq-5-a: A team that thinks for itself and maintains high standards without you. The ultimate measure of a CTO's success is what happens after they leave — whether the team continues to make good decisions, maintain quality, ship reliably, and grow. If the engineering organisation falls apart when the CTO departs, the CTO built a dependency, not a team. If it thrives, the CTO built something that outlasts them.
 = Chapter 17: Building Something That Outlasts You
 
 [quote, 'Jorge Luis Borges', '"On Exactitude in Science," 1946']
@@ -92,6 +106,21 @@ This book began with a premise: that the startup CTO role is the most consequent
 The work matters beyond any single company or product. The teams you build will go on to build other teams. The culture you create will shape the culture of companies that do not yet exist. The engineers you mentor will become CTOs who mentor engineers you will never meet. The decisions you make today — about quality, about people, about what kind of organisation you are building — will compound across decades and generations of builders.
 
 That is the legacy. Not the code. Not the architecture. Not the title. The people, and what they go on to build.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}
 
 [quote, William Shakespeare, 'Timon of Athens']
 ____

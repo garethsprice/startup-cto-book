@@ -1,5 +1,19 @@
 :page-description: The CEO-CTO relationship is the most consequential dynamic in the startup. Its failure modes are more predictable than most CTOs realise.
 :page-haiku: Two founders, one bridge. / The hardest bugs to fix live / in the space between.
+:description: The CEO-CTO relationship is the most consequential dynamic in the startup. Its failure modes are more predictable than most CTOs realise.
+:keywords: CEO-CTO relationship, co-founder conflict, disagree and commit, founder dynamics, startup leadership
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How should a CEO and CTO work together?
+:page-faq-1-a: The CEO-CTO relationship works best with explicit agreements on decision rights — who owns which decisions, how disagreements are resolved, and what information flows between the two roles. The most effective co-founder pairs establish a disagree-and-commit protocol before conflicts arise, maintain regular one-on-one meetings focused on alignment rather than status updates, and build trust through transparency about what each person does not know.
+:page-faq-2-q: What causes conflict between startup co-founders?
+:page-faq-2-a: The most common sources of co-founder conflict are misaligned expectations about roles and decision authority, different risk tolerances (especially around technical debt and speed), unequal perceived contributions, and failure to discuss equity and compensation openly. Many conflicts that appear to be about specific technical or business decisions are actually about undefined boundaries and unspoken assumptions about who has the final say.
+:page-faq-3-q: What does disagree and commit mean?
+:page-faq-3-a: Disagree and commit is a decision-making protocol where team members voice their disagreements fully during discussion, but once a decision is made, everyone commits to it completely — including those who disagreed. It prevents two toxic patterns: false consensus (where people agree publicly but sabotage privately) and endless debate (where decisions are relitigated after being made). The key is that disagreement must happen before the decision, not after.
+:page-faq-4-q: How do you handle disagreements with your co-founder?
+:page-faq-4-a: The best approach is to pre-establish decision-making protocols before conflicts arise. Define clear ownership areas — the CTO typically owns technical architecture and engineering team decisions, while the CEO owns business strategy and go-to-market. For decisions that span both domains, agree in advance on a tiebreaker mechanism. When disagreements do arise, focus on the decision criteria rather than the positions, and commit fully once a decision is reached.
+:page-faq-5-q: When should a CTO push back on the CEO?
+:page-faq-5-a: A CTO should push back when a decision risks irreversible technical damage, when timelines are physically impossible, when security or data integrity would be compromised, or when the long-term cost of a shortcut vastly exceeds the short-term benefit. The key is how you push back — present trade-offs and alternatives rather than simply saying no, use business language to explain technical consequences, and reserve your strongest objections for decisions that truly cannot be reversed.
 = Chapter 3: The Relationship That Defines Everything
 
 [quote, Leo Tolstoy, "Anna Karenina, 1878"]
@@ -124,3 +138,18 @@ AUTHOR: Your co-founder relationship maintenance practice — do you have a stru
 The CEO-CTO relationship is the startup’s first architecture. Like any architecture, it can be designed deliberately or it can emerge by default. The default version works when the company is small, the problems are technical, and the co-founders are in the same room solving them together. It breaks when the company grows, the problems become political, and the co-founders discover that the functional complement — one builds, one sells — is not enough to sustain a partnership under pressure.
 
 The CTO who understands the structural tensions (expectations mismatch, power asymmetry, the implementation-arm dynamic), who can diagnose what co-founder fights are actually about (power, care, or respect), who has learned to say no in business language rather than technical language, and who maintains the relationship through structured conversation rather than crisis management — that CTO has built the foundation for everything this book describes. The operational chapters (Part II), the business acumen chapters (Part III), and the personal survival chapters (Part IV) all rest on this foundation. Without it, every framework in this book is an abstraction. With it, the CTO has a partner — and a partnership is the only structure strong enough to survive what comes next.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

@@ -4,6 +4,9 @@
 {{else}}
 <meta name="description" content="Applied Alchemy — The Startup CTO's Field Guide to Building Technology Companies from Nothing">
 {{/if}}
+{{#if page.attributes.keywords}}
+<meta name="keywords" content="{{page.attributes.keywords}}">
+{{/if}}
 
 {{! Open Graph }}
 <meta property="og:title" content="{{page.title}}">
@@ -22,6 +25,12 @@
 <meta property="og:type" content="profile">
 {{else}}
 <meta property="og:type" content="article">
+{{/if}}
+{{#if page.attributes.date-published}}
+<meta property="article:published_time" content="{{page.attributes.date-published}}">
+{{/if}}
+{{#if page.attributes.date-modified}}
+<meta property="article:modified_time" content="{{page.attributes.date-modified}}">
 {{/if}}
 
 {{! JSON-LD structured data }}
@@ -100,6 +109,10 @@
     {
       "@type": "TechArticle",
       "headline": "{{page.title}}",
+      "description": "{{page.attributes.description}}",
+      "keywords": "{{page.attributes.keywords}}",
+      "datePublished": "{{page.attributes.date-published}}",
+      "dateModified": "{{page.attributes.date-modified}}",
       "author": {
         "@type": "Person",
         "name": "Gareth Price"
@@ -126,6 +139,41 @@
           "item": "{{site.url}}{{page.url}}"{{/if}}
         }
       ]
+    }
+  ]
+}
+</script>
+{{/if}}
+{{#if page.attributes.faq-1-q}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "{{page.attributes.faq-1-q}}",
+      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-1-a}}" }
+    },
+    {
+      "@type": "Question",
+      "name": "{{page.attributes.faq-2-q}}",
+      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-2-a}}" }
+    },
+    {
+      "@type": "Question",
+      "name": "{{page.attributes.faq-3-q}}",
+      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-3-a}}" }
+    },
+    {
+      "@type": "Question",
+      "name": "{{page.attributes.faq-4-q}}",
+      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-4-a}}" }
+    },
+    {
+      "@type": "Question",
+      "name": "{{page.attributes.faq-5-q}}",
+      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-5-a}}" }
     }
   ]
 }

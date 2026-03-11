@@ -1,5 +1,19 @@
 :page-description: Daily, weekly, and quarterly rhythms that keep engineering organisations productive. How the best CTOs structure their time across every stage.
 :page-haiku: Steady rhythms built / scaffold the unstructured day — / loops that hold you up.
+:description: Daily, weekly, and quarterly rhythms that keep engineering organisations productive. How the best CTOs structure their time across every stage.
+:keywords: operating rhythm, CTO time management, ADHD entrepreneurship, shutdown ritual, delegation
+:page-date-published: 2026-03-09
+:page-date-modified: 2026-03-11
+:page-faq-1-q: How should a CTO structure their day?
+:page-faq-1-a: Protect your mornings for deep work — start with a brief launch routine to triage urgent items, then block 90 minutes or more for focused strategic or technical work. Batch meetings into the afternoon. End with a shutdown ritual that captures open items and clears your mind for the next day. The key principle is that without deliberate structure, reactive work (Slack, email, urgent requests) will consume 100 percent of your time and the important strategic work will never happen.
+:page-faq-2-q: What is a CTO operating rhythm?
+:page-faq-2-a: An operating rhythm is a set of recurring cadences — daily, weekly, monthly, and quarterly — that ensure important work is not crowded out by urgent work. Daily includes a morning launch and shutdown ritual. Weekly includes one-on-ones, a team sync, and a deep work block. Monthly includes a retrospective and metrics review. Quarterly includes strategic planning and goal-setting. The rhythm creates predictability for your team and protects the CTO's attention for high-leverage activities.
+:page-faq-3-q: How do you manage time as a startup CTO?
+:page-faq-3-a: Protect deep work blocks on your calendar as fiercely as you protect customer meetings. Batch reactive work (email, Slack, quick questions) into specific time windows rather than responding continuously. Delegate decisions where someone else can achieve 80 percent of the quality you would — the 20 percent difference is rarely worth the CTO's time. Use a shutdown ritual to close each day cleanly. The single biggest time management lever is learning to say no to meetings that do not require your presence.
+:page-faq-4-q: What meetings should a CTO attend?
+:page-faq-4-a: Prioritise one-on-ones with your direct reports, executive team meetings, board meetings, and one cross-functional sync. Skip status meetings that can be replaced by async updates. The test for any meeting is whether it requires real-time discussion and whether the CTO's presence changes the outcome. If the meeting would proceed identically without you, delegate your attendance or ask for written notes. Protect at least 50 percent of your week for non-meeting work.
+:page-faq-5-q: How do you balance deep work with management responsibilities?
+:page-faq-5-a: Block deep work time on your calendar in advance and treat it as non-negotiable — the same way you would not cancel a board meeting for a Slack question. Schedule deep work when your energy is highest, typically mornings. Batch all reactive and management work into dedicated afternoon blocks. Communicate your schedule to the team so they know when you are available and when you are not. The goal is not to eliminate management work but to contain it so it does not expand to fill every available hour.
 = Chapter 14: The Operating Rhythm
 
 [quote, Annie Dillard, "The Writing Life, 1989"]
@@ -192,3 +206,18 @@ xref:chapter-13.adoc[Chapter 13] told you to stop coding. This chapter told you 
 '''''
 
 _xref:appendix-e.adoc[Appendix E] contains a one-page summary of the operating rhythm — daily through annual — designed to be printed, laminated, and kept at your desk. The chapter provides the argument. The appendix provides the tool._
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}
