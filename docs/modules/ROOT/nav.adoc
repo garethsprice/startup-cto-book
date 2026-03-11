@@ -13,15 +13,16 @@
 * xref:chapter-5.adoc[Technical Debt]
 * xref:chapter-6.adoc[Shipping]
 * xref:chapter-7.adoc[Rushing vs Speed]
-* xref:chapter-8.adoc[Measuring What Matters]
+* xref:chapter-8.adoc[Working with Product]
+* xref:chapter-9.adoc[Measuring What Matters]
 
 .Part III: The Gap Nobody Talks About
-* xref:chapter-9.adoc[The Business Acumen Gap]
-* xref:chapter-10.adoc[Building the Team]
-* xref:chapter-11.adoc[AI Transformation]
+* xref:chapter-10.adoc[The Business Acumen Gap]
+* xref:chapter-11.adoc[Building the Team]
+* xref:chapter-12.adoc[AI Transformation]
 
 .Part IV: Surviving and Evolving
-* xref:chapter-12.adoc[From Maker to Multiplier]
-* xref:chapter-13.adoc[Burnout and Isolation]
-* xref:chapter-14.adoc[Knowing When to Step Aside]
-* xref:chapter-15.adoc[Building Something That Outlasts You]
+* xref:chapter-13.adoc[From Maker to Multiplier]
+* xref:chapter-14.adoc[Burnout and Isolation]
+* xref:chapter-15.adoc[Knowing When to Step Aside]
+* xref:chapter-16.adoc[Building Something That Outlasts You]

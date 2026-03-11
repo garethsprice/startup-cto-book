@@ -125,7 +125,7 @@ The mechanism is worth naming precisely, because it explains why smart, capable 
 
 Each transition, in other words, requires the CTO to stop doing the thing they are best at and start doing something they have never done. The identity cost is real. The competence cost is real. And the only way to learn the new skills is to practise them before they feel natural — which means performing visibly worse at the new job than you were at the old one, for a period measured in months, while the company continues to grow and the board continues to evaluate.
 
-Chapter 9 of this book examines the business acumen gap — the communication failures that Chalmers documented — in full. For now, the point is narrower. The stages are predictable. The transitions are predictable. The failure modes at each transition are predictable. What is not predictable is whether any given CTO will see the transition in time.
+Chapter 10 of this book examines the business acumen gap — the communication failures that Chalmers documented — in full. For now, the point is narrower. The stages are predictable. The transitions are predictable. The failure modes at each transition are predictable. What is not predictable is whether any given CTO will see the transition in time.
 
 == Finding Yourself on the Map
 

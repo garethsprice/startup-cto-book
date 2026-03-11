@@ -31,17 +31,17 @@ Grounded in named case studies, quantitative benchmarks, and interviews with CTO
 * xref:chapter-5.adoc[Chapter 5: Technical Debt]
 * xref:chapter-6.adoc[Chapter 6: Shipping]
 * xref:chapter-7.adoc[Chapter 7: Rushing vs Speed]
-* xref:chapter-8.adoc[Chapter 8: Measuring What Matters]
+* xref:chapter-9.adoc[Chapter 9: Measuring What Matters]
 
 === Part III: The Gap Nobody Talks About
 
-* xref:chapter-9.adoc[Chapter 9: The Business Acumen Gap]
-* xref:chapter-10.adoc[Chapter 10: Building the Team]
-* xref:chapter-11.adoc[Chapter 11: AI Transformation]
+* xref:chapter-10.adoc[Chapter 10: The Business Acumen Gap]
+* xref:chapter-11.adoc[Chapter 11: Building the Team]
+* xref:chapter-12.adoc[Chapter 12: AI Transformation]
 
 === Part IV: Surviving and Evolving
 
-* xref:chapter-12.adoc[Chapter 12: From Maker to Multiplier]
-* xref:chapter-13.adoc[Chapter 13: Burnout and Isolation]
-* xref:chapter-14.adoc[Chapter 14: Knowing When to Step Aside]
-* xref:chapter-15.adoc[Chapter 15: Building Something That Outlasts You]
+* xref:chapter-13.adoc[Chapter 13: From Maker to Multiplier]
+* xref:chapter-14.adoc[Chapter 14: Burnout and Isolation]
+* xref:chapter-15.adoc[Chapter 15: Knowing When to Step Aside]
+* xref:chapter-16.adoc[Chapter 16: Building Something That Outlasts You]
