@@ -1,6 +1,11 @@
 :page-haiku: Steady rhythms built / scaffold the unstructured day — / loops that hold you up.
 = Chapter 14: The Operating Rhythm
 
+[quote, Annie Dillard, "The Writing Life, 1989"]
+____
+A schedule defends from chaos and whim. It is a net for catching days. It is a scaffolding on which a worker can stand and labor with both hands at sections of time.
+____
+
 I was diagnosed with inattentive ADHD at thirty-four. Before that, I had spent my entire career building compensatory systems without knowing what I was compensating for. I kept obsessive to-do lists because without them I forgot everything. I time-blocked my calendar because without structure the day dissolved into reactive chaos. I wrote things down compulsively because my working memory could not be trusted to hold a conversation's action items across the walk back to my desk. I thought this was discipline. It was, in clinical terms, self-medication — an intuitive attempt to externalise the executive functions my brain does not reliably provide.
 
 This chapter is designed for me. The operating rhythm described here is the system I built, refined, broke, rebuilt, and eventually stabilised across a decade as a startup CTO. It is informed by the clinical literature on ADHD and executive function. It is grounded in the practitioner frameworks of Will Larson, Lara Hogan, Charity Majors, Pat Kua, and Camille Fournier. And it is shaped, at every point, by the specific needs of a brain that does not self-regulate time, attention, or task initiation without external support.
@@ -177,4 +182,4 @@ Chapter 13 told you to stop coding. This chapter told you what to do instead. Ch
 
 '''''
 
-_Appendix F contains a one-page summary of the operating rhythm — daily through annual — designed to be printed, laminated, and kept at your desk. The chapter provides the argument. The appendix provides the tool._
+_Appendix E contains a one-page summary of the operating rhythm — daily through annual — designed to be printed, laminated, and kept at your desk. The chapter provides the argument. The appendix provides the tool._

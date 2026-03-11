@@ -33,5 +33,5 @@
 * xref:appendix-b.adoc[Stage-by-Stage Metrics Guide]
 * xref:appendix-c.adoc[Compensation and Equity Benchmarks]
 * xref:appendix-d.adoc[Technical Due Diligence Preparation Guide]
-* xref:appendix-e.adoc[Recommended Reading]
-* xref:appendix-f.adoc[The Operating Rhythm — Quick Reference]
+* xref:appendix-e.adoc[The Operating Rhythm — Quick Reference]
+* xref:appendix-f.adoc[Recommended Reading]
