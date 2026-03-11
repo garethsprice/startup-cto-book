@@ -163,7 +163,7 @@ The AI-assisted development context makes this more urgent, not less. AI coding 
 
 Charity Majors, co-founder of Honeycomb, an observability platform, provides the punchline: "Velocity of deploys and lowered error rates are not in tension with each other, they actually reinforce each other. When one gets better, the other does too."footnote:[Majors, C. (2019, May 1). Friday deploy freezes are exactly like murdering puppies. _charity.wtf_. https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/]
 
-The speed-versus-quality debate is not a debate about engineering values. It is a debate about infrastructure investment. The CTO who frames quality as something to add later — "we can write tests after we ship" — is making a hidden financing decision with compounding interest. Chapter 5 established that technical debt is a financing instrument. Skipping quality infrastructure is borrowing at predatory rates.
+The speed-versus-quality debate is not a debate about engineering values. It is a debate about infrastructure investment. The CTO who frames quality as something to add later — "we can write tests after we ship" — is making a hidden financing decision with compounding interest. xref:chapter-5.adoc[Chapter 5] established that technical debt is a financing instrument. Skipping quality infrastructure is borrowing at predatory rates.
 
 The harder challenge is not building this infrastructure. It is explaining what it produces. "We’re investing in testing infrastructure" sounds slow. "We’re building the system that lets us deploy ten times a day without breaking the product" sounds fast. Both describe the same investment. The language determines whether the CEO sees it as prudent engineering or gold-plating.
 

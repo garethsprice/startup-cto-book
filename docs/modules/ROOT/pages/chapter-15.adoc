@@ -134,4 +134,4 @@ The loneliest job in the startup is not lonely because the CTO lacks people arou
 
 The CTO who survives this role builds the infrastructure that the role does not provide: a peer group who understands the weight, a coach who helps them carry it, and the financial literacy to ensure that the sacrifice has a price they have consciously chosen to pay. The alternative — the CTO who carries the weight alone, who does not understand their compensation, who does not seek help until the burnout is undeniable — is the CTO who ends up like Lawrence: unable to write a line of code, unable to ask for help, and wondering how it came to this.
 
-Chapter 16 addresses the question that follows: when the CTO has done everything this chapter recommends and still decides it is time to leave — how to make that transition a strength rather than a failure.
+xref:chapter-16.adoc[Chapter 16] addresses the question that follows: when the CTO has done everything this chapter recommends and still decides it is time to leave — how to make that transition a strength rather than a failure.

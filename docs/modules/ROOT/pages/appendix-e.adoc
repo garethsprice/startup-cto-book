@@ -1,7 +1,7 @@
 :page-haiku: Steady rhythms hold / what scattered urgency drops. / Structure sets you free.
 = Appendix E: The Operating Rhythm -- Quick Reference
 
-This appendix is the tool. Chapter 14 provides the argument.
+This appendix is the tool. xref:chapter-14.adoc[Chapter 14] provides the argument.
 
 Print this. Laminate it. Tape the daily page to your monitor and the quarterly page to your wall. If any cadence has not happened in its window, that is the thing to do next.
 

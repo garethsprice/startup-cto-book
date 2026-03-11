@@ -28,7 +28,7 @@ The research that would have taken weeks took hours.
 The drafting that would have taken months took days.
 What did not change is the requirement for a human who has done the job, who knows what is true from the inside, and who is willing to be honest about the parts that hurt.
 
-There is an irony in writing a book about startup CTOs using the technology that Chapter 12 argues is transforming the CTO role.
+There is an irony in writing a book about startup CTOs using the technology that xref:chapter-12.adoc[Chapter 12] argues is transforming the CTO role.
 The irony is intentional.
 If the book's thesis is correct -- that AI makes starting easier and scaling harder, that the CTO's value lies in judgment rather than implementation -- then this process is itself a case study.
 The AI handled implementation.
