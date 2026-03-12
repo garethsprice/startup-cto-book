@@ -61,7 +61,7 @@ You have made your first hires. You are no longer the best use of your own time 
 
 ◆ Michael D. Watkins — _The First 90 Days_ (Harvard Business Review Press, Updated & Expanded Edition, 2013). The STARS framework for diagnosing your situation and acting accordingly. Reread it every time you level up.
 
-◆ Zach Goldberg — _The Startup CTO's Handbook_ (WorldChangers Media, 2023). The most comprehensive recent CTO-specific handbook — people management, tech stack decisions, technical debt, hiring, and developer experience. Creative Commons licensed with full text on GitHub.
+◆ Zach Goldberg — _The Startup CTO's Handbook_ (WorldChangers Media, 2023). A practical reference covering people management, tech stack decisions, technical debt, hiring, and developer experience. Creative Commons licensed with full text on GitHub.
 
 ◆ Stephan Schmidt — _Amazing CTO_ (Leanpub, 2024). 140+ rules for CTO leadership from a veteran CTO and prolific newsletter writer. Practical checklists for hiring, onboarding, and security. Described by Golem.de as "pleasantly bullshit-free."
 
