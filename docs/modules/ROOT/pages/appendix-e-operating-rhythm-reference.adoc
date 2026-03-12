@@ -238,21 +238,83 @@ Block a two-day offsite for annual planning. Different physical space. Body doub
 |===
 
 
-== What Never Leaves the CTO
+== AI Automation Map
 
-Regardless of stage, regardless of team size, these activities justify the role's existence. Delegate them and you are a title without a function.
+What to automate, what to assist, what to protect. See xref:14-operating-rhythm.adoc[Chapter 14] for the argument.
 
-The CEO relationship and alignment. The technology vision and long-term strategy. The board-level technical narrative. The advisory conversations and peer accountability. Senior executive hiring decisions. Engineering culture and values. The daily shutdown ritual. The personal energy audit.
+[cols="1,2,3,2",options="header"]
+|===
+| Category | Fully Automatable | AI-Assisted (human decides) | Human-Only
+
+| **Daily**
+| Deep work block defence, shutdown ritual, notification management
+| Morning launch (AI briefs, you prioritise), CEO check-in prep, triage and capture
+| --
+
+| **Weekly**
+| 5-15 update drafting
+| 1:1 prep, spec review, incident summary, pipeline analytics, weekly review scoring
+| 1:1 conversations themselves
+
+| **Monthly**
+| Budget variance analysis
+| Tech debt quantification, skip-level prep, all-hands content drafting
+| Team health (no surveillance), advisory conversation
+
+| **Quarterly**
+| OKR auto-scoring (quantitative)
+| Architecture dependency mapping, competitive intelligence, board deck first draft
+| Strategy decisions, energy audit
+
+| **Annual**
+| Benchmark data assembly
+| Roadmap research, budget scenario modelling
+| Succession planning, career conversations, organisational judgment
+
+|===
+
+**The principle:** automate the assembly, assist the analysis, protect the relationships.
+
+**Starter stack (minimal, low-maintenance):** Meeting summariser (Granola or Fireflies) + email filter (SaneBox or Superhuman) + calendar defence (Reclaim.ai) + AI assistant (Claude Projects) + one automation workflow for the shutdown ritual (n8n or Zapier). Commit for 90 days before changing anything.
+
+**The ADHD-specific rule:** prefer tools that run without being asked. SaneBox filters silently. Reclaim defends blocks automatically. The n8n shutdown workflow fires on schedule. If a tool requires daily engagement to maintain, it will be abandoned within two weeks.
 
 
-== The Two Rituals
+== The Seven Things You Never Delegate
 
-**Morning launch** (15 minutes, before email):
-Open notebook -> review calendar -> circle one meeting that matters -> write down the decision you are avoiding -> write 3 outcomes -> set timer -> headphones on -> begin.
+Regardless of stage, team size, or how good your VPE is, these stay with you:
 
-**Evening shutdown** (15 minutes, same time daily):
-Scan all task lists -> check next 3 days -> write tomorrow's 3 outcomes -> note one thing that went well -> say "shutdown complete" aloud -> close laptop.
+. The CEO relationship and daily/weekly alignment
+. Technology vision and long-term strategy
+. Board-level technical communication
+. Senior executive hiring decisions
+. Engineering culture and values
+. The advisory conversation (your external support)
+. The shutdown ritual (your internal support)
+
+Delegate everything else when the trigger is met. Hold these seven until you leave the role.
+
+
+== Daily Rituals -- The Index Card Version
+
+**MORNING (15 min, before email)**
+
+. Open notebook
+. Review today's calendar -- circle the one meeting that matters
+. Write the one decision you are avoiding
+. Write 3 outcomes (not tasks -- outcomes have completion criteria)
+. Set timer for deep work block
+. Headphones on
+
+**EVENING (15 min, same time every day)**
+
+. Scan every task list -- nothing only in your head
+. Check next 3 days -- flag anything needing prep
+. Write tomorrow's 3 outcomes in notebook
+. Note one thing that went well today
+. Say aloud: "Shutdown complete"
+. Close laptop
 
 '''''
 
-_The chapter provides the argument. This page provides the tool. The rhythm accumulates as you scale -- activities are added at each stage, rarely removed. Start with the daily and weekly rhythms. Add monthly when you have direct reports. Add quarterly and annual when the company reaches Series A. If any cadence has not happened in its window, that is the thing to do next._
+_xref:14-operating-rhythm.adoc[Chapter 14] provides the evidence, the argument, and the practitioner frameworks behind every item on this page. This page provides the system. Use them together._
