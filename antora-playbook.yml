@@ -53,6 +53,8 @@ ui:
 asciidoc:
   attributes:
     page-toclevels: 2
+  extensions:
+    - ./lib/footnotes-heading
 
 output:
   dir: build/site
