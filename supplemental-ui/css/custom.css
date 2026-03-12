@@ -148,13 +148,15 @@ footer.footer a { color: #1a1a1a; }
 .page-versions .version.is-missing { color: #848A99; }
 
 /* Footnotes */
-#footnotes { margin-top: 2rem; }
+#footnotes { margin-top: 1.5rem; }
+.footnotes-title { border-bottom: 1px solid #D8DAE0; margin-left: -1rem; margin-right: -1rem; padding: .4rem 1rem .1rem; }
 
 /* FAQ section */
-.doc .dlist.qanda dt { font-weight: 600; color: #1a1a1a; margin-top: 1.25rem; }
-.doc .dlist.qanda dt:first-child { margin-top: 0; }
-.doc .dlist.qanda dd { color: #3A3F4B; margin-bottom: 0.75rem; }
-.doc .dlist.qanda dd p { margin: 0; }
+.doc h2.discrete#_frequently_asked_questions { border-bottom: 1px solid #D8DAE0; margin-left: -1rem; margin-right: -1rem; padding: .4rem 1rem .1rem; }
+.doc .qlist.qanda { margin-top: 0.75rem; }
+.doc .qlist.qanda ol > li { margin-bottom: 1.25rem; }
+.doc .qlist.qanda ol > li > p:first-child { margin-bottom: 0.25rem; }
+.doc .qlist.qanda ol > li > p:last-child { color: #3A3F4B; }
 
 /* Print overrides */
 @media print {
