@@ -26,7 +26,7 @@ Not outlined.
 Not brainstormed.
 Constructed -- researched, briefed, drafted, compliance-checked, and revised, chapter by chapter, in a continuous conversation that produced approximately 85,000 words across sixteen chapters, seven research dossiers, and one increasingly baroque context window.
 
-I brought a detailed architecture plan: the book's structure, chapter sequence, core arguments, case studies, voice, and a fourteen-point style scoring system developed over months of prior writing.
+I brought a detailed architecture plan: the book's structure, chapter sequence, core arguments, case studies, voice, and a fourteen-point style scoring system developed over months of prior writing.footnote:scoring[Price, G. (2026). Measuring What Editors Know by Feel: A Scoring Framework for Non-Fiction Writing. _TTNW_. https://garethsprice.github.io/blog/ttnw-measuring-what-editors-know-by-feel/]
 Claude brought the ability to conduct deep research on demand, synthesise dozens of primary sources into structured dossiers, and draft at speed while maintaining stylistic consistency.
 The workflow for each chapter was: research dossier -> brief -> full draft -> compliance check -> targeted expansion -> final output.
 
