@@ -1,9 +1,9 @@
-:page-description: How this book was constructed in a single extended session with Claude — and why AI-assisted writing changes the economics without changing the authority structure.
+:page-description: How the first draft of this book was constructed in a single extended session with Claude — and why AI-assisted writing changes the economics without changing the authority structure.
 :page-llms-description: How this book was constructed using AI-assisted writing with Claude — the methodology, workflow, and why AI changes the economics of writing without changing the authority structure.
 :page-llms-optional: true
 :page-haiku: We're all small models. / Synthetic books, real knowledge — / outrun the giants.
 :page-toclevels: 0
-:description: How this book was constructed in a single extended session with Claude — and why AI-assisted writing changes the economics without changing the authority structure.
+:description: How the first draft of this book was constructed in a single extended session with Claude — and why AI-assisted writing changes the economics without changing the authority structure.
 :keywords: AI-assisted writing, Claude, LLM authorship, synthetic books, book methodology
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-03-11
@@ -21,7 +21,7 @@
 
 == A Note on How This Book Was Built
 
-This book was constructed in a single extended session with Claude, Anthropic's AI assistant.
+The first draft of this book was constructed in a single extended session with Claude, Anthropic's AI assistant.
 Not outlined.
 Not brainstormed.
 Constructed -- researched, briefed, drafted, compliance-checked, and revised, chapter by chapter, in a continuous conversation that produced approximately 85,000 words across sixteen chapters, seven research dossiers, and one increasingly baroque context window.
