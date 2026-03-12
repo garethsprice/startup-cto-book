@@ -98,6 +98,8 @@ Stephan Schmidt, who has coached dozens of CTOs through transitions, identifies 
 
 The practical mechanics: a quarterly conference talk at a CTO-adjacent event (LeadDev, QCon, CTO Craft); a monthly blog post or newsletter on a topic where the CTO has genuine expertise; an active GitHub presence that demonstrates technical currency; and a LinkedIn profile that reads as a professional narrative rather than a résumé. None of these requires more than five hours per month. All of them compound. The conference talk becomes a recruiting tool (every talk is an advertisement for the engineering culture). The blog post becomes a reference in a board presentation. The GitHub activity signals to the next hiring committee that the CTO has not drifted into pure management.
 
+== The Four Paths After the Title
+
 The career paths after the first CTO role cluster into four patterns. The first is the serial CTO — doing the founding role again at a different company, deliberately choosing to operate in the 0→1 or 1→10 stage. xref:16-knowing-when-to-step-aside.adoc[Chapter 16] covers this path in detail through Hockey, Hediard, and others. The second is the CTO at a larger company — the seed-stage CTO who moves to a Series B or C company where the role demands less building and more organisational leadership. The skills gap is real: Ben Jones of OutStride Coaching observes that "the CTO that is perfect for an early-stage startup might be terrible for a later stage startup," and search firms like Riviera Partners evaluate candidates specifically on their ability to operate at the target stage, not just the stage they came from.footnote:jones[Jones, B. The CTO: A start-up's hardest position. _Medium (OutStride Coaching)_. https://blog.outstride.co/the-cto-a-start-ups-hardest-position-3a87064dfad2 — Riviera Partners: https://www.rivierapartners.com/]
 
 The third path is the fractional CTO — working part-time for multiple companies simultaneously. Gergely Orosz profiled Sergio Pereira, a three-time founder and five-time CTO who has served as fractional CTO for more than ten companies, in _The Pragmatic Engineer_. The typical engagement runs 10–25 hours per week for six months to three years, at compensation between $150,000 and $300,000 annually depending on hours and equity. The fractional CTO market has grown to roughly 120,000 practitioners as of 2024.footnote:orosz_fractional[Orosz, G. (2023, January 10). Becoming a fractional CTO. _The Pragmatic Engineer_. https://newsletter.pragmaticengineer.com/p/fractional-cto — Profiles Sergio Pereira (3x founder, 5x CTO, 10{plus} fractional engagements).] Schmidt advises that a startup should hire a fractional CTO when "you're making technology decisions without someone experienced to check them" and a full-time CTO is still 12–18 months away.footnote:schmidt_fractional[Schmidt, S. What is a fractional CTO? Definition, meaning & when you need one. _AmazingCTO_. https://www.amazingcto.com/what-is-fractional-cto/] For the ADHD CTO described in xref:16-knowing-when-to-step-aside.adoc[Chapter 16], the fractional path has an additional appeal: the variety and novelty of multiple clients maps well to the attention profile, and the shorter engagement cycles reduce the risk of the boredom-driven departure that xref:1-four-stages-cto-evolution.adoc[Chapter 1] described.
@@ -133,6 +135,11 @@ The work matters beyond any single company or product. The teams you build will 
 
 That is the legacy. Not the code. Not the architecture. Not the title. The people, and what they go on to build.
 
+[quote, William Shakespeare, 'Timon of Athens']
+____
+You are an alchemist; make gold of that.
+____
+
 [discrete]
 == Frequently Asked Questions
 
@@ -147,8 +154,3 @@ That is the legacy. Not the code. Not the architecture. Not the title. The peopl
 {page-faq-4-a}
 {page-faq-5-q}::
 {page-faq-5-a}
-
-[quote, William Shakespeare, 'Timon of Athens']
-____
-You are an alchemist; make gold of that.
-____
