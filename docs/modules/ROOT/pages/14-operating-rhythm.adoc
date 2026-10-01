@@ -271,7 +271,7 @@ xref:13-maker-to-multiplier.adoc[Chapter 13] told you to stop coding. This chapt
 
 '''''
 
-_xref:appendix-e-operating-rhythm-reference.adoc[Appendix E] contains a one-page summary of the operating rhythm — daily through annual — designed to be printed, laminated, and kept at your desk. The chapter provides the argument. The appendix provides the tool._
+_xref:appendix-f-operating-rhythm-reference.adoc[Appendix F] contains a one-page summary of the operating rhythm — daily through annual — designed to be printed, laminated, and kept at your desk. The chapter provides the argument. The appendix provides the tool._
 
 [discrete]
 == Frequently Asked Questions

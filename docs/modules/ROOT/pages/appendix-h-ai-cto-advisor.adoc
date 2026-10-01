@@ -1,12 +1,12 @@
-:page-aliases: appendix-g.adoc
+:page-aliases: appendix-g.adoc, appendix-g-ai-cto-advisor.adoc
 :page-description: A copy-pasteable prompt that turns Claude into your personal CTO coach — grounded in this book's frameworks, vocabulary, and hard-won lessons.
 :page-llms-description: Copy-pasteable AI prompt that creates a CTO coach grounded in the book's four stages, debt-as-instrument model, business acumen gap, and operating rhythm frameworks.
 :page-haiku: Paste the prompt, share / your stage. The book talks back — frank, / specific, and grounded.
 :description: A copy-pasteable prompt that turns Claude into your personal CTO coach — grounded in this book's frameworks, vocabulary, and hard-won lessons.
 :keywords: AI CTO coach, Claude prompt, AI coaching, CTO mentor, startup CTO guidance
 :page-date-published: 2026-03-11
-:page-date-modified: 2026-03-11
-= Appendix G: Your AI CTO Advisor
+:page-date-modified: 2026-09-30
+= Appendix H: Your AI CTO Advisor
 
 xref:15-cto-burnout-isolation.adoc[Chapter 15] makes the case that isolation is one of the most corrosive forces in the CTO role. You cannot talk to your team about your doubts, your CEO does not always understand the technical trade-offs, and your board cares about outcomes, not process. The best antidote is a peer CTO — someone who has been where you are and will tell you the truth. Most startup CTOs do not have one.
 

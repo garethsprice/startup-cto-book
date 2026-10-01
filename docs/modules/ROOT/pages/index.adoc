@@ -72,9 +72,10 @@ Grounded in named case studies, quantitative benchmarks, and interviews with CTO
 * xref:appendix-b-stage-metrics-guide.adoc[Appendix B: Stage-by-Stage Metrics Guide]
 * xref:appendix-c-compensation-equity-benchmarks.adoc[Appendix C: Compensation and Equity Benchmarks]
 * xref:appendix-d-technical-due-diligence.adoc[Appendix D: Technical Due Diligence Preparation Guide]
-* xref:appendix-e-operating-rhythm-reference.adoc[Appendix E: The Operating Rhythm — Quick Reference]
-* xref:appendix-f-recommended-reading.adoc[Appendix F: Recommended Reading]
-* xref:appendix-g-ai-cto-advisor.adoc[Appendix G: Your AI CTO Advisor]
+* xref:appendix-e-acquiring-integrating-company.adoc[Appendix E: Buying a Company — The Acquiring CTO's Guide]
+* xref:appendix-f-operating-rhythm-reference.adoc[Appendix F: The Operating Rhythm — Quick Reference]
+* xref:appendix-g-recommended-reading.adoc[Appendix G: Recommended Reading]
+* xref:appendix-h-ai-cto-advisor.adoc[Appendix H: Your AI CTO Advisor]
 
 [discrete]
 == Frequently Asked Questions

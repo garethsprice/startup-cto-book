@@ -1,0 +1,144 @@
+:page-description: How a startup CTO chooses, evaluates and integrates an acquisition — from build versus buy and buy-side due diligence to the first hundred days, including what AI has changed.
+:page-llms-description: Buy-side acquisition guide for startup CTOs — build vs buy, the integration thesis, buy-side technical due diligence, deal terms, the first hundred days, retention, customer sunsets, platform migrations, and what changed in the AI era.
+:page-haiku: You bought their people. / The code was the cheaper part. / Keep them, or lose both.
+:description: How a startup CTO chooses, evaluates and integrates an acquisition — from build versus buy and buy-side due diligence to the first hundred days, including what AI has changed.
+:keywords: startup acquisition, acqui-hire, buy-side due diligence, post-merger integration, CTO M&A, AI acquisitions
+:page-date-published: 2026-09-30
+:page-date-modified: 2026-09-30
+= Appendix E: Buying a Company — The Acquiring CTO's Guide
+
+xref:appendix-d-technical-due-diligence.adoc[Appendix D] prepares the CTO to be evaluated. This appendix is its mirror image: the CTO as buyer. xref:16-knowing-when-to-step-aside.adoc[Chapter 16] describes acquisition from inside the company being bought, and a CTO who has lived that, or imagined it honestly, is well placed to run the other side.
+
+John Chambers, who made Cisco the defining serial acquirer of the 1990s, stated the stakes in 1997: "In our industry, you are acquiring people. And if you don't keep those people, you have made a terrible, terrible investment."footnote:chambers[Rifkin, G. (1997, April 1). Growth by acquisition: The case of Cisco Systems. _strategy+business_. https://www.strategy-business.com/article/15617 — The common variant "you really are acquiring only people" has no traceable source.] Across about 4,000 US high-tech startup acquisitions, 33% of acquired employees left within a year, against 12% of comparable regular hires.footnote:kim2018[Kim, J. D. (2018). Hiring through startup acquisitions: Preference mismatch and employee departures. US Census Bureau, CES-WP-18-41. https://www2.census.gov/ces/wp/2018/CES-WP-18-41.pdf] Most of what follows is about beating that number, and about what AI has changed since 2023.
+
+[WARNING]
+====
+AUTHOR: Your buy-side experience, if any, and how being evaluated yourself changes how you would evaluate a target.
+====
+
+
+== What the Evidence Actually Says
+
+The most quoted statistic in M&A is that 70–90% of acquisitions fail. Its best-known source, a 2011 _Harvard Business Review_ article by Clayton Christensen and colleagues, attributes the range to "study after study" without citing one or defining failure.footnote:christensen[Christensen, C. M., Alton, R., Rising, C., & Waldeck, A. (2011, March). The big idea: The new M&A playbook. _Harvard Business Review_. https://hbr.org/2011/03/the-big-idea-the-new-ma-playbook]
+
+The risks that survive scrutiny are narrower. People leave, as Kim's numbers show. Revenue projections are the assumption most likely to be wrong: in a McKinsey study, almost 70% of mergers missed their revenue-synergy targets, while about 60% delivered their cost synergies almost in full.footnote:mckinsey2004[Christofferson, S. A., McNish, R. S., & Sias, D. L. (2004, May 1). Where mergers go wrong. _McKinsey Quarterly_. https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/where-mergers-go-wrong] And integrating too early costs innovation: in small technology acquisitions, structural integration reduced the target's chance of launching new products, most sharply for teams that had not yet shipped.footnote:puranam[Puranam, P., Singh, H., & Zollo, M. (2006). Organizing for innovation: Managing the coordination-autonomy dilemma in technology acquisitions. _Academy of Management Journal_, 49(2), 263–280. https://doi.org/10.5465/amj.2006.20786062]
+
+
+== What AI Changed
+
+Most of this appendix would have read the same in 2015. Six things have changed since 2023, and each alters a decision in the sections that follow.
+
+*Deal structure.* An acqui-hire used to buy the company. The largest AI deals now hire the founders and license the technology, leaving the company behind: Microsoft and Inflection, Google and Character.AI, Google and Windsurf. Regulators treat them as mergers anyway. The UK's competition authority ruled that "acquiring a team with relevant know-how – even without further assets – may fall within the CMA's merger control jurisdiction".footnote:cma[Competition and Markets Authority. (2024, September 4). Microsoft / Inflection AI: Summary of phase 1 decision. https://assets.publishing.service.gov.uk/media/66d82eaf7a73423428aa2efe/Summary_of_phase_1_decision.pdf]
+
+*Price.* Elad Gil's 2018 benchmark for a team buy was $1–3 million per engineer.footnote:gilvaluation[Gil, E. (2018). M&A: How to set a valuation for companies you buy. In _High Growth Handbook_. Stripe Press. https://growth.eladgil.com/book/chapter-9-mergers-acquisitions/ma-how-to-set-a-valuation-for-companies-you-buy/] In 2025 Sam Altman said Meta was offering some OpenAI researchers "$100 million signing bonuses".footnote:altman[Nolan, B. (2025, June 18). Meta's $100 million signing bonuses for OpenAI staff are just the latest sign of extreme AI talent war. _Fortune_. https://fortune.com/2025/06/18/metas-100-million-signing-bonuses-openai-staff-extreme-ai-talent-war/] Mark Zuckerberg says recruits once asked about scope; now they want "the fewest number of people reporting to me and the most GPUs".footnote:zuckerberg[Siegler, M. G. (2025, July 17). Meta's AI relativity theory. _Spyglass_. https://spyglass.org/metas-ai-relativity-theory/ — Transcribing Zuckerberg on _The Information_'s TITV, 14 July 2025.] A startup competes instead on remit and a stated compute budget.
+
+*Supplier neutrality.* Cloud and payment providers sold to anyone, whoever owned the customer. Model vendors now decide supply by who owns, or might own, the target. When OpenAI was reported to be buying Windsurf in 2025, Anthropic limited Windsurf's direct access to Claude; co-founder Jared Kaplan said "it would be odd for us to be selling Claude to OpenAI".footnote:kaplan[Zeff, M. (2025, June 5). Anthropic co-founder on cutting access to Windsurf. _TechCrunch_. https://techcrunch.com/2025/06/05/anthropic-co-founder-on-cutting-access-to-windsurf-it-would-be-odd-for-us-to-sell-claude-to-openai/] After SpaceX bought Cursor in August 2026, OpenAI used a "limited time window" in its contract to end supply.footnote:cursor[Lee, L. (2026, August 29). OpenAI ending deal with Cursor because xAI violated terms of service. _Business Insider_. https://www.businessinsider.com/openai-ends-cursor-contract-elon-musk-spacex-sam-altman-feud-2026-8; Vaughan-Nichols, S. J. (2026, August 31). OpenAI cuts off Cursor's model access after SpaceX acquisition. _DevOps.com_. https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/]
+
+*Code ownership.* Employment contracts and an open-source scan used to settle who owned the code. The US Copyright Office now holds that "prompts alone do not provide sufficient human control to make users of an AI system the authors of the output",footnote:copyright[US Copyright Office. (2025, January). Copyright and artificial intelligence, part 2: Copyrightability. https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf] so parts of a heavily AI-written codebase may not be protectable at all.
+
+*The cost of building.* Buyers used to pay to avoid a year or two of development. PwC's deals practice now writes: "Code is now easy to write. What is hard to replicate is the years of accumulated domain expertise, regulatory understanding, and customer relationships that make enterprise software sticky."footnote:pwc[PwC. (2026, February 24). How AI is reshaping software valuations in M&A. https://www.pwc.com/us/en/services/consulting/deals/library/ai-software-valuations-ma-private-equity.html]
+
+*Tools.* In 2023 Samsung banned generative AI tools after an internal leak. By 2025 Shopify expected every employee to use them.footnote:aitools[Park, K. (2023, May 2). Samsung bans use of generative AI tools like ChatGPT after April internal data leak. _TechCrunch_. https://techcrunch.com/2023/05/02/samsung-bans-use-of-generative-ai-tools-like-chatgpt-after-april-internal-data-leak/; Palmer, A. (2025, April 7). Shopify CEO says staffers need to prove jobs can't be done by AI before asking for more headcount. _CNBC_. https://www.cnbc.com/2025/04/07/shopify-ceo-prove-ai-cant-do-jobs-before-asking-for-more-headcount.html] An acquired team now joins an AI operating model, not just a codebase.
+
+
+== Build, Borrow or Buy
+
+Gil sorts acquisitions into team buys, product buys and strategic buys.footnote:giltypes[Gil, E. (2018). Three types of acquisitions. In _High Growth Handbook_. Stripe Press. https://growth.eladgil.com/book/chapter-9-mergers-acquisitions/three-types-of-acquisitions/] A team buy is a hiring decision, a product buy a technical one and a strategic buy a market one, and each needs different diligence.
+
+Two tests come first. If you need only the technology, license it. Jeff Seibert, who sold Crashlytics to Twitter and then evaluated more than fifty startups from inside it, said of his own deal: "They didn't just want the technology — they could have remained a paying customer for that."footnote:seibert[First Round Review. (2016, April 12). One founder, both sides of the M&A table. _First Round Review_. https://review.firstround.com/one-founder-both-sides-of-the-manda-table-what-all-startups-can-learn-from-his-experience/] If you need only people, hire them. Will Larson's bar is that an acquired team must "be easier to hire or more productive once hired than investing equivalent resources into traditional hiring. Many, likely most, acquihires don't meet that threshold."footnote:larson[Larson, W. (2020, January 2). How to navigate and/or survive your acquihire. _Irrational Exuberance_. https://lethain.com/acquihire-tips/]
+
+When buying still wins, make engineering produce two numbers: the cost to build the capability to parity and the cost to integrate the acquired one. At GitLab the difference "is a key input into the deal models".footnote:gitlabprocess[GitLab. (2026). Acquisition process. _The GitLab Handbook_. https://handbook.gitlab.com/handbook/acquisitions/acquisition-process/] Since 2023 the build estimate for code alone has fallen. The estimates for domain knowledge, data rights and customers have not, and those are now the better reasons to buy.
+
+
+== The CTO's Seat at the Table
+
+McKinsey found that 50–60% of initiatives to capture merger synergies are strongly related to IT, yet technology leaders "often aren't included in the due-diligence process".footnote:mckinsey2011[Sarrazin, H., & West, A. (2011, January). Understanding the strategic value of IT in M&A. _McKinsey Quarterly_. https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/understanding-the-strategic-value-of-it-in-m-and-38a] In a startup the omission is worse, because the CTO inherits whatever was bought.
+
+Charity Majors, co-founder of Honeycomb, was at Parse when Facebook bought it, and no engineering leader at Facebook owned the deal: "All the VPs were shocked. They're like, 'What? We're acquiring who?' And as a result, we got bounced around. We were under three different VPs in the first year we were there. Nobody's success was invested in our success."footnote:majors[Humble, C. (2023, April 14). Podcast: Honeycomb CTO Charity Majors on code rewrites, acquisitions, observability, and team performance. _Container Solutions_. https://blog.container-solutions.com/charity-majors-on-code-rewrites-observability-and-team-performance] The CTO either owns the acquired team's success or argues against the deal. GitLab builds this into its process: the CTO approves the business case and term sheet, and approves again any later change to the terms.footnote:gitlabprocess[]
+
+One caution: do not negotiate the price with people who will report to you; Gil warns of "bad feelings between a deal person and at least some of the entrepreneurs who get acquired".footnote:gilnegotiate[Gil, E. (2018). M&A: Negotiate the acquisition. In _High Growth Handbook_. Stripe Press. https://growth.eladgil.com/book/chapter-9-mergers-acquisitions/ma-negotiate-the-acquisition/]
+
+
+== The Integration Thesis
+
+Christensen's team argues that "to foresee how integration will play out, we must be able to describe exactly what we are buying".footnote:christensen[] People, technology and customers can be lifted into the buyer's business. A business model cannot, because its "profit formulas and processes don't exist apart from the organization". Anouar Adlani, who has run diligence as an acquiring CTO, puts it operationally: "Before you open a single repo, you need to understand the acquisition thesis."footnote:adlani[Adlani, A. (2026, March 17). M&A technical due diligence: What CTOs are actually supposed to do. _cto.lu_. https://cto.lu/articles/ma-technical-due-diligence/]
+
+The thesis then picks one of four integration models for each system, before signing.
+
+*Keep it standalone.* The buyer adds capital and distribution and changes nothing technical. Constellation Software, which has bought hundreds of small software firms, does this by policy, arguing that "customers and BU Managers, not head office CTO's or product strategists, should choose which products get continued investment".footnote:leonard[Leonard, M. (2017, April 25). President's letter. Constellation Software Inc. Compiled in _To Our Shareholders_ (2011–2018). https://uploads-ssl.webflow.com/60e3655ca778911eb64b2a00/60f0777ead89beba9c51c0b3_Constellation-Software-Inc.-Shareholder-Letters.pdf]
+
+*Integrate at the edges.* Identity, single sign-on, administration and billing join the buyer's, and the product code stays as it is.
+
+*Migrate the infrastructure.* The product keeps its autonomy while its runtime moves onto the buyer's platform (see Platform Migrations).
+
+*Rebuild and sunset.* The team re-implements the product on the buyer's stack and the original closes. GitLab's target profile asks for teams "willing to reimplement products into GitLab in Ruby and Go" and "willing to sunset old customers within 90 days or less".footnote:gitlabhandbook[GitLab. (2026). Acquisitions handbook. _The GitLab Handbook_. https://handbook.gitlab.com/handbook/acquisitions/]
+
+Write the choice into the deal. GitLab records "What we keep as-is, rewrite, discard/EOL" before closing and sets milestones at two, four and six months.footnote:gitlabprocess[] For young teams the research favours starting closer to standalone and integrating after they ship.footnote:puranam[]
+
+
+== Buy-Side Technical Due Diligence
+
+Start with Appendix D's checklist turned around. Three areas need more weight on the buy side, and one is new.
+
+*People.* Diligence practitioner Kris Drouet reads commit history before the first meeting, then asks who could ship a change to a named service tomorrow if its lead were unreachable. On one deal, "Thirty-one of its last thirty-four commits carried one engineer's name."footnote:drouet[Drouet, K. (2026, September 14). Inside the room: What acquirers actually check in technical due diligence. _KORE1_. https://www.kore1.com/inside-technical-due-diligence-acquirers/] Interview the whole team. Seibert says this is where most deals fall through, when buyers "discover that there are more weak employees than strong ones."footnote:seibert[]
+
+*Ownership.* eBay bought Skype in 2005 without owning its core peer-to-peer technology, which was licensed from a company Skype's founders controlled. By 2009 eBay was warning investors that losing the licence meant Skype's business "would likely not be possible".footnote:skype[eBay Inc. (2009). Form 10-Q for the quarter ended June 30, 2009. https://www.sec.gov/Archives/edgar/data/0001065088/000119312509157212/d10q.htm] Prove the chain of title for everything the thesis depends on: code, licences, data and models.
+
+*Security.* Assume the target is compromised until shown otherwise. An attacker was inside Starwood's reservation system from 2014, two years before Marriott bought the company. The UK regulator fined Marriott £18.4 million and rejected the defence that the system was due to be retired: "The fact that an IT system is due to be retired shortly does not disapply the GDPR to the data being processed through that system."footnote:ico[Information Commissioner's Office. (2020, October 30). Penalty notice: Marriott International Inc. https://ico.org.uk/media2/migrated/2618524/marriott-international-inc-mpn-20201030.pdf]
+
+*AI dependencies and provenance.* This is the new area. Read every model-supply contract for change-of-control and termination rights; Cursor's chief executive had "trusted their platform to be neutral infrastructure for our business".footnote:cursor[] Given the Copyright Office's position, ask which tools wrote the code and how human review was recorded. Ask counsel for a covenant that stops the target "onboarding new AI tools" between signing and close.footnote:squire[Kenny, M. (2025, September). Managing legal risks in M&A transactions with targets using artificial intelligence (AI). _Squire Patton Boggs_. https://www.squirepattonboggs.com/insights/publications/managing-legal-risks-in-ma-transactions-with-targets-using-artificial-intelligence/]
+
+Turn every finding into a cost. Adlani's rule: "Not a vague 'medium risk' label, but an actual number: this will take three engineers six months to fix."footnote:adlani[] Most findings should change the price or the terms, not end the deal. Walk away if the target refuses code access, if the team interviews go badly, or if you face, in Drouet's words, "a leader whose account of the system does not match the evidence".footnote:drouet[]
+
+[WARNING]
+====
+AUTHOR: The healthcare buyer's questions: whether Business Associate Agreements transfer, what protected health information the target holds, and which state health-data laws apply.
+====
+
+
+== Deal Terms and the Rules Before Close
+
+Gil's benchmark is paid per "engineer, designer, and product manager who ends up getting an offer to join", and for product buys he advises giving acquired staff "at least a 20–50% bump in their compensation packages over what they could have gotten if they walked in off the street".footnote:gilvaluation[] The headline price also splits: a $10 million offer "may mean $6 million to the cap table and $3 million in retention".footnote:gilnegotiate[] Turn key-person findings into protections, such as retention conditions on named engineers, escrow and specific indemnities.footnote:drouet[] But don't build traps. Larson wants people never to "feel trapped to remain in circumstances that make them unhappy".footnote:larson[]
+
+Until close, the companies remain competitors. Staff at the US Federal Trade Commission put it plainly: "Right up until consummation, the merger parties are still independent businesses."footnote:ftc2018[Vedova, H., Clopper, K., & Edwards, C. (2018, March 20). Avoiding antitrust pitfalls during pre-merger negotiations and due diligence. _Federal Trade Commission_. https://www.ftc.gov/enforcement/competition-matters/2018/03/avoiding-antitrust-pitfalls-during-pre-merger-negotiations-due-diligence] Plan the integration without starting it: no shared credentials, no merged systems, no direction of the target's roadmap. Technical claims also become evidence. The European Commission fined Facebook €110 million because Facebook had said in 2014 that it could not reliably match Facebook and WhatsApp accounts, which it later did.footnote:whatsapp[European Commission. (2017, May 18). Mergers: Commission fines Facebook €110 million for providing misleading information about WhatsApp takeover. https://ec.europa.eu/commission/presscorner/detail/en/IP_17_1369]
+
+
+== The First Hundred Days
+
+GitLab makes one engineering leader responsible for "the implementation of the technical integration milestones and retention of the acquired team members".footnote:gitlabintegration[GitLab. (2024). Acquisition integration. _The GitLab Handbook_. https://handbook.gitlab.com/handbook/acquisitions/acquisition-process/integration/] Pairing those two jobs matters because, as Larson observes, "the deal team who pushed to finalize the acquisition quickly disengage to move on to finding their next deal."footnote:larson[]
+
+*Day 1.* Speak with one voice. Put in writing what is not changing: titles, managers, product, location. Bring the acquired systems under your logging, monitoring and incident response at once, however soon you plan to retire them. Decide which AI tools the acquired team may use, and with which repositories.
+
+*Days 1–30: stabilise.* Mandate little. Robert Williams, drawing on his years at Amazon, would "mandate critical functions like legal and finance - and perhaps security" and otherwise "let the acquired team pull rather than pushing services on them".footnote:williams[Williams, R. (2026, September 29). A new tech M&A playbook: Ten pragmatic rules for tech and product acquisitions learned at Amazon scale. _Fewer, Better, Faster_. https://fewerbetterfaster.substack.com/p/a-new-tech-m-and-a-playbook] Keep the team's structure and rituals for now. An engineering manager who led a team through an acquisition found that doing so "greatly helped preserve the team dynamic".footnote:mews[Assadi, R. (2024, November 4). An engineering leader's guide to successful team integration post-acquisition. _Mews Developers_. https://developers.mews.com/an-engineering-leaders-guide-to-successful-team-integration-post-acquisition/]
+
+*Days 31–60: connect.* Start with "a project that was only lightly coupled with the existing codebase".footnote:mews[] Begin code review and pairing in both directions, and ship a first joint milestone by about day 60, as GitLab requires.footnote:gitlabprocess[]
+
+*Days 61–100: measure.* GitLab surveys acquired staff at about three months and again at nine.footnote:gitlabintegration[] The benchmark is Kim's: two-thirds of acquired employees remain after a year. Beat it, and track founders and top earners separately.
+
+
+== Keeping the People You Bought
+
+The retention gap narrows when founders stay, when employees have longer tenure and when the target is kept structurally separate.footnote:kim2024[Kim, J. D. (2024). Startup acquisitions as a hiring strategy: Turnover differences between acquired and regular hires. _Strategy Science_, 9(2), 118–134. https://doi.org/10.1287/stsc.2022.0026] Relocating the team pushes more people to leave and found companies of their own, especially founders and top earners.footnote:kimreloc[Kim, J. D. (2022). Startup acquisitions, relocation, and employee entrepreneurship. _Strategic Management Journal_, 43(11), 2189–2216. https://doi.org/10.1002/smj.3408] So give the acquired CTO a remit larger than the company they sold, keep co-founders together, leave the team in its own office, and settle each person's level before offers go out.
+
+Money does not fix culture. When Cognition bought the rest of Windsurf in July 2025, it promised that "100% of Windsurf employees will have vesting cliffs waived for their work to date". Three weeks later it offered about 200 of them nine months' pay to leave, and chief executive Scott Wu wrote: "We don't believe in work-life balance."footnote:cognition[Wu, S. (2025, July 14). Cognition's acquisition of Windsurf. _Cognition_. https://cognition.ai/blog/windsurf; Bellan, R. (2025, August 5). Three weeks after acquiring Windsurf, Cognition offers staff the exit door. _TechCrunch_. https://techcrunch.com/2025/08/05/three-weeks-after-acquiring-windsurf-cognition-offers-staff-the-exit-door/] Record AI-era packages have not held founders either: four of the five Adept co-founders who joined Amazon in 2024 had left by February 2026.footnote:adept[GeekWire. (2026, February 24). Head of Amazon's AGI lab is leaving in latest exit from high-profile Adept deal. https://www.geekwire.com/2026/head-of-amazons-agi-lab-is-leaving-in-latest-exit-from-high-profile-adept-deal/] State the working culture before close, and give people work worth staying for.
+
+
+== The Customers You Inherited
+
+Decide the product's fate before close, because customers judge the buyer by the shutdown. Parse set the standard in 2016 with a year's notice, a database migration tool and an open-source version of its server.footnote:parse[Lacker, K. (2016, January 28). Moving on. _Parse Blog_. http://blog.parse.com/announcements/moving-on/] Keybase showed the alternative: its line that "Keybase's future is in Zoom's hands" sent users looking for replacements the same day.footnote:keybase[Keybase. (2020, May 7). Keybase joins Zoom. _Keybase Blog_. https://keybase.io/blog/keybase-joins-zoom] If the roadmap is undecided, give a date by which it will be, and say what is guaranteed until then.
+
+
+== Platform Migrations and the Rewrite in Disguise
+
+Instagram kept its product autonomy while moving into Facebook's data centres, a year-long project; co-founder Mike Krieger said: "We had to completely replace the car twice in the last year."footnote:instagram[Metz, C. (2014, June 26). How Facebook moved 20 billion Instagram photos without you noticing. _Wired_. https://www.wired.com/2014/06/facebook-instagram/] TSB shows what happens when the deal model sets the date. Its new owner, Sabadell, fixed a migration timetable "without detailed knowledge of TSB's requirements", and the 2018 cut-over left online banking "unstable and almost unusable".footnote:tsb[Slaughter and May. (2019). TSB review: An independent review following TSB's migration onto a new IT platform in April 2018. https://www.tsb.co.uk/content/dam/tsb-public/documents/media-centre/Slaughter-and-May-final-report.pdf] Microsoft's move of Wunderlist from AWS to Azure became a full rewrite, and the app was retired in 2020.footnote:wunderlist[Thorp-Lancaster, D. (2018, March). Technical issues to blame for slow migration of features from Wunderlist to Microsoft To-Do. _Windows Central_. https://www.windowscentral.com/technical-issues-blame-slow-migration-features-wunderlist-microsoft-do — The founder's remarks were translated from German.]
+
+AI has cut the cost of that rewrite. After Anthropic bought Bun, its creator moved 535,496 lines of Zig to Rust in 11 days with Claude Code, work he estimated would otherwise take "a small team of engineers a full year".footnote:bun[Sumner, J. (2026, July 8). Rewriting Bun in Rust. _Bun Blog_. https://bun.com/blog/bun-in-rust — Anthropic's own team using Anthropic's model.] The precondition was a test suite "written in TypeScript which means it doesn't depend on the runtime's programming language". Google's engineers estimated that AI cut the time spent on their internal code migrations by about half.footnote:google[Nikolov, S., et al. (2025). How is Google using AI for internal code migrations? arXiv:2501.06972. https://arxiv.org/abs/2501.06972] Ask in diligence whether the target's tests would survive a change of language; the rewrite is cheap only where they would.
+
+[WARNING]
+====
+AUTHOR: Your own use of AI tools to understand an unfamiliar codebase. No published first-person account for an acquired codebase was found.
+====
+
+'''''
+
+_This appendix is the buyer's companion to xref:appendix-d-technical-due-diligence.adoc[Appendix D] and xref:16-knowing-when-to-step-aside.adoc[Chapter 16]. xref:10-business-acumen-gap.adoc[Chapter 10] provides the business case the CEO and board will expect, and xref:5-technical-debt.adoc[Chapter 5] the language for pricing the debt you are buying. Research on acquirers finds that the second deal is the dangerous one, because buyers over-apply what they learned from the first.footnote:haleblian[Haleblian, J., & Finkelstein, S. (1999). The influence of organizational acquisition experience on acquisition performance. _Administrative Science Quarterly_, 44(1), 29–56. https://doi.org/10.2307/2667030] Write your playbook down after the first._
