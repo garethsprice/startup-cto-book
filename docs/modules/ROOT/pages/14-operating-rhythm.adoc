@@ -4,6 +4,7 @@
 :page-haiku: Steady rhythms built / scaffold the unstructured day — / loops that hold you up.
 :description: Daily, weekly, and quarterly rhythms that keep engineering organisations productive. How the best CTOs structure their time across every stage.
 :keywords: operating rhythm, CTO time management, ADHD entrepreneurship, shutdown ritual, delegation
+:page-search-title: How Should a Startup CTO Manage Their Time?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: How should a CTO structure their day?
@@ -17,6 +18,9 @@
 :page-faq-5-q: How do you balance deep work with management responsibilities?
 :page-faq-5-a: Block deep work time on your calendar in advance and treat it as non-negotiable — the same way you would not cancel a board meeting for a Slack question. Schedule deep work when your energy is highest, typically mornings. Batch all reactive and management work into dedicated afternoon blocks. Communicate your schedule to the team so they know when you are available and when you are not. The goal is not to eliminate management work but to contain it so it does not expand to fill every available hour.
 = Chapter 14: The Operating Rhythm
+
+[.in-short]
+*In short:* Startup CTOs should manage their time with an operating rhythm: recurring daily, weekly, monthly, quarterly and annual loops that stop urgent work consuming important work. Daily, that means a morning launch, a protected deep work block and a shutdown ritual, backed by a delegation ledger with pre-decided triggers. For CTOs with ADHD, it is a prosthetic for executive function.
 
 [quote, Annie Dillard, "The Writing Life, 1989"]
 ____

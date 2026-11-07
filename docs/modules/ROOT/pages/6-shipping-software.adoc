@@ -4,6 +4,7 @@
 :page-haiku: Ship to learn. Ship fast. / Speed and quality are not / the trade-off you feared.
 :description: Shipping velocity is competitive advantage. How Monzo deploys 100 times a day as a regulated bank — and why speed is learning, not recklessness.
 :keywords: shipping velocity, continuous deployment, DORA metrics, deployment frequency, Monzo engineering
+:page-search-title: How Fast Should a Startup Ship Software?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: How often should a startup deploy code?
@@ -17,6 +18,9 @@
 :page-faq-5-q: How do you implement continuous delivery in a startup?
 :page-faq-5-a: Start with the foundations — automated tests that you trust, a single-command deployment process, and monitoring that alerts you to problems immediately. Add feature flags so you can deploy code without releasing features. Invest in a staging environment that closely mirrors production. Make deployments boring and routine rather than stressful events. The key enabler is not any single tool but the cultural commitment to keeping the main branch always deployable.
 = Chapter 6: Shipping Is the Strategy
+
+[.in-short]
+*In short:* Startup CTOs should ship small changes as often as possible, because shipping speed is how a startup learns faster than its competitors. Speed and quality are complements, not trade-offs: the infrastructure of speed (CI/CD, automated testing, feature flags, trunk-based development and scope discipline) makes frequent deployment safer. Monzo deployed over 100 times a day as a regulated bank.
 
 [quote, Grace Hopper]
 ____

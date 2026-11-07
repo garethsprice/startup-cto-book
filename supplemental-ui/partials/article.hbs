@@ -1,0 +1,10 @@
+<article class="doc">
+{{#with page.title}}
+<h1 class="page">{{{this}}}</h1>
+{{/with}}
+{{#if page.attributes.date-modified}}
+<p class="page-updated">By <a href="{{relativize '/author.html'}}">Gareth Price</a> · Last updated <time datetime="{{page.attributes.date-modified}}">{{longdate page.attributes.date-modified}}</time></p>
+{{/if}}
+{{{page.contents}}}
+{{> pagination}}
+</article>

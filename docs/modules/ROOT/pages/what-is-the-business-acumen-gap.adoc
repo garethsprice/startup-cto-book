@@ -1,0 +1,84 @@
+:page-description: The business acumen gap is the distance between what a CTO knows and what they can communicate to the business. Why it gets CTOs fired, the five warning signs, and how to close it.
+:page-llms-description: Definition of the business acumen gap as used in Gareth Price's Applied Alchemy, following executive adviser Adelina Chalmers: the distance between a CTO's technical knowledge and their ability to explain it in business terms, why 70% of fired CTOs lose their jobs over communication, the five ways CTOs lose the room, why the gap is structural, and how to start closing it.
+:page-haiku: You had the answer. / The board needed the language. / Learn to translate it.
+:page-toclevels: 0
+:description: The business acumen gap is the distance between what a CTO knows and what they can communicate to the business. Why it gets CTOs fired, the five warning signs, and how to close it.
+:keywords: business acumen gap, CTO business acumen, why CTOs get fired, CTO board communication, CTO communication skills, technical to business translation
+:page-search-title: What Is the Business Acumen Gap for CTOs?
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-schema: term
+:page-term-name: Business acumen gap
+:page-term-definition: The business acumen gap is the distance between what a CTO knows and what they can communicate in the language the business acts on, and the most common reason founding CTOs lose their jobs.
+:page-faq-1-q: What is the business acumen gap?
+:page-faq-1-a: The business acumen gap is the distance between a CTO's technical expertise and their ability to speak the language of the business: risk, revenue, customers and predictability. Applied Alchemy, following executive adviser Adelina Chalmers, treats it as the most common reason founding CTOs lose their jobs. It is structural rather than personal, because the CTO role rarely forces the board practice that the CEO role does.
+:page-faq-2-q: Why do CTOs get fired?
+:page-faq-2-a: Mostly for communication failures, not technical ones. Adelina Chalmers found that none of the CTOs she worked with were fired for their technical skills: 70% lost their jobs because they could not communicate with the board and other non-technical leaders, and 30% because they were not strategic enough. AKF Partners likewise names business acumen as by far the most common reason technologists raised through the ranks fail.
+:page-faq-3-q: How should a CTO explain a technical project to the board?
+:page-faq-3-a: Put it through three questions: what is the risk to the business if we do not do this, what is the impact on revenue if we do, and what is the impact on customer retention and acquisition? Speak in outcomes, not outputs, and never let the board hear bad news for the first time in the meeting. A board can absorb a missed deadline; it cannot absorb a surprise.
+:page-faq-4-q: What are the signs a CTO has a business acumen gap?
+:page-faq-4-a: Five patterns recur: hiding behind jargon, asking the board to trust you without a business case, missing deadlines without warning or a mitigation plan, losing relevance as board attention moves to sales, and the Alpha Geek habit of keeping the hardest technical work for yourself. They tend to arrive in roughly that order, so the gap is visible long before it becomes fatal.
+:page-faq-5-q: Can a technical CTO learn business acumen?
+:page-faq-5-a: Yes, but through deliberate practice rather than osmosis. The CEO gets hundreds of repetitions pitching investors and running board meetings; the CTO gets almost none unless they go looking. Start by asking each executive peer which metric engineering could help them improve, and by rewriting every engineering update in terms of business outcomes.
+
+= What Is the Business Acumen Gap?
+
+[.lead]
+_You are not being fired for your code_
+
+[.in-short]
+*In short:* The business acumen gap is the distance between what a CTO knows and what they can communicate in the language the business acts on. In Gareth Price's _Applied Alchemy_ it is the most common reason founding CTOs lose their jobs: not a technical failure but a translation failure, and one that is structural rather than personal.
+
+== A Translation Failure, Not a Technical One
+
+Executive adviser Adelina Chalmers named it after years of working with CTOs and their investors: "I realised that there was a business acumen gap between the CTO and the board. This gap became more and more obvious as the company grew."footnote:chalmers2024_2[Chalmers, A. (2024, July 3). Most founding CTOs are fired or moved sideways within 3–5 years. Here’s why! _Medium_. https://adelinachalmers.medium.com/most-founding-ctos-are-fired-or-moved-sideways-within-3-5-years-heres-why-d2db06989656]
+
+xref:10-business-acumen-gap.adoc[Chapter 10] traces five ways it shows up:
+
+* *Jargon as a shield.* Firmware, microservices and refactoring sprints, presented to a board that hears noise.
+* *"Trust me" without a business case.* Asking for headcount or time and retreating to authority when pressed.
+* *Under-delivery without explanation.* Deadlines slip with no warning and no mitigation plan.
+* *Losing relevance as the company scales.* Board attention moves to sales, and the CTO reads it as marginalisation.
+* *The Alpha Geek pattern.* Keeping the hardest technical problems for yourself instead of leading.
+
+They are five symptoms of one condition: a technologist in a room that needs a business executive. They also tend to arrive in that order, so the gap is visible long before it is fatal.
+
+== Why It Matters
+
+Chalmers's finding is stark. None of the CTOs she worked with were fired for their technical skills. Seventy percent were fired because they could not communicate with the board and other non-technical leaders, and thirty percent because they were not strategic enough.footnote:[Chalmers, A. (~2023). LinkedIn post on CTO firing statistics. https://www.linkedin.com/posts/adelinachalmers++_++reengineeringleadership-cto-ceo-activity-7105818749395460096-Fumf — Based on Chalmers’s consulting experience with dozens of startup CTOs over 13{plus} years. See also Chalmers, A. (2024, July 3). Most founding CTOs are fired or moved sideways within 3–5 years. _Medium_. https://adelinachalmers.medium.com/most-founding-ctos-are-fired-or-moved-sideways-within-3-5-years-heres-why-d2db06989656] That is the core argument of the book. What decides whether a startup CTO survives is not their architecture or their code. It is their ability to turn technical reality into business language, and their willingness to act as a business leader.
+
+== Example: Nine Board Meetings, Nine Noes
+
+A CTO at a company of about 3,000 people spent nine months asking his board for several million pounds to redesign a product. He had the technical analysis, the risk assessment and the plan. He was refused nine times.footnote:chalmers2024[Chalmers, A. (2024, February 25). E5: Decoding tech leadership with Adelina Chalmers \[Podcast interview\]. _Tech Exec Talks_, hosted by K. Maingi. https://www.techexectalks.com/2139059/episodes/14570827-e5-decoding-tech-leadership-with-adelina-chalmers — Full transcript retrieved. Case study and coaching methodology described firsthand.]
+
+Chalmers saw the problem within three minutes. The slides described firmware, open-source licensing and architectural dependencies. The board was weighing a business risk and had been given no language for it. She helped him reframe the proposal around risk to the business, impact on sales, and impact on customer retention and acquisition. At the next meeting he got every pound he asked for.footnote:chalmers2024[] He had the right answer for nine months. He lacked the translation.
+
+== How to Start Closing It This Week
+
+. Take one proposal you are about to make and answer Chalmers's three questions: what is the risk if we do not do this, what is the revenue impact if we do, and what does it do to customer retention and acquisition?
+. Ask each executive peer: "What metric are you measuring that engineering can help you improve?"footnote:[Chalmers, A. (2024, October 9). 5 engineering metrics that can help the CTO build a business case for engineering spend. _Medium_. https://adelinachalmers.medium.com/5-engineering-metrics-that-can-help-the-cto-build-a-business-case-for-engineering-spend-c7573dca646c]
+. Rewrite your next update in outcomes, not outputs. "We completed 47 story points" becomes "the three features committed for this quarter are at 70%, 50% and 30%."
+. Flag one risk now that you would otherwise mention later. No surprises: a board that knows you surface problems early can absorb bad news.
+
+== Business Acumen Gap vs "Soft Skills"
+
+Telling a CTO to "learn business", the book says, is like telling someone to be taller. It names the deficit without the cause. The cause is structural. Jerry Colonna's coaching firm Reboot points out that the CEO role forces the practice: pitching, board meetings, owning the whole company.footnote:[Reboot.io. (n.d.). Co-founder Reboot Days \[Course content\]. https://www.reboot.io/cofounder-reboot-days/ — Reboot was founded by Jerry Colonna, former VC at Flatiron Partners and board member of 100{plus} organisations.] The CTO role does not. By Series B the CEO has had hundreds of repetitions and the CTO almost none. And board communication needs a counterparty: an actual board, with actual power, asking actual questions. The CTO who does not seek that practice out will not get it by accident. The gap is about repetition, not talent.
+
+*Go deeper:* xref:10-business-acumen-gap.adoc[Chapter 10: The Business Acumen Gap], with xref:3-ceo-cto-relationship.adoc[Chapter 3: The CEO-CTO Relationship] and xref:9-measuring-engineering-metrics.adoc[Chapter 9: Measuring What Matters]. See also xref:what-are-the-four-stages-of-a-startup-cto.adoc[What Are the Four Stages of a Startup CTO?] and xref:what-is-the-difference-between-rushing-and-speed.adoc[What Is the Difference Between Rushing and Speed?]
+
+'''''
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

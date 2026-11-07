@@ -1,0 +1,84 @@
+:page-description: Strategic technical debt is a deliberate shortcut taken to ship sooner, tracked and repaid like a loan. How startup CTOs decide when to borrow, what the interest costs and when to repay.
+:page-llms-description: Definition of strategic technical debt as used in Gareth Price's Applied Alchemy, which treats technical debt as a financing instrument: Ward Cunningham's original metaphor, debt you chose versus inherited versus hidden, interest charged by contact rather than age, how to explain the cost to a board, a quarterly three-question debt audit, and how it differs from messy code.
+:page-haiku: Borrow speed today, / know the rate, write down the loan, / pay before it bites.
+:page-toclevels: 0
+:description: Strategic technical debt is a deliberate shortcut taken to ship sooner, tracked and repaid like a loan. How startup CTOs decide when to borrow, what the interest costs and when to repay.
+:keywords: strategic technical debt, technical debt as a strategic instrument, technical debt metaphor, Ward Cunningham technical debt, managing technical debt, technical debt for startups
+:page-search-title: What Is Strategic Technical Debt?
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-schema: term
+:page-term-name: Strategic technical debt
+:page-term-definition: Strategic technical debt is a deliberate shortcut taken to ship sooner and managed like a loan: you know what you borrowed, what interest it charges and when you will repay it.
+:page-faq-1-q: What is strategic technical debt?
+:page-faq-1-a: Strategic technical debt is a deliberate shortcut taken to ship sooner, recorded and repaid like a loan. Applied Alchemy treats technical debt as a financing instrument rather than a symptom of failure: borrowing can buy speed, test a hypothesis or reach a market window, as long as you know what you borrowed, what interest it charges and when you will repay it.
+:page-faq-2-q: Is technical debt always bad?
+:page-faq-2-a: No. Deliberate, well-understood debt taken on to ship faster or validate a hypothesis can be the right decision, much as a mortgage can be. The problem is unmanaged debt: shortcuts taken without awareness, never written down and never scheduled for repayment.
+:page-faq-3-q: Who came up with the term technical debt?
+:page-faq-3-a: Ward Cunningham, in a 1992 experience report on the WyCash portfolio management system. He used it to explain to his business partners why working code needed rework once the team understood the domain better. In 2009 he said many people had confused the metaphor with writing code poorly on purpose, which he was never in favour of.
+:page-faq-4-q: How much does technical debt cost a startup?
+:page-faq-4-a: Roughly a third of engineering time, according to several independent surveys the book cites; Stripe's 2018 developer survey put it at 33%, or 13.5 hours a week. For a ten-person team that is about 3.3 engineers working on the consequences of past decisions. The interest depends on how often you touch the code, not on how old it is.
+:page-faq-5-q: When should a startup pay down technical debt?
+:page-faq-5-a: When the interest costs more than the repayment: when the time lost working around the debt on every change exceeds the time it would take to fix it. Prioritise debt in code the team touches often. Treat more than 40% of engineering capacity going to maintenance as a warning, and more than 50% as an emergency.
+
+= What Is Strategic Technical Debt?
+
+[.lead]
+_Debt as a financing instrument, not a symptom of failure_
+
+[.in-short]
+*In short:* Strategic technical debt is a deliberate shortcut taken to ship sooner and managed like a loan. Gareth Price's _Applied Alchemy_ treats technical debt as a financing instrument: used well, it buys speed, tests a hypothesis or reaches a market window. The startup CTO's job is not to avoid debt but to know when to borrow, what the interest costs and when to repay.
+
+== Borrowing on Purpose
+
+The metaphor comes from Ward Cunningham. In 1992, explaining to his business partners why working code needed rework, he wrote: "A little debt speeds development so long as it is paid back promptly with a rewrite. The danger occurs when the debt is not repaid."footnote:cunningham1992[Cunningham, W. (1992). The WyCash portfolio management system. _OOPSLA ’92: Addendum to the Proceedings on Object-Oriented Programming Systems, Languages, and Applications_, pp. 29–30. ACM. https://c2.com/doc/oopsla92.html — DOI: 10.1145/157709.157715. 803 citations in ACM Digital Library.]
+
+xref:5-technical-debt.adoc[Chapter 5] sorts a startup's debt into three kinds:
+
+* *Debt you chose.* The mortgage. You shipped a monolith knowing you would need services, or hardcoded configuration knowing you would need a configuration service. This is strategic debt.
+* *Debt you inherited.* Someone else's mortgage, shaped by decisions you did not make.
+* *Debt you did not know you had.* The unpatched dependency, the assumption that breaks at ten times the load.
+
+Strategic debt maps to the prudent, deliberate corner of Martin Fowler's technical debt quadrant: a conscious trade-off with a plan to address it.footnote:fowler2009[Fowler, M. (2009, October 14; reposted November 19, 2014). Technical debt quadrant. _martinfowler.com/bliki_. https://martinfowler.com/bliki/TechnicalDebtQuadrant.html] Its risk stays manageable as long as you track the obligation and schedule repayment before the interest compounds.
+
+== Why It Matters: The Interest Is Real
+
+Stripe's 2018 survey found engineers spend 33% of their time, 13.5 hours a week, on technical debt and maintenance.footnote:[Stripe. (2018, September). The developer coefficient. https://stripe.com/files/reports/the-developer-coefficient.pdf — Methodology: Harris Poll partnership, thousands of C-level executives and developers across 30{plus} industries.] For a ten-engineer startup, that is 3.3 people working on the consequences of past decisions.
+
+The interest is not charged by age. Fowler notes that you only pay "when I have to work with that part of the software."footnote:fowler2003[Fowler, M. (2003, October 1; substantially rewritten May 21, 2019). Technical debt. _martinfowler.com/bliki_. https://martinfowler.com/bliki/TechnicalDebt.html] A five-year-old module nobody touches costs nothing. A six-month-old service on the critical path costs you every sprint. That is what makes debt a prioritisation tool rather than a moral failing.
+
+== Example: From Complaint to Business Case
+
+The book contrasts two ways of saying the same thing to a board. "We have a lot of technical debt" is a complaint. "We are spending 33% of our engineering budget on debt service, and I want to reduce that to 20% over the next two quarters by investing in these three specific migrations" is a business case.
+
+The second version names the principal, the interest and the repayment plan. It is the language of a financing decision, which is exactly what a strategic debt is. It also passes a test the first version fails: a non-technical executive can weigh it against other uses of the same money.
+
+== How to Start This Week
+
+. Write down every shortcut you took on purpose in the last quarter, with what it bought you and the condition that will make you repay it.
+. Run the book's three-question audit. Where is the team spending unplanned time? What would break if we grew ten times? What can nobody on the team explain?
+. Measure maintenance load, Chelsea Troy's ratio of tickets that fix or work around existing code to tickets that add features. Above 40% means debt is hurting your ability to compete; above 50% is an emergency.footnote:troy2021[Troy, C. (2021, January 14–21). Quantifying technical debt / Avoiding technical debt / Reducing technical debt \[Three-part series\]. _chelseatroy.com_. https://chelseatroy.com/2021/01/14/quantifying-technical-debt/ — Troy is a staff software engineer at Mozilla and teaches at the University of Chicago.]
+. Reserve a fixed share of each sprint, 15 to 20 percent, for repayment, starting with debt in the code the team touches most.
+
+== Strategic Debt vs "Messy Code"
+
+In everyday use, technical debt means sloppy code. Cunningham rejected that reading. In 2009 he said bloggers had confused the metaphor with "the idea that you could write code poorly with the intention of doing a good job later," adding: "I'm never in favor of writing code poorly."footnote:[Cunningham, W. (2009, February 14). Debt metaphor \[Video\]. _YouTube_. https://www.youtube.com/watch?v=pqeJFYwnkjE — Transcript by June Kim and Lawrence Wang, CC BY 3.0: https://cmdev.com/papers/debt-metaphor/] His metaphor was about the gap between what you now know and what your code reflects. Strategic debt keeps that spirit. It is a decision, written down, with a price attached. Reckless debt is the credit card: easy to run up, expensive and compounding. The difference is not code quality. It is whether anyone chose it.
+
+*Go deeper:* xref:5-technical-debt.adoc[Chapter 5: Technical Debt], with xref:4-technical-decisions-business-decisions.adoc[Chapter 4: Technical Decisions as Business Decisions] and the monthly debt review in xref:14-operating-rhythm.adoc[Chapter 14: The Operating Rhythm]. See also xref:what-is-the-difference-between-rushing-and-speed.adoc[What Is the Difference Between Rushing and Speed?] and xref:what-is-the-business-acumen-gap.adoc[What Is the Business Acumen Gap?]
+
+'''''
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

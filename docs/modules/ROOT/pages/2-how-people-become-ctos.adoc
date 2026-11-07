@@ -4,10 +4,11 @@
 :page-haiku: The best coder stays. / No one plans to lead, and yet / the title appears.
 :description: Almost nobody who holds the startup CTO title was ready for it. Three paths — co-founder default, battlefield promotion, growth overtaking — and none involves preparation.
 :keywords: accidental CTO, first-time CTO, co-founder CTO, battlefield promotion, CTO demographics
+:page-search-title: How Do People Become Startup CTOs?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: How do people become startup CTOs?
-:page-faq-1-a: Most startup CTOs arrive through one of three paths — co-founder default (you were the technical one), battlefield promotion (the company grew and you were the most senior engineer), or growth overtaking (you joined as a developer and the startup expanded around you). Formal preparation for the role is extremely rare. The accidental CTO is the norm, not the exception.
+:page-faq-1-a: Most startup CTOs arrive through one of three paths — co-founder default (you were the technical one), battlefield promotion (the previous technical leader left and you were the most senior engineer remaining), or growth overtaking (you joined as a developer and the startup expanded around you). Formal preparation for the role is extremely rare. The accidental CTO is the norm, not the exception.
 :page-faq-2-q: What is an accidental CTO?
 :page-faq-2-a: An accidental CTO is someone who received the title without formal leadership training or deliberate career planning for the role. They were typically the best or only engineer at a startup, and the title followed the responsibility. This is the overwhelmingly common origin story — most CTOs did not set out to become CTOs, and the absence of preparation is the universal condition, not a personal failing.
 :page-faq-3-q: Do you need a computer science degree to be a CTO?
@@ -17,6 +18,9 @@
 :page-faq-5-q: Can a software engineer become a CTO?
 :page-faq-5-a: Yes — in fact, most startup CTOs were software engineers first. The challenge is not the starting point but the growth required. Moving from engineer to CTO means developing skills in hiring, team management, business communication, board presentations, and strategic planning. The engineers who make the transition successfully are those who recognise early that the CTO role is a leadership position that happens to require technical knowledge, not a senior engineering position with a better title.
 = Chapter 2: CTO by Accident
+
+[.in-short]
+*In short:* Most startup CTOs get the title by accident, through one of three paths: co-founder default (the technical founder becomes CTO), battlefield promotion (the most senior engineer steps up when the technical leader leaves) or growth overtaking (the company grows and the job changes around them). None involves preparation, and becoming CTO is a career change, not a promotion.
 
 [verse, "e e cummings", "may my heart always be open to little"]
 ____

@@ -4,6 +4,7 @@
 :page-haiku: Count what you value. / The dashboard will slowly shape / the thing that you build.
 :description: Engineering metrics that drive decisions versus metrics that create theatre. What to measure at each stage — DORA, cycle time, and the metrics that actually matter.
 :keywords: engineering metrics, DORA, story points, measurement culture, developer productivity
+:page-search-title: Which Engineering Metrics Actually Matter at a Startup?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: What engineering metrics should a CTO track?
@@ -17,6 +18,9 @@
 :page-faq-5-q: What KPIs should an engineering team use?
 :page-faq-5-a: Start with the DORA delivery metrics as your foundation for delivery performance. Add cycle time to understand work-item flow. Track planned versus unplanned work ratio to measure operational health. Use developer satisfaction surveys quarterly to catch cultural and tooling problems before they show up in delivery metrics. The best KPI set is small enough that the team can remember all of them, connected to business outcomes, and reviewed regularly with action taken on the results.
 = Chapter 9: Measuring What Matters (and Ignoring What Doesn’t)
+
+[.in-short]
+*In short:* Startup CTOs should measure a small, balanced set of metrics that connect engineering to business outcomes: DORA metrics as diagnostics rather than scores, developer experience, and the share of time spent on new capabilities. Avoid vanity metrics such as story points, lines of code and token counts, and hold two or three metrics in tension so gaming is visible.
 
 [quote, Donald Rumsfeld, "Department of Defense press briefing, February 12, 2002"]
 ____

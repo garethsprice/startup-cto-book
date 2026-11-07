@@ -4,6 +4,7 @@
 :page-haiku: Two founders, one bridge. / The hardest bugs to fix live / in the space between.
 :description: The CEO-CTO relationship is the most consequential dynamic in the startup. Its failure modes are more predictable than most CTOs realise.
 :keywords: CEO-CTO relationship, co-founder conflict, disagree and commit, founder dynamics, startup leadership
+:page-search-title: How Should a Startup CEO and CTO Work Together?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: How should a CEO and CTO work together?
@@ -17,6 +18,9 @@
 :page-faq-5-q: When should a CTO push back on the CEO?
 :page-faq-5-a: A CTO should push back when a decision risks irreversible technical damage, when timelines are physically impossible, when security or data integrity would be compromised, or when the long-term cost of a shortcut vastly exceeds the short-term benefit. The key is how you push back — present trade-offs and alternatives rather than simply saying no, use business language to explain technical consequences, and reserve your strongest objections for decisions that truly cannot be reversed.
 = Chapter 3: The Relationship That Defines Everything
+
+[.in-short]
+*In short:* Startup CEOs and CTOs work best when they treat the relationship as something to design and maintain. Three structural tensions (mismatched expectations, power asymmetry and the CEO bypassing the CTO) cause conflict without anyone behaving badly. The fixes are disagree and commit in both directions, saying no in business terms, and a weekly Founder Sync about the relationship itself.
 
 [quote, Leo Tolstoy, "Anna Karenina, 1878"]
 ____

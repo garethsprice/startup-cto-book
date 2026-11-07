@@ -1,0 +1,67 @@
+:page-description: The key frameworks in Applied Alchemy, the startup CTO's field guide: the four stages of the CTO, the business acumen gap, the maker-to-multiplier shift, the operating rhythm, strategic technical debt, and rushing versus speed.
+:page-llms-description: Index of the six key concepts in Gareth Price's Applied Alchemy, each with a one-sentence definition and a link to its own page: the four stages of a startup CTO (Coder, Manager, Director, Strategist), the business acumen gap, the maker-to-multiplier shift, the CTO operating rhythm, strategic technical debt, and rushing versus speed, with the sources the book draws each one from.
+:page-haiku: Name the shift you're in / and you can see the next one / before it arrives.
+:page-toclevels: 0
+:description: The key frameworks in Applied Alchemy, the startup CTO's field guide: the four stages of the CTO, the business acumen gap, the maker-to-multiplier shift, the operating rhythm, strategic technical debt, and rushing versus speed.
+:keywords: startup CTO frameworks, CTO key concepts, four stages of a CTO, business acumen gap, maker to multiplier, CTO operating rhythm, strategic technical debt, rushing vs speed
+:page-search-title: Key Startup CTO Frameworks from Applied Alchemy
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-schema: termset
+:page-faq-1-q: What frameworks does Applied Alchemy use?
+:page-faq-1-a: Six: the four stages of a startup CTO (Coder, Manager, Director, Strategist), the business acumen gap, the maker-to-multiplier shift, the CTO operating rhythm, technical debt as a strategic instrument, and the difference between rushing and speed. The four stages are the map; the others describe what the transitions between stages ask of the CTO.
+:page-faq-2-q: What is the most important skill for a startup CTO?
+:page-faq-2-a: Translation. Applied Alchemy's core argument is that what decides whether a startup CTO survives is not their architecture, code quality or technical judgment but their ability to turn technical reality into business language, and their willingness to operate as a business leader, not just a technical one.
+:page-faq-3-q: Where should a first-time CTO start?
+:page-faq-3-a: With the four stages, to see which job you are actually doing now, then the operating rhythm, to give the role the structure it lacks. The book advises reading Part I first whatever your stage; it takes less than an hour and reframes everything that follows.
+:page-faq-4-q: Did Applied Alchemy invent these frameworks?
+:page-faq-4-a: No, and it says so. The four stages draw on CTO coach Viktor Nyblom and Daniel Jarjoura, the business acumen gap on executive adviser Adelina Chalmers, maker and multiplier on Pat Kua, and technical debt on Ward Cunningham. The book brings them together for the startup CTO, with examples and first steps for each.
+:page-faq-5-q: Are these frameworks useful for CTOs at larger companies?
+:page-faq-5-a: Yes. The Director and Strategist stages cover organisations from 45 to several hundred people, and the business acumen gap and the operating rhythm apply at any size. The book is written for founding CTOs, scaling CTOs, and CTOs deciding whether it is time to step aside.
+
+= Key Concepts
+
+[.lead]
+_The frameworks this book builds on, one page each_
+
+[.in-short]
+*In short:* Gareth Price's _Applied Alchemy_ rests on six frameworks for the startup CTO: the four stages of the role, the business acumen gap, the maker-to-multiplier shift, the operating rhythm, strategic technical debt, and the difference between rushing and speed. Each has its own page with a definition, an example from the book and a first step to take this week.
+
+The four stages are the map. The other five describe what the role asks of you as you cross it: the translation skill that keeps CTOs in post, the identity shift away from code, the structure that replaces it, and the judgment to borrow and move fast without breaking things.
+
+Four stages of a startup CTO::
+The four stages of a startup CTO are Coder, Manager, Director and Strategist: four different jobs the role becomes as a company grows, each needing skills the previous stage never taught. xref:what-are-the-four-stages-of-a-startup-cto.adoc[What Are the Four Stages of a Startup CTO?]
+
+Business acumen gap::
+The business acumen gap is the distance between what a CTO knows and what they can communicate in the language the business acts on, and the most common reason founding CTOs lose their jobs. xref:what-is-the-business-acumen-gap.adoc[What Is the Business Acumen Gap?]
+
+Maker-to-multiplier shift::
+The maker-to-multiplier shift is the CTO's transition from writing the code to creating the conditions in which others write it well, trading a craft identity for leverage. xref:what-is-the-maker-to-multiplier-shift.adoc[What Is the Maker-to-Multiplier Shift?]
+
+CTO operating rhythm::
+A CTO operating rhythm is a set of recurring activities at daily, weekly, monthly, quarterly and annual cadences that gives the CTO role the structure it lacks, so urgent work cannot crowd out important work. xref:what-is-a-cto-operating-rhythm.adoc[What Is a CTO Operating Rhythm?]
+
+Strategic technical debt::
+Strategic technical debt is a deliberate shortcut taken to ship sooner and managed like a loan: you know what you borrowed, what interest it charges and when you will repay it. xref:what-is-strategic-technical-debt.adoc[What Is Strategic Technical Debt?]
+
+Rushing versus speed::
+Rushing versus speed is the difference between skipping safeguards to ship now, which creates problems that slow you down later, and removing friction so small, tested, reversible changes ship often and safely. xref:what-is-the-difference-between-rushing-and-speed.adoc[What Is the Difference Between Rushing and Speed?]
+
+*Start with the book:* xref:introduction.adoc[Introduction: The Role Nobody Prepared You For] and xref:1-four-stages-cto-evolution.adoc[Chapter 1: The Four Stages].
+
+'''''
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

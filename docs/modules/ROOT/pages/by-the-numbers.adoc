@@ -1,0 +1,362 @@
+:page-description: Citable figures on the startup CTO role: the published research on tenure and replacement, coding time, burnout, co-founder departures, shipping, AI productivity, hiring and pay, each linked to its chapter and source.
+:page-llms-description: By the Numbers, from Applied Alchemy by Gareth Price: the published research figures the book cites on startup CTOs (tenure and replacement, coding time by stage, burnout and loneliness, co-founder departures and startup failure, engineering metrics, AI and developer productivity, hiring, and compensation), each linked to its chapter and original source.
+:page-haiku: Read the numbers twice, / each one with its source attached, / then go count your own.
+:page-toclevels: 0
+:description: Citable figures on the startup CTO role: the published research on tenure and replacement, coding time, burnout, co-founder departures, shipping, AI productivity, hiring and pay, each linked to its chapter and source.
+:keywords: startup CTO statistics, CTO tenure data, CTO burnout statistics, engineering metrics research, AI developer productivity research, CTO compensation data, co-founder departure statistics
+:page-search-title: Startup CTO Statistics: The Research in One Place
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-faq-1-q: How long do startup CTOs usually stay in the role?
+:page-faq-1-a: Usually a few years. Korn Ferry found that CIO and CTO average tenure at the top 1,000 US companies was about 4.3 years, against 6.9 for CEOs, and AKF Partners puts US CTO tenures at three to 5.5 years. No rigorous study tracks founding CTOs specifically; the nearest, Noam Wasserman's study of more than 10,000 founders, found that 52% of founder-CEOs had been replaced by the third financing round. Chapters 10 and 16 of Applied Alchemy cover the evidence and what it means for a CTO deciding whether to stay.
+:page-faq-2-q: How much time does a startup CTO spend coding?
+:page-faq-2-a: It depends on the size of the company. Daniel Jarjoura's model puts coding at 70% or more of a founding CTO's time up to about 15 employees, 10 to 40% at 15 to 45, under 10% at 45 to 250, and none beyond that. AI tools are pulling some leaders back towards the code: LeadDev's 2026 survey found 44% of CTOs spending more time on hands-on coding and code review than a year earlier. Chapter 1 of Applied Alchemy sets out the four stages.
+:page-faq-3-q: How common is burnout among startup CTOs?
+:page-faq-3-a: Common, and getting worse. LeadDev's Engineering Leadership Report 2026 found that 54% of CTOs felt emotionally drained by their work at least once a week, up from 24% a year earlier, although CTOs were only 6% of the people surveyed. A CTO Craft survey of 100 tech leaders found that 97% had felt lonely as a leader. Chapter 15 of Applied Alchemy treats both as structural features of the role rather than personal failings.
+:page-faq-4-q: Why do startup CTOs get fired?
+:page-faq-4-a: Rarely for their technical skills. CTO adviser Adelina Chalmers reports that of the founding CTOs she has seen fired, 70% could not communicate with the board and other non-technical leaders, 30% were not strategic enough, and none were fired for their technical skills. AKF Partners names a failure to build trust with the rest of the executive team as the most frequent reason. Chapter 10 of Applied Alchemy argues that the business acumen gap, not code, is what costs CTOs their jobs.
+:page-faq-5-q: Does AI make software teams more productive?
+:page-faq-5-a: It produces more code, but not yet proportionally more delivered work. In Fiona Chen and James Stratton's study of 655 firms, adopting AI coding agents brought 35.7% more pull requests but only 13.7% more resolved issues, and the time from review request to approval rose 56.1%. METR's 2026 follow-up trial estimated speedups of 4 to 18% but called its own data only very weak evidence. Chapters 6 and 12 of Applied Alchemy explain why review capacity, not typing speed, is now the constraint.
+= By the Numbers
+
+[.lead]
+_The research behind the book, in one place_
+
+[.in-short]
+*In short:* In LeadDev's 2026 survey, 54% of CTOs felt emotionally drained at least weekly, up from 24% a year earlier. A study of 655 firms found that AI coding agents raised pull requests by 35.7% but resolved issues by only 13.7%. And no rigorous study tracks founding CTO replacement; the nearest finds 52% of founder-CEOs replaced by the third round.
+
+This page collects the research figures from the chapters of _Applied Alchemy_ in one place. Each one links to the chapter where it appears and carries the same citation, so you can read it in context before you quote it.
+
+Where the November 2026 revision replaced an older figure with a newer one, only the newer figure appears here, and figures that the xref:changelog.adoc[revision history] records as wrong have been left out. These are other people's numbers. My own experience as a CTO appears in the chapters as narrative, not as data, so it has no table here.
+
+// REVIEW: no "From the author's own company" table. The only first-hand figures in the chapters are Ready Set Rocket's growth from seven to more than 50 people (not CorralData) and CorralData "scaling through the early millions in ARR" (a money amount, excluded by the brief). Add a table if CorralData figures are published in the chapters later.
+
+== The Role
+
+Who becomes a CTO, and how the job changes as the company grows.
+
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| Nearly *80%* of successful technology companies have either a founding CTO or a technical CEO, in an analysis of 200,000{plus} career profiles across 200 companies
+| Index Ventures, 2024footnote:indexventures2024[Index Ventures, _Scaling Through Chaos_, 2024. Analysis of 200,000{plus} career profiles across 200 successful tech companies. Reported in _Fortune_, March 18, 2024. https://fortune.com/2024/03/18/analyzed-15-years-of-data-founders-employees-most-successful-tech-startups-ever-builtand-boom-innovation/]
+| xref:introduction.adoc[Introduction]
+
+| *70%* of CTOs previously worked as software developers; only *14%* had held a VP of Engineering title
+| STX Next, 2021footnote:stxnext2021[STX Next, _The Global CTO Survey 2021 Report_. https://www.stxnext.com/cto-survey-2021-report — Survey of hundreds of CTOs globally. 70% previously worked as software developers/engineers; only 14% held VP of Engineering titles.]
+| xref:introduction.adoc[Introduction]
+
+| A founding CTO spends *70%{plus}* of their time coding at 1–15 employees, *10–40%* at 15–45, under *10%* at 45–250 and *none* at 250{plus}
+| Jarjoura, 2021, with stages from Nyblom, 2023footnote:jarjoura2021[Jarjoura, D. (2021). The startup CTO growth cycle. The Unicorn CTO. https://www.unicorn-cto.com/startup-cto-growth-cycle/]footnote:nyblom2023[Nyblom, V. (2023, March 22). The four stages of a startup CTO. nyblom.io. https://www.nyblom.io/blog/the++_++four++_++stages++_++of++_++a++_++startup++_++cto]
+| xref:1-four-stages-cto-evolution.adoc[Chapter 1]
+
+| A founding CTO's job changes at each growth stage, roughly every *18 months*; if all goes well, they go from coding most of the time to out of the code in *five years or less*
+| Jarjoura, 2021footnote:jarjoura2021[]
+| xref:1-four-stages-cto-evolution.adoc[Chapter 1]
+
+| *44%* of CTOs spent more time on hands-on coding and code review than a year earlier; *37%* of engineering leaders said their hands-on responsibilities had grown, up from *25%* in 2025
+| LeadDev, 2026footnote:leaddev2026[LeadDev, _The Engineering Leadership Report 2026_. Survey conducted March 31–April 16, 2026, n=600 engineering leaders, of whom 6% were CTOs or equivalent. https://leaddev.com/wp-content/uploads/2026/06/ENGINEERING++_++LEADERSHIP++_++REPORT++_++2026++_++FINAL.pdf]
+| xref:1-four-stages-cto-evolution.adoc[Chapter 1]
+
+| The share of new US startups with a solo founder rose from *23.7%* in 2019 to *36.3%* in the first half of 2025
+| Carta, 2025footnote:carta-solo2025[Carta. (2025, December 9). Solo founders report 2025. _Carta Data_. https://carta.com/data/solo-founders-report/ — The same report found solo-led companies were 30% of startups founded in 2024 but received only 14.7% of the cash raised in priced equity rounds that year.]
+| xref:2-how-people-become-ctos.adoc[Chapter 2]
+
+| *92%* of US CTOs are men and *76%* are white, with an average age of *51* at established companies, across more than 8,600 profiles
+| Zippiafootnote:zippia[Zippia. Chief technology officer demographics and statistics \[2026\]. https://www.zippia.com/chief-technology-officer-jobs/demographics/ — Based on analysis of 8,676{plus} CTO resumes, cross-referenced with BLS and Census data.]
+| xref:2-how-people-become-ctos.adoc[Chapter 2]
+
+|===
+
+== Tenure and Replacement
+
+How long CTOs last, and why they leave. No rigorous study measures founding CTO replacement rates by funding stage; the nearest large study tracks founder-CEOs.
+
+// REVIEW: the chapters disagree on Wasserman's involuntary share. The Introduction and Chapter 16 (HBR 2008 footnote) say "nearly three-quarters", Chapter 16's later passage says 73% across "3,600 startups", and Chapter 10 says "roughly 80%"; Chapter 3 and the Introduction give ~6,000 startups. This page uses the Chapter 16 HBR wording. Harmonise the chapters.
+// REVIEW: LeadDev 2026 is cited with four different footnote texts (Introduction, Chapters 1, 15 and 16). This page copies the Introduction, Chapter 1 and Chapter 16 versions verbatim under separate ids; consider harmonising the citation in the chapters.
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| *52%* of founder-CEOs have been replaced by the third financing round, and nearly *three-quarters* of those replacements were involuntary, in a study of more than 10,000 founders
+| Wasserman, 2008footnote:wasserman2008[Wasserman, N. (2008, February). The founder’s dilemma. _Harvard Business Review_. https://hbr.org/2008/02/the-founders-dilemma — Based on study of 212 startups. Expanded in Wasserman, N. (2012). _The Founder’s Dilemmas_. Princeton University Press (~10,000 founders).]
+| xref:16-knowing-when-to-step-aside.adoc[Chapter 16]
+
+| Replacing founders improves company outcomes, particularly when the replaced founder is a C-level executive who leaves entirely, across 11,929 VC-backed firms
+| Ewens & Marx, 2018footnote:ewens2018[Ewens, M., & Marx, M. (2018). Founder replacement and startup performance. _Review of Financial Studies_, 31(4), 1532–1565. Based on 11,929 VC-backed firms. First study to establish a causal (not merely correlational) relationship between founder replacement and performance improvement.]
+| xref:10-business-acumen-gap.adoc[Chapter 10]
+
+| Of the founding CTOs she has seen fired, *70%* could not communicate with the board and other non-technical stakeholders, *30%* were not strategic enough, and *none* were fired for their technical skills (one adviser's practice, not a survey)
+| Chalmers, c. 2023footnote:chalmers2023[Chalmers, A. (~2023). LinkedIn post on CTO firing statistics. https://www.linkedin.com/posts/adelinachalmers++_++reengineeringleadership-cto-ceo-activity-7105818749395460096-Fumf — Chalmers ("The Geek Whisperer") is Top 50 Most Influential Women in UK Tech (2022, 2023), lectures at Oxford and Cambridge.]
+| xref:3-ceo-cto-relationship.adoc[Chapter 3]
+
+| CIO and CTO average tenure is about *4.3 years* in the top 1,000 US companies, against *6.9* for CEOs and *3.5* for CMOs
+| Korn Ferry, 2020footnote:kornferry2020[Korn Ferry. (2020, January 21). Age and tenure in the C-Suite. _Business Wire_. https://www.businesswire.com/news/home/20200121005146/en — Based on top 1,000 US companies. CIO/CTO average tenure: ~4.3 years.]
+| xref:16-knowing-when-to-step-aside.adoc[Chapter 16]
+
+| CTO tenures in the United States average *three to 5.5 years*; the most frequent reason for termination is failing to build trust with the rest of the executive team
+| AKF Partners, 2024footnote:akf2024[Abbott, M. (2024, October 29). Attributes of a highly successful CTO. _AKF Partners Growth Blog_. https://akfpartners.com/growth-blog/attributes-of-a-highly-successful-cto]
+| xref:10-business-acumen-gap.adoc[Chapter 10]
+
+| Nearly *50%* of senior technology executives are at risk with their C-suite peers at any given time
+| AKF Partners, 2018footnote:abbott2018[Abbott, M. (2018, May 2). Why CTOs fail and what CEOs and CTOs can do about it. _AKF Partners Growth Blog_. https://akfpartners.com/growth-blog/why-ctos-fail]
+| xref:10-business-acumen-gap.adoc[Chapter 10]
+
+| *45%* of digital and technology officers had been in their role for five years or more; *41%* of engineering leaders were considering leaving
+| Heidrick & Struggles, 2024; CTO Craft & Albany, 2025footnote:heidrick2024[Heidrick & Struggles. (2024, December 9). _2024 global digital & technology officers organization and compensation survey_. https://www.heidrick.com/en/insights/compensation-trends/2024-global-digital-_technology-officers-organization-and-compensation-survey — Survey of 377 digital and technology leaders; the tenure question had n=364. CTO Craft & Albany. (2025, May 21). CTO Craft and Albany release latest compensation survey results, revealing key trends in technology leadership salary and equity \[Press release\]. _PR Newswire_. https://www.prnewswire.co.uk/news-releases/cto-craft-and-albany-release-latest-compensation-survey-results-revealing-key-trends-in-technology-leadership-salary-and-equity-302461731.html — Top reasons cited: lack of trust in leadership, concerns about culture and company performance, and work-life balance.]
+| xref:10-business-acumen-gap.adoc[Chapter 10]
+
+| *34%* of CTOs had considered moving back to an individual contributor role in the past year
+| LeadDev, 2026footnote:leaddev2026-ch16[LeadDev. (2026). The Engineering Leadership Report 2026. https://leaddev.com/the-engineering-leadership-report-2026 — Full report: https://leaddev.com/wp-content/uploads/2026/06/ENGINEERING_LEADERSHIP_REPORT_2026_FINAL.pdf — n=600; CTOs or equivalent were 6% of respondents.]
+| xref:16-knowing-when-to-step-aside.adoc[Chapter 16]
+
+|===
+
+== The CEO-CTO Relationship and Startup Failure
+
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| *84%* of startups have co-founders; *73%* of founding teams split equity within a month of forming; each additional social relationship in the founding team raises the likelihood of a co-founder leaving by *30%*
+| Wasserman, 2012footnote:wasserman2012[Wasserman, N. (2012). _The Founder’s Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup_. Princeton University Press. Based on ~10,000 founders across ~6,000 US tech and life sciences startups. See also Hellmann, T., & Wasserman, N. (2014). The first deal: The division of founder equity in new ventures. HBS Working Paper No. 14-085.]
+| xref:3-ceo-cto-relationship.adoc[Chapter 3]
+
+| About *one in four* VC-backed two-founder teams had lost a co-founder by year four, around *30%* by year five and close to *40%* by year eight
+| Carta, reported by SaaStr, 2025footnote:lemkin2025[Lemkin, J. (2025). The real state of seed today: The top 10 learnings from 50,000 startups, per Carta’s latest data. _SaaStr_. https://www.saastr.com/the-state-of-seed-today-10-key-learnings-from-cartas-latest-data/ — Summarising Carta’s Winter 2025 State of Seed report.]
+| xref:3-ceo-cto-relationship.adoc[Chapter 3]
+
+| Of 431 VC-backed startups that shut down after 2023, *70%* of those with identifiable reasons ran out of capital; the root causes named were poor product-market fit (*43%*), bad timing (*29%*) and unsustainable unit economics (*19%*)
+| CB Insights, 2026footnote:cbinsights2026[CB Insights. (2026, March 5). Why startups fail: Top reasons. _CB Insights Research_. https://www.cbinsights.com/research/report/startup-failure-reasons-top/ — 431 VC-backed shutdowns since 2023, excluding companies with a prior exit; reasons identified for 385. Percentages exceed 100% because many companies cited multiple reasons.]
+| xref:3-ceo-cto-relationship.adoc[Chapter 3]
+
+| Of Carta's 2018 startup cohort, tracked over seven years, *62%* shut down entirely, *15%* reached Series B and about *1.3%* became unicorns
+| Carta, 2025footnote:carta_cohort[Walker, P. / Carta. (2025). Class of 2018 analysis: 62% shut down, 15% reached Series B, ~1.3% achieved unicorn status. https://carta.com/blog/startup-survival-rates/]
+| xref:16-knowing-when-to-step-aside.adoc[Chapter 16]
+
+|===
+
+== Shipping, Debt and Metrics
+
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| Elite performers deploy *182 times* more often than low performers and recover from failures *2,293 times* faster
+| DORA, 2024footnote:dora2024[DORA Team. (2024, October). _Accelerate State of DevOps Report 2024_. Google Cloud / DORA. https://services.google.com/fh/files/misc/2024_final_dora_report.pdf — Elite performers: 127× faster lead time, 182× more deployments per year, 8× lower change failure rate, and 2,293× faster failed-deployment recovery than low performers. Elite change failure rate: 5%.]
+| xref:7-rushing-vs-speed.adoc[Chapter 7]
+
+| As AI adoption rose, delivery throughput fell an estimated *1.5%* and delivery stability *7.2%*
+| DORA, 2024footnote:dora2024-ai[Google Cloud. (2024). Announcing the 2024 DORA report. https://cloud.google.com/blog/products/devops-sre/announcing-the-2024-dora-report]
+| xref:9-measuring-engineering-metrics.adoc[Chapter 9]
+
+| Changes cause roughly *70%* of Google's outages
+| Google SRE, 2018footnote:google-sre2018[Google. (2018). Example error budget policy. In _The Site Reliability Workbook_. https://sre.google/workbook/error-budget-policy/]
+| xref:7-rushing-vs-speed.adoc[Chapter 7]
+
+| Across 655 firms, adopting AI coding agents brought *44%* more lines of code and *35.7%* more pull requests but only *13.7%* more resolved issues; time from review request to approval rose *56.1%* (a working paper, not yet peer-reviewed)
+| Chen & Stratton, 2026footnote:chen2026[Chen, F., & Stratton, J. (2026, November 6). Artificial intelligence in the firm: Bottlenecks in software production \[Working paper\]. Harvard University. https://fion.ac/jellyfish.pdf — Job market paper, not peer-reviewed; covers 445 million work events for 720,542 workers at 655 firms, January 2021 to August 2026.]
+| xref:6-shipping-software.adoc[Chapter 6]
+
+| Median pull-request throughput rose *37%* in a year to *1.94* per engineer per week as AI-generated code reached *52.7%*; time on new capabilities held flat at *57–58%* and developers' confidence in their changes fell *6.1%*
+| DX, 2026footnote:dxq22026[DX. (2026, July 22). DX releases Q2 2026 State of AI Impact in Engineering report. _getdx.com_. https://getdx.com/news/dx-releases-q2-2026-state-of-ai-impact-in-engineering-report/ — Covers April–June 2026, with trend data from Q3 2025; system telemetry combined with survey data from 500{plus} organisations.]
+| xref:9-measuring-engineering-metrics.adoc[Chapter 9]
+
+| Moved code, the signature of refactoring, fell from *21%* of changed lines in 2022 to *3.8%* in 2026, while duplicated code blocks rose *81%* over 2023, across 623 million code changes
+| GitClear, 2026footnote:gitclear2026[GitClear. (2026). The maintainability gap: AI code quality in 2026. https://www.gitclear.com/the_ai_code_quality_maintainability_gap — 623 million analysed changes, 2023–2026; 2026 figures are year-to-date. See Chapter 12 for full treatment.]
+| xref:6-shipping-software.adoc[Chapter 6]
+
+| Engineers spend an average of *33%* of their time, *13.5 hours* a week, dealing with technical debt and maintenance rather than building new features
+| Stripe, 2018footnote:stripe2018[Stripe. (2018, September). The developer coefficient. https://stripe.com/files/reports/the-developer-coefficient.pdf — Methodology: Harris Poll partnership, thousands of C-level executives and developers across 30{plus} industries.]
+| xref:5-technical-debt.adoc[Chapter 5]
+
+| Technical debt remained among the top four sources of developer friction in 2026, cited by *44%* of 1,560 developers and engineering leaders
+| Atlassian, 2026footnote:atlassian2026[Wiggers, S.-J. (2026, October 27). Developers reporting double-digit weekly time savings from AI fell from 68% to 26%. _InfoQ_. https://www.infoq.com/news/2026/10/atlassian-devex-2026/ — Reporting Atlassian’s State of Developer Experience 2026: 1,155 individual contributors and 405 engineering leaders; self-reported. See also Boyagi, A. (2026, October 20). AI is making developers faster. It’s also exposing what’s broken in software delivery. _Inside Atlassian_. https://www.atlassian.com/blog/development/developer-experience-report-2026]
+| xref:5-technical-debt.adoc[Chapter 5]
+
+| Technical debt typically accounts for *20–40%* of the technology estate, with *10–20%* of the technology budget diverted to servicing it
+| McKinsey, 2020footnote:mckinsey2020[Dalal, Patenge, Krishnakanthan, & Münstermann. (2020, October 6). Tech debt: Reclaiming tech equity. _McKinsey Digital_. https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/tech-debt-reclaiming-tech-equity — Survey of 50 CIOs at financial services and technology companies with ++>++$1B revenue.]
+| xref:5-technical-debt.adoc[Chapter 5]
+
+|===
+
+== AI and Engineering Productivity
+
+The fastest-moving evidence in the book. Several of these figures replaced earlier ones in the November 2026 revision.
+
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| *92.6%* of 121,000 developers use an AI coding assistant at least monthly, and self-report saving roughly *four hours* a week, about a *10%* gain
+| DX, 2026footnote:tacho2026-keynote[Tacho, L. (2026, February 11). Keynote at The Pragmatic Summit, San Francisco. Reported in Orosz, G. (2026, February 24). The future of software engineering with AI. _The Pragmatic Engineer_. — DX survey: 121,000 developers across 450{plus} companies. See also AI Native Dev report (58,330 developers, 352 companies): average savings of 3.6 hours/week for regular users.]
+| xref:12-ai-transformation.adoc[Chapter 12]
+
+| *90%* of respondents use AI at work, up *14 percentage points* in a year
+| DORA, 2025footnote:dora2025[DORA. (2025). Accelerate State of DevOps Report 2025. Google Cloud. https://dora.dev/research/2025/dora-report/ — The 2024 DORA report found a 1.5% dip in delivery speed and 7.2% drop in system stability for every 25% increase in AI adoption.]
+| xref:12-ai-transformation.adoc[Chapter 12]
+
+| In a follow-up trial with 57 developers, AI tools cut task time by an estimated *18%* for returning developers and *4%* for new ones, with confidence intervals that included zero; METR called its data "only very weak evidence". This supersedes METR's 2025 finding of a slowdown
+| METR, 2026footnote:metr2026[METR. (2026, February 24). We are changing our developer productivity experiment design. https://metr.org/blog/2026-02-24-uplift-update/]
+| xref:12-ai-transformation.adoc[Chapter 12]
+
+| In periods of high AI adoption, developers completed *34%* more tasks but produced *54%* more bugs, with more than *three times* as many incidents per pull request and *31%* more pull requests merged with no review, across 22,000 developers (vendor data, correlational)
+| Faros AI, 2026footnote:faros2026[Faros Research. (2026, April 12). Ten takeaways from the AI Engineering Report 2026: The acceleration whiplash. _Faros AI_. https://faros.ai/blog/ai-acceleration-whiplash-takeaways — Correlational telemetry comparing each organisation’s periods of lowest and highest AI adoption. In Faros’s 2025 report, bugs per developer had risen 9%. Faros sells engineering analytics software.]
+| xref:12-ai-transformation.adoc[Chapter 12]
+
+| The security pass rate for AI-generated code rose to *62%* in autumn 2026, from *56%* earlier in the year; the best models still failed more than *one in four* security tasks
+| Veracode, 2026footnote:veracode2026-july[Tischler, N. (2026, July 28). 2026 GenAI code security report: AI is writing more of your code but security hasn’t caught up. _Veracode Blog_. https://www.veracode.com/blog/2026-genai-code-security-report-ai-risk/ — Large models averaged 53%; medium and small models 51%.]footnote:veracode2026[Tischler, N. (2026, October 29). Fall 2026 GenAI code security update. _Veracode Blog_. https://www.veracode.com/blog/fall-2026-genai-code-security]
+| xref:7-rushing-vs-speed.adoc[Chapter 7]
+
+| In a controlled experiment with 47 developers, only *21%* of those with an AI assistant wrote secure code on encryption tasks, and they were more likely to believe their code was secure
+| Perry et al., 2023footnote:perry2023[Perry, N., Srivastava, M., Kumar, D., & Boneh, D. (2023). Do users write more insecure code with AI assistants? _Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security_ (CCS), Copenhagen. https://arxiv.org/html/2211.03622v3 — Peer-reviewed. 47 developers, controlled study.]
+| xref:12-ai-transformation.adoc[Chapter 12]
+
+| The price of GPT-4-level performance on doctoral-level science questions fell by a factor of *40* a year, from about $20 to $0.40 per million tokens
+| Epoch AI, 2025footnote:cottier2025[Cottier, B., et al. (2025, March 12). LLM inference prices have fallen rapidly but unequally across tasks. _Epoch AI_. https://epoch.ai/data-insights/llm-inference-price-trends]
+| xref:12-ai-transformation.adoc[Chapter 12]
+
+| Nearly half of companies now report real value from AI, and *7.5%* are classed as "future-built", in a survey of 1,330 executives
+| BCG, 2026footnote:bcg2026[BCG. (2026, September 30). Applied AI Index 2026 \[Press release\]. https://www.bcg.com/press/30september2026-ai-starting-to-pay-off-companies-generate-value — 7.5% future-built, a further 41% scaling.]
+| xref:12-ai-transformation.adoc[Chapter 12]
+
+| *32%* of organisations had decided against buying at least one software product or feature because they could build it with agentic coding tools
+| McKinsey, 2026footnote:mckinsey2026[McKinsey & Company. (2026, August 25). The state of AI in 2026: On the road to ROI. _McKinsey QuantumBlack_. https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai — n=1,719. Self-reported: a decision not to buy, not a measured outcome. Nearly half of "AI high performers" reported such a decision, against 31% of other respondents.]
+| xref:4-technical-decisions-business-decisions.adoc[Chapter 4]
+
+| *71%* of corporate directors said their boards needed stronger AI skills
+| PwC, 2026footnote:pwc2026[PwC. (2026). 2026 annual corporate directors survey. https://www.pwc.com/us/en/about-us/newsroom/press-releases/pwc-2026-annual-corporate-directors-survey.html — Reported in Corporate Compliance Insights. (2026, September 23). Boards say they need more from management on AI. https://www.corporatecomplianceinsights.com/boards-say-they-need-more-from-management-ai/ — Approximately 600 US public-company directors. PwC reports the combined figure as 82% rating the information fair, poor, or not provided.]
+| xref:10-business-acumen-gap.adoc[Chapter 10]
+
+|===
+
+== Hiring
+
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| Entry-level roles were *4.5%* of US software development job postings in the first quarter of 2026, against *69.3%* for senior roles
+| Indeed Hiring Lab, 2026footnote:indeed2026[Aidala, F., & Puri, S. (2026, July 23). The labor market is tilting toward seniority. _Indeed Hiring Lab_. https://www.hiringlab.org/2026/07/23/the-labor-market-is-tilting-toward-seniority/ — Seniority assigned by task-based text classification, not job titles.]
+| xref:11-building-engineering-team.adoc[Chapter 11]
+
+| Median headcount at similar-stage startups fell *17.5%*, from 57 to 47, while median funding per employee roughly doubled
+| Revelio Labs, via CNBC, 2025footnote:revelio2025[CNBC / Revelio Labs. (2025, October 16). The AI effect? These tech startups employ 17.5% fewer workers than 5 years ago — despite raising 50% more money. https://www.cnbc.com/2025/10/16/tech-startups-hiring-fewer-workers-raising-more-money-as-ai-grows-revelio-labs-data.html]
+| xref:11-building-engineering-team.adoc[Chapter 11]
+
+| Detected cheating and fraud attempts in proctored technical assessments rose from *16%* in 2024 to *35%* in 2025, and *40%* for entry-level roles
+| CodeSignal, 2026footnote:codesignal2026[CodeSignal. (2026, February 25). CodeSignal detection systems identify and stop record-high cheating attempts as assessment fraud more than doubled in 2025 \[Press release\]. https://codesignal.com/newsroom/press-releases/codesignal-detection-systems-identify-and-stop-record-high-cheating-attempts-as-assessment-fraud-more-than-doubled-in-2025/ — Figures are attempts detected and flagged, not successful circumvention.]
+| xref:11-building-engineering-team.adoc[Chapter 11]
+
+| *40%* of 3,000 US hiring managers had interviewed a candidate later found to be using a fake identity, up from *31%*; *28%* had advanced a candidate they suspected of dishonesty to fill a role quickly
+| Checkr, 2026footnote:checkr2026[Checkr. (2026, October 15). 68% of hiring managers say AI-powered fraud is outpacing detection, Checkr report finds. _Checkr Blog_. https://checkr.com/blog/hiring-hoax-2026-ai-fraud-outpacing-detection — _The Hiring Hoax 2026_; online survey of 3,000 US managers involved in hiring, September 11–16, 2026.]
+| xref:11-building-engineering-team.adoc[Chapter 11]
+
+| Hybrid work had no measurable effect on productivity or promotion and cut resignations by *33%*, in a randomised trial with 1,612 employees
+| Bloom et al., 2024footnote:bloom[Bloom, N. et al. (2024). Hybrid working from home improves retention without damaging performance. _Nature_, 630, 920–925. https://doi.org/10.1038/s41586-024-07500-2 — RCT at Trip.com; N = 1,612; zero effect on productivity/promotions; 33% reduction in resignations.]
+| xref:11-building-engineering-team.adoc[Chapter 11]
+
+|===
+
+== Burnout and Isolation
+
+// REVIEW: the Introduction describes the CTO Craft loneliness survey as "n=100 CTOs"; Chapter 15 says "100 tech leaders". This page follows Chapter 15.
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| *54%* of CTOs felt emotionally drained by their work at least once a week, up from *24%* a year earlier, the largest rise of any role; *45%* of all respondents were working more hours than a year before (CTOs were only 6% of respondents)
+| LeadDev, 2026footnote:leaddev2026-intro[LeadDev, _The Engineering Leadership Report 2026_. Survey conducted March 31–April 16, 2026, n=600 engineering leaders. https://leaddev.com/wp-content/uploads/2026/06/ENGINEERING++_++LEADERSHIP++_++REPORT++_++2026++_++FINAL.pdf — Note: CTOs or equivalent were again only 6% of respondents, so the CTO-specific figure rests on a small subsample.]
+| xref:introduction.adoc[Introduction], xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+| *22%* of engineering leaders and developers were at critical burnout levels and *46%* at moderate to critical levels, on the Maslach Burnout Inventory
+| LeadDev, 2025footnote:leaddev2025[LeadDev. (2025). The Engineering Leadership Report 2025. Summary: Kapani, C. (2025, June 24). Burnout is on the rise as layoffs reshape the tech industry. _LeadDev_. https://leaddev.com/culture/engineering-burnout-rising-2025-layoffs-reshape-tech-industry — n=617 engineering leaders and developers, MBI-based methodology.]
+| xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+| *97%* of 100 tech leaders had felt lonely as a leader; *19%* felt lonely "all of the time"
+| CTO Craftfootnote:ctocraft-loneliness[CTO Craft. What we know about loneliness at the top and its hidden costs \[Survey of 100 tech leaders\]. https://ctocraft.com/blog/what-we-know-about-loneliness-at-the-top-and-its-hidden-costs/]
+| xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+| *50%* of CEOs report loneliness, and *61%* say it hinders their performance
+| RHR International, 2012footnote:saporito2012[Saporito, T. J. (2012, February 15). It’s time to acknowledge CEO loneliness. _Harvard Business Review_. https://hbr.org/2012/02/its-time-to-acknowledge-ceo-lo — Based on RHR International CEO Snapshot Survey.]
+| xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+| *54%* of founders experienced burnout in the previous twelve months, and *75%* reported anxiety
+| Sifted, 2025footnote:sifted2025[Partington, M., & Dharampal-Hornby, M. (2025, February 26). More than half of founders experienced burnout last year. _Sifted_. https://sifted.eu/articles/founders-mental-health-2025 — Based on survey data; climate tech founders reported 63% describing mental health as "bad" or "very bad."]
+| xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+| *49%* of entrepreneurs reported a lifetime mental health condition, with depression at *30%*
+| Freeman et al., 2015footnote:freeman2015[Freeman, M. A., et al. (2015). Are entrepreneurs touched with fire? UC Berkeley/UCSF. https://michaelafreemanmd.com/Research++_++files/Are%20Entrepreneurs%20Touched%20with%20Fire%20(pre-pub%20n)%204-17-15.pdf — IRB-approved, self-report survey (n=242 entrepreneurs, n=93 comparison group).]
+| xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+| A single meeting-free day a week raised productivity by *35%* and cut stress by *57%*
+| Laker et al., 2022footnote:laker[Laker, B., Pereira, V., & Budhwar, P. (2022). The surprising impact of meeting-free days. _MIT Sloan Management Review_. https://sloanreview.mit.edu/article/the-surprising-impact-of-meeting-free-days/ — Study of 76 companies across 50+ countries. One meeting-free day per week: +35% productivity, −57% stress.]
+| xref:14-operating-rhythm.adoc[Chapter 14]
+
+|===
+
+== Compensation and Equity
+
+Pay figures are US, cash only, and exclude equity.
+
+[cols="3,2,1",options="header"]
+|===
+| Finding | Source | Chapter
+
+| Founding CTOs earn *53%* less on average than hired CTOs: *$139,000* against *$213,000* across stages
+| Kruze Consulting, 2024footnote:kruze[Kruze Consulting. (2024). Startup CTO salary guide. https://kruzeconsulting.com/blog/startup-cto-salary/ — Based on anonymised payroll data from 250{plus} VC-backed startups.]
+| xref:appendix-c-compensation-equity-benchmarks.adoc[Appendix C]
+
+| Average CTO cash pay is *$155,000* at seed, *$196,000* at Series A and *$238,000* at Series B; the overall median is *$166,000*
+| Kruze Consulting, 2026footnote:kruze2026[Snyder, D. (2026, August 10). Startup C-suite salary guide 2026: CEO, CTO, COO pay. _Kruze Consulting_. https://kruzeconsulting.com/blog/startup-c-suite-salary-guide/ — Base cash pay from anonymised payroll data; excludes equity. Snyder is Vice President of Finance at Kruze. See also Kruze Consulting. (2026, August 11). New Kruze Consulting data reveals COOs, not CEOs, command the highest pay at growth-stage startups \[Press release\]. _PR Newswire_. http://www.prnewswire.com/news-releases/new-kruze-consulting-data-reveals-coos-not-ceos-command-the-highest-pay-at-growth-stage-startups-302848793.html]
+| xref:appendix-c-compensation-equity-benchmarks.adoc[Appendix C]
+
+| A CTO hired at Series A typically receives about *1.0%* of the company (range 0.8–2.0%)
+| Index Venturesfootnote:indexventures[Index Ventures. OptionPlan: Allocation considerations and benchmarks. https://www.indexventures.com/optionplan/ — Based on 20,000{plus} option grants across 1,650{plus} startups. See also Carta H2 2024 compensation data: https://carta.com/data/startup-compensation-h2-2024/]
+| xref:appendix-c-compensation-equity-benchmarks.adoc[Appendix C]
+
+| *44.6%* of two-founder teams formed in 2025 split equity equally; the median split was *51/49*
+| Carta, 2026footnote:carta-duos[Carta. (2026, June). Dynamic duos: Two-founder teams are divvying up their equity more equally than ever. https://carta.com/data/two-founder-teams/ — 44.6% of two-founder teams formed in 2025 split equity equally, the highest rate in a decade; median split 51–49.]
+| xref:appendix-c-compensation-equity-benchmarks.adoc[Appendix C]
+
+| Median dilution per round from seed to Series C fell from about *18%* to *16%* during 2025
+| Carta, 2026footnote:carta-2025[Carta. (2026, February). State of private markets: 2025 in review. https://carta.com/data/state-of-private-markets-q4-2025/ — Median dilution across seed to Series C rounds fell from about 18% to 16% over 2025; Series B fell from about 15% to 12.9%.]
+| xref:appendix-c-compensation-equity-benchmarks.adoc[Appendix C]
+
+| Only *32.8%* of vested, in-the-money options were exercised in late 2024
+| Carta, 2024footnote:carta-equity2024[Carta. (2024). Annual equity report 2024. https://carta.com/data/equity-report-2024/ — Exercise rate: 32.8% of vested, in-the-money options exercised in Q2 2024.]
+| xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+| *60%* of venture-backed companies return less than the original investment, in data spanning 1990 to 2010
+| Cambridge Associates, via Hollowayfootnote:holloway1990[Holloway Guide to Equity Compensation (citing Cambridge Associates). https://www.holloway.com/g/equity-compensation — "Between 1990 and 2010, about 60% of venture capital-backed companies returned less than the original investment."]
+| xref:15-cto-burnout-isolation.adoc[Chapter 15]
+
+|===
+
+== What These Numbers Can and Can't Tell You
+
+Most of these figures come from surveys, and a survey is only as good as the people who answer it. CTOs were 6% of LeadDev's respondents, so its CTO figures rest on a small subsample. The best-known replacement figure tracks founder-CEOs, not CTOs, because no equivalent study of CTOs exists. The reasons CTOs are fired come from one adviser's practice. Several AI figures come from companies that sell engineering analytics, and the largest study of AI and delivery is a working paper that has not yet been peer-reviewed.
+
+The AI figures also date fastest. METR's 2025 trial, which found experienced developers slower with AI, was out of date within a year, and Veracode's security pass rate moved within months. Treat anything about AI as a reading taken in 2026, not a constant.
+
+What the figures can tell you is direction. CTOs are under more strain than a year ago, the role changes faster than the people in it, and AI has moved the bottleneck in software from writing code to reviewing it. Each of those holds across more than one source on this page.
+
+'''''
+
+Numbers like these are the easiest part of the book to quote and the easiest to misread. Each comes from a single study with its own sample, its own date and its own definitions. Follow the link, read the chapter, and check the source before you put a figure in front of your board.
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

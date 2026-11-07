@@ -4,6 +4,7 @@
 :page-haiku: They speak revenue. / You speak architecture. Learn / their tongue or lose yours.
 :description: 70% of CTOs are fired for communication failures, not technical ones. Close the business acumen gap before it closes your tenure.
 :keywords: CTO communication, business acumen, board presentations, CTO failure modes, executive presence
+:page-search-title: Why Do Startup CTOs Get Fired?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: Why do CTOs get fired?
@@ -17,6 +18,9 @@
 :page-faq-5-q: How do you translate technical concepts for business stakeholders?
 :page-faq-5-a: Replace jargon with outcomes and use analogies from finance and operations, which business stakeholders already understand. Instead of explaining a database migration, explain that the current system costs a certain amount per month in engineering time and the new one will reduce that by half. Frame technical debt as borrowed speed with interest payments. Frame infrastructure investment as insurance. Always start with the business impact and work backward to the technical detail only if asked.
 = Chapter 10: You’re Not Being Fired for Your Code
+
+[.in-short]
+*In short:* Startup CTOs are usually fired for communication failures, not code: roughly 70% of those who lose their jobs failed to translate technical work into language the business can act on. The business acumen gap is structural: CEOs get hundreds of reps, CTOs almost none. The remedy: frame work as business risk and revenue, and never surprise the board.
 
 [quote, Andy Grove, "Only the Paranoid Survive, 1996"]
 ____

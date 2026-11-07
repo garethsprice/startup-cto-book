@@ -4,6 +4,7 @@
 :page-haiku: The code will be gone. / What lasts is the team you built / and who they become.
 :description: Legacy is not code — it is the team you built and the culture you left behind. How to build something that outlasts your tenure as CTO.
 :keywords: CTO legacy, engineering culture, team building, knowledge transfer, building to last
+:page-search-title: What Legacy Should a Startup CTO Leave Behind?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: What legacy should a CTO aim to leave behind?
@@ -11,12 +12,15 @@
 :page-faq-2-q: How do you build an engineering culture that outlasts you?
 :page-faq-2-a: Encode your values into systems rather than relying on your personal presence. This means establishing code review standards, incident response processes, hiring practices, and promotion criteria that reflect the culture you want — and that operate the same way whether you are in the room or not. Culture that depends on a single leader is personality, not culture. Culture that is embedded in processes, rituals, and shared expectations persists after the leader is gone.
 :page-faq-3-q: What makes a CTO's impact last beyond their tenure?
-:page-faq-3-a: The engineers you mentor become CTOs who mentor other engineers. The culture you create shapes the cultures of companies that do not yet exist. The decision-making frameworks you establish — how to evaluate trade-offs, how to communicate technical decisions, how to handle incidents — become the default approach for everyone you have trained. Impact that lasts is always about people and judgment, never about specific technologies or codebases.
+:page-faq-3-a: A CTO's impact outlasts their tenure through the people they develop: the engineers you mentor become CTOs who mentor other engineers. The culture you create shapes the cultures of companies that do not yet exist. The decision-making frameworks you establish — how to evaluate trade-offs, how to communicate technical decisions, how to handle incidents — become the default approach for everyone you have trained. Impact that lasts is always about people and judgment, never about specific technologies or codebases.
 :page-faq-4-q: How do you transfer knowledge when leaving a CTO role?
 :page-faq-4-a: Go beyond documentation of systems and processes — transfer your judgment frameworks. Write decision logs and architecture decision records that explain not just what was decided but why, what alternatives were considered, and what trade-offs were accepted. Create runbooks for recurring decisions. Pair with your successor on real decisions during an overlap period. The goal is to transfer the thinking behind the decisions, not just the decisions themselves.
 :page-faq-5-q: What is the most important thing a CTO can build?
 :page-faq-5-a: A team that thinks for itself and maintains high standards without you. The ultimate measure of a CTO's success is what happens after they leave — whether the team continues to make good decisions, maintain quality, ship reliably, and grow. If the engineering organisation falls apart when the CTO departs, the CTO built a dependency, not a team. If it thrives, the CTO built something that outlasts them.
 = Chapter 17: Building Something That Outlasts You
+
+[.in-short]
+*In short:* The most lasting legacy a startup CTO can leave is people and culture, not code: a team that thinks for itself, engineers who become leaders, and values encoded in systems rather than personal presence. Code has a half-life of three to four years, so the true test of the CTO's work is whether the organisation thrives without them.
 
 [quote, 'Jorge Luis Borges', '"On Exactitude in Science," 1946']
 ____

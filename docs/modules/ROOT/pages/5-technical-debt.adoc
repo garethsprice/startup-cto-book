@@ -4,6 +4,7 @@
 :page-haiku: Small changes, often. / The cautious process creates / what it fears the most.
 :description: Technical debt is not a symptom of failure — it is a financing instrument. Learn when to borrow, how much the interest costs, and when repayment becomes urgent.
 :keywords: technical debt, code quality, refactoring strategy, engineering time, cognitive debt
+:page-search-title: How Should Startups Manage Technical Debt?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: What is technical debt?
@@ -15,8 +16,11 @@
 :page-faq-4-q: When should you pay down technical debt?
 :page-faq-4-a: Pay down technical debt when the interest cost exceeds the repayment cost — when the time lost to working around the debt on every feature is greater than the time it would take to fix it. A practical approach is to allocate 15 to 20 percent of each sprint to debt repayment, treating it as ongoing maintenance rather than a special project. Prioritise debt that blocks the most common development paths and causes the most frequent incidents.
 :page-faq-5-q: How do you measure technical debt?
-:page-faq-5-a: Look at leading indicators rather than trying to put a single number on it. Useful measures include declining deployment frequency, increasing cycle time for similar-sized features, rising bug rates in specific areas of the codebase, developer satisfaction surveys, and the ratio of planned to unplanned work. If developers consistently estimate tasks at two to three times what the same work would have taken a year ago, debt is accumulating faster than it is being repaid.
+:page-faq-5-a: Measure technical debt through leading indicators rather than trying to put a single number on it. Useful measures include declining deployment frequency, increasing cycle time for similar-sized features, rising bug rates in specific areas of the codebase, developer satisfaction surveys, and the ratio of planned to unplanned work. If developers consistently estimate tasks at two to three times what the same work would have taken a year ago, debt is accumulating faster than it is being repaid.
 = Chapter 5: Technical Debt as a Strategic Instrument
+
+[.in-short]
+*In short:* Startups should manage technical debt as a financing instrument, not a failure: borrow deliberately to ship faster or test a hypothesis, track the obligation, and repay where the team touches the code most, because debt charges interest on contact rather than age. Roughly a third of engineering time goes on debt service, and AI coding tools add cognitive debt.
 
 [quote, "P.G. Wodehouse", "Love Among the Chickens, 1906"]
 ____

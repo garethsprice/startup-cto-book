@@ -4,6 +4,7 @@
 :page-haiku: Planned departures are / not endings. They are the last / gift the builder gives.
 :description: CTO transitions are not failures — they are the natural arc of a role that transforms faster than any individual. How to step aside on your own terms.
 :keywords: CTO transition, stepping aside, tour of duty, founder departure, leadership succession
+:page-search-title: When Should a Founding CTO Step Down?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: When should a startup CTO step down?
@@ -17,6 +18,9 @@
 :page-faq-5-q: What happens to founding CTOs after they leave?
 :page-faq-5-a: Founding CTOs move into a range of roles — advisory positions at the company they built, CTO roles at later-stage companies where their experience is a better fit, venture capital where their technical judgment helps evaluate startups, founding new companies with the benefit of hindsight, or returning to individual contributor engineering roles. Many find the advisory path — helping multiple startups with strategic technology decisions — to be the most satisfying next chapter.
 = Chapter 16: Knowing When to Step Aside — and Making It a Strength
+
+[.in-short]
+*In short:* A founding CTO should step down when the company's next stage needs skills they lack and do not want to build. That stage mismatch is a predictable phase of growth, not a failure. Reid Hoffman's tour of duty turns tenure into time-boxed missions, so startup CTOs can reinvent the role or plan a departure on their own terms.
 
 [quote, Stewart Brand, "How Buildings Learn, 1994"]
 ____

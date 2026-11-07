@@ -1,12 +1,13 @@
-:page-description: About Gareth Price — CTO at CorralData, former technologist at The New York Times and Codecademy, and the person this book is about.
+:page-description: About Gareth Price — CTO at CorralData, author of Applied Alchemy and The Blueprint, former technologist at The New York Times and Codecademy.
 :page-llms-description: About Gareth Price — CTO at CorralData, former technologist at The New York Times and Codecademy, and working CTO currently navigating the challenges this book describes.
 :page-llms-optional: true
 :page-schema: person
 :page-toclevels: 0
-:description: About Gareth Price — CTO at CorralData, former technologist at The New York Times and Codecademy, and the person this book is about.
+:description: About Gareth Price — CTO at CorralData, author of Applied Alchemy and The Blueprint, former technologist at The New York Times and Codecademy.
 :keywords: Gareth Price, CTO, CorralData, technology leadership, startup CTO
+:page-search-title: Gareth Price, Startup CTO and Author of Applied Alchemy
 :page-date-published: 2026-03-09
-:page-date-modified: 2026-03-11
+:page-date-modified: 2026-11-07
 :page-faq-1-q: Who wrote Applied Alchemy?
 :page-faq-1-a: Applied Alchemy was written by Gareth Price, CTO at CorralData, an AI-powered business intelligence platform serving the healthcare industry. He is a working CTO currently navigating the challenges the book describes — building the product, managing the engineering team, and communicating technical strategy to the board.
 :page-faq-2-q: What is Gareth Price's background?
@@ -26,7 +27,9 @@ He is, in other words, the person this book is about.
 Before CorralData, Gareth was a technologist at The New York Times, where he worked on the Storylines team, and at Codecademy, where he built tools for the people who teach other people to code.
 He studied artificial intelligence at the University of Manchester at a time when the field was considered a respectable but mildly eccentric career choice rather than the subject of every board meeting in the Western world.
 
-He writes about technology, leadership, the startup experience, and the intersection of cultural theory with AI at Res·cog, a blog whose name -- short for _Res Cogitans_, Descartes' "thinking thing" -- is either a statement of intellectual ambition or a warning about the kind of person who would name a blog after Cartesian dualism.
+His second book, https://garethsprice.github.io/agentic-org-blueprint-book/[_The Blueprint: A Field Guide to Building Organisations of People and Agents_], applies the same field-guide approach to teams where people and AI agents share the work.
+
+He writes about technology, leadership, the startup experience, and the intersection of cultural theory with AI at https://garethsprice.github.io/blog/[Res·cog], a blog whose name -- short for _Res Cogitans_, Descartes' "thinking thing" -- is either a statement of intellectual ambition or a warning about the kind of person who would name a blog after Cartesian dualism.
 The reader may decide.
 
 [discrete]

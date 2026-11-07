@@ -4,6 +4,7 @@
 :page-haiku: Machines write the code. / They amplify what's there — strong / teams, or else the cracks.
 :description: AI is reshaping the CTO role in real time — team compression, vibe coding's promise and peril, and the new competencies every technical leader now needs.
 :keywords: AI transformation, AI-assisted development, vibe coding, team compression, AI code review
+:page-search-title: How Is AI Changing the Startup CTO Role?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: How is AI changing the CTO role?
@@ -17,6 +18,9 @@
 :page-faq-5-q: What AI skills should a CTO develop?
 :page-faq-5-a: CTOs should develop skills in prompt engineering and AI workflow design, evaluating and selecting AI tools for the engineering team, reviewing AI-generated code for quality and security, redesigning engineering processes to incorporate AI effectively, and understanding the capabilities and limitations of current AI models. The most important meta-skill is learning to distinguish where AI accelerates work from where it creates hidden risk.
 = Chapter 12: The AI Transformation
+
+[.in-short]
+*In short:* AI is changing the startup CTO role through the starting-vs-scaling paradox: it compresses the path from idea to prototype but makes scaling that prototype into a production system harder. Because AI amplifies what a team already is, startup CTOs earn their place at the demo-to-production gap, upgrading code review, writing precise specifications and building evals.
 
 [quote, 'Douglas Adams', '"How to Stop Worrying and Learn to Love the Internet," The Sunday Times, 1999']
 ____

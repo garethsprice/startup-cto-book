@@ -1,0 +1,5 @@
+{{#if page.attributes.search-title}}
+    <title>{{{detag page.attributes.search-title}}}{{#with site.title}} | {{this}}{{/with}}</title>
+{{else}}
+    <title>{{{detag (or page.title defaultPageTitle)}}}{{#with site.title}} :: {{this}}{{/with}}</title>
+{{/if}}

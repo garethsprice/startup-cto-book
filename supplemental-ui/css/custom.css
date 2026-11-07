@@ -162,3 +162,11 @@ footer.footer a { color: #1a1a1a; }
 @media print {
   footer.footer { border-top-color: #D8DAE0; color: #848A99; }
 }
+
+/* Byline and freshness line under the page title */
+.doc p.page-updated { color: #848A99; font-size: 0.85rem; margin: -0.5rem 0 1rem; }
+.doc p.page-updated a { color: inherit; text-decoration: underline; text-decoration-color: #D8DAE0; }
+
+/* "In short" answer block: the self-contained answer near the top of each page */
+.doc .paragraph.in-short { border-left: 3px solid #52596B; background: #F6F7F9; padding: 0.75rem 1rem; margin: 1.25rem 0; }
+.doc .paragraph.in-short p { margin: 0; }

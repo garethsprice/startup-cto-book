@@ -1,0 +1,80 @@
+:page-description: The maker-to-multiplier shift is the CTO's move from writing the code to creating the conditions in which others write it well. When to make it, how to stay technical, and what AI changes.
+:page-llms-description: Definition of the maker-to-multiplier shift in Gareth Price's Applied Alchemy, using Pat Kua's maker and multiplier modes: the CTO's transition from writing code to multiplying the team's output, when to step off the critical path, how to stay technical through reading and architecture, how AI and the return of the player-coach change the timing, and how it differs from simply stopping coding.
+:page-haiku: Hands off the keyboard: / the team ships more than you could / by your hand alone.
+:page-toclevels: 0
+:description: The maker-to-multiplier shift is the CTO's move from writing the code to creating the conditions in which others write it well. When to make it, how to stay technical, and what AI changes.
+:keywords: maker to multiplier, maker vs multiplier, when should a CTO stop coding, CTO stop writing code, staying technical as a CTO, CTO architecture role
+:page-search-title: What Is the Maker-to-Multiplier Shift for a CTO?
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-schema: term
+:page-term-name: Maker-to-multiplier shift
+:page-term-definition: The maker-to-multiplier shift is the CTO's transition from writing the code to creating the conditions in which others write it well, trading a craft identity for leverage.
+:page-faq-1-q: What does maker to multiplier mean for a CTO?
+:page-faq-1-a: It means moving from adding your own output, by writing code, to multiplying the team's output, by hiring, shaping architecture and creating the conditions in which others write code well. Applied Alchemy uses Pat Kua's terms and calls it the hardest transition in the CTO journey, because it costs the craft identity that brought you to the role.
+:page-faq-2-q: When should a CTO stop writing code?
+:page-faq-2-a: Cut back significantly at the Manager stage, roughly 15 to 45 employees, and do it gradually: first get off the critical path for feature delivery, then reduce code review, then keep only architecture and prototyping. By 45-plus employees, a CTO writing production code on the critical path is competing with the team rather than enabling it. The goal is not zero code but zero code that blocks others.
+:page-faq-3-q: How does a CTO stay technical without writing production code?
+:page-faq-3-a: Read rather than write. Read commits, design documents and RFCs, join architecture reviews, and prototype off the critical path. The aim is to stay fluent enough in the current system to ask the questions that reveal problems and to judge the answers, without becoming the bottleneck on what ships.
+:page-faq-4-q: Has AI changed when a CTO should stop coding?
+:page-faq-4-a: In degree, not kind. AI tools lower the effort needed to re-engage with code, and by 2026 surveys showed CTOs spending more time on hands-on coding and code review. The rule still holds: stay off the critical path, ship only work you can validate yourself, and do not take so much of the work that the team stops growing and you become a single point of failure.
+:page-faq-5-q: How long does the move from maker to multiplier take?
+:page-faq-5-a: Months, not weeks. Applied Alchemy calls it a season rather than a day: a gradual shift as the team grows and the people you hired become better at the work than you are. Expect a period of feeling worse at the new job than you were at the old one; that is the price of learning it.
+
+= What Is the Maker-to-Multiplier Shift?
+
+[.lead]
+_The day you stop writing code is not a day_
+
+[.in-short]
+*In short:* The maker-to-multiplier shift is the CTO's transition from writing the code to creating the conditions in which others write it well. In Gareth Price's _Applied Alchemy_ it is the hardest transition in the CTO journey, because it costs the craft identity that brought you to the role. The goal is not zero code but zero code that blocks others.
+
+== From Writing Code to Judging It
+
+The terms come from Pat Kua, former CTO of N26: "When you were an engineer, it's Maker mode that made you successful. No one told you that you need to shift to Multiplier mode."footnote:kua[Kua, P. (2020, June 3). Maker vs multiplier. _patkua.com_. https://www.patkua.com/blog/maker-vs-multiplier/ — See also Kua, P. (2018, September 20). 6 lessons learned in my year as CTO at N26. _Medium (InsideN26)_. https://medium.com/insiden26/6-lessons-learned-in-my-year-as-cto-at-n26-83525cedfea0] Kua also names the trap of trying to do both: it means "doing the work of two full-time roles," which "is unsustainable and will lead to burnout."footnote:kua[]
+
+In practice the CTO's technical work moves from production to evaluation. Writing gives way to reading: commits, design documents, RFCs. Architecture becomes the core technical act. Martin Fowler's golden rule sets the direction: "An architect's value is inversely proportional to the number of decisions he or she makes."footnote:fowler2003[Fowler, M. (2003, July/August). Who needs an architect? _IEEE Software_, 20(5), 11–13. https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf — Contains Ralph Johnson’s definition from the Extreme Programming mailing list.] The aim is a team and a system that make the right calls without you.
+
+== Why It Matters
+
+The economics are clear, and they hurt. The thing you are best at is no longer the best use of your time. Stay on the critical path at the Manager stage and you are competing with your own team for the work you hired it to do.
+
+The shift is also not a clean break. The book holds that technical skills erode within two to three years of stopping daily practice. Charity Majors makes the same point about the best engineering managers: they are "never more than 2-3 years removed from hands-on work."footnote:majors2019_2[Majors, C. (2019, January 4; updated 2023, July 14). Engineering management: The pendulum or the ladder. _charity.wtf_. https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/] What goes is not syntax but the mental model of the system. So the multiplier must stay close enough to judge the work, without owning it.
+
+== Example: A Decade Away From Code
+
+Will Larson, CTO at Carta when he wrote it, described the calculus he met at every company: "Each hour I spent writing software was bad for the business overall, and a sign of questionable judgment." Hiring another engineer would always produce more than he could alone.footnote:larson2025[Larson, W. (2025, November 19). Coding at work (after a decade away). _Irrational Exuberance_ (lethain.com). https://lethain.com/coding-at-work/]
+
+Then AI changed the cost. After ten years away, Larson completed 104 pull requests, "more pull requests than I've completed combined in my prior decade of work," largely with AI tools.footnote:larson2025[] The book's reading: AI lowers the effort of re-engaging with code, but the rule changes in degree, not kind. Code off the critical path, yes. Code you have not validated yourself, never.
+
+== How to Start This Week
+
+. Audit your calendar. If you still write production code daily at a company with more than five engineers, you are adding your own output rather than multiplying the team's.
+. List what you code. Split it into work only you can do, such as architecture and prototyping, and work you do because it feels comfortable, such as features and bug fixes. Hand off the second list first.
+. Step off the critical path. Take no feature that could block a release.
+. Read every design document or RFC this week. Read them to understand, not to approve. Ask the questions that need depth: what are the failure modes, what happens at ten times the scale, what are we assuming that might change?
+
+== Maker-to-Multiplier vs "Stopping Coding"
+
+"Stop coding" sounds like a single decision. The maker-to-multiplier shift is a change of contribution, with a failure mode on each side. Stay a maker and you become the oracle the team waits on. Retreat too far and you become what Pat Kua calls the Ivory Tower Architect, making technical decisions without understanding what they mean for the people who build and maintain the system.footnote:[Kua, P. Tech leadership archives. _patkua.com/atwork_. https://thekua.com/atwork/category/tech-leadership/ — See also Kua, P. on Software Engineering Radio, Episode 265, August 2016. https://se-radio.net/2016/08/se-radio-episode-265-pat-kua-on-becoming-a-tech-lead/] It is also not a promotion. Majors warns that many people look back to find "what they thought was a promotion was actually a career change."footnote:majors2019_2[] The CTO who tries to remain the best coder on the team will eventually be replaced by one. The CTO who becomes the best judge of technical decisions finds the role grows more interesting as the company scales.
+
+// REVIEW: the book credits "maker vs multiplier" to Pat Kua (Appendix A and Chapter 14). It does not cite Liz Wiseman's Multipliers anywhere, so this page credits Kua only. Chapter 13 itself credits no one for the phrase; consider adding the Kua footnote there too.
+
+*Go deeper:* xref:13-maker-to-multiplier.adoc[Chapter 13: From Maker to Multiplier], with the calendar audit in xref:appendix-a-first-ninety-days.adoc[Appendix A: The First Ninety Days] and what replaces the code in xref:14-operating-rhythm.adoc[Chapter 14: The Operating Rhythm]. See also xref:what-are-the-four-stages-of-a-startup-cto.adoc[What Are the Four Stages of a Startup CTO?] and xref:what-is-a-cto-operating-rhythm.adoc[What Is a CTO Operating Rhythm?]
+
+'''''
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

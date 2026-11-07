@@ -71,6 +71,12 @@ Other threads that run across several chapters:
 * *G: Recommended Reading* -- Added Buriticá and Turnbull, _Engineering Leadership: The Hard Parts_; Kim and Yegge, _Vibe Coding_; Larson, _Crafting Engineering Strategy_; and Lopp, _A Day in the Life of a Senior Leader_. Noted the 2026 expanded edition of Schmidt's _Amazing CTO_.
 * *H: Your AI CTO Advisor* -- Fixed the Claude Code command for loading the advisor prompt; updated links; added an AI coding agent guardrails customisation.
 
+=== Reader aids
+
+* Every chapter now opens with a short "In short" answer to the question it addresses.
+* Added xref:key-concepts.adoc[Key Concepts], with a page for each of the book's main frameworks, and xref:by-the-numbers.adoc[By the Numbers], collecting the research figures the chapters cite.
+* Pages now show when they were last updated.
+
 == March 2026
 
 First draft.

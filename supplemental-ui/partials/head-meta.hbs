@@ -9,7 +9,7 @@
 {{/if}}
 
 {{! Open Graph }}
-<meta property="og:title" content="{{page.title}}">
+<meta property="og:title" content="{{#if page.attributes.search-title}}{{page.attributes.search-title}}{{else}}{{page.title}}{{/if}}">
 {{#if page.attributes.description}}
 <meta property="og:description" content="{{page.attributes.description}}">
 {{else}}
@@ -33,148 +33,142 @@
 <meta property="article:modified_time" content="{{page.attributes.date-modified}}">
 {{/if}}
 
-{{! JSON-LD structured data }}
-{{#if (eq page.attributes.schema 'book')}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Book",
-      "name": "Applied Alchemy",
-      "alternateName": "The Startup CTO's Field Guide to Building Technology Companies from Nothing",
-      "author": {
-        "@type": "Person",
-        "name": "Gareth Price"
-      },
-      {{#if site.url}}
-      "url": "{{site.url}}/",
-      {{/if}}
-      "inLanguage": "en",
-      "genre": "Technology Leadership"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Applied Alchemy"{{#if site.url}},
-          "item": "{{site.url}}/"{{/if}}
-        }
-      ]
-    }
-  ]
-}
-</script>
-{{else if (eq page.attributes.schema 'person')}}
+{{! JSON-LD structured data: one linked graph per page. The Person, Book and
+    WebSite nodes have stable @ids so every page points at the same entities. }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",
+      "@id": "{{site.url}}/author.html#person",
       "name": "Gareth Price",
+      "url": "{{site.url}}/author.html",
       "jobTitle": "CTO",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "CorralData"
-      }
+      "worksFor": { "@type": "Organization", "name": "CorralData", "url": "https://corraldata.com/" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Manchester" },
+      "knowsAbout": ["Startup CTO role", "Technology leadership", "Engineering management", "Technical debt", "AI in software engineering", "Agentic organisation design"],
+      "sameAs": [
+        "https://www.linkedin.com/in/garethsprice",
+        "https://github.com/garethsprice",
+        "https://garethsprice.github.io/agentic-org-blueprint-book/author.html",
+        "https://garethsprice.github.io/blog/"
+      ]
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Applied Alchemy"{{#if site.url}},
-          "item": "{{site.url}}/"{{/if}}
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "{{page.title}}"{{#if site.url}},
-          "item": "{{site.url}}{{page.url}}"{{/if}}
-        }
-      ]
-    }
-  ]
-}
-</script>
+      "@type": "Book",
+      "@id": "{{site.url}}/#book",
+      "name": "Applied Alchemy",
+      "alternateName": "Applied Alchemy: The Startup CTO's Field Guide to Building Technology Companies from Nothing",
+      "description": "A field guide for startup CTOs, mapping the transformation from coder to manager to director to strategist.",
+      "author": { "@id": "{{site.url}}/author.html#person" },
+      "url": "{{site.url}}/",
+      "inLanguage": "en-GB",
+      "genre": "Technology Leadership",
+      "bookFormat": "https://schema.org/EBook",
+      "datePublished": "2026-03-09",
+      "about": ["Startup CTO", "Technology leadership", "Engineering management", "Startups"],
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{site.url}}/#website",
+      "name": "Applied Alchemy",
+      "url": "{{site.url}}/",
+      "inLanguage": "en-GB",
+      "publisher": { "@id": "{{site.url}}/author.html#person" },
+      "about": { "@id": "{{site.url}}/#book" }
+    },
+{{#if (eq page.attributes.schema 'person')}}
+    {
+      "@type": "ProfilePage",
+      "@id": "{{site.url}}{{page.url}}#page",
+      "url": "{{site.url}}{{page.url}}",
+      "name": {{{json page.title}}},
+      "isPartOf": { "@id": "{{site.url}}/#website" },
+      "mainEntity": { "@id": "{{site.url}}/author.html#person" },
+      "dateModified": "{{page.attributes.date-modified}}"
+    },
+{{else if (eq page.attributes.schema 'book')}}
+    {
+      "@type": "WebPage",
+      "@id": "{{site.url}}{{page.url}}#page",
+      "url": "{{site.url}}{{page.url}}",
+      "name": {{{json (or page.attributes.search-title page.title)}}},
+      "description": {{{json page.attributes.description}}},
+      "isPartOf": { "@id": "{{site.url}}/#website" },
+      "mainEntity": { "@id": "{{site.url}}/#book" },
+      "dateModified": "{{page.attributes.date-modified}}"
+    },
 {{else}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
-      "@type": "TechArticle",
-      "headline": "{{page.title}}",
-      "description": "{{page.attributes.description}}",
-      "keywords": "{{page.attributes.keywords}}",
+      "@type": "Article",
+      "@id": "{{site.url}}{{page.url}}#article",
+      "url": "{{site.url}}{{page.url}}",
+      "mainEntityOfPage": "{{site.url}}{{page.url}}",
+      "headline": {{{json page.title}}},
+      {{#if page.attributes.search-title}}
+      "alternativeHeadline": {{{json page.attributes.search-title}}},
+      {{/if}}
+      "description": {{{json page.attributes.description}}},
+      "keywords": {{{json page.attributes.keywords}}},
+      "inLanguage": "en-GB",
+      {{#if page.attributes.date-published}}
       "datePublished": "{{page.attributes.date-published}}",
+      {{/if}}
+      {{#if page.attributes.date-modified}}
       "dateModified": "{{page.attributes.date-modified}}",
-      "author": {
-        "@type": "Person",
-        "name": "Gareth Price"
-      },
-      "isPartOf": {
-        "@type": "Book",
-        "name": "Applied Alchemy"
-      }{{#if site.url}},
-      "url": "{{site.url}}{{page.url}}"{{/if}}
+      {{/if}}
+      "author": { "@id": "{{site.url}}/author.html#person" },
+      "publisher": { "@id": "{{site.url}}/author.html#person" },
+      {{#if (eq page.attributes.schema 'term')}}
+      "about": { "@id": "{{site.url}}{{page.url}}#term" },
+      {{/if}}
+      "isPartOf": { "@id": "{{site.url}}/#book" }
     },
+{{/if}}
+{{#if (eq page.attributes.schema 'term')}}
+    {
+      "@type": "DefinedTerm",
+      "@id": "{{site.url}}{{page.url}}#term",
+      "name": {{{json page.attributes.term-name}}},
+      "description": {{{json page.attributes.term-definition}}},
+      "url": "{{site.url}}{{page.url}}",
+      "inDefinedTermSet": { "@id": "{{site.url}}/{{page.attributes.termset-page}}#termset" }
+    },
+{{/if}}
+{{#if (eq page.attributes.schema 'termset')}}
+    {
+      "@type": "DefinedTermSet",
+      "@id": "{{site.url}}{{page.url}}#termset",
+      "name": "Applied Alchemy Key Concepts",
+      "description": "The frameworks Applied Alchemy uses to describe the startup CTO role.",
+      "url": "{{site.url}}{{page.url}}",
+      "isPartOf": { "@id": "{{site.url}}/#book" }
+    },
+{{/if}}
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Applied Alchemy"{{#if site.url}},
-          "item": "{{site.url}}/"{{/if}}
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "{{page.title}}"{{#if site.url}},
-          "item": "{{site.url}}{{page.url}}"{{/if}}
-        }
+        { "@type": "ListItem", "position": 1, "name": "Applied Alchemy", "item": "{{site.url}}/" }{{#unless (eq page.attributes.schema 'book')}},
+        { "@type": "ListItem", "position": 2, "name": {{{json page.title}}}, "item": "{{site.url}}{{page.url}}" }{{/unless}}
       ]
     }
   ]
 }
 </script>
-{{/if}}
 {{#if page.attributes.faq-1-q}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "{{site.url}}{{page.url}}#faq",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "{{page.attributes.faq-1-q}}",
-      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-1-a}}" }
-    },
-    {
-      "@type": "Question",
-      "name": "{{page.attributes.faq-2-q}}",
-      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-2-a}}" }
-    },
-    {
-      "@type": "Question",
-      "name": "{{page.attributes.faq-3-q}}",
-      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-3-a}}" }
-    },
-    {
-      "@type": "Question",
-      "name": "{{page.attributes.faq-4-q}}",
-      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-4-a}}" }
-    },
-    {
-      "@type": "Question",
-      "name": "{{page.attributes.faq-5-q}}",
-      "acceptedAnswer": { "@type": "Answer", "text": "{{page.attributes.faq-5-a}}" }
-    }
+    { "@type": "Question", "name": {{{json page.attributes.faq-1-q}}}, "acceptedAnswer": { "@type": "Answer", "text": {{{json page.attributes.faq-1-a}}} } },
+    { "@type": "Question", "name": {{{json page.attributes.faq-2-q}}}, "acceptedAnswer": { "@type": "Answer", "text": {{{json page.attributes.faq-2-a}}} } },
+    { "@type": "Question", "name": {{{json page.attributes.faq-3-q}}}, "acceptedAnswer": { "@type": "Answer", "text": {{{json page.attributes.faq-3-a}}} } },
+    { "@type": "Question", "name": {{{json page.attributes.faq-4-q}}}, "acceptedAnswer": { "@type": "Answer", "text": {{{json page.attributes.faq-4-a}}} } },
+    { "@type": "Question", "name": {{{json page.attributes.faq-5-q}}}, "acceptedAnswer": { "@type": "Answer", "text": {{{json page.attributes.faq-5-a}}} } }
   ]
 }
 </script>

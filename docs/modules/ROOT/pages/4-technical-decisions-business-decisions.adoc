@@ -4,6 +4,7 @@
 :page-haiku: Choose the boring stack. / Every technical choice is / a bet the firm makes.
 :description: Stack selection, MVP architecture, and build-versus-buy are business decisions first. Choose boring technology and spend your innovation budget on the product.
 :keywords: technology stack selection, boring technology, build versus buy, MVP architecture, technical decisions
+:page-search-title: How Should a Startup CTO Choose a Tech Stack?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: How do you choose a technology stack for a startup?
@@ -17,6 +18,9 @@
 :page-faq-5-q: How do you make MVP architecture decisions?
 :page-faq-5-a: Optimise for speed of learning, not for scalability or elegance. Start with a monolith — microservices are almost always premature at the MVP stage. Choose a single database. Deploy to a managed platform. Skip the abstractions you think you will need later and build the simplest thing that lets you test your hypothesis with real users. Architecture decisions at the MVP stage should be evaluated by one metric: how quickly they let you get feedback from customers.
 = Chapter 4: Your First Technical Decisions Are Business Decisions
+
+[.in-short]
+*In short:* Startup CTOs should choose a tech stack as a business decision: pick boring, proven technology the team already trusts, spend scarce innovation tokens only on the product, and buy anything that is not core. Ship a deliberately incomplete MVP to learn fast, and deliberate carefully only over one-way doors such as the database and data model.
 
 [quote, "Antoine de Saint-Exupéry", "Terre des hommes, 1939"]
 ____

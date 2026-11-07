@@ -4,6 +4,7 @@
 :page-haiku: Hands leave the keyboard. / The hardest code to release / is who you once were.
 :description: The transition from hands-on engineer to executive leader. When to stop writing code, how to let go, and what replaces the dopamine of shipping.
 :keywords: stop writing code, maker to multiplier, CTO technical skills, architect role, AI and CTO coding
+:page-search-title: When Should a Startup CTO Stop Writing Code?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: When should a CTO stop writing code?
@@ -13,10 +14,13 @@
 :page-faq-3-q: Can a CTO still be hands-on with technology?
 :page-faq-3-a: Yes, but in specific ways that do not block the team. Architecture reviews, technology evaluation, prototyping for new initiatives, and mentoring junior engineers are all valuable hands-on activities. What a later-stage CTO should avoid is being in the critical path for production code — committing to features that block releases, reviewing every pull request, or making themselves the bottleneck on daily technical decisions. Stay close to the technology through influence, not through the commit log.
 :page-faq-4-q: What replaces coding for a CTO?
-:page-faq-4-a: The activities that replace coding — architecture decisions, technology evaluation, hiring strategy, vendor management, board communication, and mentoring — are higher-leverage but less immediately satisfying. Each decision affects more people and more code than any individual commit. The CTO who successfully transitions learns to find satisfaction in the team's output rather than their own, in decisions that shape the system rather than code that implements features.
+:page-faq-4-a: Architecture decisions, technology evaluation, hiring strategy, vendor management, board communication, and mentoring replace coding for a CTO. These activities are higher-leverage but less immediately satisfying. Each decision affects more people and more code than any individual commit. The CTO who successfully transitions learns to find satisfaction in the team's output rather than their own, in decisions that shape the system rather than code that implements features.
 :page-faq-5-q: How does AI change when a CTO should stop coding?
 :page-faq-5-a: AI tools extend the period during which a CTO can productively contribute code by automating boilerplate and accelerating prototyping. By 2026 this had become a measurable trend: surveys showed leaders at every level, including CTOs, spending more time on hands-on coding and code review, and companies such as Coinbase abolished 'pure manager' roles in favour of player-coaches. The fundamental constraint remains — the CTO's strategic time is more valuable than their coding time once the organisation reaches a certain scale, and a leader who takes too much of the work starves the team of growth and becomes a single point of failure. The rule changes in degree, not kind: stay off the critical path, and only ship work you can validate yourself.
 = Chapter 13: The Day You Stop Writing Code
+
+[.in-short]
+*In short:* Startup CTOs should stop writing code on the critical path, not stop coding altogether, and the shift should begin gradually at the Manager stage of 15 to 45 employees. The transition from maker to multiplier moves the CTO from implementation to architectural judgment. AI tools make off-critical-path coding cheaper, but the rule holds: ship only what you can validate.
 
 [quote, Philip Larkin, "To Put One Brick Upon Another"]
 ____

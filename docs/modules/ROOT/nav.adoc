@@ -38,3 +38,13 @@
 * xref:appendix-f-operating-rhythm-reference.adoc[Operating Rhythm — Quick Reference]
 * xref:appendix-g-recommended-reading.adoc[Recommended Reading]
 * xref:appendix-h-ai-cto-advisor.adoc[Your AI CTO Advisor]
+
+.Key Concepts
+* xref:key-concepts.adoc[Key Concepts]
+* xref:what-are-the-four-stages-of-a-startup-cto.adoc[The Four Stages]
+* xref:what-is-the-business-acumen-gap.adoc[The Business Acumen Gap]
+* xref:what-is-the-maker-to-multiplier-shift.adoc[Maker to Multiplier]
+* xref:what-is-a-cto-operating-rhythm.adoc[The Operating Rhythm]
+* xref:what-is-strategic-technical-debt.adoc[Strategic Technical Debt]
+* xref:what-is-the-difference-between-rushing-and-speed.adoc[Rushing vs Speed]
+* xref:by-the-numbers.adoc[By the Numbers]

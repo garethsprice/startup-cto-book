@@ -1,0 +1,77 @@
+:page-description: Rushing is skipping safeguards; speed is shipping often because the safeguards are in place. Why the difference matters to startup CTOs, and how a non-negotiables list protects it.
+:page-llms-description: Definition of rushing versus speed in Gareth Price's Applied Alchemy: rushing skips safeguards and creates the crises that slow teams down, while speed comes from small, tested, reversible changes; the DORA evidence that speed and stability go together, the Knight Capital example, the non-negotiables list, fixed-time variable-scope negotiation, and guardrails versus gates.
+:page-haiku: Rushing skips the checks. / Speed ships small, tested changes / many times a day.
+:page-toclevels: 0
+:description: Rushing is skipping safeguards; speed is shipping often because the safeguards are in place. Why the difference matters to startup CTOs, and how a non-negotiables list protects it.
+:keywords: rushing vs speed, speed vs quality, engineering velocity, deadline pressure, non-negotiables list, CTO pushing back on deadlines, guardrails not gates
+:page-search-title: What Is the Difference Between Rushing and Speed?
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-schema: term
+:page-term-name: Rushing versus speed
+:page-term-definition: Rushing versus speed is the difference between skipping safeguards to ship now, which creates problems that slow you down later, and removing friction so small, tested, reversible changes ship often and safely.
+:page-faq-1-q: What is the difference between rushing and speed in software?
+:page-faq-1-a: Rushing is skipping safeguards, such as deploying without tests, merging without review or shipping without monitoring; it feels fast and creates the problems that slow you down later. Speed is shipping often because the safeguards are in place: small, tested, reversible changes through an automated pipeline. Applied Alchemy calls it the most important distinction in the CTO's vocabulary.
+:page-faq-2-q: Do you have to trade quality for speed?
+:page-faq-2-a: No. A decade of DORA research shows that the teams that deploy most often also have the lowest change failure rates; they get speed because they built quality in, not in spite of it. The real trade-off is between speed and scope, so negotiate on what to build, not on whether to test.
+:page-faq-3-q: What is a CTO's non-negotiables list?
+:page-faq-3-a: It is a short written list, five to seven items, of engineering commitments the CTO will not compromise on whatever the business pressure. Examples from the book include reversible deployments, automated tests on the critical path, monitoring before a feature reaches production, a fixed window for security patches and never bypassing data access controls. Write it before the crisis, not during it.
+:page-faq-4-q: How should a CTO push back when the CEO wants a feature faster?
+:page-faq-4-a: Fix the time and negotiate the scope. Instead of saying the team cannot make the date, say what the most valuable version is that fits it, and make trade-offs visible: we can do this project, but it delays that one. Warn early; the book's rule for the CEO and the board alike is no surprises.
+:page-faq-5-q: What is an engineering error budget?
+:page-faq-5-a: An error budget, from Google's Site Reliability Engineering practice, is the amount of unreliability a service is allowed in a period: at a 99.9% uptime target, the remaining 0.1%. While budget remains, the team ships fast; when it is spent, the team shifts to reliability work. It turns the speed-versus-safety argument into a decision about data rather than politics.
+
+= What Is the Difference Between Rushing and Speed?
+
+[.lead]
+_When the business wants it yesterday_
+
+[.in-short]
+*In short:* Rushing versus speed is the difference between skipping safeguards to ship now and shipping often because the safeguards are in place. Gareth Price's _Applied Alchemy_ calls it the most important distinction in the CTO's vocabulary. Rushing feels fast and creates the crises that slow teams down. Speed comes from small, tested, reversible changes and the guardrails that make them safe.
+
+== Same Pressure, Two Responses
+
+xref:7-rushing-vs-speed.adoc[Chapter 7] draws the line plainly. Rushing is deploying without testing, merging without review and shipping without monitoring. It produces output quickly and builds the reckless kind of technical debt. Speed is high deployment frequency with proper safeguards: a pipeline that lets the team ship many times a day because each change is small, tested and reversible. It is shipping less scope, more often.
+
+Charity Majors, CTO of Honeycomb, puts it in four words: "Speed is safety in software."footnote:[Majors, C. (~2023). Interview with Charles Humble. _Hacking the Org Podcast_, Container Solutions. https://blog.container-solutions.com/charity-majors-on-code-rewrites-observability-and-team-performance — Majors is CTO and co-founder of Honeycomb.] The DORA research behind _Accelerate_ supports her: "High performers understand that they don't have to trade speed for stability or vice versa, because by building quality in they get both."footnote:forsgren2018[Forsgren, N., Humble, J., & Kim, G. (2018). _Accelerate: The Science of Lean Software and DevOps_. IT Revolution Press. Based on multi-year surveys of 23,000{plus} professionals.]
+
+== Why It Matters
+
+The pressure to ship faster is structural. The CEO answers to the board for growth, and growth depends on what engineering delivers. That pressure will not end at your company any more than it ended anywhere else. What the CTO controls is the response. Accept that speed and quality trade off, and you have already lost the negotiation. Martin Fowler calls that belief the tradable quality hypothesis, and argues the opposite: "The purpose of internal quality is to go faster."footnote:[Fowler, M. (n.d.). Tradable quality hypothesis. _martinfowler.com/bliki_. https://martinfowler.com/bliki/TradableQualityHypothesis.html — See also Fowler, M. (2019, May 29). Is high quality software worth the cost? https://martinfowler.com/articles/is-quality-worth-cost.html]
+
+The book also treats the velocity negotiation as practice for the board. Presenting trade-offs instead of ultimatums is the same translation skill that decides whether a CTO survives the move from builder to executive.
+
+== Example: Knight Capital's 45 Minutes
+
+On 1 August 2012, Knight Capital deployed new trading software. A technician updated it by hand on seven of eight servers and missed one. On that server, old code began firing trades without the controls the new code was meant to provide. Before it was contained, the firm sent more than four million orders while trying to fill 212 customer orders, and lost more than $460 million. An internal system had sent 97 automated error emails before the market opened. Nobody acted on them.footnote:u2013[U.S. Securities and Exchange Commission. (2013, October 16). SEC charges Knight Capital with violations of market access rule \[Press release\]. https://www.sec.gov/newsroom/press-releases/2013-222 — See also Seven, D. (2014, April 17). Knightmare: A DevOps cautionary tale. _dougseven.com_.]
+
+The book's reading: Knight Capital did not fail because it moved too fast. It failed because it rushed. Deployment verification, automated consistency checks and incident response are exactly the infrastructure of speed it lacked.
+
+== How to Start This Week
+
+. Write your non-negotiables list: five to seven commitments you will not trade for a deadline. The book's examples: every deployment can be rolled back within minutes; automated tests cover the flows customers depend on; monitoring is in place before a feature reaches production; critical security patches land within 72 hours and high-severity ones within two weeks; data access controls are never bypassed for convenience.
+. In your next deadline conversation, fix the time and vary the scope. Ryan Singer's Shape Up puts it this way: "Appetites start with a number and end with a design."footnote:singer2019[Singer, R. (2019). _Shape Up: Stop Running in Circles and Ship Work that Matters_. Basecamp. https://basecamp.com/shapeup]
+. Find one manual gate in your release process and ask what automated guardrail could replace it.
+
+== Rushing vs Speed vs "Speed or Quality"
+
+The familiar framing is a dial between fast and good. Rushing versus speed rejects the dial. The real trade-off is between speed and scope, and the real enemy of safety is not speed but rushing. The same logic applies to oversight. DORA found that external change approvals such as review boards and manager sign-offs "had no correlation with change fail rate." They only made teams slower.footnote:forsgren2018[] The answer is not fewer safeguards but different ones. In the DevSecOps community's terms, that means guardrails, which are automated constraints, instead of gates, which are manual checkpoints.footnote:[Howard, M. (2017, December). Fewer gates, more guardrails: DevSecOps lessons learned in 2017. _Sonatype Blog_. https://www.sonatype.com/blog/less-gates-more-guardrails-devsecops-lessons-learned-in-2017]
+
+*Go deeper:* xref:7-rushing-vs-speed.adoc[Chapter 7: Rushing vs Speed], with the infrastructure of speed in xref:6-shipping-software.adoc[Chapter 6: Shipping] and the measurement language in xref:9-measuring-engineering-metrics.adoc[Chapter 9: Measuring What Matters]. See also xref:what-is-strategic-technical-debt.adoc[What Is Strategic Technical Debt?] and xref:what-is-the-business-acumen-gap.adoc[What Is the Business Acumen Gap?]
+
+'''''
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

@@ -3,9 +3,13 @@
 :page-haiku: Five days, five crises. / No one told you this was the / job you signed up for.
 :description: No standard training exists for the startup CTO role. This introduction maps the gap between what engineers prepare for and what the job demands.
 :keywords: startup CTO, CTO role, engineering leadership, first-time CTO, technology management
+:page-search-title: Why Is the Startup CTO Role So Hard?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 = Introduction: The Role Nobody Prepared You For
+
+[.in-short]
+*In short:* The startup CTO role is hard because no standard training exists for it and it transforms completely every 18 to 24 months. Startup CTOs mostly arrive as engineers, yet those who get replaced are not fired for technical skill: they fail to communicate with the board or to think strategically. Survival depends on translating technical reality into business language.
 
 ____
 "Most of what we built, nobody will ever see. And the only reason why we do this well is our own professional pride in operational excellence. That is what defines the best builders. They do the things properly, even when nobody's watching."

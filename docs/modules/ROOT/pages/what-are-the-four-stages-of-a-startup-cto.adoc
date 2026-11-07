@@ -1,0 +1,88 @@
+:page-description: The four stages of a startup CTO are Coder, Manager, Director and Strategist. What each stage demands, how to tell which one you are in, and why the transitions are where CTOs fail.
+:page-llms-description: Definition of the four stages of a startup CTO used in Gareth Price's Applied Alchemy: Coder (1–15 employees), Manager (15–45), Director (45–250) and Strategist (250+), drawn from Viktor Nyblom's stages and Daniel Jarjoura's coding-time research, with the failure mode of each stage, the warning signs of each transition, and how the model differs from a career ladder.
+:page-haiku: Coder, Manager, / Director, Strategist: four / jobs behind one name.
+:page-toclevels: 0
+:description: The four stages of a startup CTO are Coder, Manager, Director and Strategist. What each stage demands, how to tell which one you are in, and why the transitions are where CTOs fail.
+:keywords: four stages of a startup CTO, CTO stages, coder manager director strategist, CTO career path, startup CTO evolution, how the CTO role changes
+:page-search-title: What Are the Four Stages of a Startup CTO?
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-schema: term
+:page-term-name: Four stages of a startup CTO
+:page-term-definition: The four stages of a startup CTO are Coder, Manager, Director and Strategist: four different jobs the role becomes as a company grows, each needing skills the previous stage never taught.
+:page-faq-1-q: What are the four stages of a startup CTO?
+:page-faq-1-a: The four stages are Coder (1–15 employees, coding 70% or more of the time), Manager (15–45 employees, building and running the team), Director (45–250 employees, leading leaders) and Strategist (250-plus employees, multi-year vision and board-level work). Applied Alchemy builds on CTO coach Viktor Nyblom's stages and Daniel Jarjoura's data on coding time. Each stage has its own failure mode, and the transitions between them are where most CTOs struggle.
+:page-faq-2-q: How do I know which CTO stage I am in?
+:page-faq-2-a: Look at your coding time and your team size. Coder: 70% or more of your time in the code, a team under 15 and no managers between you and the developers. Manager: coding between 10% and 40% and falling, 15 to 45 people, much of your week in one-on-ones and hiring. Director: under 10% coding, 45 to 250 people, and you manage managers. Strategist: no code, more than 250 people, and directors with their own budgets report to you.
+:page-faq-3-q: Why do CTOs fail at the transitions between stages?
+:page-faq-3-a: Because each transition asks you to stop doing the thing that made you successful. Coder to Manager fails on identity: the CTO cannot stop coding and becomes the oracle everyone waits on. Manager to Director fails on scale: managing 50 people the way you managed 15. Director to Strategist fails on communication: jargon and "trust me" in front of the board instead of a business case.
+:page-faq-4-q: How long does each stage of the CTO role last?
+:page-faq-4-a: Roughly 18 months, according to CTO educator Daniel Jarjoura, though hypergrowth compresses it and slow growth stretches it. If things go well, a founding CTO goes from coding most of the time to being completely out of the code in five years or less. The company never announces that it has entered a new stage; the job changes around the CTO whether they are ready or not.
+:page-faq-5-q: Does every CTO have to move through all four stages?
+:page-faq-5-a: No. Applied Alchemy calls the model a map, not a mandate. Some CTOs find their best stage and stay there, and some move backward on purpose: Greg Brockman handed management to a VP of Engineering at Stripe and went back to code. What predicts success is whether the stage you are in matches the stage the company needs.
+
+= What Are the Four Stages of a Startup CTO?
+
+[.lead]
+_Four different jobs, one title, a few short years_
+
+[.in-short]
+*In short:* The four stages of a startup CTO are Coder, Manager, Director and Strategist: four different jobs the role becomes as a company grows from a handful of people to hundreds. In Gareth Price's _Applied Alchemy_, each stage demands skills the last one never taught, and most CTOs who fail do so at the transitions, not within a stage.
+
+== Four Jobs, Each With Its Own Trap
+
+The model in xref:1-four-stages-cto-evolution.adoc[Chapter 1] combines CTO coach Viktor Nyblom's four stages with Daniel Jarjoura's data on how much of the CTO's time goes on code at each one.footnote:nyblom2023[Nyblom, V. (2023, March 22). The four stages of a startup CTO. nyblom.io. https://www.nyblom.io/blog/the++_++four++_++stages++_++of++_++a++_++startup++_++cto]footnote:jarjoura2021[Jarjoura, D. (2021). The startup CTO growth cycle. The Unicorn CTO. https://www.unicorn-cto.com/startup-cto-growth-cycle/] Two practitioners, working from different clients, arrived at nearly the same map.
+
+[cols="1,1,1,2,2",options="header"]
+|===
+|Stage |Company size |Coding time |Primary activity |Typical failure
+
+|Coder |1–15 employees |70% or more |Building the product |Cannot delegate
+|Manager |15–45 employees |10–40% |Building and managing the team |Cannot think strategically
+|Director |45–250 employees |Under 10% |Leading leaders, setting strategy |Loses touch with the technology
+|Strategist |250+ employees |None |Culture, multi-year vision, the board |Loses touch with the team
+|===
+
+The model is a simplification. Real companies do not announce when they cross a boundary, and team sizes vary by industry. But most CTOs have no map at all, and a rough map beats navigating blind. AI tools are pulling many leaders back towards the keyboard; at the later stages that should mean prototyping and exploration, not owning production systems the team depends on.
+
+== Why It Matters: Transitions Kill More CTOs Than Stages
+
+Each transition asks the CTO to stop doing what they are best at and start doing something they have never done. Coder to Manager fails on identity. Manager to Director fails on scale. Director to Strategist fails on communication. Adelina Chalmers, who has spent more than a decade helping startups raise investment, found that most founding CTOs are fired or moved sideways within three to five years.footnote:chalmers2024[Chalmers, A. (2024, July 3). Most founding CTOs are fired or moved sideways within 3–5 years. Here’s why! Medium. https://adelinachalmers.medium.com/most-founding-ctos-are-fired-or-moved-sideways-within-3-5-years-heres-why-d2db06989656]
+
+The stages are predictable. So are the transitions and their failure modes. What is not predictable is whether a given CTO sees the next transition in time. Naming your current stage is how you see it coming.
+
+== Example: Greg Brockman's Tuesday Problem
+
+By 2013, Greg Brockman, by then effectively Stripe's CTO, had stacked all his one-on-ones on Tuesdays. By Tuesday evening he was spent. By the time he recovered, it was Tuesday again.footnote:brockman2014[Brockman, G. (2014, October 27). ++#++define CTO. blog.gregbrockman.com. https://blog.gregbrockman.com/figuring-out-the-cto-role-at-stripe]
+
+The job he had been doing, designing the architecture and writing the core code, no longer existed. Stripe had moved into the Manager stage. He had not. Rather than force himself into a role that drained him, he hired a VP of Engineering, handed over his one-on-ones and recruiting, and went back to the code.footnote:brockman2014[] The stage was clear once he named it. So was the choice.
+
+== How to Find Yourself on the Map This Week
+
+. Write down last week's coding time as a percentage, and your company's headcount. Find the row in the table that fits.
+. Check the warning signs of the next transition. Are you the bottleneck on every technical decision (Coder to Manager)? Are one-on-ones burning you out (Manager to Director)? Does the board not understand what engineering is doing, and do you suspect jargon is why (Director to Strategist)?
+. Ask which stage the company will need in 18 months. Growth that triggers a transition is visible months in advance.
+. Pick one activity from your current stage to hand off. Pick one skill from the next stage to practise now, before it feels natural.
+
+== Four Stages vs a Career Ladder
+
+A ladder implies everyone should climb. The book calls the four stages a map, not a mandate. Sergio Visinoni's archetypes add side doors the stage model misses, such as the Tech Visionary CTO, who leads a small exploration team while a VP of Engineering runs delivery.footnote:visinoni2024[Visinoni, S. (2024, February 21). The 5 archetypes of CTOs. Sudo Make Me a CTO. https://makemeacto.substack.com/p/the-5-archetypes-of-ctos] Brockman moved backward on purpose and did some of his best work from there. The variable that predicts success is not how far up you climb. It is whether the stage you are in matches the stage the company needs.
+
+*Go deeper:* xref:1-four-stages-cto-evolution.adoc[Chapter 1: The Four Stages], then xref:2-how-people-become-ctos.adoc[Chapter 2: How People Become CTOs] and xref:16-knowing-when-to-step-aside.adoc[Chapter 16: Knowing When to Step Aside]. See also xref:what-is-the-maker-to-multiplier-shift.adoc[What Is the Maker-to-Multiplier Shift?] and xref:what-is-the-business-acumen-gap.adoc[What Is the Business Acumen Gap?]
+
+'''''
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

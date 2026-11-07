@@ -1,0 +1,87 @@
+:page-description: A CTO operating rhythm is a set of recurring activities, daily to annual, that gives the CTO role the structure it lacks. What goes in each cadence, when to delegate, and how to start.
+:page-llms-description: Definition of the CTO operating rhythm in Gareth Price's Applied Alchemy: recurring activities at daily, weekly, monthly, quarterly and annual cadences, each with a delegation trigger and a warning sign; the daily five (morning launch, deep work block, CEO check-in, triage and capture, shutdown ritual); the delegation ledger; what AI can automate; and how it differs from time management.
+:page-haiku: Daily, weekly, more: / decide once what the days hold, / then let the loops run.
+:page-toclevels: 0
+:description: A CTO operating rhythm is a set of recurring activities, daily to annual, that gives the CTO role the structure it lacks. What goes in each cadence, when to delegate, and how to start.
+:keywords: CTO operating rhythm, operating rhythm, CTO daily routine, CTO time management, shutdown ritual, delegation ledger, CTO weekly meetings
+:page-search-title: What Is a CTO Operating Rhythm?
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+:page-schema: term
+:page-term-name: CTO operating rhythm
+:page-term-definition: A CTO operating rhythm is a set of recurring activities at daily, weekly, monthly, quarterly and annual cadences that gives the CTO role the structure it lacks, so urgent work cannot crowd out important work.
+:page-faq-1-q: What is a CTO operating rhythm?
+:page-faq-1-a: A CTO operating rhythm is a set of recurring activities at daily, weekly, monthly, quarterly and annual cadences that gives the CTO role the structure it lacks. In Applied Alchemy each activity has a trigger for when to delegate it and a warning sign that you are neglecting it, so the urgent cannot crowd out the important.
+:page-faq-2-q: What should a CTO's daily routine include?
+:page-faq-2-a: Five things that fit on an index card: a 15-minute morning launch before email or Slack, one deep work block of at least 90 minutes, a short CEO check-in, triage and capture of every input into a system, and a 15-minute shutdown ritual at the same time each day. The shutdown ritual is the most important of the five and the one most likely to be skipped.
+:page-faq-3-q: What is a shutdown ritual?
+:page-faq-3-a: A shutdown ritual is a 15-minute end-of-day routine, from Cal Newport, that closes the open loops your brain would otherwise chew on at night. Scan every task list, check the next three days, write tomorrow's three outcomes, note one thing that went well, say a closing phrase aloud and shut the laptop.
+:page-faq-4-q: What should a CTO delegate first?
+:page-faq-4-a: Delegate by triggers you decided in advance, not by mood. Applied Alchemy suggests handing first-pass triage to an executive assistant at about 15 engineers, most one-to-ones to a VP of Engineering once one is hired, and incident reviews once a VP of Engineering or SRE lead can run them. Some things are never delegated: the CEO relationship, technology strategy, advisory conversations and the shutdown ritual.
+:page-faq-5-q: Can AI run a CTO's operating rhythm?
+:page-faq-5-a: Partly. The book estimates that about 40% of the rhythm can be automated and another 35% assisted, leaving 25% that must stay human. Its rule is to automate the assembly, assist the analysis and protect the relationships: AI can draft the weekly update or prepare a one-to-one, but it should not conduct the one-to-one, make strategic bets or own the board narrative.
+
+= What Is a CTO Operating Rhythm?
+
+[.lead]
+_A survival system, not a productivity system_
+
+[.in-short]
+*In short:* A CTO operating rhythm is a set of recurring activities at daily, weekly, monthly, quarterly and annual cadences that gives the CTO role the structure it lacks. In Gareth Price's _Applied Alchemy_ every activity has a trigger for when to delegate it and a warning sign that it is being neglected, so the urgent cannot consume the important.
+
+== Five Loops, Each With a Trigger and a Warning Sign
+
+xref:14-operating-rhythm.adoc[Chapter 14] sets out the rhythm as loops at five frequencies:
+
+* *Daily*, small enough for an index card: a morning launch, one 90-minute deep work block, a CEO check-in, triage and capture, and a shutdown ritual.
+* *Weekly*: one-to-ones with every direct report, an architecture review, an incident review, an engineering leadership meeting, a recruiting pipeline review, a written status update and a Friday review.
+* *Monthly*: a technical debt review, a team health check, skip-level conversations, an advisory conversation and an engineering all-hands.
+* *Quarterly*: goal review, architecture review, a technology strategy refresh, board preparation and a personal energy audit.
+* *Annual*: an organisational assessment, a technology roadmap refresh, the budget negotiation, and career development and succession planning.
+
+The rhythm accumulates as the company grows. A Coder-stage CTO runs a subset. A Strategist-stage CTO runs the full set, with most operational cadences handed to a VP of Engineering. A delegation ledger records, for each activity, the stage or team size at which it moves from "you do it" to "you ensure it happens". Some activities never move: the CEO relationship, technology strategy, advisory conversations and the shutdown ritual.
+
+== Why It Matters
+
+The CTO role has no natural structure. Engineers have tickets. Sales has a pipeline. Product has a roadmap. The CTO has everything, all at once, with nothing external saying what comes next. They also live across Paul Graham's two schedules, where "a single meeting can blow a whole afternoon."footnote:graham[Graham, P. (2009, July). Maker's schedule, manager's schedule. _paulgraham.com_. https://paulgraham.com/makersschedule.html]
+
+If you do not decide what you are doing with your time, other people's urgencies decide for you. The rhythm makes that decision once, in advance, rather than fifty times a day under pressure. Its most important daily element is Cal Newport's shutdown ritual, which deals with the way unfinished tasks dominate attention.footnote:newport[Newport, C. (2016). _Deep Work: Rules for Focused Success in a Distracted World_. Grand Central Publishing. Shutdown ritual: https://calnewport.com/drastically-reduce-stress-with-a-work-shutdown-ritual/]
+
+== Example: A Rhythm Built as a Prosthetic
+
+Chapter 14 opens with the author's own story. Diagnosed with inattentive ADHD at thirty-four, he had spent his career building compensatory systems without knowing what they compensated for: obsessive lists, time-blocked calendars, notes on everything. The rhythm in the book is the system he built, broke and rebuilt over a decade as a startup CTO.
+
+// REVIEW: this example repeats the author's ADHD diagnosis from Chapter 14 on a page designed to be quoted by answer engines. It is already public in the chapter; confirm the author is happy for it to appear in AI summaries of this term.
+
+The book is clear that this is not only for ADHD readers. The role is hostile to executive function whatever your neurology. A CTO without ADHD may need three daily steps where another needs five. The principle is the same.
+
+== How to Start This Week
+
+. Write the daily five on an index card and tape it to your monitor.
+. Run the shutdown ritual every working day at the same time. Scan every task list, check the next three days, write tomorrow's three outcomes, note one thing that went well, say a closing phrase aloud, and close the laptop.
+. Block one 90-minute deep work session in your sharpest hours. No Slack, no email.
+. On Friday, send your first weekly status update to the CEO and peer executives. Will Larson's "5-15" format takes fifteen minutes to write and five to read.footnote:larson_meetings[Larson, W. (2023, January). Meetings for an effective eng organization. _Irrational Exuberance_ (lethain.com). https://lethain.com/eng-org-meetings/ — Chapter from _The Engineering Executive's Primer_ (O'Reilly, 2024). Six core meetings; 5-15 update format; skip-level budget of 1–2 hours/week.]
+. Start a delegation ledger. For each activity you run, write the trigger that will hand it off, and mark the ones you will never delegate.
+
+== Operating Rhythm vs Time Management
+
+Time management fits tasks into hours. An operating rhythm decides in advance which recurring activities happen at which cadence, who owns each one at each stage, and what tells you one has slipped. It is not a rigid calendar; a startup system that assumes predictable weeks will be abandoned by Thursday. It changes as you move through the four stages. And it is increasingly shared with AI. The book's rule for that split: automate the assembly, assist the analysis, protect the relationships. The one-to-one, the strategic bet and the board narrative stay human.
+
+*Go deeper:* xref:14-operating-rhythm.adoc[Chapter 14: The Operating Rhythm], with the printable tables in xref:appendix-f-operating-rhythm-reference.adoc[Appendix F: The Operating Rhythm — Quick Reference] and what happens without it in xref:15-cto-burnout-isolation.adoc[Chapter 15: Burnout and Isolation]. See also xref:what-is-the-maker-to-multiplier-shift.adoc[What Is the Maker-to-Multiplier Shift?] and xref:what-are-the-four-stages-of-a-startup-cto.adoc[What Are the Four Stages of a Startup CTO?]
+
+'''''
+
+[discrete]
+== Frequently Asked Questions
+
+[qanda]
+{page-faq-1-q}::
+{page-faq-1-a}
+{page-faq-2-q}::
+{page-faq-2-a}
+{page-faq-3-q}::
+{page-faq-3-a}
+{page-faq-4-q}::
+{page-faq-4-a}
+{page-faq-5-q}::
+{page-faq-5-a}

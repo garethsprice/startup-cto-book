@@ -4,6 +4,7 @@
 :page-haiku: You are the product. / Until you find who is next / then become their bridge.
 :description: Most startup CTOs are the product function until they hire one. How to work with product management — or be it — at each stage of company growth.
 :keywords: product management, CTO as product, product-engineering relationship, roadmaps, now next later
+:page-search-title: Should a Startup CTO Also Own Product?
 :page-date-published: 2026-03-09
 :page-date-modified: 2026-11-07
 :page-faq-1-q: Should a CTO also be the product manager?
@@ -17,6 +18,9 @@
 :page-faq-5-q: What is the CTO's role in product decisions?
 :page-faq-5-a: The CTO brings technical feasibility, architecture implications, and cost clarity to product decisions. They answer questions like: can we build this, how long will it take, what are the technical risks, and what does this decision mean for our architecture long-term. The CTO should not unilaterally decide what to build (that is the product manager's domain) but should have a strong voice in how to build it and a veto on decisions that create unsustainable technical debt.
 = Chapter 8: Working with Product (or Being Product)
+
+[.in-short]
+*In short:* Startup CTOs should own product at the earliest stage, because there is no one else: the demo is the discovery session and the prototype is the spec. After product-market fit, hire a PM who builds to learn, hand over the _what_ while keeping the _whether_, and use a Now/Next/Later roadmap rather than dated promises.
 
 [quote, Marty Cagan, "The CEO as Head of Product, SVPG, 2010"]
 ____
