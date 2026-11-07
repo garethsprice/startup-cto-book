@@ -5,7 +5,7 @@
 :description: A copy-pasteable prompt that turns Claude into your personal CTO coach — grounded in this book's frameworks, vocabulary, and hard-won lessons.
 :keywords: AI CTO coach, Claude prompt, AI coaching, CTO mentor, startup CTO guidance
 :page-date-published: 2026-03-11
-:page-date-modified: 2026-09-30
+:page-date-modified: 2026-11-07
 = Appendix H: Your AI CTO Advisor
 
 xref:15-cto-burnout-isolation.adoc[Chapter 15] makes the case that isolation is one of the most corrosive forces in the CTO role. You cannot talk to your team about your doubts, your CEO does not always understand the technical trade-offs, and your board cares about outcomes, not process. The best antidote is a peer CTO — someone who has been where you are and will tell you the truth. Most startup CTOs do not have one.
@@ -15,7 +15,7 @@ This appendix gives you a starting point. The prompt below turns Claude into a *
 
 == The Prompt
 
-Copy the following prompt and paste it into https://claude.ai[Claude^], https://www.anthropic.com/claude-code[Claude Code^], or any tool that supports Claude. The AI will fetch the book's contents and use them as the foundation for a coaching conversation.
+Copy the following prompt and paste it into https://claude.ai[Claude^], https://claude.com/product/claude-code[Claude Code^], or any tool that supports Claude. The AI will fetch the book's contents and use them as the foundation for a coaching conversation.
 
 [source,text]
 ----
@@ -95,14 +95,14 @@ Ask me the following, and wait for my answers before advising:
 
 == How to Use It
 
-*Claude Code (terminal).* Save the prompt to a file and start a session with it:
+*Claude Code (terminal).* Save the prompt to a file and start a session that appends it to Claude Code's default system prompt rather than replacing it:
 
 [source,bash]
 ----
 cat > cto-advisor.md << 'EOF'
 # (paste the prompt above)
 EOF
-claude --system-prompt cto-advisor.md
+claude --append-system-prompt-file cto-advisor.md
 ----
 
 Or simply paste the prompt directly into a Claude Code session.
@@ -123,6 +123,8 @@ The base prompt works well as a general coaching conversation. For specific situ
 *Operating rhythm design.* Add: _"Help me design a weekly and quarterly operating rhythm using the cadences from Chapter 14. My team is [size] and we are at [stage]."_
 
 *Hiring and team structure.* Add: _"I need to make my next three engineering hires. Help me think through the sequencing using the team-building guidance from Chapter 11 and the stage-appropriate priorities from Chapter 1."_
+
+*AI coding agents and guardrails.* Add: _"My team is moving from AI autocomplete to coding agents that work autonomously. Using the demo-to-production gap and the amplifier thesis from Chapter 12, help me decide which work to delegate to agents, what permissions they should and should not have, how review must change, and what to measure so I can tell real productivity from perceived productivity."_
 
 The more context you provide about your company, stage, and constraints, the better the coaching becomes. Like any good coaching relationship, the best sessions come from the best questions — yours, not the coach's.
 

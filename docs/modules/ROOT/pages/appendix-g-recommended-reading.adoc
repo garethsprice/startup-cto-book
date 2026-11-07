@@ -5,7 +5,7 @@
 :description: An opinionated reading list for startup CTOs organised by stage — the books to read now, not someday.
 :keywords: CTO reading list, technology leadership books, engineering management books, recommended reading
 :page-date-published: 2026-03-11
-:page-date-modified: 2026-09-30
+:page-date-modified: 2026-11-07
 = Appendix G: Recommended Reading
 
 This is not a bibliography. The endnotes serve that purpose. This is an opinionated list of what to read and when to read it, organised by the four stages from xref:1-four-stages-cto-evolution.adoc[Chapter 1]. Every entry passes a single test: would I hand this book to a CTO at this stage and say _read this now_?
@@ -84,9 +84,13 @@ You are managing managers. Your job shifts from building software to building th
 
 ◆ Ethan Mollick — _Co-Intelligence: Living and Working with AI_ (Portfolio/Penguin, 2024). The most accessible, non-hype framework for how generative AI changes work and decision-making. Essential strategic framing for any CTO integrating AI into their product or organisation.
 
+◆ Juan Pablo Buriticá & James Turnbull — _Engineering Leadership: The Hard Parts_ (O'Reilly, 2026). Written by a CTO and a former head of engineering at Kickstarter, Docker, and Venmo, this is the messy-middle companion to Larson — priorities that will not hold still, budgets, contractors, build-versus-buy, and metrics treated as questions rather than targets. Start from the signs of a struggling system, not an idealised team.
+
 ◆ Gene Kim & Steven J. Spear — _Wiring the Winning Organization_ (IT Revolution, 2023). Kim's unified theory of organisational performance — slowification, simplification, amplification. The intellectual successor to _The Phoenix Project_ for leaders who want the deeper "why."
 
 ○ Chip Huyen — _AI Engineering: Building Applications with Foundation Models_ (O'Reilly, 2025). The definitive production-focused guide to building AI applications — prompt engineering, RAG, fine-tuning, agents, evaluation, and inference optimisation. Essential if you are building AI products; optional if you are not.
+
+○ Gene Kim & Steve Yegge — _Vibe Coding: Building Production-Grade Software With GenAI, Chat, Agents, and Beyond_ (IT Revolution, 2025). Two veteran practitioners on working with coding agents without abandoning engineering discipline. Read it to understand what your engineers are now doing all day — and what your review, testing, and ownership practices need to become.
 
 
 == Stage 4: Strategist — Series B to C and Beyond
@@ -130,4 +134,4 @@ The best ongoing CTO education happens between books.
 
 '''''
 
-_Thirty-five books, eight online resources. You do not need to read them all. Start with the essentials for your current stage, keep the rest on the shelf, and reach for them when the situation demands. The books will not change. Your questions will._
+_Thirty-seven books, eight online resources. You do not need to read them all. Start with the essentials for your current stage, keep the rest on the shelf, and reach for them when the situation demands. The books will not change. Your questions will._

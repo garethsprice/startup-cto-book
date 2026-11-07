@@ -5,12 +5,12 @@
 :description: Salary, equity, dilution, and option benchmarks for startup CTOs from seed to Series C — the numbers you need when negotiating compensation.
 :keywords: CTO compensation, equity benchmarks, startup salary, option grants, dilution
 :page-date-published: 2026-03-10
-:page-date-modified: 2026-03-11
+:page-date-modified: 2026-11-07
 = Appendix C: CTO Compensation and Equity Benchmarks
 
 This appendix is reference material for xref:13-maker-to-multiplier.adoc[Chapter 13]. It presents the salary, equity, dilution, and option data that xref:13-maker-to-multiplier.adoc[Chapter 13] discusses narratively, organised as tables the CTO can consult when negotiating compensation at any stage from seed to Series C.
 
-All equity percentages are expressed as fully diluted equity (FDE) unless otherwise noted. Compensation data is US-focused from 2024–2025 unless stated. The primary data sources are Kruze Consulting (anonymised payroll data from 250–450+ venture-backed startups), Carta (cap table records from 53,000+ startups), and Index Ventures (20,000+ option grants across 1,650+ startups). These represent real transaction and payroll data, not self-reported surveys. For self-reported comparison data, Glassdoor and ZipRecruiter are included but should be treated as directional rather than precise.
+All equity percentages are expressed as fully diluted equity (FDE) unless otherwise noted. Compensation data is US-focused from 2024–2026 unless stated. The primary data sources are Kruze Consulting (anonymised payroll data from 250–450+ venture-backed startups), Carta (cap table records from 53,000+ startups), and Index Ventures (20,000+ option grants across 1,650+ startups). These represent real transaction and payroll data, not self-reported surveys. For self-reported comparison data, Glassdoor and ZipRecruiter are included but should be treated as directional rather than precise.
 
 
 == Cash Compensation by Stage
@@ -44,7 +44,9 @@ The founding CTO earns less in cash than a hired CTO at every stage. The gap is 
 
 _Source: Kruze Consulting 2024 CTO Salary Report._
 
-A counterintuitive finding: at seed, the CTO earns slightly more in cash than the CEO. Kruze reports founding CEO salaries averaging $132,000 at seed — roughly $1,000–$2,000 less than the founding CTO.footnote:kruze-ceo[Kruze Consulting. (2025). What is the average startup CEO salary in 2025? https://kruzeconsulting.com/blog/startup-ceo-salary-report/ — 2025 CEO average jumped 14% to $161,000, driven by AI funding boom. See also: Blum, S. (2024, December). Chief technology and chief product officers earn more than CEOs at early-stage startups. _Inc._ https://www.inc.com/sam-blum/chief-technology-and-chief-product-officers-earn-more-than-ceos-at-early-stage-startups-heres-why.html] At Series A, the CTO premium widens to approximately $44,000. Healy Jones, VP of Financial Strategy at Kruze, attributes this to the opportunity cost of technical talent: senior engineers at major technology companies command $300,000–$500,000+ in total compensation, and the startup must close enough of that gap to retain technical co-founders.footnote:kruze[]
+Kruze's 2026 guide does not separate founding from hired CTOs, but it shows blended pay rising with each stage: an average of $155,000 at seed, $196,000 at Series A and $238,000 at Series B. The overall average is $167,000 and the median $166,000 — the two differ by less than $1,000, which Kruze describes as "the most reliable figure for hiring against."footnote:kruze2026[Snyder, D. (2026, August 10). Startup C-suite salary guide 2026: CEO, CTO, COO pay. _Kruze Consulting_. https://kruzeconsulting.com/blog/startup-c-suite-salary-guide/ — Base cash pay from anonymised payroll data; excludes equity. Snyder is Vice President of Finance at Kruze. See also Kruze Consulting. (2026, August 11). New Kruze Consulting data reveals COOs, not CEOs, command the highest pay at growth-stage startups \[Press release\]. _PR Newswire_. http://www.prnewswire.com/news-releases/new-kruze-consulting-data-reveals-coos-not-ceos-command-the-highest-pay-at-growth-stage-startups-302848793.html] Treat the founding-versus-hired table above as the measure of the discount and the 2026 figures as the current market level.
+
+A counterintuitive finding: at seed, the CTO earns slightly more in cash than the CEO. Kruze reports founding CEO salaries averaging $132,000 at seed — roughly $1,000–$2,000 less than the founding CTO.footnote:kruze-ceo[Kruze Consulting. (2025). What is the average startup CEO salary in 2025? https://kruzeconsulting.com/blog/startup-ceo-salary-report/ — 2025 CEO average jumped 14% to $161,000, driven by AI funding boom. See also: Blum, S. (2024, December). Chief technology and chief product officers earn more than CEOs at early-stage startups. _Inc._ https://www.inc.com/sam-blum/chief-technology-and-chief-product-officers-earn-more-than-ceos-at-early-stage-startups-heres-why.html] In the 2024 data, the CTO premium widened to approximately $44,000 at Series A. The 2026 data confirms the pattern at the ends of the range but not in the middle: CTOs post the highest average pay of the three executive roles Kruze tracks at seed and still out-earn CEOs at Series B ($238,000 against $216,000), while at Series A the CEO average edges ahead.footnote:kruze2026[] Healy Jones, VP of Financial Strategy at Kruze, attributes the CTO premium to the opportunity cost of technical talent: senior engineers at major technology companies command $300,000–$500,000+ in total compensation, and the startup must close enough of that gap to retain technical co-founders.footnote:kruze[]
 
 For context, ZipRecruiter reports the national median CTO salary across all company sizes at $203,000 as of March 2026, with the 25th percentile at $146,000 and the 75th at $242,500.footnote:ziprecruiter[ZipRecruiter. (2026, March). Chief technology officer salary. https://www.ziprecruiter.com/Salaries/Chief-Technology-Officer-Salary — National data across all company sizes; not startup-specific.] These figures include established companies and will overstate startup norms. Use the Kruze data as the startup-specific benchmark.
 
@@ -81,7 +83,7 @@ The equity a CTO receives depends on whether they are a co-founder or a later hi
 | Co-founder (2 founders)
 | 25%–50%
 | ~50%
-| YC recommends equal splits. Subject to vesting.
+| YC recommends equal splits. Carta: 44.6% of 2025 two-founder teams split equally; median 51/49. Subject to vesting.
 
 | Co-founder (3 founders)
 | 15%–33%
@@ -109,7 +111,7 @@ The equity a CTO receives depends on whether they are a co-founder or a later hi
 | Significant only at high valuations.
 |===
 
-_Sources: Index Ventures OptionPlan; Carta first-10-employees data (November 2024)._footnote:indexventures[Index Ventures. OptionPlan: Allocation considerations and benchmarks. https://www.indexventures.com/optionplan/ — Based on 20,000{plus} option grants across 1,650{plus} startups. See also Carta H2 2024 compensation data: https://carta.com/data/startup-compensation-h2-2024/] Veteran CTOs with prior exits command a 30%–50% premium over these benchmarks — grants of 2.3%–3.0% are reported at Series A for experienced hires.
+_Sources: Index Ventures OptionPlan; Carta first-10-employees data (November 2024); Carta two-founder data (June 2026)._footnote:indexventures[Index Ventures. OptionPlan: Allocation considerations and benchmarks. https://www.indexventures.com/optionplan/ — Based on 20,000{plus} option grants across 1,650{plus} startups. See also Carta H2 2024 compensation data: https://carta.com/data/startup-compensation-h2-2024/]footnote:carta-duos[Carta. (2026, June). Dynamic duos: Two-founder teams are divvying up their equity more equally than ever. https://carta.com/data/two-founder-teams/ — 44.6% of two-founder teams formed in 2025 split equity equally, the highest rate in a decade; median split 51–49.] Veteran CTOs with prior exits command a 30%–50% premium over these benchmarks — grants of 2.3%–3.0% are reported at Series A for experienced hires.
 
 Index Ventures recommends option pools of 12.5%–15% at seed (larger than the traditional 10%), growing to approximately 16% by Series C and 20% at late stage.footnote:indexventures[] The CTO negotiating equity should know the size of the pool — a 1% grant from a 10% pool is a different signal from a 1% grant from a 20% pool.
 
@@ -182,6 +184,8 @@ Each funding round dilutes existing shareholders. Carta's Q1 2024 data from 1,20
 |===
 
 _Source: Carta "Dilution is on the decline," Q1 2024._
+
+The decline has continued. Carta's review of 2025 reports that median dilution across all rounds from seed to Series C fell from about 18% to 16% during the year, against 19% two years earlier. The sharpest fall was at Series B, from about 15% to 12.9%.footnote:carta-2025[Carta. (2026, February). State of private markets: 2025 in review. https://carta.com/data/state-of-private-markets-q4-2025/ — Median dilution across seed to Series C rounds fell from about 18% to 16% over 2025; Series B fell from about 15% to 12.9%.] The worked example below uses the 2024 medians and is therefore slightly conservative; the shape of the waterfall has not changed.
 
 === Worked Example: Founding CTO Starting at 10%
 
@@ -260,6 +264,8 @@ _Source: Cooley GO._footnote:cooley[Cooley GO. ISOs v. NSOs: What's the differen
 === The 83(b) Election
 
 The 83(b) election applies to restricted stock and early-exercised options. It allows the recipient to pay tax on the current fair market value at the time of grant rather than the (presumably higher) value at vesting. For a founding CTO receiving stock when the company is worth nearly nothing, filing the 83(b) means paying tax on pennies rather than dollars — and starting the clock on long-term capital gains treatment and the Section 1202 QSBS exclusion.
+
+That clock now matters earlier than it used to. The One Big Beautiful Bill Act, signed in July 2025, changed QSBS for stock acquired after 4 July 2025. A partial exclusion now applies before the five-year mark: 50% of the gain after three years, 75% after four, and 100% after five. The per-issuer cap rises from $10 million to $15 million (or ten times basis, if greater), and the company's gross-assets ceiling rises from $50 million to $75 million, both indexed for inflation from 2027. Gain that is not excluded under the three- and four-year tiers is taxed at 28%.footnote:qsbs-obbba[Donnelly, M., Gong, B., & Williams, K. (2025, July 15). Focus on QSBS provisions in the One Big Beautiful Bill Act. _Gibson Dunn_. https://www.gibsondunn.com/focus-on-qsbs-provisions-in-the-one-big-beautiful-bill-act/ — Stock acquired on or before 4 July 2025 remains under the old rules: five-year holding period and $10 million cap.] Stock acquired before that date stays under the old rules, so a founding CTO with older shares and a new grant may hold two QSBS regimes at once. The exclusion is federal, and state treatment varies; xref:16-knowing-when-to-step-aside.adoc[Chapter 16] covers the state-tax trap.
 
 The deadline is absolute: **30 calendar days from the grant or purchase date**. There are no extensions. File via certified mail to the IRS, send a copy to the employer, and retain a copy. If the company fails or the shares are forfeited, taxes paid are not refunded. Stripe Atlas's warning, cited in xref:13-maker-to-multiplier.adoc[Chapter 13]: failing to file the 83(b) "has bankrupted very smart, honest taxpayers."footnote:stripe[Stripe Atlas. Equity for startups. https://stripe.com/guides/atlas/equity — "Filing an 83(b) election has bankrupted very smart, honest taxpayers whose only mistakes were working for a company that got valuable and neglecting to send in a one-page piece of paper by a deadline." See also the Holloway Guide to Equity Compensation.]
 
