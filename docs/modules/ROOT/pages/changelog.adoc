@@ -1,0 +1,77 @@
+:page-description: What changed in each revision of this book — new research, superseded statistics, and corrections, chapter by chapter.
+:page-llms-description: Revision history for the book — new research, superseded statistics, corrections, and new sections added in each revision, listed chapter by chapter.
+:page-llms-optional: true
+:page-toclevels: 1
+:description: What changed in each revision of this book — new research, superseded statistics, and corrections, chapter by chapter.
+:keywords: revision history, changelog, book updates
+:page-date-published: 2026-11-07
+:page-date-modified: 2026-11-07
+= Revision History
+
+A book about a role that AI is rewriting in real time goes stale quickly.
+This page records each revision: what research superseded what, what was corrected, and what was added.
+Every change listed here is footnoted in the chapter itself.
+The `AUTHOR` placeholders are untouched in every revision; they wait for experience, not research.
+
+== November 2026
+
+The first revision since the March 2026 first draft.
+Eight months of new evidence, read against the book's argument.
+
+The headline: the evidence has moved from _does AI make developers faster?_ to _where does the bottleneck go?_
+Code output is up sharply -- AI now writes roughly half of all code at the companies DX measures -- but delivery, stability, and developer experience have not kept pace.
+Review has become the constraint.
+That strengthens the book's central thesis rather than weakening it: the scarce resource is judgment, and judgment is the CTO's job.
+
+Other threads that run across several chapters:
+
+* *The player-coach CTO is back.* LeadDev's 2026 survey found 44% of CTOs coding and reviewing more than a year earlier, while big-tech restructurings stripped out layers of pure managers.
+* *Burnout got worse.* The share of CTOs emotionally drained at least weekly rose from 24% to 54% in a year.
+* *Hiring now has to verify the person, not just the skill.* Interview cheating, fake identities, and North Korean IT worker schemes moved from curiosity to routine risk.
+* *Several figures from the first draft were wrong or unsourced* and have been corrected, not just updated. They are noted below.
+
+=== Part I: The Map
+
+* *Introduction* -- Added LeadDev Engineering Leadership Report 2026 burnout figures alongside the 2025 data.
+* *Chapter 1: The Four Stages* -- Brockman case study updated through OpenAI's March 2026 funding round and his July 2026 return to running the ChatGPT product business; the claim that he "never fully entered the Strategist stage" is revised. Corrected an unsupported 2024 user figure. New paragraph on CTOs returning to hands-on work.
+* *Chapter 2: How People Become CTOs* -- New paragraph on the rise of solo founders (Carta) and what that means for the CTO path.
+* *Chapter 3: The CEO-CTO Relationship* -- CB Insights' 2026 post-mortem update (431 shutdowns) and Carta co-founder departure data. New case study: Thinking Machines Lab's January 2026 split with co-founder and CTO Barret Zoph.
+
+=== Part II: Building and Shipping
+
+* *Chapter 4: Technical Decisions as Business Decisions* -- *Correction:* 37signals' cloud-exit savings figure was wrong; replaced with DHH's published numbers through the October 2025 AWS account closure. Added hardware price risk (2026 DRAM price spike) and a new build-vs-buy paragraph: agents cut the cost of building, not of owning.
+* *Chapter 5: Technical Debt* -- GitClear 2026, Atlassian DevEx 2026, and new academic evidence that AI velocity gains fade while complexity persists. Added Margaret-Anne Storey's "triple debt" model (intent debt).
+* *Chapter 6: Shipping* -- Updated Veracode and GitClear figures; DORA's move from performance tiers to team profiles. New paragraph on the review bottleneck from Chen and Stratton's study of 655 firms.
+* *Chapter 7: Rushing vs Speed* -- *Correction:* DORA 2024 figures had been footnoted to _Accelerate_ (2018). Veracode's "no improvement with newer models" claim updated to reflect modest 2026 gains. New Cloudflare "fail small" case study and Amazon's reported senior sign-off rule for AI-assisted changes.
+* *Chapter 8: Working with Product* -- Prototyping is no longer the bottleneck (Cagan); the shift from feature-team PMs to product builders, with the counter-evidence of a recovering PM job market.
+* *Chapter 9: Measuring What Matters* -- DORA's five current metrics; DORA's 2026 AI ROI report (the J-curve); DX Q2 2026 data. New warning against token-consumption leaderboards as a productivity proxy.
+
+=== Part III: The Gap Nobody Talks About
+
+* *Chapter 10: The Business Acumen Gap* -- PwC 2026 director survey on boards' AI literacy. Previously unlinked survey citations now sourced.
+* *Chapter 11: Building the Team* -- 2026 entry-level hiring data (Indeed Hiring Lab, Stanford), with counterpoints. New subsection, "Is the Candidate Real?", on interview fraud and identity verification. Updated remote-work data.
+* *Chapter 12: AI Transformation* -- Cursor's growth to a $3 billion run rate and acquisition by SpaceX; Lovable as a new compression case; Medvi as a caution on the one-person company. METR's 2026 follow-up, DORA's "verification tax", Faros 2026 telemetry, and updated Veracode security data. New incident example (an agent deleting production and backups). New paragraph on EU AI Act delays and Colorado's revised AI law. *Correction:* the Key Takeaways misstated the METR perceived-speed figure, and the Faros figures were footnoted to DORA.
+
+=== Part IV: Surviving and Evolving
+
+* *Chapter 13: From Maker to Multiplier* -- New subsection, "The Player-Coach Returns": manager flattening at Google and Coinbase, Will Larson on the more technical CTO role, and the risks of managers back on the critical path.
+* *Chapter 14: Operating Rhythm* -- AI co-pilot section revised: updated Intercom results, new risks (notetaker litigation, prompt injection — "agents draft, humans send"). Horizon section rewritten around what is already standard; dated predictions removed. *Correction:* hallucination statistics that could not be traced to a primary source were replaced.
+* *Chapter 15: Burnout and Isolation* -- 2026 burnout and job-security data; research showing AI intensifying rather than lightening work.
+* *Chapter 16: Knowing When to Step Aside* -- QSBS rules updated for stock issued after 4 July 2025. Record 2026 startup M&A, licence-and-hire deals, new data on founder retention after acqui-hires, and later-stage shutdown trends. Discord case updated; an unverifiable headcount removed.
+* *Chapter 17: Building Something That Outlasts You* -- Mike Krieger's move from CPO back to building; a December 2025 prediction about engineers managing agents checked against 2026 data.
+
+=== Appendices
+
+* *A: The First Ninety Days* -- Added AI-era interviewing and identity checks.
+* *B: Stage-by-Stage Metrics Guide* -- Current DORA metrics, AI impact measurement, updated tool pricing, 2026 SaaS benchmarks, and IBM's 2026 healthcare breach cost.
+* *C: Compensation and Equity Benchmarks* -- Kruze 2026 CTO salaries by stage, Carta equity-split and dilution data, and post-2025 QSBS rules.
+* *D: Technical Due Diligence* -- New subsection, "AI Usage and Provenance". Black Duck 2026 licence-conflict data; EU AI Act timeline; FDA clinical decision support guidance.
+* *E: Buying and Integrating a Company* -- Character.AI's bankruptcy as a lesson in who owns the IP after a reverse acqui-hire.
+* *F: Operating Rhythm Quick Reference* -- Tool names replaced with categories; reliability and safety rules added.
+* *G: Recommended Reading* -- Added Buriticá and Turnbull, _Engineering Leadership: The Hard Parts_, and Kim and Yegge, _Vibe Coding_.
+* *H: Your AI CTO Advisor* -- Fixed the Claude Code command for loading the advisor prompt; updated links; added an AI coding agent guardrails customisation.
+
+== March 2026
+
+First draft.
+See xref:process.adoc[How This Book Was Built].

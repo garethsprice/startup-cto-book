@@ -5,7 +5,7 @@
 :description: Quick-reference tables for daily, weekly, monthly, and quarterly operating rhythms — the practical companion to Chapter 14.
 :keywords: operating rhythm, daily standup, weekly sync, quarterly planning, CTO schedule
 :page-date-published: 2026-03-11
-:page-date-modified: 2026-09-30
+:page-date-modified: 2026-11-07
 = Appendix F: The Operating Rhythm -- Quick Reference
 
 This appendix is the tool. xref:14-operating-rhythm.adoc[Chapter 14] provides the argument.
@@ -275,9 +275,13 @@ What to automate, what to assist, what to protect. See xref:14-operating-rhythm.
 
 **The principle:** automate the assembly, assist the analysis, protect the relationships.
 
-**Starter stack (minimal, low-maintenance):** Meeting summariser (Granola or Fireflies) + email filter (SaneBox or Superhuman) + calendar defence (Reclaim.ai) + AI assistant (Claude Projects) + one automation workflow for the shutdown ritual (n8n or Zapier). Commit for 90 days before changing anything.
+**Starter stack (minimal, low-maintenance):** Meeting summariser (bot-free for sensitive meetings) + email filter + calendar defence + one general-purpose AI assistant connected via MCP to your calendar, email, task tracker, and chat + one scheduled workflow for the shutdown ritual. Most mainstream assistants now run scheduled tasks natively; a separate automation tool is optional. Commit for 90 days before changing anything.
 
-**The ADHD-specific rule:** prefer tools that run without being asked. SaneBox filters silently. Reclaim defends blocks automatically. The n8n shutdown workflow fires on schedule. If a tool requires daily engagement to maintain, it will be abandoned within two weeks.
+**The ADHD-specific rule:** prefer tools that run without being asked. The filter sorts mail silently. The calendar tool defends blocks automatically. The shutdown summary arrives on schedule. If a tool requires daily engagement to maintain, it will be abandoned within two weeks.
+
+**The reliability rule:** code for the flow, model for the judgement. Let scheduled jobs and direct data pulls assemble the inputs; use the agent only for the steps that need interpretation. Prototype with the agent; ship with code.
+
+**The safety rule:** agents draft, humans send. An assistant that reads your inbox, sees untrusted content, and can send messages has the full "lethal trifecta." Keep sending email, accepting invites, and posting to channels behind an explicit approval step. Verify every AI-generated number before it reaches the CEO or the board.
 
 
 == The Seven Things You Never Delegate

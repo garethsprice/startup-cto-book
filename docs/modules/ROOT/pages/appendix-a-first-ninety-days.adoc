@@ -5,7 +5,7 @@
 :description: A practical ninety-day checklist for founding and hired CTOs — the window in which trust is built or lost.
 :keywords: CTO checklist, first ninety days, onboarding, founding CTO, hired CTO
 :page-date-published: 2026-03-10
-:page-date-modified: 2026-03-11
+:page-date-modified: 2026-11-07
 = Appendix A: The First Ninety Days — A CTO Checklist
 
 This appendix synthesises the book's frameworks into a single reference. It is designed for two readers: the founding CTO who has just started a company or received the title at a very early startup, and the CTO who has been hired into an existing organisation. Both face the same ninety-day window in which trust is built or lost, but the starting conditions differ.
@@ -81,7 +81,7 @@ Apply the technology evaluation framework from xref:4-technical-decisions-busine
 
 === Organisation
 
-Assess the hiring pipeline: shadow interviews, review the onboarding process, sit in on a closing call (xref:11-building-engineering-team.adoc[Chapter 11]). Identify the three most critical missing roles — Larson's constraint: "If every hire is a priority, nothing is a priority."footnote:larson90[]
+Assess the hiring pipeline: shadow interviews, review the onboarding process, sit in on a closing call (xref:11-building-engineering-team.adoc[Chapter 11]). Check two things that older hiring processes often miss: whether the technical interview tests how candidates work with AI tools rather than pretending those tools do not exist, and whether anyone verifies that the person being hired is the person who interviewed. Identify the three most critical missing roles — Larson's constraint: "If every hire is a priority, nothing is a priority."footnote:larson90[]
 
 Evaluate the team structure against Conway's Law (xref:11-building-engineering-team.adoc[Chapter 11]): does the organisational structure match the system architecture, or is it fighting it?
 
