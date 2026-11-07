@@ -63,7 +63,7 @@ You have made your first hires. You are no longer the best use of your own time 
 
 ◆ Zach Goldberg — _The Startup CTO's Handbook_ (WorldChangers Media, 2023). A practical reference covering people management, tech stack decisions, technical debt, hiring, and developer experience. Creative Commons licensed with full text on GitHub.
 
-◆ Stephan Schmidt — _Amazing CTO_ (Leanpub, 2024). 140+ rules for CTO leadership from a veteran CTO and prolific newsletter writer. Practical checklists for hiring, onboarding, and security. Described by Golem.de as "pleasantly bullshit-free."
+◆ Stephan Schmidt — _Amazing CTO_ (Leanpub, 2024; expanded edition 2026). 180 rules for CTO leadership from a veteran CTO and prolific newsletter writer. Practical checklists for hiring, onboarding, and security. The 2026 edition adds 39 rules on AI — strategy, roles, protecting how juniors learn, and how much control to hand to the machine. Described by Golem.de as "pleasantly bullshit-free."
 
 ○ Joel Spolsky — _Joel on Software_ (Apress, 2004). Dated in places, but Spolsky's "Things You Should Never Do" essay on rewrites remains essential CTO wisdom. Read the key essays, not cover to cover.
 
@@ -101,6 +101,10 @@ You are in the C-suite. Your peers are the CEO, CFO, and board. Your job is tech
 
 ★ Elad Gil — _High Growth Handbook_ (Stripe Press, 2018). The playbook for the post-product-market-fit phase — executive hiring, M&A, board management, late-stage financing, and IPO preparation. Includes interviews with Reid Hoffman, Marc Andreessen, and Claire Hughes Johnson.
 
+◆ Will Larson — _Crafting Engineering Strategy: How Thoughtful Decisions Solve Complex Problems_ (O'Reilly, 2025). The _Primer_ tells you that technology strategy is now your job; this book tells you how to do it. Larson treats strategy as a written, testable artefact rather than a slide, and works through it with real cases. Read it before your first strategy document goes to the board.
+
+◆ Michael Lopp — _A Day in the Life of a Senior Leader: Navigating Time, People, and Purpose_ (O'Reilly, 2026). Drawing on his years at Slack, Pinterest, and Apple, Lopp follows a senior leader's day from the morning ritual to the eleventh-hour emergency. The calendar is where the executive role actually happens; read it alongside xref:14-operating-rhythm.adoc[Chapter 14].
+
 ◆ Brad Feld, Matt Blumberg & Mahendra Ramsinghani — _Startup Boards_ (Wiley, 2nd Edition, 2022). Practical guide to board dynamics, running effective meetings, and managing investor relationships. Read this before your first board meeting where you present.
 
 ◆ Brad Feld & Jason Mendelson — _Venture Deals_ (Wiley, 4th Edition, 2019). The definitive guide to term sheets, negotiation, dilution, and VC deal mechanics. As a technical co-founder, understanding these mechanics determines how much of the company you actually own.
@@ -134,4 +138,4 @@ The best ongoing CTO education happens between books.
 
 '''''
 
-_Thirty-seven books, eight online resources. You do not need to read them all. Start with the essentials for your current stage, keep the rest on the shelf, and reach for them when the situation demands. The books will not change. Your questions will._
+_Thirty-nine books, eight online resources. You do not need to read them all. Start with the essentials for your current stage, keep the rest on the shelf, and reach for them when the situation demands. The books will not change. Your questions will._

@@ -68,7 +68,7 @@ Other threads that run across several chapters:
 * *D: Technical Due Diligence* -- New subsection, "AI Usage and Provenance". Black Duck 2026 licence-conflict data; EU AI Act timeline; FDA clinical decision support guidance.
 * *E: Buying and Integrating a Company* -- Character.AI's bankruptcy as a lesson in who owns the IP after a reverse acqui-hire.
 * *F: Operating Rhythm Quick Reference* -- Tool names replaced with categories; reliability and safety rules added.
-* *G: Recommended Reading* -- Added Buriticá and Turnbull, _Engineering Leadership: The Hard Parts_, and Kim and Yegge, _Vibe Coding_.
+* *G: Recommended Reading* -- Added Buriticá and Turnbull, _Engineering Leadership: The Hard Parts_; Kim and Yegge, _Vibe Coding_; Larson, _Crafting Engineering Strategy_; and Lopp, _A Day in the Life of a Senior Leader_. Noted the 2026 expanded edition of Schmidt's _Amazing CTO_.
 * *H: Your AI CTO Advisor* -- Fixed the Claude Code command for loading the advisor prompt; updated links; added an AI coding agent guardrails customisation.
 
 == March 2026
